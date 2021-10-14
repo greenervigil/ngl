@@ -1,0 +1,988 @@
+body{
+	font-size:80%;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+	border-top-width: thin;
+	border-right-width: 24px;
+	border-bottom-width: 10px;
+	border-left-width: 24px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #013658;
+	border-bottom-color: #013658;
+	border-left-color: #013658;
+	}
+	 
+.frame{background:#013658 url(../images/gradient.jpg) repeat-x top ;
+	   height:100%;
+	   margin-left:-24px;
+	   margin-right:-24px;
+	   margin-top:0px;
+	   margin-bottom:0px;
+	   /*border:1px solid #000000;*/
+	   }
+.header{background:#ffffff;
+		height:82px;
+		padding-left:0px;
+		position:relative;
+		}
+		
+#searchform{position:absolute;
+			top:10px;
+			right:30px;
+			}
+			
+.title_header{
+			  font:italic bold 12pt Arial, Helvetica, sans-serif;
+			  display:block
+			 }
+
+.title_header_nonItal{
+	display:block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	width: 570px;
+	padding-left: 20px;
+			 }
+
+
+
+.main{background:#ffffff url(../images/heinle_gradient.gif) repeat-x top;
+	  margin-left:24px;
+	  margin-right:24px;
+	  position:relative;
+	  height:100%;
+	  /*height:1%;*/ /* IE fix */
+	  }
+
+.breadcrumb{font-size:10px;
+			height:15px;
+			padding:2px;
+			margin-top:0px;
+			margin-bottom:0px;}
+			
+.topnav{font-size:10px;
+	    color:#ffffff;
+		background:#003D6C;
+		padding-top:3px;
+		padding-bottom:5px;
+		padding-left:250px;
+		}
+		
+.topnav a:link{color:#FFFFFF;
+			   text-decoration:none;
+			   font-size:10px;
+			   }
+.topnav a:visited{color:#FFFFFF;
+				  text-decoration:none;
+				  font-size:10px;
+				  }
+				  
+.topnav a:hover{color:#FFFFFF;
+				text-decoration:underline;
+				font-size:10px;
+				}
+				
+.topnav a:active{color:#FFFFFF;
+				  text-decoration:none;
+				  font-size:10px;
+				  }
+				  
+.leftnav{width:180px;
+		 float:left;
+		 background:#ffffff;		
+		 /*position:relative;*/
+		 bottom:12px;
+		 padding-left:10px;
+		 padding-right:10px;
+		 font:10pt/14pt Arial, Helvetica, sans-serif ;
+		 border:1px solid #B1DDEA;
+		 /*display:none;*/
+		 }
+		 
+
+.leftnav ul{list-style-type:none;
+			padding-left:0px;
+			margin-top:10px;
+			margin-bottom:10px;
+			}
+			
+.leftnav a:link{color:#00345d;
+				font-weight:bold;
+				text-decoration:none}
+				
+.leftnav a:visited{color:#00345d;
+				font-weight:bold;
+				text-decoration:none}
+				
+.leftnav a:hover{color:#ce3c23;
+				font-weight:bold;
+				text-decoration:underline}
+				
+.leftnav a:active{color:#ce3c23;
+				font-weight:bold;
+				}
+				
+.submenu a:link{color:#00345d;
+				font-weight:normal;
+				text-decoration:none}
+				
+.submenu a:visited{color:#00345d;
+				font-weight:normal;
+				text-decoration:none}
+				
+.submenu a:hover{color:#ce3c23;
+						 font-weight:normal;
+						 text-decoration:underline}
+				
+.submenu a:active{color:#ce3c23;
+						  font-weight:normal;
+						  }
+			
+ul.submenu {padding-left:10px;
+			margin-top:0px;
+			margin-bottom:0px}
+
+.leftnav h1{font:bold 10pt  Arial, Helvetica, sans-serif;
+			color:#ce3c23;
+			border-bottom:1px dashed #cfcfcf;
+			margin:0px;
+			padding-bottom:5px;
+			margin-top:5px;
+			}
+		 
+
+			 
+.item{width:200px;
+	  }
+	  
+.heinle_header{font:bold 14pt Arial, Helvetica, sans-serif;
+			   height:50px;
+			   padding-top:5px;
+			   padding-bottom:5px;
+			   margin-left:225px;
+			   margin-right:250px;
+			   }
+			 
+.content{
+	    margin-left:225px;
+		 background:#ffffff;
+		border-right:1px solid #B7DDEA;
+		 border-left:1px solid #B7DDEA;
+		 /*margin-right:24px;*/
+		 height:100%;
+		 position:relative;
+		 overflow:visible;
+		 min-height:450px;
+		 }
+		 
+.content p{padding-left:5px;padding-right:5px} 
+.footer{clear:left;
+		background:#013658;
+		font-size:10px;
+		color:#FFFFFF
+		}
+		
+.footer a:link{color:#FFFFFF;
+			   text-decoration:none;
+			   font-size:10px;
+			   }
+.footer a:visited{color:#FFFFFF;
+				  text-decoration:none;
+				  font-size:10px;
+				  }
+				  
+.footer a:hover{color:#FFFFFF;
+				text-decoration:underline;
+				font-size:10px;
+				}
+				
+.footer a:active{color:#FFFFFF;
+				  text-decoration:none;
+				  font-size:10px;
+				  }
+				  
+.footerlinks1{
+			  padding-top:5px;
+			  padding-bottom:5px;
+			  padding-left:24px;
+			  }
+			  
+.footerlinks2{float:right;
+				  padding-top:5px;
+				  padding-bottom:5px;
+				  padding-right:24px;}
+			  
+#logo{margin:20px 0px 0px 24px;border:none}
+
+.divider{
+		 height:1px;
+		 border-bottom:1px solid #B7DDEA;
+		 margin:5px;
+		 }
+		 
+#region{text-align:right}
+
+.noborder{border:0px}
+.series_box{width:305px;
+			padding-left:3px;
+			margin-top:5px;
+			text-align:center;
+			}
+
+.sm_bold_it{font-style:italic;
+			font-weight:bold;
+			font-size:8pt;
+			margin-top:5px;
+			}
+
+.features{background:#ffffff;
+		  padding-left:10px;
+		  width:53%;
+		  float:left;
+		 border-left:1px solid #B7DDEA;
+		margin-top:-230px;
+
+		  }
+
+.features ul{padding-left:15px;}
+
+.resources{
+		   padding-left:5px;
+		   padding-right:5px;
+		   float:left;
+		   width:305px;  
+		   margin-bottom:220px;
+			/*border-right:1px solid #B7DDEA*/
+			/*display:none;*/
+		   }
+		   
+
+
+h2{font-size:100%;
+   font-weight:bold;
+   /*margin-top:0px;*/}
+   
+.horizontal{
+			border-top:1px solid #B7DDEA;
+			height:1px;
+			}
+			
+			
+a:link{font-weight:bold;
+	   color:#0089c5;
+	   text-decoration:none;
+	   }
+
+a:visited{font-weight:bold;
+	   color:#0089c5;
+	   text-decoration:none;
+	   }   
+a:hover{font-weight:bold;
+		color:#ce3c23;
+		text-decoration:underline;
+		}
+		
+a:active{font-weight:bold;
+		color:#ce3c23;
+		text-decoration:underline;
+		}
+		
+	
+
+#catalogheader{background:#B1DDEA}		  
+
+#catalog td,th{border-bottom:1px solid #B1DDEA;
+					  text-align:left;padding:3px}		  
+
+.resources ul,ul.custom{list-style-image: url(../images/bullet.gif);
+					padding-left:15px}	  
+					
+
+.nobullet{list-style-type:none !important;
+			list-style-image:none !important;
+		  padding-left:3px;
+		  }					  
+.hidden{display:none}
+
+.center{text-align:center}  
+
+.border{border:1px solid #000000}
+
+.subproduct{font-size:8pt}
+.buy{font-weight:bold;
+	   color:#FF0000;
+	   margin-bottom:2px;
+	   }
+	   
+.buy a:link{color:#ff0000;
+				text-decoration:none;
+				}
+				
+.buy a:visited{color:#ff0000;
+					 text-decoration:none;
+					 }
+.buy a:hover{color:#ff0000;
+					text-decoration:underline;
+					}
+					
+.buy a:active{color:#ff0000;
+					text-decoration:underline;
+					}
+	  
+.booktitle{margin-top:2px;}
+			  
+.author,.bookinfo,.isbn{font-size:10px;
+		   font-weight:bold;
+		   display:block
+		   }
+
+#search_form{position:absolute;
+					  right:24px;
+					  top:2px;
+					  font-size:10px;}
+					  
+#search_form input{display:block;float:left;
+							  }
+
+.clear{clear:both}
+
+#country_form{position:absolute;
+						right:24px;
+						bottom:0px;
+						z-index:1;
+						color:#000000;
+						}
+						
+#langs{position:absolute;
+			top:2px;
+			right:300px;
+			}
+
+			
+			
+
+#f_menu{list-style-type:none;
+			  color:#B1DDEA;
+			  font-size:12px;
+			  position:static;
+			  padding-left:0px;
+			  margin-left:-5px;
+			}
+			
+#f_menu li {display:block;
+			     float:left;
+				 border-left:1px solid #B1DDEA;
+				 border-top:1px solid #B1DDEA;
+				 border-right:1px solid #B1DDEA;
+				 margin-left:5px;
+				 width:60px;
+				 height:35px;
+				 text-align:center;
+				
+				 }
+			
+#f_menu a:link{display:block;height:100%;width:100%;}
+#f_menu a:visited{display:block;height:100%;width:100%;}
+#f_menu a:hover{background:#1290CA;
+							display:block;
+							color:#ffffff;height:100%;width:100%;text-decoration:none;}
+#f_menu a:active{display:block;height:100%;width:100%}
+
+
+.roundcont {
+	width: 100%;
+	background-color: #1191C9;
+	color: #fff;
+	}
+.roundcont p {
+	margin: 0 5px;
+	margin-top:-5px;
+}
+
+.roundtop { 
+	background: url(../images/topright.jpg) no-repeat top right; 
+}
+
+.roundbottom {
+	background: url(../images/bottomright.jpg) no-repeat top right; 
+	height:10px;
+}
+
+img.corner {
+   width: 10px;
+   height: 10px;
+   border: none;
+   display: block !important;
+}
+
+.tab{width:100%;
+	 background:#ffffff url(../images/bm.jpg) no-repeat bottom left;
+	 height:29px;
+	 }
+
+li.selected{background:#1290CA}
+
+.selected{color:#ffffff;font-weight:bold}
+.selected a:link{color:#ffffff}
+.selected a:visited{color:#ffffff}
+.selected a:hover{color:#ffffff}
+.selected a:active{color:#ffffff}
+
+
+/*  student site */
+
+.studentmain{margin-right:auto;
+					margin-left:auto;
+					width:50%;
+					margin-top:20px;}
+.see_also{width:15%;
+				float:right;
+				border-left:1px solid #B1DDEA;
+				padding-left:5px;
+				padding-right:5px;
+				margin-top:-20px;}
+				
+.see_also_book{margin-bottom:10px;
+						text-align:center}
+						
+.utility_links{font-size:10px;
+				  text-align:left;
+				  padding-left:3px;
+				  padding-top:5px;
+				  width:305px;}
+				  
+table#products {width:250px;font-size:12px}
+#levels{font-size:10px;
+			}
+			
+#levels a:link{display:block;float:left;margin-right:5px;padding:5px 3px 5px 3px;
+}
+#levels a:visited{display:block;float:left;margin-right:5px;padding:5px 3px 5px 3px}
+#levels a:hover{display:block;float:left;margin-right:5px;padding:5px 3px 5px 3px;
+background:#ce3c23;color:#ffffff;text-decoration:none}
+#levels a:active{display:block;float:left;margin-right:5px;padding:5px 3px 5px 3px}
+
+td#levels{padding:0px}
+#selected_level{background:#B1DDEA;padding:0px;color:#000000;float:left;margin-right:5px;padding:5px 3px 5px 3px;
+font-weight:bold}
+
+
+/* for imageflow */
+#images{
+	visibility:hidden;
+	/*width:50%;*/
+	width:305px;
+	/*background:#cfcfcf*/
+
+}
+#loading{
+	/*margin-top:50px;*/
+	text-align:left;
+	margin-left:10px;
+	width:100%;
+}
+#loading img{
+	margin-top:10px;
+	position:relative; 
+}
+#captions{
+	font-weight:bold;
+	/*position:relative; 
+	top:5px;*/
+	text-align:center;
+	z-index:10000;
+}
+#scrollbar{
+	visibility:hidden;
+	position:relative; 
+	/*border-bottom:1px solid #b3b3b3;*/
+	border-bottom:1px solid #000000;
+	z-index:10001;
+
+}
+#slider{
+	position:absolute;
+	margin-top:-7px;
+	margin-left:-7px;
+	z-index:10002;
+	background-image:url(../images/slider.png);
+	background-repeat:no-repeat;
+	width:14px;
+	height:14px;	
+}
+#imageflow{
+	/*background:#cfcfcf;*/
+	text-align:left;
+	margin-bottom:5px;
+	/*display:none*/
+
+}
+
+#images img{position:absolute;border:none;}
+
+.printonly{display:none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Kamali Thornell added this set 02/04/11 */
+
+.natgeoBlueBoxPosition {
+	position: absolute;
+	left: 603px;
+	width: 147px;
+	top: 24px;
+}
+
+
+.natgeoVideo
+		{
+	font-weight:normal;
+	color:#000;
+	text-decoration:none;
+	border: 1px solid #00a2d6;
+	text-align: center;
+	   }
+
+.natgeoVideo_text
+		{
+	font-weight:normal;
+	color:#000;
+	text-decoration:none;
+	border: 0px none #00a2d6;
+	vertical-align: top;
+	padding-top: 8px;
+	padding-right: 5px;
+	padding-bottom: 9px;
+	padding-left: 5px;
+	   }
+	   
+	   
+.natgeoVideo_text a:link{font-weight:normal;
+	   color:#000;
+	   text-decoration:none;
+	   }
+
+.natgeoVideo_text a:visited{font-weight:normal;
+	   color:#000;
+	   text-decoration:none;
+	   }   
+.natgeoVideo_text a:hover{font-weight:normal;
+		color:#00a2d6;
+		text-decoration:underline;
+		}
+		
+.natgeoVideo_text a:active{font-weight:normal;
+		color:#00a2d6;
+		text-decoration:underline;
+		}
+
+
+
+
+/* KT elt.heinle.com/myelt page update */
+
+.myelt_bg {
+	background-image: url(/namerica/en_us/technology/images2/myElt_bg.jpg);
+	background-repeat: no-repeat;
+	width: 566px;
+}
+
+.myelt_content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+
+}
+
+.myelt_content_header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003d6c;
+	font-weight: bold;
+}
+
+
+.myEltTop1_pos {
+	position: absolute;
+	left: 21px;
+	top: 39px;
+
+}
+
+
+
+/* KT elt.heinle.com/myelt page update */
+
+
+.catalogBox {
+	background-image: url(/us/en_us/images/catalogBoxBG.jpg);
+	background-repeat: no-repeat;
+	height: 452px;
+	width: 188px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	left: 610px;
+	top: 21px;
+}
+
+
+
+
+.catalogBox_narrow {
+	background-image: url(/us/en_us/images/catalogBoxBg_narrow.jpg);
+	background-repeat: no-repeat;
+	/* height: 665px; */
+	width: 147px;
+	text-align: center;
+	vertical-align: baseline;
+	position: relative;
+	padding-bottom: -5px;	
+}
+
+.catalogBox_myELT {
+	background-image: url(/us/en_us/images/catalogBoxBg_narrow.jpg);
+	background-repeat: no-repeat;
+	/* height: 665px; */
+	width: 147px;
+	text-align: center;
+	vertical-align: baseline;
+	position: relative;
+	padding-bottom: -5px;	
+}
+
+
+.catalogBox_emea {
+	background-image: url(/emea/en_uk/images/catalogBoxBG.jpg);
+	background-repeat: no-repeat;
+	height: 452px;
+	width: 188px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	left: 588px;
+	top: 276px;
+}
+
+.catalogBox_emea_narrow {
+	background-image: url(/emea/en_uk/images/catalogBoxBg_narrow.jpg);
+	background-repeat: no-repeat;
+	/* height: 665px; */
+	width: 147px;
+	text-align: center;
+	vertical-align: baseline;
+	position: absolute;
+	left: 588px;
+	top: 450px;
+}
+
+.catalogBox_internatNonEmea_narrow {
+	background-image: url(/emea/en_uk/images/catalogBoxBg_narrow.jpg);
+	background-repeat: no-repeat;
+	/* height: 665px; */
+	width: 147px;
+	text-align: center;
+	vertical-align: baseline;
+	position: absolute;
+	left: 603px;
+	top: 459px;
+}
+
+
+.gtBlock {
+	position: relative;
+	height: 39px;
+	
+	text-align: left;
+	vertical-align: baseline;
+	width: 505px;
+	
+}
+
+.gtIcon {
+	position: absolute;
+	top: -17px;
+	left: 85px;
+}
+
+
+
+.natgeoBlueBoxPosition_lt {
+	position: absolute;
+	left: 603px;
+	width: 147px;
+	top: 24px;
+}
+
+
+.natgeoVideo_lt
+		{
+	font-weight:normal;
+	color:#000;
+	text-decoration:none;
+	border: 1px solid #999;	/* border: 1px solid #00a2d6; */
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+
+	   }
+
+.natgeoVideo_text_lt
+		{
+	font-weight:normal;
+	color:#000;
+	text-decoration:none;
+	border: 0px none #00a2d6;
+	vertical-align: top;
+	padding-top: 8px;
+	padding-right: 5px;
+	padding-bottom: 9px;
+	padding-left: 5px;
+	   }
+	   
+	   
+.natgeoVideo_text a:link{font-weight:normal;
+	   color:#000;
+	   text-decoration:none;
+	   }
+
+.natgeoVideo_text a:visited{font-weight:normal;
+	   color:#000;
+	   text-decoration:none;
+	   }   
+.natgeoVideo_text a:hover{font-weight:normal;
+		color:#00a2d6;
+		text-decoration:underline;
+		}
+		
+.natgeoVideo_text a:active{font-weight:normal;
+		color:#00a2d6;
+		text-decoration:underline;
+		}
+
+
+
+
+
+.new_noteworthy_section {
+	width: 570px;
+	border-top-style: dashed;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	text-align: left;
+	background-image: url(../us/en_us/images/newNoteworth_box2_tall.jpg);
+	background-repeat: no-repeat;
+}
+
+
+.new_noteworthy_section_title{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #0F0;
+	font-weight: bold;	
+}
+.new_noteworthy_section_subtitle{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #39F;	
+}
+
+
+.new_noteworthy_section_content{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.new_noteworthy_section a:link{font-weight:bold;
+	   color:#0089c5;
+	   text-decoration:none;
+	   }
+
+.new_noteworthy_section a:visited{font-weight:bold;
+	   color:#0089c5;
+	   text-decoration:none;
+	   }   
+
+.new_noteworthy_section a:hover{font-weight:bold;
+		color:#ce3c23;
+		text-decoration:underline;
+		}
+		
+.new_noteworthy_section a:active{font-weight:bold;
+		color:#ce3c23;
+		text-decoration:underline;
+		}
+		
+		
+		
+		
+.events_dottedLine {
+	padding-left:20px;
+	padding-right:5px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	border-bottom-width: 1px;
+	width: 560px;
+					}
+
+.events_ltbluebox {
+	padding-left:20px;
+	padding-right:5px;
+	width: 560px;
+	background-color: #dcf0f8;
+	padding-top: 5px;
+	padding-bottom: 5px;
+					}
+					
+.newNoteworthy_mainBlock
+		{
+	width: 572px;
+	border: thin none #CCC;
+	vertical-align: top;
+	height: 190px;
+	}
+					
+.NoteWorthy_block {
+	background-image: url(../us/en_us/images/newNoteworth_box.jpg);
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 280px;
+	background-position: left top;
+	padding: 5px;
+}
+
+.NoteWorthy_block2 {
+	background-image: url(../us/en_us/images/newNoteworth_box.jpg);
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 280px;
+	background-position: left top;
+	padding: 5px;
+	float: right;
+	top: -240px;
+	position: relative;
+	
+}
+
+.noteworthy_img {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #39F;
+	width: 113px;
+	height: 141px;
+	
+}
+
+.noteworthy_textBlock {
+	width: 170px;
+	float: right;
+	position: relative;
+	left: -25px;
+	top: -90px;
+	
+}
+.noteworthy_textBlock2 {
+	width: 140px;
+	float: right;
+	position: relative;
+	left: -15px;
+	top: -132px;
+	
+}
+
+.noteworthy_section_subtitle2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #39F;
+	width: 170px;
+	font-weight: bold;	
+}
+
+.content_subhead  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.form_container {
+	text-align: left;
+	width: 800px;
+}
+
+
+.cat_zmag_border {
+	height: 122px;
+	width: 100px;
+	border: thin solid #006;
+	position: relative;
+	left: 20px;
+}
+
+.newNote_content {
+	padding: 10px;
+
+}
+
+
+.rtColumn {
+	width: 147px;
+	text-align: left;
+	position: absolute;
+	left: 594px;
+	top: 17px;
+	}
+
+
+.rtColumnSalesRep {
+	width: 147px;
+	text-align: left;
+	position: absolute;
+	left: 605px;
+	top: 24px;
+	border-top-width: .5px;
+	border-right-width: .5px;
+	border-bottom-width: .5px;
+	border-left-width: .5px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+.findRep_content {
+	padding: 10px;		
+}
+
+
+.padded20 {
+	padding-left: 20px;	
+}
+
+
+/* END Kamali Thornell set 10/08/10 */

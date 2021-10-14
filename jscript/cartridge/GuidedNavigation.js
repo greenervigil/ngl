@@ -1,0 +1,51 @@
+$(document).ready(function(){
+	/*$("aside nav input[type='checkbox']").on("click", function(){
+		location.href = $(this).val();
+	});*/
+
+	//get the current url
+	var url = window.location.pathname + window.location.search;
+	var checkboxTimeout;
+	var navigation;
+
+	//attach an event handler to all checkboxes in the guided nav
+	$("body").on("click", "aside nav input[type='checkbox']", function(e){
+		console.log(navigation, $(this).data('dim'))
+		if(navigation == undefined){
+			//set navigation if undefined
+			navigation = $(this).val();
+		}else{
+			if($(this).is(":checked")) {
+				//find the value to append to navigation
+				var params = navigation.split("&");
+				var navID = $(this).val().split("+");
+				for(i = 0; i < params.length; i++){
+					var param = params[i];
+					if(param.indexOf("N=") > -1){
+						param += "+" + navID[navID.length - 1].split("&")[0];
+						params[i] = param;
+					}
+				}
+				navigation = params.join("&");
+			} else {
+				navigation = navigation.replace("+" + $(this).data("dim"), "")
+			}
+		}
+		
+		//if we checked something then we need to start the timer
+		if(checkboxTimeout != undefined) {
+			window.clearTimeout(checkboxTimeout);
+		}
+		checkboxTimeout = window.setTimeout(loadNewData, '1000', this);
+
+		function loadNewData(elm){
+			if($("#results-loading-symbol").length == 0){
+				$("body header + .container").fadeTo('fast', 0.5);
+				$("body").prepend('<div id="results-loading-symbol" />');
+				//$("html, body").animate({ scrollTop: 0 }, 1000);
+			}
+			window.location.href = navigation;
+			return;
+		}
+	});
+});

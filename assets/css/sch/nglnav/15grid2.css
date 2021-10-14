@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.row-centered {
+    text-align:center;
+	margin: 0 auto;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+}
+
+
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+
+.col-md-centered {
+	float: none;
+	margin: 0 auto;
+}
+
+
+
+@media (min-width: 750px) {
+	.col-sm-15 {
+        width: 30%;
+        
+    }
+	
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2)
+	
+	
+	
+	
+@media (min-width: 970px) {
+    .col-md-15 {
+        width: 25%;
+        float: left;
+    }
+
+}
+
+
+@media (min-width: 1170px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+

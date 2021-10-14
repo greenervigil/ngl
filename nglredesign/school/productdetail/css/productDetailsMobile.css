@@ -1,0 +1,341 @@
+@media(max-width: 767px){
+	.NGLSchoolProductPage .container {
+	    padding: 0px 12px;
+	}
+	.NGLSchoolProductPage .productDetailsPadding {
+	    padding: 0px 12px;
+	}
+
+	.productDetailsnav ul{
+		margin: 0px;
+	}
+
+	.productDetailsnav .container{
+		padding: 0px;
+	}
+
+	/* product Overview section k12 */
+	.overviewBox{
+		height: auto;
+	    width: 100%;
+	    padding: 0px;
+	}
+
+	.eltBuyBox {
+	    display: table;
+	    margin: 0 auto;
+	    float: none;
+	}
+	
+	.overviewImgContainer{
+		margin: 0 auto;
+	}
+
+	.overviewAuthor .overviewAuthorContainer{
+	    width: 210px;
+	    text-align: center;
+	    position: relative;
+	    margin: 0 auto 30px;
+	    display: table;
+	    float: none;
+	}
+
+	.overviewAuthorBtnContainer{
+		text-align: center;
+	}
+	/* product Overview section k8 */
+
+	.productOverviewContainer {
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+
+	.productImgContainer {
+		/*width: 26%;*/
+        margin: 0 auto;
+        float: none;
+	}
+
+    .productHeadingContainer{
+    	/*width: 71%;*/
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .productTitle{
+		font-size: 15px;
+		color: rgb(0, 0, 0);
+		font-weight: bold;
+		line-height: 1.2;
+		text-align: left;
+    }
+
+    .productISBN{
+    	float: left;
+    }
+
+    .productBtnContainer{
+    	text-align: center;
+        width: 100%;
+    }
+
+    .productBtnBuy{
+    	float: none;
+    	padding: .4% 0px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .productHeadingContainer #requestSampleDropDowncontainer{	    
+	    width: 100%;    	
+	}
+
+    .productBtnRequestSample{
+        float: none;
+        padding: .4% 0px;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    /* view e-sample modal*/
+    #requestSampleDropDowncontainer{
+		/*overflow: hidden;*/
+    }
+
+    .NGLSchoolProductPage #viewesamleModal .modal-content, .NGLSchoolProductPage #viewesamleModal .modal-body, .NGLSchoolProductPage #viewesamleModal .modal-footer{
+	    position: relative;
+	    float: left;
+	}
+
+    .NGLSchoolProductPage #viewesamleModal .form-group{
+	    position: relative;
+	    float: left;
+	    width: 100%;
+	}
+
+	.NGLSchoolProductPage #viewesamleModal .form-group label{
+	    position: relative;
+	    float: left;
+	    width: 50%;
+	    line-height: 30px;
+	}
+
+	.NGLSchoolProductPage #viewesamleModal .form-group input{
+	    position: relative;
+	    float: left;
+	    width: 50%;
+	}
+
+	.NGLSchoolProductPage #viewesamleModal .modal-footer{
+		width: 100%;
+	}
+
+	/*-- More Section --*/
+
+	#EltmoreDetails .productDetailsPadding {
+		padding: 0px;
+	}
+
+	.titleMore{
+		padding-left: 12px;
+	}
+	
+	.moreAuthorImgContainer{
+	    width: 40%;
+	}
+
+	.moreAuthorDescriptionContainer{
+	    width: 60%;
+	}
+
+	.moreAuthorDescription{
+		height: 108px;
+		overflow: hidden;
+	}
+
+	.NGLSchoolProductPage .authorMoreBtn{
+	    display: block;
+	}
+
+	.tableOfContentsBtn{
+	    display: block;
+	}
+
+	.moreAuthorContainer {
+		padding: 12px 12px 38px;
+	}
+
+	#productDetailsMorecontainer>li>a{
+		padding: 11px 12px;
+	}
+
+	.tableOfContentsContainer {
+		padding: 12px 12px 38px;
+	}
+
+	.tableOfContentsDescription{
+		height: 108px;
+		overflow: hidden;
+	}
+	/*-- ProductDetails Carousel --*/
+	.NGLSchoolProductPage #productScrollContainer .left, .NGLSchoolProductPage #productScrollContainer .right{
+		width: 6%;
+	}
+
+	/* Teacher Components section */
+	#teacherComponents{
+	    padding-bottom: 10px;
+	}
+	
+	.teacherComponentsDetailContainer{
+		height: auto;
+	}
+
+	.teacherComponentsTitle{
+		text-align: left;
+		padding-left: 3%;
+	}
+
+    #teacherComponents .teacherComponentsBox{
+    	padding: 0px 3%;
+    }
+
+    #teacherComponents .productBtnContainer{
+		text-align: center;
+		position: relative;
+		bottom: 3px;
+    }
+
+    .teacherComponentsISBNPriceContainer {
+	    position: relative;
+	    bottom: 2px;
+	    width: 100%;
+	}
+
+    #teacherComponents .productBtnBuy{
+    	padding: .3% 21%;
+    }
+
+	 /* Student Components section */
+	#studentComponents{
+	    padding-bottom: 10px;
+	}
+
+	.studentComponentsDetailContainer{
+		height: auto;
+	}
+
+	.studentComponentsTitle{
+		text-align: left;
+		padding-left: 3%;
+	}
+	
+	#studentComponents .studentComponentsBox{
+    	padding: 0px 3%;
+    }
+
+    #studentComponents .productBtnContainer{
+		text-align: center;
+		position: relative;
+		bottom: 3px;
+    }
+    
+     .studentComponentsISBNPriceContainer {
+	    position: relative;
+	    bottom: 2px;
+	    width: 100%;
+	}
+
+    #studentComponents .productBtnBuy{
+    	padding: .3% 21%;
+    }
+
+	/*-- Alternate Formats --*/
+	#alternateFormats{
+	    padding-bottom: 10px;
+	}
+
+	#alternateFormats .alternateFormatsComponentsBox{
+	    padding: 0px 3%;
+	}
+
+	.alternateFormatsHeading{
+		text-align: left;
+		padding-left: 3%;
+	}
+
+	.alternateFormatsSubHeading{
+		text-align: left;
+		padding-left: 3%;
+	}
+
+	.alternateFormatsDetailContainer{
+		height: auto;
+	}
+
+	/*-- Best Buy --*/
+	#bestBuy{
+	    padding-bottom: 10px;
+	}
+
+	#bestBuy .bestBuyComponentsBox{
+	    padding: 0px 3%;
+	}
+
+	.bestBuyHeading{
+		text-align: left;
+		padding-left: 3%;
+	}
+
+	.bestBuySubHeading{
+		text-align: left;
+		padding-left: 3%;
+	}
+
+	/*.bestBuyDetailContainer{
+		padding: 10px;
+	}*/
+
+	/*-- ProductDetails Carousel --*/
+	#relatedProgramCarouselContainer .left, #relatedProgramCarouselContainer .right{
+		width: 6%;
+	}
+	
+	/*-- Companion site --*/
+
+	.NGLSchoolProductPage #companionSitecontainer>li a{
+		padding: 10px 0px;
+	}
+
+	.NGLSchoolProductPage .companionSiteSubmenu li a{
+		padding: 10px 0px;
+	}
+
+	/*-- Series Custom Tab --*/
+	.NGLSchoolProductPage .seriesCustomTab2{
+	    padding: 20px 0px;
+	}
+
+	.NGLSchoolProductPage .seriesCustomTab2Heading{
+		font-size: 20px;
+		color: rgb(255, 255, 255);
+		line-height: 1.35;
+	}
+
+	/*---- story block section ---*/
+	.NGLSchoolProductPage .storyBlockContainer{
+		padding: 0 12px;
+	}
+
+}
+
+@media(max-width: 350px){
+	.moreAuthorImgContainer{
+	    width: 45%;
+	}
+
+	.moreAuthorDescriptionContainer{
+	    width: 55%;
+	}
+}

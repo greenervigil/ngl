@@ -1,0 +1,568 @@
+/* screen - k12-hm-2021-3 */
+
+.k12-hm-2021-3 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 3621px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.k12-hm-2021-3 .overlap-group7 {
+  height: 404px;
+  position: relative;
+  width: 428px;
+}
+
+.k12-hm-2021-3 .overlap-group4 {
+  height: 404px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.k12-hm-2021-3 .mask-group-112 {
+  background-image: url(../img/mask-group-97-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 306px;
+  left: 0;
+  position: absolute;
+  top: 121px;
+  width: 428px;
+}
+
+.k12-hm-2021-3 .text-483 {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 374px;
+  white-space: nowrap;
+}
+
+.k12-hm-2021-3 .overlap-group2 {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  height: 121px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 428px;
+  padding: 26px 46px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-hm-2021-3 .group-369 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 63px;
+  min-width: 334px;
+}
+
+.k12-hm-2021-3 .overlap-group5 {
+  height: 65px;
+  margin-top: -1.5px;
+  position: relative;
+  width: 334px;
+}
+
+.k12-hm-2021-3 .text-494 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.k12-hm-2021-3 .span1 {
+  text-decoration: underline;
+}
+
+.k12-hm-2021-3 .text-495 {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: 13px;
+  font-weight: 600;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: 21px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.k12-hm-2021-3 .span0-1 {
+  color: var(--sizzling-sunrise);
+}
+
+.k12-hm-2021-3 .text-495:hover {
+  opacity: 1;
+}
+
+.k12-hm-2021-3 .ready-to-explore {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 2.0px;
+  margin-top: 53px;
+  min-height: 29px;
+  text-align: center;
+  width: 414px;
+}
+
+.k12-hm-2021-3 .hmbtncatalog {
+  height: 158px;
+  margin-top: 24px;
+  object-fit: cover;
+  width: 158px;
+}
+
+.k12-hm-2021-3 .group-171 {
+  align-items: flex-start;
+  background-image: url(../img/path-34-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-top: 13px;
+  min-width: 192px;
+  padding: 7px 19px;
+}
+
+.k12-hm-2021-3 .browse-our-catalog {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  white-space: nowrap;
+  width: 152px;
+}
+
+.k12-hm-2021-3 .hmbtnexp-smp {
+  height: 158px;
+  margin-top: 30px;
+  object-fit: cover;
+  width: 158px;
+}
+
+.k12-hm-2021-3 .group-17 {
+  align-items: flex-start;
+  background-image: url(../img/path-34-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-top: 13px;
+  min-width: 192px;
+  padding: 4px 19px;
+}
+
+.k12-hm-2021-3 .text-48 {
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 39px;
+  text-align: center;
+  width: 152px;
+}
+
+.k12-hm-2021-3 .hmbtnexp-sol {
+  height: 158px;
+  margin-right: 0;
+  margin-top: 30px;
+  object-fit: cover;
+  width: 158px;
+}
+
+.k12-hm-2021-3 .overlap-group1 {
+  align-items: center;
+  background-color: var(--jacksons-purple);
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+  min-height: 239px;
+  padding: 31px 98px;
+  width: 428px;
+}
+
+.k12-hm-2021-3 .ready-to-order {
+  align-self: flex-end;
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  height: 47px;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-align: center;
+  width: 230px;
+}
+
+.k12-hm-2021-3 .group-173 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-top: 18px;
+  min-width: 192px;
+}
+
+.k12-hm-2021-3 .overlap-group {
+  border-radius: 48px;
+  height: 40px;
+  position: relative;
+  width: 192px;
+}
+
+.k12-hm-2021-3 .rectangle-117 {
+  border-radius: 48px;
+  cursor: pointer;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 192px;
+}
+
+.k12-hm-2021-3 .place-an-order {
+  cursor: pointer;
+  height: 22px;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 106px;
+}
+
+.k12-hm-2021-3 .group-174 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-top: 20px;
+  min-width: 192px;
+}
+
+.k12-hm-2021-3 .track-my-order {
+  height: 25px;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+  width: 111px;
+}
+
+.k12-hm-2021-3 .rectangle-204 {
+  border-radius: 48px;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 192px;
+}
+
+.k12-hm-2021-3 .ready-to-implement {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 2.0px;
+  margin-top: 38px;
+  min-height: 29px;
+  text-align: center;
+  width: 320px;
+}
+
+.k12-hm-2021-3 .hmbtnimp-prod {
+  height: 157px;
+  margin-top: 24px;
+  object-fit: cover;
+  width: 158px;
+}
+
+.k12-hm-2021-3 .group-17-1 {
+  align-items: flex-start;
+  background-image: url(../img/path-34-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-top: 18px;
+  min-width: 192px;
+  padding: 4px 19px;
+}
+
+.k12-hm-2021-3 .text-48-1 {
+  height: 39px;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+  width: 152px;
+}
+
+.k12-hm-2021-3 .hmbtnimo-train {
+  height: 157px;
+  margin-left: 1.0px;
+  margin-top: 30px;
+  object-fit: cover;
+  width: 157px;
+}
+
+.k12-hm-2021-3 .overlap-group-1 {
+  align-items: center;
+  background-color: var(--paradiso);
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+  min-height: 660px;
+  padding: 28px 6px;
+  width: 428px;
+}
+
+.k12-hm-2021-3 .stay-connected {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 29px;
+  text-align: center;
+  width: 414px;
+}
+
+.k12-hm-2021-3 .mask-group-121 {
+  align-items: flex-end;
+  display: flex;
+  height: 147px;
+  margin-top: 28px;
+  overflow: hidden;
+  width: 264px;
+}
+
+.k12-hm-2021-3 .group-178 {
+  background-image: url(../img/mask-group-120@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 199px;
+  margin-bottom: -48.41px;
+  margin-left: -5px;
+  width: 274px;
+}
+
+.k12-hm-2021-3 .group-179 {
+  align-items: flex-start;
+  background-image: url(../img/path-34-12@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-top: 19px;
+  min-width: 192px;
+  padding: 3px 14px;
+}
+
+.k12-hm-2021-3 .text-488 {
+  height: 42px;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+  width: 162px;
+}
+
+.k12-hm-2021-3 .text-487 {
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-bottom: -1px;
+  margin-left: 2.0px;
+  margin-top: 3px;
+  text-align: center;
+  white-space: nowrap;
+  width: 280px;
+}
+
+.k12-hm-2021-3 .mask-group-119 {
+  align-items: flex-end;
+  display: flex;
+  height: 147px;
+  margin-top: 41px;
+  overflow: hidden;
+  width: 264px;
+}
+
+.k12-hm-2021-3 .overlap-group5-1 {
+  height: 230px;
+  margin-bottom: -79.0px;
+  position: relative;
+  width: 292px;
+}
+
+.k12-hm-2021-3 .mask-group-118 {
+  height: 230px;
+  left: 14px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 278px;
+}
+
+.k12-hm-2021-3 .k12hmimg-explore-inside2020 {
+  height: 199px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 265px;
+}
+
+.k12-hm-2021-3 .group-180 {
+  align-items: flex-start;
+  background-image: url(../img/path-34-12@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-top: 19px;
+  min-width: 192px;
+  padding: 14px 19px;
+}
+
+.k12-hm-2021-3 .text-491 {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  width: 152px;
+}
+
+.k12-hm-2021-3 .text-490 {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-bottom: -7px;
+  margin-left: 2.0px;
+  margin-top: 3px;
+  text-align: center;
+  white-space: nowrap;
+  width: 226px;
+}
+
+.k12-hm-2021-3 .new {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 2.0px;
+  margin-top: 50px;
+  min-height: 29px;
+  text-align: center;
+  width: 320px;
+}
+
+.k12-hm-2021-3 .flex-row {
+  align-items: center;
+  display: flex;
+  margin-left: 0;
+  margin-top: 28px;
+  min-width: 318px;
+}
+
+.k12-hm-2021-3 .path-65 {
+  height: 25px;
+  margin-bottom: 1.0px;
+  object-fit: cover;
+  width: 16px;
+}
+
+.k12-hm-2021-3 .cropped9780357419991cvrhr {
+  height: 183px;
+  margin-left: 70px;
+  object-fit: cover;
+  width: 144px;
+}
+
+.k12-hm-2021-3 .path-66 {
+  height: 25px;
+  margin-bottom: 1.0px;
+  margin-left: 70px;
+  object-fit: cover;
+  width: 16px;
+}
+
+.k12-hm-2021-3 .text-492 {
+  letter-spacing: 0;
+  line-height: 19px;
+  margin-left: 3.0px;
+  margin-top: 27px;
+  min-height: 40px;
+  text-align: center;
+  width: 177px;
+}
+
+.k12-hm-2021-3 .name {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 13px;
+  margin-left: 4.0px;
+  margin-top: 12px;
+  min-height: 45px;
+  min-width: 138px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-hm-2021-3 .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  min-height: 365px;
+  padding: 44.9px 25.6px;
+  width: 428px;
+}
+
+.k12-hm-2021-3 .text-493 {
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 29px;
+  text-align: center;
+  width: 374px;
+}
+
+.k12-hm-2021-3 .national-geographic {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 2.0px;
+  margin-top: 11px;
+  min-height: 200px;
+  text-align: center;
+  width: 362px;
+}

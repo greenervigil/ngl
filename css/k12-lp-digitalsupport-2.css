@@ -1,0 +1,2655 @@
+/* screen - k12-lp-digitalsupport-2 */
+
+.k12-lp-digitalsupport-2 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 7705px;
+  overflow: hidden;
+  width: 1024px;
+}
+
+.k12-lp-digitalsupport-2 .group-291 {
+  align-items: flex-end;
+  background-image: url(../img/mask-group-74-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 419px;
+  margin-left: 2.0px;
+  min-width: 1026px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group38 {
+  align-items: flex-end;
+  background-image: url(../img/group-124-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 100px;
+  min-width: 1024px;
+  padding: 20px 75px;
+}
+
+.k12-lp-digitalsupport-2 .digital-support {
+  letter-spacing: 0;
+  line-height: 40px;
+  min-height: 57px;
+  width: 402px;
+}
+
+.k12-lp-digitalsupport-2 .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 711px;
+  margin-left: 1.0px;
+  margin-top: 51px;
+  min-width: 875px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group6 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 711px;
+  padding: 29px 7px;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-2 .asset-1 {
+  height: 218px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 218px;
+}
+
+.k12-lp-digitalsupport-2 .text-394 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 6.0px;
+  margin-top: 28px;
+  min-height: 63px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-2 .text-395 {
+  align-self: flex-end;
+  height: 84px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 9px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-2 .group-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 2.0px;
+  margin-top: 25px;
+  min-width: 210px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group1 {
+  height: 58px;
+  position: relative;
+  width: 210px;
+}
+
+.k12-lp-digitalsupport-2 .group-2-1 {
+  align-items: flex-start;
+  border-radius: 30px;
+  display: flex;
+  height: 58px;
+  left: 0;
+  min-width: 210px;
+  padding: 4px 20px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .text-4 {
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 46px;
+  text-align: center;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-2-2 {
+  background-image: url(../img/path-39@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 58px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 210px;
+}
+
+.k12-lp-digitalsupport-2 .group-2-2:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .text-406 {
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-232 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 2.0px;
+  margin-top: 12px;
+  min-width: 210px;
+}
+
+.k12-lp-digitalsupport-2 .text-407 {
+  height: 46px;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-align: center;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .text-408 {
+  height: 46px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group10 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
+  min-height: 711px;
+  padding: 29px 0;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-2 .traning {
+  height: 218px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 218px;
+}
+
+.k12-lp-digitalsupport-2 .text-398 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-right: 14.0px;
+  margin-top: 28px;
+  min-height: 63px;
+  text-align: center;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2 .text-396 {
+  height: 172px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 9px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group11 {
+  height: 46px;
+  position: relative;
+  width: 210px;
+}
+
+.k12-lp-digitalsupport-2 .group-233 {
+  align-items: flex-start;
+  background-image: url(../img/path-41@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 210px;
+  padding: 9px 13px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .text-409 {
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 26px;
+  text-align: center;
+  width: 182px;
+}
+
+.k12-lp-digitalsupport-2 .group-23 {
+  background-image: url(../img/path-41-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 46px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 210px;
+}
+
+.k12-lp-digitalsupport-2 .group-23:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .text-410 {
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: 182px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group8 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  min-height: 711px;
+  padding: 26px 14.0px;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-2 .mask-group-103 {
+  height: 218px;
+  margin-right: 2.0px;
+  margin-top: 3px;
+  object-fit: cover;
+  width: 218px;
+}
+
+.k12-lp-digitalsupport-2 .technical-support {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-right: 0;
+  margin-top: 28px;
+  min-height: 35px;
+  text-align: center;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2 .text-397 {
+  align-self: flex-start;
+  height: 197px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 37px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-2 .group-2-3 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-right: 2.0px;
+  margin-top: 25px;
+  min-width: 210px;
+}
+
+.k12-lp-digitalsupport-2 .group-236 {
+  align-items: flex-start;
+  background-image: url(../img/path-44@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 210px;
+  padding: 6px 19px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .create-tech-ticket {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .create-tech-ticket-1 {
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-241 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-right: 2.0px;
+  margin-top: 12px;
+  min-width: 210px;
+}
+
+.k12-lp-digitalsupport-2 .group-2-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 29px;
+  display: flex;
+  height: 58px;
+  left: 0;
+  min-width: 210px;
+  padding: 5px 20px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .text-4-1 {
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 618px;
+  margin-left: 1.0px;
+  margin-top: 17px;
+  min-width: 577px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group4 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 618px;
+  padding: 29px 0;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-2 .access {
+  height: 218px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 218px;
+}
+
+.k12-lp-digitalsupport-2 .digital-access {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 28px;
+  min-height: 35px;
+  text-align: center;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2 .text-413 {
+  height: 141px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 37px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-2 .group-242 {
+  align-items: flex-start;
+  display: flex;
+  height: 46px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group12 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  min-width: 210px;
+  padding: 5px 20px;
+}
+
+.k12-lp-digitalsupport-2 .request-access {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-243 {
+  height: 46px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 210px;
+}
+
+.k12-lp-digitalsupport-2 .group-243:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group13 {
+  align-items: flex-start;
+  background-image: url(../img/path-41-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  min-width: 210px;
+  padding: 6px 19px;
+}
+
+.k12-lp-digitalsupport-2 .request-access-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group9 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
+  min-height: 618px;
+  padding: 29px 0;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-2 .group-372 {
+  background-image: url(../img/mask-group-107@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 218px;
+  margin-right: 2.0px;
+  width: 218px;
+}
+
+.k12-lp-digitalsupport-2 .text-415 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 16.0px;
+  margin-top: 28px;
+  min-height: 63px;
+  text-align: center;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2 .text-414 {
+  height: 141px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 9px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-2 .group-245 {
+  align-items: flex-start;
+  display: flex;
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group12-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 29px;
+  display: flex;
+  height: 58px;
+  min-width: 210px;
+  padding: 4px 20px;
+}
+
+.k12-lp-digitalsupport-2 .group-246 {
+  height: 58px;
+  left: 0;
+  opacity: 0.0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 210px;
+}
+
+.k12-lp-digitalsupport-2 .group-246:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group13-1 {
+  align-items: flex-start;
+  background-color: var(--black);
+  border-radius: 29px;
+  display: flex;
+  height: 58px;
+  justify-content: flex-end;
+  min-width: 210px;
+  padding: 5px 19px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group2-1 {
+  align-self: flex-start;
+  height: 264px;
+  margin-left: -78px;
+  margin-top: 74px;
+  position: relative;
+  width: 1214px;
+}
+
+.k12-lp-digitalsupport-2 .rectangle-169 {
+  background-color: var(--elephant);
+  height: 264px;
+  left: 78px;
+  position: absolute;
+  top: 0;
+  width: 1024px;
+}
+
+.k12-lp-digitalsupport-2 .text-399 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 58px;
+  width: 1214px;
+}
+
+.k12-lp-digitalsupport-2 .group-250 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 72px;
+  left: 456px;
+  position: absolute;
+  top: 134px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group11-1 {
+  height: 72px;
+  position: relative;
+  width: 300px;
+}
+
+.k12-lp-digitalsupport-2 .group-248 {
+  align-items: flex-start;
+  background-image: url(../img/path-8-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 72px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 300px;
+  padding: 19px 3px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .access-resources {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 292px;
+}
+
+.k12-lp-digitalsupport-2 .group-249 {
+  background-image: url(../img/path-8-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 72px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 300px;
+}
+
+.k12-lp-digitalsupport-2 .group-249:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-1 {
+  left: 5px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  white-space: nowrap;
+  width: 292px;
+}
+
+.k12-lp-digitalsupport-2 .text-427 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 2.0px;
+  margin-top: 101px;
+  min-height: 57px;
+  text-align: center;
+  width: 842px;
+}
+
+.k12-lp-digitalsupport-2 .cengage-mind-t-horizontalrgb {
+  height: 77px;
+  margin-left: 1.0px;
+  margin-top: 34px;
+  object-fit: cover;
+  width: 635px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group7 {
+  height: 438px;
+  margin-left: 42.0px;
+  margin-top: 59px;
+  position: relative;
+  width: 728px;
+}
+
+.k12-lp-digitalsupport-2 .cengage-web-as-gn-stackedrgb {
+  height: 196px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 164px;
+  width: 227px;
+}
+
+.k12-lp-digitalsupport-2 .my-n-gconnectlogok {
+  height: 124px;
+  left: 381px;
+  object-fit: cover;
+  position: absolute;
+  top: 215px;
+  width: 347px;
+}
+
+.k12-lp-digitalsupport-2 .group-187 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 46px;
+  left: 11px;
+  position: absolute;
+  top: 392px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group {
+  height: 46px;
+  position: relative;
+  width: 214px;
+}
+
+.k12-lp-digitalsupport-2 .group-18 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  left: 0;
+  min-width: 214px;
+  padding: 4px 22px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-2 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-18-1 {
+  background-image: url(../img/path-67@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 46px;
+  left: 0;
+  opacity: 0.0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 214px;
+}
+
+.k12-lp-digitalsupport-2 .group-18-1:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-3 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-197 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 46px;
+  left: 448px;
+  position: absolute;
+  top: 392px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-4 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-5 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-429 {
+  align-items: flex-start;
+  display: flex;
+  height: 417px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group13-2 {
+  height: 417px;
+  position: relative;
+  width: 686px;
+}
+
+.k12-lp-digitalsupport-2 .group-427 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  height: 46px;
+  left: 0;
+  min-width: 686px;
+  padding: 4px 19px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .select-course-area {
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  white-space: nowrap;
+  width: 194px;
+}
+
+.k12-lp-digitalsupport-2 .polygon-1 {
+  align-self: center;
+  height: 10px;
+  margin-bottom: 2.0px;
+  margin-left: 424px;
+  object-fit: cover;
+  width: 18px;
+}
+
+.k12-lp-digitalsupport-2 .group-426 {
+  height: 417px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 686px;
+}
+
+.k12-lp-digitalsupport-2 .group-426:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group11-2 {
+  height: 417px;
+  position: relative;
+}
+
+.k12-lp-digitalsupport-2 .rectangle-270 {
+  height: 372px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 45px;
+  width: 686px;
+}
+
+.k12-lp-digitalsupport-2 .rectangle-294 {
+  height: 46px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 686px;
+}
+
+.k12-lp-digitalsupport-2 .scroll-group-5::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.k12-lp-digitalsupport-2 .scroll-group-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 14px;
+  overflow-y: scroll;
+  position: absolute;
+  top: 50px;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .grades-k-8 {
+  cursor: pointer;
+  height: 35px;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-bottom: -7px;
+  margin-left: 6px;
+  margin-top: -11px;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .span {
+  text-decoration: underline;
+}
+
+.k12-lp-digitalsupport-2 .group-3 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 37px;
+  margin-top: 14px;
+  min-width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group-1 {
+  height: 44px;
+  margin-top: -7px;
+  position: relative;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .link {
+  cursor: pointer;
+  height: 35px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .group-38 {
+  height: 37px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-38:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group1-1 {
+  height: 43px;
+  position: relative;
+  top: -7px;
+}
+
+.k12-lp-digitalsupport-2 .rectangle-27 {
+  background-color: var(--gallery);
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-3-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 37px;
+  margin-top: 5px;
+  min-width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .link-1 {
+  cursor: pointer;
+  height: 35px;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group15 {
+  height: 70px;
+  margin-top: 5px;
+  position: relative;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .link-2 {
+  cursor: pointer;
+  height: 35px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  text-decoration: underline;
+  top: 35px;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .group-388 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 37px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group-2 {
+  height: 43px;
+  margin-top: -7px;
+  position: relative;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-3-2 {
+  background-color: var(--gallery);
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-3-2:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .text-4-2 {
+  cursor: pointer;
+  height: 30px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -7px;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .text-431 {
+  cursor: pointer;
+  height: 32px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -7px;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .group {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  margin-top: 5px;
+  min-width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .text-432 {
+  cursor: pointer;
+  height: 30px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group19 {
+  height: 42px;
+  margin-top: -6px;
+  position: relative;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .link-3 {
+  cursor: pointer;
+  height: 32px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .group-395 {
+  background-color: var(--gallery);
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 6px;
+  transition: all 0.2s ease;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-395:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .text-435 {
+  cursor: pointer;
+  height: 32px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -6px;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group16 {
+  height: 41px;
+  margin-top: -5px;
+  position: relative;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-397 {
+  background-color: var(--gallery);
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 5px;
+  transition: all 0.2s ease;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-397:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .text-429 {
+  cursor: pointer;
+  height: 32px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -5px;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .group-400 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  margin-top: 9px;
+  min-width: 660px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group20 {
+  height: 44px;
+  margin-top: -8px;
+  position: relative;
+  width: 660px;
+}
+
+.k12-lp-digitalsupport-2 .text-43 {
+  cursor: pointer;
+  height: 34px;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .group-399 {
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 8px;
+  transition: all 0.2s ease;
+  width: 660px;
+}
+
+.k12-lp-digitalsupport-2 .group-399:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group16-1 {
+  height: 44px;
+  position: relative;
+  top: -8px;
+}
+
+.k12-lp-digitalsupport-2 .rectangle-278 {
+  background-color: var(--gallery);
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-402 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  margin-top: 5px;
+  min-width: 660px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group21 {
+  height: 43px;
+  margin-top: -7px;
+  position: relative;
+  width: 660px;
+}
+
+.k12-lp-digitalsupport-2 .text-43-1 {
+  cursor: pointer;
+  height: 32px;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .group-401 {
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 660px;
+}
+
+.k12-lp-digitalsupport-2 .group-401:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group-3 {
+  height: 44px;
+  margin-top: -8px;
+  position: relative;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-414 {
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 8px;
+  transition: all 0.2s ease;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-414:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .group-413 {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  display: flex;
+  height: 36px;
+  justify-content: flex-end;
+  min-width: 658px;
+  padding: 0 20px;
+}
+
+.k12-lp-digitalsupport-2 .text-441 {
+  cursor: pointer;
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-top: -8px;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group12-2 {
+  height: 70px;
+  margin-top: 7px;
+  position: relative;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-41 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .group-4 {
+  background-color: var(--gallery);
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 8px;
+  transition: all 0.2s ease;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-4:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .link-4 {
+  cursor: pointer;
+  height: 35px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -8px;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .group-417 {
+  align-items: flex-start;
+  display: flex;
+  height: 36px;
+  margin-top: 14px;
+  min-width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group14 {
+  height: 70px;
+  margin-top: 6px;
+  position: relative;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-419 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  margin-top: 13px;
+  min-width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group2 {
+  height: 69px;
+  margin-top: -3px;
+  position: relative;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .text-446 {
+  cursor: pointer;
+  height: 62px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 0;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .group-40 {
+  background-color: var(--gallery);
+  height: 66px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .group-40:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .text-447 {
+  cursor: pointer;
+  height: 62px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: -3px;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .group-420 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  margin-top: 6px;
+  min-width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .text-448 {
+  cursor: pointer;
+  height: 62px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 0;
+  width: 628px;
+}
+
+.k12-lp-digitalsupport-2 .text-449 {
+  cursor: pointer;
+  height: 62px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: -3px;
+  width: 628px;
+}
+
+.k12-lp-digitalsupport-2 .group-421 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  margin-top: 6px;
+  min-width: 658px;
+}
+
+.k12-lp-digitalsupport-2 .text-45 {
+  cursor: pointer;
+  height: 32px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .text-45-1 {
+  cursor: pointer;
+  height: 32px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -8px;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .link-5 {
+  cursor: pointer;
+  height: 32px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  text-decoration: underline;
+  top: 0;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .link-6 {
+  cursor: pointer;
+  height: 32px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -8px;
+  white-space: nowrap;
+  width: 616px;
+}
+
+.k12-lp-digitalsupport-2 .polygon-11 {
+  height: 10px;
+  left: 638px;
+  object-fit: cover;
+  position: absolute;
+  top: 18px;
+  width: 18px;
+}
+
+.k12-lp-digitalsupport-2 .select-course-area-1 {
+  height: 32px;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 194px;
+}
+
+.k12-lp-digitalsupport-2 .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 13.0px;
+  margin-top: 16px;
+  min-width: 651px;
+}
+
+.k12-lp-digitalsupport-2 .group-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  min-width: 214px;
+}
+
+.k12-lp-digitalsupport-2 .log-in {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-1 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-196 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 223px;
+  min-width: 214px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-2 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-3 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 52.0px;
+  margin-top: 53px;
+  min-width: 686px;
+}
+
+.k12-lp-digitalsupport-2 .cengage-owl-v2-stackedrgb {
+  height: 196px;
+  object-fit: cover;
+  width: 184px;
+}
+
+.k12-lp-digitalsupport-2 .stacked-full-color {
+  height: 177px;
+  margin-left: 188px;
+  margin-top: 2px;
+  object-fit: cover;
+  width: 313px;
+}
+
+.k12-lp-digitalsupport-2 .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 12.0px;
+  margin-top: 32px;
+  min-width: 652px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-6 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-7 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-19 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 224px;
+  min-width: 214px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-8 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-9 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .flex-row-6 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 12.0px;
+  margin-top: 16px;
+  min-width: 652px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-4 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-5 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-6 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-7 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group1-4 {
+  align-items: center;
+  background-color: var(--bahama-blue);
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  min-height: 1532px;
+  padding: 73px 7px;
+  width: 1024px;
+}
+
+.k12-lp-digitalsupport-2 .text-402 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 20px;
+  min-height: 57px;
+  text-align: center;
+  width: 1007px;
+}
+
+.k12-lp-digitalsupport-2 .flex-row-7 {
+  align-items: flex-start;
+  display: flex;
+  height: 320px;
+  margin-top: 63px;
+  min-width: 674px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group1-2 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  padding: 16px 0;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-2 .cengage-sam-stackedrgb {
+  height: 151px;
+  margin-top: 7px;
+  object-fit: cover;
+  width: 142px;
+}
+
+.k12-lp-digitalsupport-2 .group-20 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-top: 22px;
+  min-width: 214px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-10 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-11 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-2-5 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-top: 16px;
+  min-width: 214px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-8 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-9 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group1-3 {
+  align-items: center;
+  background-image: url(../img/path-1-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-left: 34px;
+  min-height: 320px;
+  padding: 16px 0;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-2 .cengagec-now-v2-stackedrgb {
+  height: 151px;
+  margin-left: 0.04px;
+  margin-top: 7px;
+  object-fit: cover;
+  width: 142px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-12 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-13 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-10 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-11 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 320px;
+  margin-top: 34px;
+  min-width: 674px;
+}
+
+.k12-lp-digitalsupport-2 .vs-logo-horrgb {
+  height: 43px;
+  margin-top: 59px;
+  object-fit: cover;
+  width: 236px;
+}
+
+.k12-lp-digitalsupport-2 .group-297 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-top: 78px;
+  min-width: 214px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-14 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-15 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-12 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-13 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .my-elt-logo2color-black {
+  height: 64px;
+  margin-right: 9.0px;
+  margin-top: 49px;
+  object-fit: cover;
+  width: 185px;
+}
+
+.k12-lp-digitalsupport-2 .group-210 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-top: 67px;
+  min-width: 214px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-16 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-17 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-14 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-15 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group19-1 {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  padding: 16px 27px;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-2 .cognero {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 57px;
+  min-height: 78px;
+  text-align: center;
+  width: 264px;
+}
+
+.k12-lp-digitalsupport-2 .group-293 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-right: 26px;
+  margin-top: 45px;
+  min-width: 214px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-18 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-19 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-292 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-right: 26px;
+  margin-top: 16px;
+  min-width: 214px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-16 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-17 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group18 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-left: 34px;
+  min-height: 320px;
+  padding: 16px 0;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-2 .online-practice-blk {
+  height: 83px;
+  margin-right: 1.0px;
+  margin-top: 49px;
+  object-fit: cover;
+  width: 209px;
+}
+
+.k12-lp-digitalsupport-2 .group-299 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-top: 48px;
+  min-width: 214px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-20 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .access-resources-21 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-18 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .log-in-19 {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .text-401 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 3.0px;
+  margin-top: 84px;
+  min-height: 43px;
+  text-align: center;
+  width: 965px;
+}
+
+.k12-lp-digitalsupport-2 .group-214 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 1.0px;
+  margin-top: 33px;
+  min-width: 333px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group13-3 {
+  border-radius: 53px;
+  height: 58px;
+  position: relative;
+  width: 333px;
+}
+
+.k12-lp-digitalsupport-2 .group-143 {
+  align-items: flex-start;
+  border-radius: 53px;
+  display: flex;
+  height: 58px;
+  left: 0;
+  min-width: 333px;
+  padding: 9px 1px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .text-403 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 330px;
+}
+
+.k12-lp-digitalsupport-2 .group-213 {
+  background-color: var(--white);
+  border-radius: 53px;
+  height: 58px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 333px;
+}
+
+.k12-lp-digitalsupport-2 .group-213:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .text-404 {
+  left: 2px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+  width: 330px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group5 {
+  height: 750px;
+  margin-left: 2.0px;
+  position: relative;
+  width: 1214px;
+}
+
+.k12-lp-digitalsupport-2 .rectangle-56 {
+  background: linear-gradient(179.64deg, #1e6f7e 0.46%, #309caf 99.61%);
+  cursor: pointer;
+  height: 750px;
+  left: 94px;
+  position: absolute;
+  top: 0;
+  width: 1024px;
+}
+
+.k12-lp-digitalsupport-2 .rectangle-155 {
+  background-color: var(--white);
+  height: 386px;
+  left: 228px;
+  position: absolute;
+  top: 204px;
+  width: 756px;
+}
+
+.k12-lp-digitalsupport-2 .text-392 {
+  left: 637px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 302px;
+  width: 277px;
+}
+
+.k12-lp-digitalsupport-2 .text-393 {
+  height: 68px;
+  left: 611px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 353px;
+  width: 329px;
+}
+
+.k12-lp-digitalsupport-2 .start-strong {
+  height: 308px;
+  left: 274px;
+  object-fit: cover;
+  position: absolute;
+  top: 243px;
+  width: 309px;
+}
+
+.k12-lp-digitalsupport-2 .text-400 {
+  height: 67px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 95px;
+  width: 1214px;
+}
+
+.k12-lp-digitalsupport-2 .group-217 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 46px;
+  left: 671px;
+  position: absolute;
+  top: 445px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group11-3 {
+  height: 46px;
+  position: relative;
+  width: 208px;
+}
+
+.k12-lp-digitalsupport-2 .group-215 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  left: 0;
+  min-width: 208px;
+  padding: 3px 19px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .place {
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-216 {
+  background-image: url(../img/path-69@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 46px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 208px;
+}
+
+.k12-lp-digitalsupport-2 .group-216:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .place-1 {
+  height: 29px;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group-4 {
+  height: 1621px;
+  margin-left: 2.0px;
+  position: relative;
+  width: 1214px;
+}
+
+.k12-lp-digitalsupport-2 .rectangle-259 {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 1621px;
+  left: 94px;
+  position: absolute;
+  top: 0;
+  width: 1024px;
+}
+
+.k12-lp-digitalsupport-2 .privacy {
+  left: 281px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 542px;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2 .accessibility {
+  left: 710px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 542px;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2 .text-418 {
+  height: 148px;
+  left: 227px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 594px;
+  width: 329px;
+}
+
+.k12-lp-digitalsupport-2 .text-419 {
+  height: 148px;
+  left: 653px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 594px;
+  width: 335px;
+}
+
+.k12-lp-digitalsupport-2 .text-420 {
+  height: 67px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 87px;
+  width: 1214px;
+}
+
+.k12-lp-digitalsupport-2 .mask-group-99 {
+  height: 310px;
+  left: 233px;
+  object-fit: cover;
+  position: absolute;
+  top: 204px;
+  width: 310px;
+}
+
+.k12-lp-digitalsupport-2 .mask-group-100 {
+  height: 310px;
+  left: 236px;
+  object-fit: cover;
+  position: absolute;
+  top: 204px;
+  width: 310px;
+}
+
+.k12-lp-digitalsupport-2 .mask-group-102 {
+  height: 310px;
+  left: 664px;
+  object-fit: cover;
+  position: absolute;
+  top: 204px;
+  width: 310px;
+}
+
+.k12-lp-digitalsupport-2 .group-220 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 58px;
+  left: 286px;
+  position: absolute;
+  top: 759px;
+}
+
+.k12-lp-digitalsupport-2 .group-222 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 58px;
+  left: 715px;
+  position: absolute;
+  top: 759px;
+}
+
+.k12-lp-digitalsupport-2 .group-223 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 27px;
+  display: flex;
+  height: 58px;
+  left: 0;
+  min-width: 210px;
+  padding: 5px 20px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .group-221 {
+  background-image: url(../img/path-52@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 58px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 210px;
+}
+
+.k12-lp-digitalsupport-2 .group-221:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .terms-of-use {
+  left: 497px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 1236px;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2 .text-425 {
+  height: 140px;
+  left: 463px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 1288px;
+  width: 291px;
+}
+
+.k12-lp-digitalsupport-2 .mask-group-101 {
+  height: 310px;
+  left: 451px;
+  object-fit: cover;
+  position: absolute;
+  top: 898px;
+  width: 310px;
+}
+
+.k12-lp-digitalsupport-2 .group-226 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 48px;
+  left: 503px;
+  position: absolute;
+  top: 1453px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group13-4 {
+  height: 48px;
+  position: relative;
+  width: 208px;
+}
+
+.k12-lp-digitalsupport-2 .group-224 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 48px;
+  left: 0;
+  min-width: 208px;
+  padding: 6px 19px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-2 .view-terms-of-use {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .group-225 {
+  background-image: url(../img/path-53@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 48px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 208px;
+}
+
+.k12-lp-digitalsupport-2 .group-225:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-2 .view-terms-of-use-1 {
+  left: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2 .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  min-height: 311px;
+  padding: 54px 65px;
+  width: 1024px;
+}
+
+.k12-lp-digitalsupport-2 .text-426 {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 43px;
+  text-align: center;
+  width: 891px;
+}
+
+.k12-lp-digitalsupport-2 .national-geographic {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 3.0px;
+  margin-top: 5px;
+  min-height: 112px;
+  text-align: center;
+  width: 641px;
+}

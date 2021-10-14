@@ -1,0 +1,26 @@
+@charset "UTF-8";
+#containiner {
+	float: left;
+}
+#ins_products {
+	height: 225px;
+	width: 184px;
+	float: left;
+}
+#ins_product_names {
+	text-align: center;
+	display: inline;
+	width: 184px;
+	vertical-align: top;
+	float: left;
+	padding-right: 0px;
+	height: inherit;
+}
+#ovtab {
+	display:block;
+	border-width:0;
+	padding:1em 1.4em;
+	background:0;
+	width:975px;
+	margin:auto;
+}

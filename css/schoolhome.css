@@ -1,0 +1,285 @@
+/* header change for static page */
+
+#NGLRedesignpageContainer .row{
+	margin: 0px;
+}
+#header_include .container{
+	height: 100%;
+}
+
+#header_include #navigation ul{
+	display: inline-block;
+}
+
+.mainPageContainer {
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+	padding: 0px;
+}
+
+body#staticNGLRedesign{
+    padding-bottom: 58px !important;
+}
+
+#header_include #navigation #programs-content.collapse.in,#header_include #navigation #programs-content{
+	left: -2px !important;
+}
+
+/*---- Home section ---*/
+#NGLRedesignpageContainer #schoolHome>a{
+	height: 100%;
+}
+
+#NGLRedesignpageContainer #schoolHome>a{
+	display: inherit;
+}
+
+#NGLRedesignpageContainer #schoolHome{
+	background: url(/images/home/schoolhomesuperhero-d.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    position: relative;
+}
+
+#NGLRedesignpageContainer #schoolHome .heroOverlay{
+	background-color: rgba(0, 0, 0,0.349);
+	position: absolute;
+	bottom: 0;
+	padding: 24px 0px;
+}
+
+#NGLRedesignpageContainer #schoolHome .heroOverlay a{
+	display: inherit;
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+#NGLRedesignpageContainer #schoolHome .heroOverlay a:hover{
+	text-decoration: none;
+}
+
+#NGLRedesignpageContainer .heroOverlay h1{
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	max-width: 1056px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+#NGLRedesignpageContainer .heroOverlay h1:hover{
+	color: rgb(192, 192, 192);
+}
+
+/*---- story block section ---*/
+
+#NGLRedesignpageContainer #storyBlockContainer{
+	max-width: 1056px;
+	margin: 0 auto;
+}
+
+#NGLRedesignpageContainer .story-block {
+    margin-top: 24px;
+    /*margin-bottom: 24px;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+#NGLRedesignpageContainer .story-block .block:first-of-type {
+    margin-left: 0;
+}
+
+#NGLRedesignpageContainer .story-block .block {
+    background: #FFF;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 4px;
+    display: inline-block;
+    min-height: 260px;
+    padding: 20px 0px;
+    margin: 0 .2% 20px;
+    text-align: center;
+    vertical-align: top;
+    max-width: 345px;
+    width: 100%;
+}
+
+#NGLRedesignpageContainer .story-block .block a{
+	display: block;
+}
+
+#NGLRedesignpageContainer .story-block .block a.blockImgContainer{
+	min-height: 92px;
+}
+
+#NGLRedesignpageContainer .story-block .block a.blockImgContainer img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#NGLRedesignpageContainer #storyBlockContainer .story-block .firstBlock h3{
+	font-size: 24px;
+	color: rgb(102, 102, 102);
+	font-weight: bold;
+	line-height: 1.25;
+	text-align: center;
+	margin: 10px 0px 0px;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+#NGLRedesignpageContainer #storyBlockContainer .story-block .firstBlock p{
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+	line-height: 1.5;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  -webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  -ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+#NGLRedesignpageContainer #storyBlockContainer .story-block .secondBlock p{
+	font-size: 27px;
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+#NGLRedesignpageContainer #storyBlockContainer .story-block .thirdBlock p{
+	font-size: 24px;
+	color: rgb(104, 104, 104);
+	line-height: 1.556;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	font-weight: bold;
+}
+
+.extraspace{
+	line-height: 4.8;
+}
+
+#NGLRedesignpageContainer #storyBlockContainer .story-block .storyBlockLink{
+	font-size: 36px;
+	font-family: "summerFont";
+	color: rgb(0, 114, 163);
+	line-height: 0.528;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* -- catalog section -- */
+#NGLRedesignpageContainer #catalogSection{
+	padding: 30px 0px;
+	background-color: rgb(0, 114, 163);
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#NGLRedesignpageContainer #catalogSection img{
+	display: inline;
+}
+
+#NGLRedesignpageContainer #catalogSection a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#NGLRedesignpageContainer .catalogText{
+	font-size: 40.501px;
+	font-family: "summerFont";
+	color: rgb(255, 255, 255);
+	padding-top: 10px;
+}
+
+/* product scroll section */
+#NGLRedesignpageContainer #productScrollSection{
+	padding: 42px 0px;
+	background-color: rgb(242, 239, 223);
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#NGLRedesignpageContainer .productScrollHeading{
+	font-size: 36px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+
+#NGLRedesignpageContainer .item img{
+    height: 277px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#NGLRedesignpageContainer .item a{
+	display: inline-block;
+    width: 201px;
+    text-decoration: none;
+}
+#NGLRedesignpageContainer .item p{
+	color: #000000;
+}
+
+#NGLRedesignpageContainer .item h2{
+	display: inline-block;
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+/* -- About Section --*/
+#NGLRedesignpageContainer #about{
+	background: url(/images/home/aboutBackgroundImg-d.jpg) no-repeat;
+    background-size: 100%;
+    background-position: top;
+    height: 568px;
+    position: relative;
+    background-color: #000000;
+    padding: 12px 0px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#NGLRedesignpageContainer #aboutHeading{
+	font-size: 72px;
+	font-family: "summerFont";
+	color: rgb(255, 255, 255);
+	line-height: 1;
+	margin-top: 26px;
+}
+
+#NGLRedesignpageContainer #aboutDescription{
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	line-height: 1.556;
+	max-width: 920px;
+	padding-left: 160px;
+}
+
+#NGLRedesignpageContainer .wavyLineYellow{
+	/*visibility: hidden;*/
+    margin: 15px auto;
+}

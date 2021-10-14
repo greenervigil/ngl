@@ -1,0 +1,61 @@
+html { 
+  background: none; 
+  height: 100%;
+}
+body { 
+  width: 800px; 
+  float: none;
+  height: 100%;
+}
+body header { 
+  margin-top: 10px;
+  padding: 10px; 
+  background: none; 
+  border: 1px solid #ccc;  
+  width: 778px;
+  float: left;
+}
+header img { 
+  float: left; 
+  height: 80px;
+}
+
+header ul { 
+  float:right; 
+  text-align: right;
+  line-height: 25px;
+  font-weight: bold;
+}
+header ul li:last-of-type {
+  font-size: 10px;
+  font-weight: normal;
+}
+.breadCrumbs h1 { 
+  font-size: 18px;
+  margin: 5px 0px 5px 0; 
+}
+.breadCrumbs ul { font-size: 12px;}
+article { 
+  float: left;
+  margin: 0;
+  width: 100%;
+}
+section {
+  width: 100%;
+  float:left;
+}
+.resultsListHeader {
+  font-weight: bold;
+  font-size: 12px;
+  border-bottom: 0;
+  margin-bottom: 10px;
+}
+.resultsList h1, a, a:visited, a:link { color: #333; }
+.title {
+  font-size: 13px;
+  font-weight: bold; 
+}
+.author { font-style: italic; }
+.additional-links,
+.wish-list,
+.resultsList ul.nav { display: none; }

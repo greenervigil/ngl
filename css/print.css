@@ -1,0 +1,195 @@
+body{font-size:100%;
+     color:#000000;
+	 font-family:Arial, Helvetica, sans-serif;
+	}
+	 
+.header{
+		display:none;
+		}
+	
+			
+.title_header{
+			  font:italic bold 110% Arial, Helvetica, sans-serif;
+			  display:block
+			 }
+			 
+.breadcrumb{
+			display:none}
+			
+.topnav{display:none
+		}
+	  
+.leftnav{display:none;
+		 }
+		 
+.item{width:200px;
+	  }
+		 
+	 
+.footer{
+		display:none;
+		}
+		
+.divider{
+		 height:1px;
+		 border-bottom:1px solid #B7DDEA;
+		 }
+		 
+#region{text-align:right}
+
+.noborder{border:0px}
+.series_box{width:305px;
+			padding-left:3px;
+			margin-top:5px;
+			text-align:center;
+			}
+
+.sm_bold_it{font-style:italic;
+			font-weight:bold;
+			font-size:8pt;
+			}
+
+.features{background:#ffffff;
+		 width:100%;
+		  
+		  }
+
+.features ul{padding-left:15px;}
+
+.resources{
+		   width:100%;  
+		   }
+		   
+
+
+h2{font-size:100%;
+   font-weight:bold;
+   border-top:20px solid #B7DDEA;
+   padding-top:10px;
+   width:100%;
+   /*margin-top:0px;*/}
+   
+.horizontal{
+			display:none
+			}
+			
+			
+a:link{font-weight:bold;
+	   color:#0089c5;
+	   text-decoration:none;
+	   }
+
+a:visited{font-weight:bold;
+	   color:#0089c5;
+	   text-decoration:none;
+	   }   
+a:hover{font-weight:bold;
+		color:#ce3c23;
+		text-decoration:underline;
+		}
+		
+a:active{font-weight:bold;
+		color:#ce3c23;
+		text-decoration:underline;
+		}
+		
+.nobullet{list-style-type:none;
+		  padding-left:3px;
+		  }			
+
+#catalogheader{background:#B1DDEA}		  
+
+#catalog td,th{border-bottom:1px solid #B1DDEA;
+					  text-align:left}		  
+
+.resources ul,ul.custom{list-style-image: url(../images/bullet.gif);
+					padding-left:15px}	  
+					
+
+			  
+.hidden{display:block}
+
+.center{text-align:center}  
+
+.border{border:1px solid #000000}
+
+.subproduct{font-size:90%}
+.buy{font-weight:bold;
+	   color:#FF0000;
+	   margin-bottom:2px;
+	   }
+	   
+.buy a:link{color:#ff0000;
+				text-decoration:none;
+				}
+				
+.buy a:visited{color:#ff0000;
+					 text-decoration:none;
+					 }
+.buy a:hover{color:#ff0000;
+					text-decoration:underline;
+					}
+					
+.buy a:active{color:#ff0000;
+					text-decoration:underline;
+					}
+	  
+.booktitle{margin-top:2px;}
+			  
+.author,.bookinfo,.isbn{font-size:80%;
+		   font-weight:bold;
+		   display:block
+		   }
+
+.clear{clear:both}
+#f_menu{display:none;
+			}
+			
+
+			
+
+
+.roundcont {
+	width: 100%;
+	background-color: #ffffff;
+	color: #000000;
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+	}
+
+.roundbottom {
+	height:10px;
+}
+
+img.corner {
+   display: none
+}
+
+.tab{display:none
+	 }
+
+.screenonly{display:none}
+
+
+/*  student site */
+
+.studentmain{margin-right:auto;
+					margin-left:auto;
+					width:50%;
+					margin-top:20px;}
+.see_also{width:15%;
+				float:right;
+				border-left:1px solid #B1DDEA;
+				padding-left:5px;
+				padding-right:5px;
+				margin-top:-20px;
+				display:none}
+				
+.see_also_book{margin-bottom:10px;
+						text-align:center}
+						
+.utility_links{font-size:10px;
+				  text-align:left;
+				  margin-bottom:5px;
+				  display:none}
+				  

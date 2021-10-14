@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+
+.arrowlinksHeadersBlack {
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	font-weight : normal;
+	font-size : 0.8em;
+	color : #FFFFFF;
+	background: #FC0;
+	height: auto;
+	width: 210px;
+	text-align: left;
+	clear: both;
+	line-height: 1.6em;
+	list-style-type: none;
+	background-color: #666;
+	background-position: top;
+	padding-top: 3px;
+	padding-left: 16px;
+	margin-left: -16px;
+}
+.arrowlinksHeadersBlack a:link {
+	text-decoration: none;
+	color : #FFFFFF;
+}
+
+.arrowlinksHeadersBlack a:hover {
+	text-decoration: underline;
+	color : #FFFFFF;
+}
+
+.arrowlinksHeadersBlack a:visited {
+	text-decoration: underline;
+	color : #FFFFFF;
+}
+
+#listings {
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	font-weight : normal;
+	font-size : 0.7em;
+	color : #666666;
+	border: thin solid #CCC;
+	float: right;
+	height: auto;
+	width: 222px;
+	font-style: normal;
+	font-variant: normal;
+	margin-left: -24px;
+	text-align: left;
+	clear: both;
+	line-height: normal;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	list-style-type: none;
+	word-wrap: break-word;
+}
+
+
+.consultant  {
+	width: 200px;
+	list-style-type: none;
+	margin-top: 10px;
+	margin-left:18px;
+		
+}
+
+.consultant a  {
+	text-decoration:none;
+	color:#666666;
+	font-weight: bold;
+}
+
+.consultant a:hover{
+	text-decoration:underline;
+}
+h3 {
+	margin-top: 10px;
+	color: #FFF;
+	background-color: #666;
+	padding-left: 10px;
+	padding-top: 6px;
+	padding-bottom: 3px;
+	font-weight: lighter;
+}
+
+.resp {
+	font-size:1em;
+	margin-top: 2px;
+	margin-left: 20px;
+}
+.phone {
+	font-size:1em;
+	margin-top: 6px;
+	margin-left: 20px;
+}
+
+
+.counties a,.counties a:active,.counties a:link,.counties a:visited{
+	font-size:1em;
+	color:#666666;
+	text-decoration:none;
+	display:block;
+	margin-top:3px;	
+}
+	
+.counties a:hover{
+	text-decoration:underline;
+}
+.counties {
+	text-transform:capitalize;
+}

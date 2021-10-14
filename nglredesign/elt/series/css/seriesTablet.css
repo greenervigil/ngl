@@ -1,0 +1,77 @@
+@media(max-width: 991px){
+
+	.NGLELTSeriesPage .seriesContainer, .NGLELTSeriesPage .productDetailsPadding{
+    	padding: 0px 43px;
+	}
+
+	#subSeriesGroupContainer .subseriesGroupPadding,#seeLevel .subseriesGroupPadding, #barSeriesMenuContainer .subseriesGroupPadding, #relatedPrograms .subseriesGroupPadding,
+	#customTab .subseriesGroupPadding, .seriesCustomTab2 .subseriesGroupPadding, #companionSiteMenu .subseriesGroupPadding{
+	    padding:10px 43px;
+	}
+
+	#programInfoSection .container{
+		padding: 0px 8px;
+	}
+
+	#programInfoMenuMainContainer .container{
+		padding: 0px;
+	}
+
+	/* Series banner section */
+
+	.NGLELTSeriesPage #seriesBanner{
+	    /*height: 343px;*/
+	}
+
+	/*--Authors Section--*/
+	.authorDescriptionContainer.fullWidth {
+	    height: auto;
+	}
+
+	.authorDescriptionContainer{
+		height: auto;
+	}
+
+	.authorContainer{
+		width: 100%;
+	}
+
+	.authorImgContainer{
+		margin-right: 2%;
+	}
+
+	.NGLELTSeriesPage .authorMoreBtn{
+		display: block;
+	}
+
+	/*---- story block section ---*/
+	
+	.NGLELTSeriesPage .storyBlockContainer{
+		padding: 0 15px;
+	}
+
+	.NGLELTSeriesPage .story-block .block {
+		max-width: 350px;
+	}
+
+	/*-- Companion site --*/
+	.NGLELTSeriesPage #companionSitecontainer>li a{
+		padding: 10px 0px;
+	}
+
+	.NGLELTSeriesPage .companionSiteSubmenu li a{
+		padding: 10px 0px;	
+	}
+}
+
+@media (max-width: 1024px){
+	.NGLELTSeriesPage #relativeSectionContainer{
+		margin-top: 49px;
+	}
+	#programInfoMenuMainContainer{
+		margin-top: 49px;
+	}
+	#programInfoSection{
+		top: 76px;
+	}
+}

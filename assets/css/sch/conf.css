@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin:0;
+  padding:0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+p {
+	
+  font-size: 12px;
+  margin: 1em 0;
+  font-weight:bold;
+  padding-left:15px;
+}
+.description {
+  font-style:italic;
+  font-size:13px;
+  margin-top:5px;
+  margin-bottom:20px;
+}
+
+
+
+h1 {
+  font-weight:100;
+  font-size:24px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul .inner {
+  overflow: hidden;
+  display: none;
+}
+ul .inner.show {
+  /*display: block;*/
+}
+ul li {
+  margin: .5em 0;
+}
+ul li a.toggle {
+  width: 96%;
+  display: block;
+  color: #000000;
+  padding: .75em;
+  border-radius: 18px;
+  transition: background .3s ease;
+  text-align:center;
+  border:2px;
+  border-color:#000000;
+  border-style:solid;
+  
+  
+}
+
+
+input[type=checkbox] {
+	margin-left:18px;
+	float:left;
+	display:block;
+	margin-right:5px;
+	
+  /* All browsers except webkit*/
+  transform: scale(1.5);
+
+  /* Webkit browsers*/
+  transform-webkit-transform: scale(1.5);
+ 
+  
+ 
+}
+
+input[type=text] {
+	width:100%;
+	font-size:14px;
+	border:thin; 
+	border-style:solid; 
+	border-color:000000;
+	
+	
+}
+
+input[type=submit] {
+	float: right;
+  
+  font-size:14px!important;
+  transform:scale(2,2);  
+ -webkit-transform: scale(2,2); /* Safari */
+
+
+   }
+   
+.yellow {
+	
+	background-color: #ffce00; 
+
+}
+
+.paddingClass{
+	
+	margin-bottom:15px;
+}
+
+
+.toggle {  
+
+background-color: #F6F6F6; 
+
+}
+
+.toggle.yellow { 
+
+background-color: #ffce00; 
+}
+
+.checkboxtext {
+	font-size:14px;
+	text-align:left;
+	vertical-align: top;
+	padding:0px 0px 0px 0px;
+	margin: 0px;
+	
+}
+
+.comment {
+	border:thin; 
+	border-style:solid; 
+	border-color:000000;
+	width:100%;
+	height:100px;
+	display:block;
+	padding: 5px;
+}
+	
+.checkboxtable {
+	width:45px; 
+	vertical-align:top;
+}
+
+.tableoptions {
+	width:100%;
+	border:0px;
+	 padding-bottom:10px;
+}
+
+.corner {
+	
+	 margin:0px; 
+	 padding:0px;
+	 vertical-align:top;
+	 border-spacing: 0;
+border-collapse: collapse;
+width: 110%;
+border-radius: 15px;
+	 
+}
+	
+
+.logo {
+	
+	width:70%;
+	
+	
+}
+
+.bordertable {
+	
+	width:100%; 
+	border:thin; 
+	border-style:solid; 
+	border-color:000000;  
+	padding: 0px;
+	margin: 0px;
+	border-spacing: 0px;
+	border-radius: 15px;
+	
+	
+
+}
+
+.tablespacing {
+	padding: 0px;
+	margin: 0px;
+	border-spacing: 0px;
+}
+
+.bottombackground {
+	width:95%;
+	vertical-align: bottom;
+	padding: 0px;
+	margin: 0px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+
+	
+}
+
+.tablespacingmain {
+	padding: 15px 15px 0px 15px;
+}
+
+.tyrequest {
+	font-size: 34px;
+	font-weight: 200;
+	text-align: center;
+}
+p.tyrequest2 {
+	font-size: 16px;
+	text-align: center;
+	font-weight: 200;
+	
+}
+.tyswish {
+	width: 60%;
+	display:block;
+    margin:auto;
+}
+
+.tylogo {
+	width: 30%;
+	display:block;
+    margin:auto;
+	padding-bottom: 24px;
+}
+
+.asteriskRed {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 130%;
+}
+.red {
+	color: #FF0000;
+}

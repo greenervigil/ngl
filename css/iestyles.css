@@ -1,0 +1,131 @@
+
+.ngsp {
+	float:left;
+	background: #FED91E;
+	margin-left: -10px; 
+	margin-top: 5px;
+	margin-bottom: -10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	width: 190px;
+	height: 65px;
+	font-weight: bold;
+	/* margin-bottom: 2px; */
+}
+
+body{
+	border-left:0px;
+	border-right:0px;
+	/* border-bottom:10px solid #013658;*/
+	 }
+	 
+
+	 
+#countryform{margin-top:20px}
+
+
+.features{margin-top:10px;
+		  width:100%;
+		 /* position:static;*/
+		  }
+
+.features p{margin-top:1px;
+			margin-bottom:1em}
+				
+.features ul{margin-left:5px}
+
+#features,
+#etools,
+#downloads,
+#components,
+#authorbio,
+#newedition,
+#altformats,
+#bestbuy,
+#companion{padding-left:5px;
+		   padding-right:5px;
+		   border-top:1px solid #B1DDEA;
+		   /*float:none;*/
+		   clear:left;
+		   width:100%;
+		   margin-top:0px;
+		   }
+
+.frame{
+	   margin-left:0px;
+	   margin-right:0px;
+	   margin-top:0px;
+	   margin-bottom:0px;
+	   }
+	   
+
+.leftnav ul{list-style-type:none;
+			margin-left:0px;
+			margin-top:10px;
+			margin-bottom:10px;
+			}
+			
+.resources ul{margin-left:18px;
+			  padding-left:0px;
+			 }
+		 
+.rightnav{width:200px;
+		 position:absolute;
+		 right:25px;
+		 top:0px;
+		 /*border:1px solid #000000;*/
+		 border-right:1px solid #B7DDEA;
+		 border-left:1px solid #B7DDEA;
+		 height:100%;
+		 background:#ffffff;
+		 }
+		 
+.rightnav h1{font:bold 12pt Arial, Helvetica, sans-serif;
+			 background:#eeaf00;
+			 margin:0px -1px 0px -1px;
+			 text-align:center;
+			 padding:4px;
+			 }
+			 
+
+			 
+ul.submenu {margin-left:0px;
+			margin-top:0px;
+			margin-bottom:0px}
+
+
+				
+.loginpage{/*height:450px;*/
+				overflow:visible}
+				
+.horizontal{margin:0px;padding:0px;}
+				
+.popup-content{
+                 height:1%; /*ie fix*/
+}
+
+.popup-leftcontent{
+        margin-top:-100px;
+}
+
+.content{overflow:visible}
+
+#headline{height:200px;
+		  background:transparent;
+		  position:absolute;
+		  /*clip:rect(0px 350px 222px 0px);*/
+		  right:0px;
+		  top:80px;
+		  /*width:350px;*/
+		  }
+
+
+.leftnav form{margin-top:2px}
+
+
+
+
+
+
+
+

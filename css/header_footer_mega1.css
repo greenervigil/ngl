@@ -1,0 +1,521 @@
+/* CSS Document 
+/***********NGL   Header CSS ************/
+a{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:underline;}
+/*these need to be moved to the nglstyle sheet */
+
+body{
+margin:0px;
+padding:0px;
+}
+
+header{
+width:100%;
+	padding: 0;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	background-color:#000;
+float:left; 
+}
+
+div#headerContentWrap{
+width:975px;
+margin:0 auto;
+}
+
+div#logos{
+float:left;
+width:37%;
+margin:0px 0px 0px 0px;
+padding:20px 0px 0px 0px;
+
+}
+
+div#ngl_logo{
+float:left;
+width:173px;
+
+}
+
+
+div#cl_logo{
+float:left;
+width:173px;
+}
+
+/***controols the left section of the header - the log in and supoert links **/
+div#headerRight{
+float:right;
+width:60%;
+}
+
+/*start supoert links section */
+
+div#suportLinks{
+float:left;
+width:48%;
+text-align:right;
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+
+}
+
+div#suportLinks ul{
+padding:20px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+list-style-type:none;
+
+}
+
+div#suportLinks ul li:last-child{
+font-size:1.20em;
+padding:13px 0px 13px 0px;
+}
+
+div#suportLinks a{
+color:#fff;	
+}
+
+div#suportLinks a:visited{
+color:#fff;	
+}
+
+div#suportLinks a:hover{
+color:#fff;	
+}
+/*end suporet links section */
+/********** sin in section of the header **********/
+div#signin{
+float:right;
+width:50%; 
+/** starts teh background gradiant section**/
+ background: #ffcc00; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(../images/headerFooter/signInBG.jpg);
+background: -moz-linear-gradient(top, #ffcc00 0%, #e7a100 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffcc00), color-stop(100%,#e7a100)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffcc00 0%,#e7a100 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffcc00 0%,#e7a100 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffcc00 0%,#e7a100 100%); /* IE10+ */
+background: linear-gradient(top, #ffcc00 0%,#e7a100 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#e7a100',GradientType=0 ); /* IE6-8 */
+margin: 0px 0px 0px 0px;
+padding: 18px 0px 18px 0px;  
+}
+
+.alpr{
+color:#000;
+padding:0px;
+margin:0px;
+text-align:center;
+font-size:0.85em;
+
+
+}
+
+div#signin ul{
+float:right;
+width:80%;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px; 
+text-align:center;
+}
+
+
+div#signin ul li{
+ float: left;
+ list-style: none outside none;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+ width: 47%;
+}
+
+div#signin ul li:first-child {
+width:26%;
+color:#000;
+}
+
+div#signin ul a{
+color:#000;
+}
+
+div#signin ul a:visited{
+color:#000;
+}
+
+div#signin ul a:hover{
+color:#000;
+}
+
+/** ends the Sign in section**/
+/** Starts the socal icon section **/
+
+div#social{
+
+float:right;
+width:50%;
+clear:right;
+color:#fff;
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+}
+div#social dl{
+  float:left;
+  width:96%;
+  padding:15px 0px 10px 10px;
+  margin:0px 0px 0px 0px;
+}
+div#social dt{
+  float:left;
+  width:74%;
+  padding:0px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
+  text-align:right;
+}
+div#social dt p{
+  margin:0px;
+  padding:0px;
+}
+div#social dd{
+  float:right;
+  width:8%;
+  padding:0px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
+}
+/******* first attemp at skip nav links ************/
+#skip a, #skip a:hover, #skip a:visited {
+  position:absolute;
+  left:0px;
+  top:-500px;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+#skip a:active, #skip a:focus {
+  position:static;
+  width:auto;
+  height:auto;
+} 
+div#megaWrap{
+  width:100%;
+  background-color:#ffcc00;
+  float:left;
+}
+div#mega{
+  background-color:#ffcc00;
+  width:975px;
+  margin:0 auto;
+  padding:0px 0px 0px 0px; 
+}
+/* these styles controol the display of teh mega menu plug in - adjust them here to effect teh look and feel of the menu*/
+.demo-container {padding: 20px 0;}
+.demo-container h4 { margin: 0 0 5px 0;}
+
+/* Mega Menu Styles */
+.mega-menu ul, .mega-menu ul li {list-style: none;}
+.mega-menu ul {position: relative; padding: 0; margin: 0;}
+.mega-menu ul li ul {display: none;}
+.mega-menu .sub {display: none;}
+.mega-menu .sub ul {display: block;}
+#mega-menu {
+  list-style: none; 
+  position: relative; 
+  padding: 0; 
+  margin: 0;
+}
+#mega-menu .sub ul {
+  display: block;
+  padding:0px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
+  width:80%;
+}
+#mega-menu {
+  background: #ffcc00; 
+  /*width: 100%; */
+  width:58%;
+  height: 40px;
+  position: relative;
+}
+#mega-menu li {
+  float: left; 
+  margin: 0; 
+  padding: 0; 
+  font-weight: bold;
+}
+#mega-menu li a {
+  float: left; 
+  display: block; 
+  color: #000; 
+  padding: 10px 25px; 
+  background: #ffcc00; 
+  text-decoration: none;
+  font-size:1.3em;
+  font-weight:bold;
+}
+#mega-menu li.mega-hover a, #mega-menu li.mega-hover a:hover {
+  background: #fff; 
+  color: #FFCC00;
+}
+#mega-menu li a:hover {/*effects the hover for the main li items */  color: #000; }
+#mega-menu li .sub-container { position: absolute; }
+#mega-menu li .sub {
+  background: #fff; 
+  padding: 15px; 
+  border: 1px solid #ccc;
+}
+#mega-menu li .sub .row {
+  width: 100%; 
+  overflow: hidden;
+  clear: both;
+}
+#mega-menu li .sub li {
+  list-style: none; 
+  float: none; 
+  width: 271px; 
+  font-weight: normal;
+  border:1px solid red;
+  padding:10px 10px 10px 10px;
+  margin:0px 0px 0px 0px;
+  line-height:1em;
+}
+#mega-menu li .sub li.mega-hdr {
+  margin: 0 0px 0px 0; 
+  float: left;
+  color: #A25018;
+}
+#mega-menu li .sub li.mega-hdr.last { margin-right: 0; }
+#mega-menu li .sub a {
+  background: none; 
+  color: #111; 
+  padding: 7px 10px; 
+  display: block; 
+  float: none; 
+  font-size: 0.9em;
+  color:#ccc;
+}
+#mega-menu li .sub li.mega-hdr a.mega-hdr-a {
+  padding: 5px 15px; 
+  margin-bottom: 5px; 
+  background: #6B6B6B; 
+  text-transform: uppercase; 
+  font-weight: bold; 
+  color: #fff;
+}
+#mega-menu li .sub li.mega-hdr a.mega-hdr-a:hover { color: #000; }
+#mega-menu .sub li.mega-hdr li a {
+  padding: 4px 5px; 
+  font-weight: normal;
+}
+#mega-menu .sub li.mega-hdr li a:hover {
+  color: #a32403; 
+  background: #efefef;
+}
+#mega-menu .sub ul li { padding-right: 0; }
+#mega-menu li .sub-container.non-mega .sub { padding: 10px; }
+#mega-menu li .sub-container.non-mega li {
+  padding: 0; 
+  width: 190px; 
+  margin: 0;
+}
+#mega-menu li .sub-container.non-mega li a { padding: 7px 5px 7px 22px; }
+#mega-menu li .sub-container.non-mega li a:hover {
+  color: #a32403; 
+  background: #efefef;
+}
+#mega-menu #MegaAdd{
+  width:100%;
+  border:1px solid red;
+}
+#mega-menu #MegaAdd li{
+  width:90%;
+  broder:1px solid red;
+}
+/***** start the search funtion styles that go with the mega menu *******/
+#search_text{
+  margin:0px 0px 0px 0px;
+  padding:6px 0px 6px 5px;
+  border-radius: 5px 0px 0px 5px;
+   border: 0px none;
+   width: 375px;
+   color:#cccccc;
+  font-size:1.0em 
+}
+div#search_function{
+  float:right;
+  width:42%;
+  margin:-40px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+}
+
+#submit_button_header{
+  background-color: #FFFFFF;
+  background-image: url("../images/headerFooter/searchIcon.jpg");
+  background-position: 2px 2px;
+  background-repeat: no-repeat;
+  border: 0px none;
+  border-radius: 0px 5px 5px 0px;
+  margin: 6px 0px 0px -5px;
+  padding: 4px 20px 4px 0px;
+  cursor:pointer;
+}
+/************ footer styles **********/
+footer {
+  float:left;
+  width:100%;
+  border-top:2px solid #ccc;
+  margin:0px 0px 40px 0px;
+  padding:0px 0px 0px 0px;
+}
+footer a:link{
+  color:#0071a2;
+  text-decoration:none;
+}
+footer a:visited{
+  color:#0071a2;
+  text-decoration:none;
+}
+footer a:hover{
+  color:#0071a2;
+  text-decoration:underline;
+}
+div#footerTopWrap{
+  width:975px;
+  margin:0 auto;
+}
+div#footerLowerWrap{
+  float:left;
+  Width:100%;
+  border-top:2px solid #ccc;
+}
+.Footer_left {
+  float:left;
+  width:40%;
+}
+.Footer_left p {
+  float:left;
+  border-left:5px solid #ffd800;
+  color:#333333; /*this is the font color */
+  padding:2px 0px 2px 16px;
+}
+.Footer_left p a { font-weight:bold; }
+.Footer_right {
+  float:right;
+  width:528px;
+  margin:14px 0px 0px 0px
+}
+.Footer_right ul{
+  float:left;
+  width:100%;
+  list-style-type:none;
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+}
+.Footer_right ul li{
+  /*
+  float:left;
+  width:24%;  
+  */
+  text-align:center;
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+
+}
+.Footer_lower{
+  float:left;
+  width:100%;
+  margin:10px 0px 10px 0px;
+  font-size:0.85em;
+}
+.Footer_lower ul{
+  /*float:left;*/
+  margin:0 auto;
+  width:614px;
+  list-style-type:none;
+  padding:0px 0px 0px 0px;
+}
+.Footer_lower ul li{
+  float:left;
+  width:92px;
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  border-right:1px solid #333333;
+  text-align:center;
+}
+.Footer_lower ul li:first-child { width:114px; }
+.Footer_lower ul li:nth-child(3){ width:114px; }
+.Footer_lower ul li:last-child { border-right:none; }
+div#pubcoLinks {
+  width:210px;
+  float:left;
+  border-right: 1px solid #333333;
+  margin:0px 0px 0px 0px;
+  padding:5px 0px 5px 0px;
+}
+div#pubcoLinks ul{
+  width:100%;
+  float:left;
+}
+div#pubcoLinks ul li{
+  width:62px;
+  float:left;
+  border-right: 1px solid #333333;
+}
+div#pubcoLinks ul li:first-child{ 
+  padding:0px 5px 0px 0px;
+  margin:0px 0px 0px 0px;
+  width:76px;
+}
+
+div#pubcoLinks ul li:last-child{ 
+  border-right:none;
+}
+div#country_links{
+width:138px;
+margin:0px 0px 0px 5px;
+padding:5px 0px 5px 0px;
+float:left;
+border-right:1px solid #333333;
+}
+
+div#country_links ul {
+  width:100%;
+  float:left;
+}
+div#country_links ul li {
+  width:31%;
+  float:left;
+}
+div#country_links ul{
+  padding:0px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
+}
+
+div#country_links ul li {
+  float:left;
+  width:77%;
+  padding:0px 0px 0px 5px;
+}
+div#country_links ul li:first-child{ 
+  width:22px;
+  border-right:1px solid #333333;
+}
+div#country_links ul li:last-child { width:100px; }
+div#fontSize{
+  float:left;
+  width:151px;
+}
+div#fontSize ul li{ } 
+div#fontSize ul{
+  float:left;
+  width:100%;
+} 
+div#fontSize ul li{
+  float:left;
+  width:6px;
+  text-align:center;
+  margin: 1px 0px 0px 5px; 
+  padding: 5px 0px 5px 0px;
+} 
+div#fontSize ul li:first-child { width:69px; }
+div#fontSize ul li:last-child { margin:-4px 0px 0px 5px; }

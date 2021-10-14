@@ -1,0 +1,574 @@
+.pageTop {
+	 margin: 78px auto 0px auto;
+}
+
+
+.col {
+	padding:0 15px 0 15px !important;
+}
+
+
+.banner-container {
+	margin: 0px;
+	padding: 0px;
+}
+
+.tab-content .row {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+h1 { 
+	font-size: 30px;
+	color: #404042;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 18px;
+	color: #404042;
+	line-height: 1.5
+}
+
+h3 {
+	font-size: 12px;
+	color: #404042;
+	margin: 5px auto;
+	line-height: 1.5;
+}
+
+h4{
+	font-size: 14px;
+	color: #404042;
+	margin: 5px auto;
+	line-height: 1.5;
+}
+
+h5 {
+	font-size: 10px;
+	color: #404042;
+	margin: 5px auto;
+}
+
+p{
+	font-size: 16px;
+	color: #404042;
+	line-height: 1.5;
+}
+
+li {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+li > a {
+	color: grey;
+	line-height: 1.5;
+}
+
+div > a{
+	color: grey;
+	line-height: 1.5;
+}
+
+a {
+	font-size: 16px;
+	color: grey;
+}
+
+address {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.nav-tabs.nav-justified>li>a {
+	border-bottom: none;
+	border-radius: 0 0 0 0;
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:hover, .nav-tabs.nav-justified>.active>a:focus {
+	border-radius: 0 0 0 0;
+}
+
+
+.rt-menu {
+	margin-top: 25px;
+}
+
+
+.greyBackground {
+	background-color: #404042;
+	color: white;
+	padding: 60px;
+}
+
+.whiteBackground {
+	padding: 60px;
+}
+
+.greyBackground h1, .greyBackground h2, .greyBackground h3, .greyBackground h4, .greyBackground h5, .greyBackground p, .greyBackground a {
+	color: white;
+}
+
+.icon {
+	float: left;
+	margin-right: 10px;
+}
+
+
+/*------VIDYARD VIDEO ----*/
+
+.vidyard_player > span {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 auto !important;
+}
+.innerContainer {
+	position: relative; 
+	display: block;
+	width: 100% !important;
+	height: 0;
+	padding: 56.25% 0 0 0; /* This should reflect your video aspect ratio */
+
+/* Use the following 2 lines if you wish to make your player align centrally */
+
+max-width: 100%; /* This should be the width of your player */
+margin: auto;
+}
+.outerContainer {
+    max-height: 100%; /* Set this to the height of your player */
+}
+.vidyard_player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;   /* These should be the dimensions of your player */
+    max-height: 100%;
+}
+.vidyard_player > span {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 auto !important;
+}
+
+/*------VIDYARD VIDEO ----*/
+
+
+
+/*-------------YL PAGE----------*/
+
+p.vyl-heading, h1.vyl-heading, h2.vyl-heading, h3.vyl-heading, h4.vyl-heading, h5.vyl-heading {
+	color: #37b3e7;
+	letter-spacing: 3px;
+}
+
+p.yl-heading, h1.yl-heading, h2.yl-heading, h3.yl-heading, h4.yl-heading, h5.yl-heading {
+	color: #8cc640;
+	letter-spacing: 3px;
+}
+
+
+
+/*-------------YL PAGE----------*/
+
+
+/*------------Webinars -------------*/
+
+.webinar-menu {
+	position: absolute;
+	top: 10px;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	max-width: 1055px;
+	margin:0 auto;
+}
+
+.btn-webinar {
+	color: white;
+	background-color: #9B59B6;
+	margin-right: 20px;
+}
+
+.btn-download {
+	color: white;
+	background-color: #5DADE2;
+	margin-right: 20px;
+}
+
+.btn-ng {
+	color: white;
+	background-color: #ffce00;
+	margin-right: 20px;
+}
+
+span.recordCarouselContainerDivider.webinar, span.recordCarouselContainerDivider.about {
+	background-color: #ffce00 !important;
+}
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav {
+  	background-color: black;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+
+/*------------Webinars -------------*/
+
+
+
+
+
+
+
+
+/*------------Conference Description -------------*/
+.conf-head {
+	background-color: #4b4b4b;  
+	color: white;
+	padding: 9px;
+}
+
+.conf-desc {
+	text-decoration: underline;
+}
+
+.speaker-desc {
+	font-size: 12px;
+}
+
+.yellowUnderline {
+	border-bottom: 10px #ffce00 solid;
+	padding-bottom: 5px;
+}
+
+/*------------Conference Description -------------*/
+
+
+.panel-body>a {
+	line-height: 1.5;
+}
+
+
+
+
+
+
+
+/* ABOUT US PAGE */
+
+/* Series banner section */
+
+
+#seriesBanner{
+    /*background-image: none;*/
+    background: #000 center no-repeat;
+}
+
+#seriesBanner .superheroImg{
+    /*height: 100%;*/
+    margin: 0 auto;
+    display: block;
+}
+
+.heroOverlay{
+    background-color: rgba(102, 102, 102,0.8);
+    position: absolute;
+    bottom: 0px;
+}
+
+.heroOverlayText{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    line-height: 1.071;
+    max-width: 1056px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+.heroOverlay.heroAbout{
+    background-color: transparent !important;
+    position: absolute;
+    top: 0px;
+}
+
+.heroOverlayText.header-text{
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    line-height: 1.25;
+    max-width: 650px;
+    margin: 25px 10px 6% 50% !important;
+}
+
+
+/* Series banner section */
+@media(max-width: 767px){
+#seriesBanner{
+	    height: 144px;
+	    /*background-image: url(http://d-ngl.cengage.com/covers/imageServlet?epi=10146259965966702329517769751686500408&image_type=OVTAB);*/
+	    background-repeat: no-repeat;
+  		background-size: cover;
+  		background-position: center;
+	}
+
+#seriesBanner .superheroImg{
+	    height: 100%;
+	    display: none;
+	}
+
+.heroOverlayText {
+    font-size: 22px;
+    margin: 5px auto;
+}
+}
+		
+
+
+/* END SERIES SECTION */
+
+.footer-banner {
+	margin-bottom: -10px !important;
+}
+
+
+@media (max-width:1250px) {
+	.heroOverlayText.header-text{
+	    font-size: 20px;
+	    color: rgb(255, 255, 255);
+	    line-height: 1.25;
+	    max-width: 650px;
+	    margin: 25px 10px 6% 40% !important;
+	}
+}
+
+
+@media (max-width: 970px) {
+
+.heroOverlayText.header-text{
+	max-width: 100%;
+	margin: 35px 10px 6% 10px !important;
+}
+}
+
+@media (max-width: 760px) {
+
+.heroOverlayText.header-text{
+    font-size: 15px;
+    color: black;
+    line-height: 1.25;
+    max-width: 100%;
+    margin: 150px auto !important;
+}
+
+
+#recordCarousel {
+	margin-top: 20%
+}
+
+}
+
+@media (max-width: 460px) {
+	#recordCarousel {
+	margin-top: 40%
+}
+
+}
+
+
+/* ABOUT US PAGE */
+
+
+
+
+
+
+/* SEARCH RESULTS TOP DESCRIPTION */
+
+	.searchresults-top {
+		font-size: 20px;
+	    font-weight: 600;
+	    line-height: 1.4;
+	    text-align: center;
+	    color: white;
+	    margin-top: 20px;
+	}
+	.searchresults-top-mobile {
+		display: none;
+	
+	}
+
+@media (max-width: 767px) {
+	.searchresults-top-mobile {
+		display: block;
+		color: black;
+	    font-size: 14px;
+	    font-weight: 600;
+	    text-align: left;
+	    margin: 20px;
+	    line-height: 1.25;
+	}
+
+	.searchresults-top {
+		display:none;
+	}
+
+	.searchresults-logo-top {
+		max-width: 225px;
+	}
+}
+
+@media (min-width: 1200px){
+	.searchresults-logo-top {
+		margin-left: 55%;
+	}
+	.searchresults-top {
+		margin-left: 50%;
+	}
+}
+
+/* END SEARCH RESULTS TOP DESCRIPTION */
+
+
+
+
+
+/* MEDIA QUERIES */	
+
+
+@media (min-width: 767px){
+.download-button{
+	margin: 10px 0 0 5px;
+}
+
+.webinar-button{
+	margin:5px 0 0 5px;
+}
+
+.infocus-button{
+	margin: 5px 0 0 5px;
+}
+
+.cta-button{
+	margin: 5px 0 0 5px;
+}
+
+.cta-button-mobile{
+	display: none;
+}
+
+.mobile-show {
+	display: none;
+}
+
+
+}
+
+@media (max-width: 1024px) {
+
+.mainPageContainer {
+	margin:4px auto 0px auto; 
+}
+
+
+.pageTop {
+	margin:4px auto 0px auto; 
+}
+}
+
+
+@media (max-width: 768px) {
+
+body {
+	padding-bottom: 300px !important;
+}
+.mainPageContainer {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.cta-button {
+	display: none;
+}
+
+.cta-button-mobile{
+	margin: 5px auto;
+}
+
+.mobile-hide {
+	display: none;
+}
+
+.mobile-small {
+	font-size: 11px;
+}
+
+.col {
+	padding:0 5px 0 5px !important;
+}
+
+.greyBackground {
+	padding: 20px;
+}
+
+.whiteBackground {
+	padding: 20px;
+}
+
+}
+
+@media (max-width: 390px) {
+
+body {
+	padding-bottom: 500px !important;
+}
+}

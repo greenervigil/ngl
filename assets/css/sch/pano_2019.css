@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+.panhd {
+	font-family: 'Open Sans', 'sans-serif'; 
+	font-size: 50px; 
+	line-height: 1.25em; 
+	color: #157477; 
+	text-align: center; 
+	padding-top: 12px;
+}
+
+.panintro {
+	font-family: 'Open Sans', 'sans-serif'; 
+	font-size:28px; 
+	line-height:1.5em; 
+	font-weight:200; 
+	color: #666666; 
+	text-align: center;
+}
+
+.pannote {
+	font-family: 'Open Sans', 'sans-serif'; 
+	font-size:28px; 
+	line-height:1.5em; 
+	font-weight:200; 
+	font-style: oblique; 
+	color: #157477; 
+	text-align: center;
+}
+
+.panbnnr {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#158387+0,0e575a+100 */
+background: #158387; /* Old browsers */
+background: -moz-linear-gradient(top,  #158387 0%, #0e575a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #158387 0%,#0e575a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #158387 0%,#0e575a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#158387', endColorstr='#0e575a',GradientType=0 ); /* IE6-9 */
+}
+
+#videobox {
+width: 60%;
+margin-left: 20%;
+margin-right: 20%;
+padding: 50px auto;
+}
+
+.videohd {
+	font-family: "Open Sans";
+	font-size: 24px;
+	line-height: 1.5em;
+	color: #ffffff;
+	text-align: center;
+	font-weight:100;
+	padding-bottom:6px;
+}
+
+.clear{
+clear: both;
+}
+
+@media only screen and (min-width:960px) {
+
+#videobar {
+width: 60%;
+margin-left: 20%;
+margin-right: 20%;
+padding: 50px auto;
+}
+
+}
+
+@media only screen and (min-width:481px) and (max-width:960px) {
+
+#videobar {
+width: 60%;
+margin-left: 20%;
+margin-right: 20%;
+padding: 50px auto;
+}
+}
+
+@media only screen and (max-width:480px) {
+
+#videobar {
+width: 60%;
+margin-left: 20%;
+margin-right: 20%;
+padding: 10px;
+}
+
+.videohd {
+	font-size: 20px;
+}
+
+}

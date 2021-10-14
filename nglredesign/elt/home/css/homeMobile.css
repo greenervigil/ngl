@@ -1,0 +1,144 @@
+@media(max-width: 767px){
+	/*#eltSuperHero{
+		background: url(../images/schoolhomebanner-t.png) no-repeat;
+		height: 216px;
+		background-size: cover;
+		background-position: top;
+	}*/
+
+	#NGLRedesignpageContainer .container {
+	    padding: 0px 12px;
+
+	}
+
+	.superheroBgImg{
+		background-image: block;
+		height: 216px;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	#superHeroContainer .item img{
+	    display: none;
+	}
+
+	#superHeroContainer .item .thumbnailContainer .superheroThumbnailImg{
+		padding: 0px;
+		/*height: 40px;*/
+		top: 40%;
+		width: 118px;
+		margin-left: 40px;
+	}
+
+	#eltSuperHero .heroOverlay{
+	    padding: 7px 0px;
+	}
+
+	#superHeroContainer .owl-controls i{
+		height: 30px;
+		width: 30px;
+		font-size: 30px;
+	}
+
+	#superHeroContainer .left, #superHeroContainer .right {
+		width: 11%;
+		padding-top: 0px;
+	}
+
+	#superHeroContainer .owl-controls {
+	    top: 48px;
+	}
+	.heroOverlay h1 {
+		/*padding: 0 12px;*/
+		font-size: 20px;
+		line-height: 1.143;
+		text-align: left;
+		/*-moz-transform: matrix( 0.41990748740185,0,0,0.41990748740185,0,0);
+		-webkit-transform: matrix( 0.41990748740185,0,0,0.41990748740185,0,0);
+		-ms-transform: matrix( 0.41990748740185,0,0,0.41990748740185,0,0);*/
+
+		/*custom*/
+		-moz-transform: matrix( 0.93,0,0,0.91990748740185,0,0);
+		-webkit-transform: matrix( 0.93,0,0,0.91990748740185,0,0);
+		-ms-transform: matrix( 0.93,0,0,0.91990748740185,0,0);
+	}
+
+	.heroOverlay h1 span{
+		max-width: 335px;
+	}	
+
+	#superHeroContainer .item img{
+	    /*height: auto;*/
+	    height: 216px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	/*---- story block section ---*/
+	#storyBlockContainer{
+		padding: 0 12px;
+	}
+
+	/*-- New title section --*/
+
+	#newTitleSection{
+		height: 127px;
+		padding-top: 20px;
+	}
+
+	.newTitleContent{
+		font-size: 25px;
+		line-height: 1.333;
+		text-align: left;
+		/*-moz-transform: matrix( 0.52082336045955,0,0,0.52135637430714,0,0);
+		-webkit-transform: matrix( 0.52082336045955,0,0,0.52135637430714,0,0);
+		-ms-transform: matrix( 0.52082336045955,0,0,0.52135637430714,0,0);*/
+	}
+
+	/*-- NGl Mission section --*/
+	#nglMissionSection{
+		height: 350px;
+	}
+
+	.nglMissionHeading{
+		font-size: 25px;
+		line-height: 1.333;
+		text-align: left;
+		/*-moz-transform: matrix( 0.52082336045955,0,0,0.52135637430714,0,0);
+		-webkit-transform: matrix( 0.52082336045955,0,0,0.52135637430714,0,0);
+		-ms-transform: matrix( 0.52082336045955,0,0,0.52135637430714,0,0);*/
+	}
+
+	.nglMissionContent{
+		font-size: 15px;
+		line-height: 1.462;
+		text-align: left;
+		/*-moz-transform: matrix( 0.52082336045955,0,0,0.52135637430714,0,0);
+		-webkit-transform: matrix( 0.52082336045955,0,0,0.52135637430714,0,0);
+		-ms-transform: matrix( 0.52082336045955,0,0,0.52135637430714,0,0);*/
+	}
+}
+
+@media(max-width: 424px){
+	/*#eltSuperHero{
+		background: url(../images/schoolhomebanner-m.png) no-repeat;
+		height: 216px;
+		background-size: cover;
+		background-position: top;
+	}
+*/
+	/*---- story block section ---*/
+	.story-block .block{
+		margin-left: 0px;
+	}
+
+	#storyBlockContainer .story-block .storyBlockLink{
+		line-height: 1;
+	}
+}
+
+@media(max-width: 330px){
+	#superHeroContainer .item .thumbnailContainer img{
+		top: 30%;
+	}
+}

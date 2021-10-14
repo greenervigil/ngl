@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Search Results</title>
+		<meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, initial-scale=1">
+
+		<link href="/css/imports/RedesignNGLRecordDetailPage.css" rel="stylesheet" type="text/css" />
+		<!-- <script type="text/javascript" src="//cdn.cengage.com/js/jquery/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="//cdn.cengage.com/js/jquery-ui/jquery-ui-1.11.4.min.js"></script> -->
+		<script src="/jscript/yepnope.1.5.4-min.js"></script>
+		<script src="/jscript/imports/RedesignNGLRecordDetailPage.js"></script>
+		<script src="/jscript/imports/RedesignNGLTwoColumnResultsPage.js"></script>
+
+		
+		<link rel="stylesheet" type="text/css" href="./css/searchresults.css">
+		<link rel="stylesheet" type="text/css" href="./css/searchresultsTablet.css">
+		<link rel="stylesheet" type="text/css" href="./css/searchresultsMobile.css">
+		<!-- Pulled from http://code.google.com/p/html5shiv/ -->
+		<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	</head>
+	<body class="schoolBody">
+		<header id="header_include" class="school"></header>
+		<div id="NGLRedesignpageContainer">
+				<section id="filterSection" class="filternav">
+					<div class="mainPageContainer">
+						<div class="container">
+							<nav class="navbar" role="navigation">
+								<div class="navbar-header" id="filterButtonContainer">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#filterMenucontainer">
+										<img src="images/icon-filter-selection.png"> Filter Selection
+									</button>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</section>
+				<!-- main filter section -->
+				<section id="filterMenuMainContainer" class="filternav">
+					<div class="mainPageContainer">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+									<ul class="collapse navbar-collapse nav navbar-nav" id="filterMenucontainer">								
+										<li class="selectedFilterContainer">
+											<div class="filterSelectionText">Your current selection(s):</div>
+											<div class="filterSelectedList">
+												<span class="filterSelectedListText">Grade 3 
+													<i class="fa fa-times" aria-hidden="true"></i>
+												</span>
+												<span class="filterSelectedListText">Assessment 
+													<i class="fa fa-times" aria-hidden="true"></i>
+												</span>
+												<span class="filterSelectedListText">Grade 3 
+													<i class="fa fa-times" aria-hidden="true"></i>
+												</span>
+												<span class="filterSelectedListText">Grade 3 
+													<i class="fa fa-times" aria-hidden="true"></i>
+												</span>
+												<span class="filterSelectedListText">Grade 3 
+													<i class="fa fa-times" aria-hidden="true"></i>
+												</span>
+												<span class="filterSelectedListText">Assessment 
+													<i class="fa fa-times" aria-hidden="true"></i>
+												</span>
+												<span class="filterSelectedListText">Grade 3 
+													<i class="fa fa-times" aria-hidden="true"></i>
+												</span>
+												<span class="filterSelectedListText">Grade 3 
+													<i class="fa fa-times" aria-hidden="true"></i>
+												</span>
+												<span class="filterSelectedListText">Grade 3 
+													<i class="fa fa-times" aria-hidden="true"></i>
+												</span>
+											</div>
+										</li>
+										<!-- <li>
+											<a href="#" >
+												<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+												<span class="menuLinksText">Correlations</span>
+											</a>
+										</li> -->
+										<li>
+											<a href="javascript:void(0);" class="subMenuparent collapsed" data-toggle="collapse" data-target="#filterSubmenu1">
+												<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+												<span class="menuLinksText">Subject</span>
+											</a>
+										</li>
+										<ul class="collapse navbar-collapse nav navbar-nav searchFilterSubmenu" id="filterSubmenu1">
+											<li>
+												<a href="#" >
+													<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+													<span class="menuLinksText">Reading</span>
+												</a>
+											</li>
+											<li>
+												<a href="#" >
+													<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+													<span class="menuLinksText">Vocabulary</span>
+												</a>											
+											</li>
+											<li>
+												<a href="#" >
+													<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+													<span class="menuLinksText">Grammer</span>
+												</a>
+											</li>
+										</ul>
+										<li>
+											<a href="javascript:void(0);" class="subMenuparent collapsed" data-toggle="collapse" data-target="#filterSubmenu2">
+												<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+												<span class="menuLinksText">Grade</span>
+											</a>
+										</li>
+										<ul class="collapse navbar-collapse nav navbar-nav searchFilterSubmenu" id="filterSubmenu2">
+											<li>
+												<div class="searchFilterCheckboxContainer">
+													<input type="checkbox" class = "searchFilterCheckbox" id="reading" name="searchFilterCheckbox">
+													<label for="reading">Reading</label>
+												</div>
+											</li>
+											<li>
+												<div class="searchFilterCheckboxContainer">
+													<input type="checkbox" class = "searchFilterCheckbox" id="vocabulary" name="searchFilterCheckbox">
+													<label for="vocabulary">Vocabulary</label>
+												</div>
+											</li>
+											<li>
+												<div class="searchFilterCheckboxContainer">
+													<input type="checkbox" class = "searchFilterCheckbox" id="grammer" name="searchFilterCheckbox">
+													<label for="grammer">Grammer</label>
+												</div>
+											</li>
+											<li>
+												<div class="searchFilterCheckboxContainer">
+													<input type="checkbox" class = "searchFilterCheckbox" id="grammer" name="searchFilterCheckbox">
+													<label for="grammer">Grammer</label>
+												</div>
+											</li>
+											<li>
+												<div class="searchFilterCheckboxContainer">
+													<input type="checkbox" class = "searchFilterCheckbox" id="grammer" name="searchFilterCheckbox">
+													<label for="grammer">Grammer</label>
+												</div>
+											</li>
+											<li>
+												<div class="searchFilterCheckboxContainer">
+													<input type="checkbox" class = "searchFilterCheckbox" id="grammer" name="searchFilterCheckbox">
+													<label for="grammer">Grammer</label>
+												</div>
+											</li>
+											<li>
+												<div class="searchFilterCheckboxContainer">
+													<input type="checkbox" class = "searchFilterCheckbox" id="grammer" name="searchFilterCheckbox">
+													<label for="grammer">Grammer</label>
+												</div>
+											</li>
+										</ul>
+										
+										<!-- <li>
+											<a href="#" class="subMenuparent collapsed" data-toggle="collapse" data-target="#filterSubmenu3">
+												<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+												<span class="menuLinksText">Reading Range</span>
+											</a>
+										</li>
+										<ul class="collapse navbar-collapse nav navbar-nav searchFilterSubmenu" id="filterSubmenu3">
+												<li><a href="">PreK-12 2016-17</a></li>
+												<li><a href="">Grades 9-12 CTE 2016-17</a></li>
+												<li><a href="">Spanish 2016-17</a></li>
+										</ul> -->
+										<!-- <li>
+											<a href="#" class="subMenuparent collapsed" data-toggle="collapse" data-target="#filterSubmenu4">
+												<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+												<span class="menuLinksText">10L–410L</span>
+											</a>
+										</li>
+										<ul class="collapse navbar-collapse nav navbar-nav searchFilterSubmenu" id="filterSubmenu4">
+												<li><a href="">PreK-12 2016-17</a></li>
+												<li><a href="">Grades 9-12 CTE 2016-17</a></li>
+												<li><a href="">Spanish 2016-17</a></li>
+										</ul> -->										
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>	
+			<div id="relativeSectionContainer">
+				<section id="seriesBanner">
+					<img class="img-responsive superheroImg" src="/assets/images/1920x/elt_newtitles_banner.jpg" alt="New Titles from National Geographic Learning">
+						
+					<div class="row" style="width: 975px;">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left heroOverlay">
+							<div class="seriesContainer heroOverlayText">
+								New Titles from National Geographic Learning
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- advertisement Section -->
+
+				<!-- <section style="padding: 10px;">
+					<div class="mainPageContainer">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div style="position: relative;float: left;width: 100%;">
+										<p style="font-size: 14px;line-height: 1.5;">At National Geographic Learning our goal is to help learners and teachers of English to achieve personal success and be better citizens of the 21st century. We want English language teachers and their students to experience the excitement and joy of learning, and to bring their classroom to life. Our mission is to inspire students to learn and acquire the skills they need to be successful in their careers or educational experiences.</p>
+										<img src="http://ngl.cengage.com/assets/html/myelt/images/myelt_banner.jpg" style="width: 100%;margin-top: 4px;" />
+										<section title="Video Banner" class="video videoHero" style="background:url('../../../assets/images/724x/elt_video_hoganphoto.jpg') no-repeat;background-size:100%;float: left;height: 224px;margin-bottom: 20px;padding: 0px;width: 100%;margin-top: 10px;">
+
+											<div class="video-container" id="videoMulti"  player="jwplayer3" align="left" style="border:1px solid gray;margin: 20px 20px 0px 0px;width: 320px;height: 180px; float: right;"></div>
+										
+										
+										<script src="../../../assets/js/jwplayer/jwplayer.js"></script> 
+										<script>
+											setTimeout(function(){ 
+											  $("#videoMulti").player({
+												 xml:"../../../assets/xml/myelt_js.xml",
+												  key:"XLYRl1EpDwaxlnstw5N/xtaMLjnkxoGsqtwtlRpYt9g=",
+											 });
+											}, 1500);
+										</script>
+
+										</section>									
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section> -->
+
+				<!-- Search results title-->
+				<section id="searchresultstitleContainer">
+					<div class="mainPageContainer">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<img src="images/icon_series.png" class="img-responsive searchresultstitleImg">
+									<span class="searchresultstitle">Series results</span>
+									<span class="float-right seriesSearchResultShowHideIcon">
+										<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</section>
+
+				<!-- Search results Series-->
+				<section id="searchresultsSeries" class="show">
+					<div class="mainPageContainer">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="subResultsInfocontainer">
+										<ul class="nav">
+											<li class="searchResultsPageCountContainer">
+												<div class="searchResultsPageCount">
+													Showing <span class="currentPageNumber">1</span> of <span class="totalPageNumber">2,576</span> results
+												</div>	
+											</li>
+											<li class ="searchResultsPrintContainer">
+												<div class="searchResultsPrint">
+													<a href="#"><img src="images/printer.png"> Print</a>
+												</div>
+											</li>
+											<li class ="searchResultsDownloadsContainer">
+												<div class="searchResultsDownloads">
+													<a href="#"><img src="images/download.png"> Downloads</a>
+												</div>
+											</li>										
+											<li>
+												<div class="searchResultsSorting">
+													Sort by 
+													<select>
+														<option>asc</option>
+														<option>author</option>
+													</select>
+												</div>
+											</li>
+											<li>
+												<div class="searchResultsperPage">
+													Results/page
+													<select>
+														<option>12</option>
+														<option>15</option>
+													</select>
+												</div>
+											</li>
+											<li>
+												<div class="searchResultsPagination">
+													<ul>
+														<li>
+															<a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+														</li>
+														<li class="selectedPaginationNumber"><a href="#" >1</a></li>
+														<li class="selectedPaginationNumber"><a href="#" >2</a></li>
+														<li class="selectedPaginationNumber"><a href="#" >3</a></li>
+														<li class="currentPageNumber">4</li>
+														<li><a href="#" >5</a></li>
+														<li>.</li>
+														<li>.</li>
+														<li>.</li>
+														<li><a href="#">12</a></li>
+														<li>
+															<a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<!-- <li>
+												<div class="searchResultsDownloads">
+													<a href="#"><img src="images/download.png"> Downloads</a>
+												</div>
+											</li> -->	
+											<!-- <li>
+												<div class="searchResultsPrint">
+													<a href="#"><img src="images/printer.png"> Print</a>
+												</div>
+											</li> -->
+										</ul>
+									</div>
+								</div>
+								<div class="searchResultsListMainContainer">
+									<!-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 seriesMainContainer">
+										<div class="searchResultsListContainer seriesResultLeft">
+											<a href="#">
+												<img src="images/seriesImg2.png" class="img-responsive">
+											</a>
+											<h2>Reach for Reading</h2>
+											<p>Becky Tarver Chase, Kristin L. Johannsen, David Bohlke</p>
+											<a href="#" class="searchResultsListBtn">Learn More</a>
+										</div>
+									</div>	 -->	
+									<div class="searchResultsListSeriesResponsiveContainer">
+										<div class="searchResultsListContainer seriesResultRight">
+											<a href="#">
+												<img src="images/seriesImg2.png" class="img-responsive">
+											</a>
+											<h2>Reach for Reading</h2>
+											<p>Becky Tarver Chase, Kristin L. Johannsen, David Bohlke</p>
+											<div class="searchResultsListBtnContainer">
+												<a href="#" class="searchResultsListBtn">Learn More</a>
+											</div>
+										</div>
+									</div>
+									<div class="searchResultsListSeriesResponsiveContainer">
+										<div class="searchResultsListContainer seriesResultRight">
+											<a href="#">
+												<img src="images/seriesImg2.png" class="img-responsive">
+											</a>
+											<h2>Reach for Reading</h2>
+											<p>Becky Tarver Chase, Kristin L. Johannsen, David Bohlke</p>
+											<div class="searchResultsListBtnContainer">
+												<a href="#" class="searchResultsListBtn">Learn More</a>
+											</div>
+										</div>
+									</div>
+									<div class="searchResultsListSeriesResponsiveContainer">
+										<div class="searchResultsListContainer seriesResultRight">
+											<a href="#">
+												<img src="images/seriesImg2.png" class="img-responsive">
+											</a>
+											<h2>Reach for Reading</h2>
+											<p>Becky Tarver Chase, Kristin L. Johannsen, David Bohlke</p>
+											<div class="searchResultsListBtnContainer">
+												<a href="#" class="searchResultsListBtn">Learn More</a>
+											</div>
+										</div>
+									</div>
+									<div class="searchResultsListSeriesResponsiveContainer">
+										<div class="searchResultsListContainer seriesResultRight">
+											<a href="#">
+												<img src="images/seriesImg2.png" class="img-responsive">
+											</a>
+											<h2>Reach for Reading</h2>
+											<p>Becky Tarver Chase, Kristin L. Johannsen, David Bohlke</p>
+											<div class="searchResultsListBtnContainer">
+												<a href="#" class="searchResultsListBtn">Learn More</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</section>
+
+				<!-- Search results single item title-->
+				<section id="searchresultsSingleItemtitleContainer">
+					<div class="mainPageContainer">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<img src="images/icon-product.png" class="img-responsive searchresultstitleImg">
+									<span class="searchresultstitle">Single item results</span>
+									<span class="float-right productSearchResultShowHideIcon">
+										<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</section>
+
+				<!--Search series result single item-->
+				<section id="searchresultsSingleItem" class="show">
+					<div class="mainPageContainer">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="subResultsInfocontainer">
+										<ul class="nav">
+											<li class="searchResultsPageCountContainer">
+												<div class="searchResultsPageCount">
+													Showing <span class="currentPageNumber">1</span> of <span class="totalPageNumber">2,576</span> results
+												</div>	
+											</li>
+											<li class ="searchResultsPrintContainer">
+												<div class="searchResultsPrint">
+													<a href="#"><img src="images/printer.png"> Print</a>
+												</div>
+											</li>
+											<li class ="searchResultsDownloadsContainer">
+												<div class="searchResultsDownloads">
+													<a href="#"><img src="images/download.png"> Downloads</a>
+												</div>
+											</li>										
+											<li>
+												<div class="searchResultsSorting">
+													Sort by 
+													<select>
+														<option>asc</option>
+														<option>author</option>
+													</select>
+												</div>
+											</li>
+											<li>
+												<div class="searchResultsperPage">
+													Results/page
+													<select>
+														<option>12</option>
+														<option>15</option>
+													</select>
+												</div>
+											</li>
+											<li>
+												<div class="searchResultsPagination">
+													<ul>
+														<li>
+															<a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+														</li>
+														<li class="selectedPaginationNumber"><a href="#" >1</a></li>
+														<li class="selectedPaginationNumber"><a href="#" >2</a></li>
+														<li class="selectedPaginationNumber"><a href="#" >3</a></li>
+														<li class="currentPageNumber">4</li>
+														<li><a href="#" >5</a></li>
+														<li>.</li>
+														<li>.</li>
+														<li>.</li>
+														<li><a href="#">12</a></li>
+														<li>
+															<a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+														</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="searchResultsListMainContainer">
+									<div class="searchResultsListResponsiveContainer">
+										<div class="searchresultsSingleItemList searchSingleItemImgContainer">
+											<img src="images/set.png" class="searchSingleItemImg">
+										</div>
+										<div class="searchresultsSingleItemList searchSingleItemDetailContainer">
+											<div class="newItemContainer">
+												<label class="newItem">NEW</label>
+											</div>
+											<h2>Reach for Reading K: Classroom Set + Leveled Library Classroom Set + Practice Books</h2>
+											<span class="float-left">9781305254503</span>
+											<span class="float-right">$2,647.98</span>
+											<div class="searchSingleItemButtonContainer">
+												<a href="#" class="float-left singleItemBtnLearn">Learn More</a>
+												<a href="#" class="float-right singleItemBtnBuy">Buy</a>
+											</div>
+										</div>	
+									</div>
+									<div class="searchResultsListResponsiveContainer">
+										<div class="searchresultsSingleItemList searchSingleItemImgContainer">
+											<img src="images/set.png" class="searchSingleItemImg">
+										</div>
+										<div class="searchresultsSingleItemList searchSingleItemDetailContainer">
+											<div class="newItemContainer">
+												<label class="newItem">NEW</label>
+											</div>
+											<h2>An Integrated Approach to Health Sciences: Anatomy and Physiology, Math, Chemistry and Medical Microbiology</h2>
+											<p class="lexileDRA">GR: 9, 10, 11, 12</p>
+											<p class="author">Bruce J. Colbert; Jeff Ankney; Joe Wilson; John Havrilla</p>
+											<p class="bookEdition">2nd Edition</p>
+											<p class="copyRight">© 2012 ,  Published</p>
+											<span class="float-left">9781305254503</span>
+											<span class="float-right">$2,647.98</span>
+											<div class="searchSingleItemButtonContainer">
+												<a href="#" class="float-left singleItemBtnLearn">Learn More</a>
+												<a href="#" class="float-right singleItemBtnBuy">Buy</a>
+											</div>
+										</div>	
+									</div>
+									<div class="searchResultsListResponsiveContainer">
+										<div class="searchresultsSingleItemList searchSingleItemImgContainer">
+											<img src="images/set.png" class="searchSingleItemImg">
+										</div>
+										<div class="searchresultsSingleItemList searchSingleItemDetailContainer">
+											<div class="newItemContainer">
+												<label class="newItem">NEW</label>
+											</div>
+											<h2>Reach for Reading K: Classroom Set + Leveled Library Classroom Set + Practice Books</h2>
+											<span class="float-left">9781305254503</span>
+											<span class="float-right">$2,647.98</span>
+											<div class="searchSingleItemButtonContainer">
+												<a href="#" class="float-left singleItemBtnLearn">Learn More</a>
+												<a href="#" class="float-right singleItemBtnBuy">Buy</a>
+											</div>
+										</div>	
+									</div>
+									<div class="searchResultsListResponsiveContainer">
+										<div class="searchresultsSingleItemList searchSingleItemImgContainer">
+											<img src="images/set.png" class="searchSingleItemImg">
+										</div>
+										<div class="searchresultsSingleItemList searchSingleItemDetailContainer">
+											<div class="newItemContainer">
+												<label class="newItem">NEW</label>
+											</div>
+											<h2>Reach for Reading K: Classroom Set + Leveled Library Classroom Set + Practice Books</h2>
+											<p class="author">Jessica Williams</p>
+											<p class="bookEdition">2nd Edition</p>
+											<p class="copyRight">©2015, Published</p>
+											<span class="float-left">9781305254503</span>
+											<span class="float-right">$2,647.98</span>
+											<div class="searchSingleItemButtonContainer">
+												<a href="#" class="float-left singleItemBtnLearn">Learn More</a>
+												<a href="#" class="float-right singleItemBtnBuy">Buy</a>
+											</div>
+										</div>	
+									</div>
+									<div class="searchResultsListResponsiveContainer">
+										<div class="searchresultsSingleItemList searchSingleItemImgContainer">
+											<img src="images/productImg.png" class="searchSingleItemImg">
+										</div>
+										<div class="searchresultsSingleItemList searchSingleItemDetailContainer">
+											<div class="newItemContainer">
+												<label class="newItem">NEW</label>
+											</div>
+											<h2>Reach for Reading K: Classroom Set + Leveled Library Classroom Set + Practice Books</h2>
+											<span class="float-left">9781305254503</span>
+											<span class="float-right">$2,647.98</span>
+											<div class="searchSingleItemButtonContainer">
+												<a href="#" class="float-left singleItemBtnLearn">Learn More</a>
+												<a href="#" class="float-right singleItemBtnBuy">Buy</a>
+											</div>
+										</div>	
+									</div>
+									<div class="searchResultsListResponsiveContainer">
+										<div class="searchresultsSingleItemList searchSingleItemImgContainer">
+											<img src="images/set.png" class="searchSingleItemImg">
+										</div>
+										<div class="searchresultsSingleItemList searchSingleItemDetailContainer">
+											<div class="newItemContainer">
+												<label class="newItem">NEW</label>
+											</div>
+											<h2>Reach for Reading K: Classroom Set + Leveled Library Classroom Set + Practice Books</h2>
+											<span class="float-left">9781305254503</span>
+											<span class="float-right">$2,647.98</span>
+											<div class="searchSingleItemButtonContainer">
+												<a href="#" class="float-left singleItemBtnLearn">Learn More</a>
+												<a href="#" class="float-right singleItemBtnBuy">Buy</a>
+											</div>
+										</div>	
+									</div>
+									<div class="searchResultsListResponsiveContainer">
+										<div class="searchresultsSingleItemList searchSingleItemImgContainer">
+											<img src="images/set.png" class="searchSingleItemImg">
+										</div>
+										<div class="searchresultsSingleItemList searchSingleItemDetailContainer">
+											<div class="newItemContainer">
+												<label class="newItem">NEW</label>
+											</div>
+											<h2>Reach for Reading K: Classroom Set + Leveled Library Classroom Set + Practice Books</h2>
+											<span class="float-left">9781305254503</span>
+											<span class="float-right">$2,647.98</span>
+											<div class="searchSingleItemButtonContainer">
+												<a href="#" class="float-left singleItemBtnLearn">Learn More</a>
+												<a href="#" class="float-right singleItemBtnBuy">Buy</a>
+											</div>
+										</div>	
+									</div>
+									<div class="searchResultsListResponsiveContainer">
+										<div class="searchresultsSingleItemList searchSingleItemImgContainer">
+											<img src="images/productImg.png" class="searchSingleItemImg">
+										</div>
+										<div class="searchresultsSingleItemList searchSingleItemDetailContainer">
+											<div class="newItemContainer">
+												<label class="newItem">NEW</label>
+											</div>
+											<h2>Reach for Reading K: Classroom Set + Leveled Library Classroom Set + Practice Books</h2>
+											<span class="float-left">9781305254503</span>
+											<span class="float-right">$2,647.98</span>
+											<div class="searchSingleItemButtonContainer">
+												<a href="#" class="float-left singleItemBtnLearn">Learn More</a>
+												<a href="#" class="float-right singleItemBtnBuy">Buy</a>
+											</div>
+										</div>	
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>			
+				</section>
+			</div>		
+			<div id="footer_include"></div>
+		</div>	
+	</body>
+</html>

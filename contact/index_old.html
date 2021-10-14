@@ -1,0 +1,1294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1024, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <title>Customer Support</title>
+    <link rel="stylesheet" type="text/css" href="../css/k12-lp-customer-support-1-1.css" />
+    <link rel="stylesheet" type="text/css" href="../css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="../css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+    <script type="text/javascript" src="/search/ruxitagentjs_ICA27SVfqrx_10161190228170440.js"
+        data-dtconfig="app=ea7c4b59f27d43eb|srms=1,1,,,|uxrgcm=100,25,300,3;100,25,300,3|featureHash=ICA27SVfqrx|lastModification=1551864570456|srsr=25000|dtVersion=10161190228170440|tp=500,50,0,1|rdnt=1|uxrgce=1|agentUri=/search/ruxitagentjs_ICA27SVfqrx_10161190228170440.js|reportUrl=/search/rb_bf72382oux|rid=RID_-549854184|rpid=-951095915|domain=cengage.com"></script>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"
+        integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw=" crossorigin="anonymous"></script>
+    <script src="/jscript/imports/googleTagManager.js"></script>
+    <script src="https://cdn.cengage.com/js/contrib/jquery.cookie.min.js"></script>
+    <script>
+        (function () {
+            var env = "", countryCode, overlayDisplay;
+            var environmentSpecific = function () {
+                if (window.location.hostname.toUpperCase().indexOf("S-") != -1) {
+                    env = "s-";
+                } else if (window.location.hostname.toUpperCase().indexOf("D-") != -1) {
+                    env = "d-";
+                } else {
+                    env = "";
+                }
+            }
+            environmentSpecific();
+            var cookieDomain = env + "ngl.cengage.com";
+            var getCountryCode = function (callback) {
+                if ($.cookie("overlayDisplay")) {
+                    overlayDisplay = $.cookie("overlayDisplay");
+                }
+                if ($.cookie("P_Country_Cd")) {
+                    countryCode = $.cookie("P_Country_Cd");
+                    callback();
+
+                } else {
+                    $.post("https://" + env + "ngl.cengage.com/search/geocountrylocator",
+                        {},
+                        function (data, status) {
+                            countryCode = data.country;
+                            $.cookie("P_Country_Cd", countryCode, { path: "/;secure", expires: 0 });
+                            callback();
+                        });
+                }
+            }
+
+
+
+            $(document).ready(function () {
+
+
+                var showOverlay = function () {
+                    if (countryCode != undefined && countryCode != 'US' && overlayDisplay == undefined) {
+                        $('body').addClass('nobodyscroll');
+                        $('#primaryHomeBody').show();
+                    }
+                    else {
+
+                        $('body').removeClass('nobodyscroll');
+                        $('#primaryHomeBody').hide();
+                    }
+                }
+                getCountryCode(showOverlay);
+
+                $('.NGLPageLink').on('click', function () {
+                    $('body').removeClass('nobodyscroll');
+                    $('#primaryHomeBody').hide();
+                    if (!($.cookie("overlayDisplay"))) {
+                        $.cookie("overlayDisplay", 'yes', { domain: cookieDomain, path: "/" });
+                    }
+                });
+
+
+
+            });
+
+            $(window).load(function () {
+                if (env != "") {
+                    $('.ELTPageLink').each(function () {
+                        var link = $(this).attr('href');
+                        if (link.indexOf('eltngl.com') > -1) {
+                            $(this).attr('href', link.replace('eltngl.com', env + 'www.eltngl.com'));
+                        }
+                    });
+                }
+            });
+
+        })();
+
+    </script>
+    <script>
+        var dataLayer = window.dataLayer = window.dataLayer || [];
+        var channel = 'true' === 'true' ? 'School' : 'ELT';
+        var countryCode = $.cookie('P_Country_Cd');
+        window.dataLayer.push({
+            'countryCode': countryCode,
+            'channel': channel,
+            'siteSection': 'Catalog and Home',
+            'pagedelay': 'true'
+        });
+    </script>
+
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push(
+                { 'gtm.start': new Date().getTime(), event: 'gtm.js' }
+            ); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W9HXB8M');
+	//End Google Tag Manager
+    </script>
+    <!-- End of Google Tag Manager -->
+
+    <!-- The script tag should live in the head of your page if at all possible -->
+    <link href="/nglredesign/school/nglschoolcommon.min.css?v=2019364" rel="stylesheet" />
+    <!--[if IE 8]><html lang="en-us" class="ie8"><![endif]-->
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link href="/assets/css/sch/K12_2021.css" rel="stylesheet" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="k12-lp-customer-support-1" />
+    <header id="header_include" class="school"></header>
+    <div class="container-center-horizontal">
+      <div class="k12-lp-customer-support-1 screen" onclick="window.open('javascript:history.back()', '_self');">
+        <div class="overlap-group9">
+          <div class="digital-support opensans-normal-white-28px">Digital Support</div>
+          <div class="mask-group-125">
+            <div class="group-289">
+              <div class="customer-support opensans-semi-bold-white-50px">Customer Support</div>
+            </div>
+          </div>
+        </div>
+        <div class="overlap-group8">
+          <div class="rectangle-269 border-1px-dove-gray"></div>
+          <div class="text-269">
+            <span class="opensans-semi-bold-mine-shaft-30px">For digital support on </span
+            ><span class="span1">Big Ideas Learning</span
+            ><span class="opensans-semi-bold-mine-shaft-30px"> programs, please visit their <br /></span
+            ><span class="span3">Contact Us</span><span class="opensans-semi-bold-mine-shaft-30px"> page.</span>
+          </div>
+          <a
+            href="https://mysupport.cengage.com/loglessSupport/?prdName=NGL%20-%20Journal%20Replenishment&PI=*K12"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+          >
+            <div class="group-146 border-1px-granite-gray">
+              <img class="access" src="../img/access@1x.png" />
+              <div class="text-2 opensans-bold-black-24px">Resource<br />Replenishment</div>
+              <div class="text-2-1 opensans-normal-black-18px">Replenishment Support</div>
+            </div></a
+          ><a
+            href="https://ngl.cengage.com/assets/html/SampleNow/index.html"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+          >
+            <div class="group-149 border-1px-granite-gray">
+              <img class="asset-1" src="../img/asset-1@1x.png" />
+              <div class="overlap-group-1">
+                <div class="samples opensans-bold-black-24px">Samples</div>
+                <div class="text-27 opensans-normal-black-18px">Request Product Samples</div>
+              </div>
+            </div></a
+          ><a
+            href="https://www.cengage.com/repfinder/natgeo/?ngl=true"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+          >
+            <div class="group-148">
+              <div class="overlap-group1">
+                <div class="rectangle-26 border-1px-granite-gray"></div>
+                <div class="text-273 opensans-normal-black-18px">Contact Your Sales <br />Representative</div>
+                <div class="quotes opensans-bold-black-24px">Quotes</div>
+                <div class="repeat-grid-1"></div>
+              </div></div></a
+          ><a href="k12-ordering-website.html" onclick="window.event.stopPropagation()">
+            <div class="group-147 border-1px-granite-gray">
+              <img class="mask-group-109" src="../img/mask-group-109@1x.png" />
+              <div class="overlap-group2">
+                <div class="place-an-order opensans-normal-black-18px">Place an Order</div>
+                <div class="order opensans-bold-black-24px">Order Instructions</div>
+              </div>
+            </div></a
+          ><a
+            href="https://mysupport.cengage.com/loglessSupport?PI=*K12%20Digital%20Course%20Support"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+          >
+            <div class="group-152 border-1px-granite-gray">
+              <img class="mask-group-110" src="../img/mask-group-103-1@1x.png" />
+              <div class="overlap-group3">
+                <div class="text-2-2 opensans-normal-black-18px">
+                  Digital Access Support,<br />Training Library, <br />Technical Support
+                </div>
+                <div class="digital-support-1 opensans-bold-black-24px">Digital Support</div>
+              </div>
+            </div></a
+          ><a
+            href="https://www.bigideaslearning.com/customer-support"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+            ><div class="contact-us">Contact Us</div></a
+          >
+          <div class="rectangle-183"></div>
+          <div class="group-76">
+            <div class="text-275 opensans-semi-bold-sizzling-sunrise-50px">Digital and Classroom Materials</div>
+            <div class="national-geographic opensans-semi-bold-white-20px">
+              National Geographic Learning, a part of Cengage Learning, is a leading educational publisher of K–12
+              School digital and curricular classroom materials. Through our digital learning programs and classroom
+              learning resources, schools experience the excitement and joy of learning that National Geographic
+              explorers, scientists, writers and photographers experience.
+            </div>
+          </div>
+          <div class="overlap-group5">
+            <div class="group-279 border-1px-granite-gray">
+              <img class="mask-group-103" src="../img/mask-group-103@1x.png" />
+              <div class="overlap-group-2">
+                <div class="text-27 opensans-normal-black-18px">Status, Issue, Invoice</div>
+                <div class="order opensans-bold-black-24px">Order Support</div>
+              </div>
+              <img class="polygon-4" src="../img/polygon-4@1x.png" />
+            </div>
+            <a
+              href="https://mysupport.cengage.com/loglessSupport?prdName=Issue%20with%20My%20Order&PI=*K12%20Problem%20with%20an%20Order"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-280 smart-layers-pointers border-1px-granite-gray hidden">
+                <div class="overlap-group4">
+                  <div class="text-27 opensans-normal-black-18px">Status, Issue, Invoice</div>
+                  <div class="order opensans-bold-black-24px">Order Support</div>
+                </div>
+                <img class="mask-group-103-1" src="../img/mask-group-103@1x.png" />
+                <img class="polygon-4-1" src="../img/polygon-3@1x.png" />
+                <div class="overlap-group-3">
+                  <a
+                    href="https://mysupport.cengage.com/loglessSupport?prdName=Invoice%20Copy&PI=*K12%20Order%20Support&SI=Invoice%20Copy"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                    ><div class="invoice-copy opensans-semi-bold-black-24px">Invoice Copy</div></a
+                  >
+                  <div class="group-435 smart-layers-pointers hidden">
+                    <a
+                      href="https://mysupport.cengage.com/loglessSupport?prdName=Invoice%20Copy&PI=*K12%20Order%20Support&SI=Invoice%20Copy"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                      ><div class="invoice-copy opensans-semi-bold-black-24px">Invoice Copy</div></a
+                    >
+                  </div>
+                </div>
+                <div class="overlap-group3-1">
+                  <div class="overlap-group1-1">
+                    <a
+                      href="https://mysupport.cengage.com/loglessSupport?prdName=Issue%20with%20My%20Order&PI=*K12%20Problem%20with%20an%20Order"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                      ><div class="link opensans-semi-bold-black-24px">Issue with an Order</div></a
+                    >
+                    <div class="group-437 smart-layers-pointers hidden">
+                      <div class="overlap-group-4">
+                        <div class="rectangle-296"></div>
+                        <a
+                          href="https://mysupport.cengage.com/loglessSupport?prdName=Issue%20with%20My%20Order&PI=*K12%20Problem%20with%20an%20Order"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link opensans-semi-bold-black-24px">Issue with an Order</div></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    href="https://mysupport.cengage.com/loglessSupport?prdName=Availability,%20Status,%20Tracking&PI=*K12%20Availability,%20Status,%20Tracking"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-440">
+                      <div class="overlap-group2-1">
+                        <a
+                          href="https://mysupport.cengage.com/loglessSupport?prdName=Availability,%20Status,%20Tracking&PI=*K12%20Availability,%20Status,%20Tracking"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link opensans-semi-bold-black-24px">Availability, Status, Tracking</div></a
+                        >
+                        <div class="group-439 smart-layers-pointers hidden">
+                          <div class="overlap-group-5">
+                            <div class="rectangle-297"></div>
+                            <a
+                              href="https://mysupport.cengage.com/loglessSupport?prdName=Availability,%20Status,%20Tracking&PI=*K12%20Availability,%20Status,%20Tracking"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="link opensans-semi-bold-black-24px">Availability, Status, Tracking</div></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/en/nglstore"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                    ><div class="text-280 opensans-semi-bold-black-24px">Self-service for schools/districts</div></a
+                  ><a
+                    href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/en/nglstore"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-442">
+                      <div class="group-441 smart-layers-pointers hidden">
+                        <a
+                          href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/en/nglstore"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-281 opensans-semi-bold-black-24px">
+                            Self-service for schools/districts
+                          </div></a
+                        >
+                      </div>
+                    </div></a
+                  >
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="overlap-group6">
+            <div class="group-282 border-1px-granite-gray">
+              <img class="mask-group-107" src="../img/mask-group-107@1x.png" />
+              <div class="overlap-group-6">
+                <div class="text-2-2 opensans-normal-black-18px">Address, Policy, <br />Preauthorization</div>
+                <div class="returns opensans-bold-black-24px">Returns</div>
+              </div>
+              <img class="polygon" src="../img/polygon-4@1x.png" />
+            </div>
+            <div class="group-283 smart-layers-pointers border-1px-granite-gray hidden">
+              <div class="overlap-group2-2">
+                <div class="text-2-2 opensans-normal-black-18px">Address, Policy, <br />Preauthorization</div>
+                <div class="returns-1 opensans-bold-black-24px">Returns</div>
+              </div>
+              <img class="mask-group-107-1" src="../img/mask-group-107@1x.png" />
+              <img class="polygon-1" src="../img/polygon-3@1x.png" />
+              <a
+                href="https://mysupport.cengage.com/loglessSupport?prdName=Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization%20&PI=*K12%20Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization"
+                onclick="window.event.stopPropagation()"
+                target="_blank"
+              >
+                <div class="group-444">
+                  <div class="overlap-group-7">
+                    <a
+                      href="https://mysupport.cengage.com/loglessSupport?prdName=Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization%20&PI=*K12%20Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                      ><div class="link-1 opensans-semi-bold-black-24px">Pre-authorization</div></a
+                    ><a onclick="window.event.stopPropagation()">
+                      <div class="group-443 smart-layers-pointers hidden">
+                        <a
+                          href="https://mysupport.cengage.com/loglessSupport?prdName=Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization%20&PI=*K12%20Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="pre-authorization opensans-semi-bold-black-24px">Pre-authorization</div></a
+                        >
+                      </div></a
+                    >
+                  </div>
+                </div></a
+              ><a
+                href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/CenSVPLeftNavigationView?catalogId=12005&pageTitle=Returns+Policy+%7C+NGLStores&langId=-1&pageName=CenB2BReturnsPolicyESpot&storeId=11755"
+                onclick="window.event.stopPropagation()"
+                target="_blank"
+              >
+                <div class="group-446">
+                  <div class="overlap-group1-2">
+                    <a
+                      href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/CenSVPLeftNavigationView?catalogId=12005&pageTitle=Returns+Policy+%7C+NGLStores&langId=-1&pageName=CenB2BReturnsPolicyESpot&storeId=11755"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                      ><div class="link-1 opensans-semi-bold-black-24px">Returns Policy &amp;<br />Address</div></a
+                    >
+                    <div class="group-445 smart-layers-pointers hidden">
+                      <a
+                        href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/CenSVPLeftNavigationView?catalogId=12005&pageTitle=Returns+Policy+%7C+NGLStores&langId=-1&pageName=CenB2BReturnsPolicyESpot&storeId=11755"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                        ><div class="text-285 opensans-semi-bold-black-24px">Returns Policy &amp;<br />Address</div></a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="overlap-group7">
+            <div class="group-285 border-1px-granite-gray">
+              <img class="access-1" src="../img/access-1@1x.png" />
+              <div class="text-2 opensans-bold-black-24px">Privacy and Accessibility</div>
+              <div class="text-2-1 opensans-normal-black-18px">Policies and Terms of Use</div>
+              <img class="polygon" src="../img/polygon-4@1x.png" />
+            </div>
+            <div class="group-286 smart-layers-pointers border-1px-granite-gray hidden">
+              <div class="text-288 opensans-normal-black-18px">Policies and Terms of Use</div>
+              <div class="text-289 opensans-bold-black-24px">Privacy and Accessibility</div>
+              <img class="access-2" src="../img/access-1@1x.png" />
+              <img class="polygon-1" src="../img/polygon-3@1x.png" />
+              <div class="overlap-group3-2">
+                <a href="https://www.cengage.com/privacy/" onclick="window.event.stopPropagation()" target="_blank">
+                  <div class="group-453">
+                    <div class="overlap-group">
+                      <a
+                        href="https://www.cengage.com/privacy/"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                        ><div class="link-1 opensans-semi-bold-black-24px">Privacy Policy</div></a
+                      >
+                      <div class="group-45 smart-layers-pointers hidden">
+                        <a
+                          href="https://www.cengage.com/privacy/"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-semi-bold-black-24px">Privacy Policy</div></a
+                        >
+                      </div>
+                    </div>
+                  </div></a
+                ><a
+                  href="https://www.cengage.com/accessibility/"
+                  onclick="window.event.stopPropagation()"
+                  target="_blank"
+                >
+                  <div class="group-455">
+                    <div class="overlap-group">
+                      <a
+                        href="https://www.cengage.com/accessibility/"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                        ><div class="link-1 opensans-semi-bold-black-24px">Accessibility</div></a
+                      >
+                      <div class="group-45 smart-layers-pointers hidden">
+                        <a
+                          href="https://www.cengage.com/accessibility/"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-semi-bold-black-24px">Accessibility</div></a
+                        >
+                      </div>
+                    </div>
+                  </div></a
+                ><a
+                  href="https://www.cengage.com/legal/#terms"
+                  onclick="window.event.stopPropagation()"
+                  target="_blank"
+                >
+                  <div class="group-457">
+                    <div class="overlap-group">
+                      <a
+                        href="https://www.cengage.com/legal/#terms"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                        ><div class="link-1 opensans-semi-bold-black-24px">Terms of Use</div></a
+                      >
+                      <div class="group-45 smart-layers-pointers hidden">
+                        <a
+                          href="https://www.cengage.com/legal/#terms"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-semi-bold-black-24px">Terms of Use</div></a
+                        >
+                      </div>
+                    </div>
+                  </div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-center-horizontal">
+      <div class="k12-lp-customer-support-1-1 screen">
+        <div class="mask-group-126">
+          <div class="group-288">
+            <div class="customer-support opensans-semi-bold-white-40px">Customer Support</div>
+          </div>
+        </div>
+        <div class="flex-row">
+          <a href="https://ngl.cengage.com/assets/html/SampleNow/index.html" target="_blank">
+            <div class="group-149 border-1px-granite-gray">
+              <img class="asset-1" src="../img/asset-1@1x.png" />
+              <div class="overlap-group-1">
+                <div class="samples opensans-bold-black-24px">Samples</div>
+                <div class="text-29 opensans-normal-black-18px">Request Product Samples</div>
+              </div>
+            </div></a
+          ><a href="https://www.cengage.com/repfinder/natgeo/?ngl=true" target="_blank">
+            <div class="group-148">
+              <div class="overlap-group1">
+                <div class="rectangle-26 border-1px-granite-gray"></div>
+                <div class="text-292 opensans-normal-black-18px">Contact Your Sales <br />Representative</div>
+                <div class="quotes opensans-bold-black-24px">Quotes</div>
+                <div class="repeat-grid-1"></div>
+              </div></div></a
+          ><a href="k12-ordering-website.html">
+            <div class="group-147 border-1px-granite-gray">
+              <img class="mask-group-109" src="../img/mask-group-109@1x.png" />
+              <div class="overlap-group2">
+                <div class="place-an-order opensans-normal-black-18px">Place an Order</div>
+                <div class="order opensans-bold-black-24px">Order Instructions</div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="overlap-group10">
+          <div class="overlap-group8">
+            <div class="text-290 opensans-semi-bold-mine-shaft-20px-2">
+              <span class="opensans-semi-bold-mine-shaft-20px">For digital support on </span
+              ><span class="opensans-bolditalic-bold-mine-shaft-20px">Big Ideas Learning</span
+              ><span class="opensans-semi-bold-mine-shaft-20px"> programs, <br />please visit their </span
+              ><span class="opensans-extra-extra-bold-boston-blue-20px">Contact Us</span
+              ><span class="opensans-semi-bold-mine-shaft-20px"> page.</span>
+            </div>
+            <a href="https://www.bigideaslearning.com/customer-support" target="_blank"
+              ><div class="contact-us opensans-extra-extra-bold-boston-blue-20px">Contact Us</div></a
+            ><a
+              href="https://mysupport.cengage.com/loglessSupport?PI=*K12%20Digital%20Course%20Support"
+              target="_blank"
+            >
+              <div class="group-152 border-1px-granite-gray">
+                <img class="mask-group-110" src="../img/mask-group-103-1@1x.png" />
+                <div class="overlap-group3">
+                  <div class="text opensans-normal-black-18px">
+                    Digital Access Support,<br />Training Library, <br />Technical Support
+                  </div>
+                  <div class="digital-support opensans-bold-black-24px">Digital Support</div>
+                </div>
+              </div></a
+            >
+            <div class="overlap-group5">
+              <div class="group-279 border-1px-granite-gray">
+                <img class="mask-group-103" src="../img/mask-group-103@1x.png" />
+                <div class="overlap-group-2">
+                  <div class="text-29 opensans-normal-black-18px">Status, Issue, Invoice</div>
+                  <div class="order opensans-bold-black-24px">Order Support</div>
+                </div>
+                <img class="polygon-4" src="../img/polygon-4@1x.png" />
+              </div>
+              <a
+                href="https://mysupport.cengage.com/loglessSupport?prdName=Issue%20with%20My%20Order&PI=*K12%20Problem%20with%20an%20Order"
+                target="_blank"
+              >
+                <div class="group-280 smart-layers-pointers border-1px-granite-gray hidden">
+                  <div class="overlap-group4">
+                    <div class="text-29 opensans-normal-black-18px">Status, Issue, Invoice</div>
+                    <div class="order opensans-bold-black-24px">Order Support</div>
+                  </div>
+                  <img class="mask-group-103-1" src="../img/mask-group-103@1x.png" />
+                  <img class="polygon-4-1" src="../img/polygon-3@1x.png" />
+                  <div class="overlap-group-3">
+                    <a
+                      href="https://mysupport.cengage.com/loglessSupport?prdName=Invoice%20Copy&PI=*K12%20Order%20Support&SI=Invoice%20Copy"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                      ><div class="invoice-copy opensans-semi-bold-black-24px">Invoice Copy</div></a
+                    >
+                    <div class="group-435 smart-layers-pointers hidden">
+                      <a
+                        href="https://mysupport.cengage.com/loglessSupport?prdName=Invoice%20Copy&PI=*K12%20Order%20Support&SI=Invoice%20Copy"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                        ><div class="invoice-copy opensans-semi-bold-black-24px">Invoice Copy</div></a
+                      >
+                    </div>
+                  </div>
+                  <div class="overlap-group3-1">
+                    <div class="overlap-group1-1">
+                      <a
+                        href="https://mysupport.cengage.com/loglessSupport?prdName=Issue%20with%20My%20Order&PI=*K12%20Problem%20with%20an%20Order"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                        ><div class="link opensans-semi-bold-black-24px">Issue with an Order</div></a
+                      >
+                      <div class="group-437 smart-layers-pointers hidden">
+                        <div class="overlap-group-4">
+                          <div class="rectangle-296"></div>
+                          <a
+                            href="https://mysupport.cengage.com/loglessSupport?prdName=Issue%20with%20My%20Order&PI=*K12%20Problem%20with%20an%20Order"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-black-24px">Issue with an Order</div></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <a
+                      href="https://mysupport.cengage.com/loglessSupport?prdName=Availability,%20Status,%20Tracking&PI=*K12%20Availability,%20Status,%20Tracking"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                    >
+                      <div class="group-440">
+                        <div class="overlap-group2-1">
+                          <a
+                            href="https://mysupport.cengage.com/loglessSupport?prdName=Availability,%20Status,%20Tracking&PI=*K12%20Availability,%20Status,%20Tracking"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-black-24px">Availability, Status, Tracking</div></a
+                          >
+                          <div class="group-439 smart-layers-pointers hidden">
+                            <div class="overlap-group-5">
+                              <div class="rectangle-297"></div>
+                              <a
+                                href="https://mysupport.cengage.com/loglessSupport?prdName=Availability,%20Status,%20Tracking&PI=*K12%20Availability,%20Status,%20Tracking"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="link opensans-semi-bold-black-24px">Availability, Status, Tracking</div></a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div></a
+                    ><a
+                      href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/en/nglstore"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                      ><div class="text-301 opensans-semi-bold-black-24px">Self-service for schools/districts</div></a
+                    ><a
+                      href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/en/nglstore"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                    >
+                      <div class="group-442">
+                        <div class="group-441 smart-layers-pointers hidden">
+                          <a
+                            href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/en/nglstore"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="text-302 opensans-semi-bold-black-24px">
+                              Self-service for schools/districts
+                            </div></a
+                          >
+                        </div>
+                      </div></a
+                    >
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="overlap-group6">
+              <div class="group-282 border-1px-granite-gray">
+                <img class="mask-group-107" src="../img/mask-group-107@1x.png" />
+                <div class="overlap-group-6">
+                  <div class="text opensans-normal-black-18px">Address, Policy, <br />Preauthorization</div>
+                  <div class="returns opensans-bold-black-24px">Returns</div>
+                </div>
+                <img class="polygon" src="../img/polygon-4@1x.png" />
+              </div>
+              <div class="group-283 smart-layers-pointers border-1px-granite-gray hidden">
+                <div class="overlap-group2-2">
+                  <div class="text opensans-normal-black-18px">Address, Policy, <br />Preauthorization</div>
+                  <div class="returns-1 opensans-bold-black-24px">Returns</div>
+                </div>
+                <img class="mask-group-107-1" src="../img/mask-group-107@1x.png" />
+                <img class="polygon-1" src="../img/polygon-3@1x.png" />
+                <a
+                  href="https://mysupport.cengage.com/loglessSupport?prdName=Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization%20&PI=*K12%20Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization"
+                  target="_blank"
+                >
+                  <div class="group-444">
+                    <div class="overlap-group-7">
+                      <a
+                        href="https://mysupport.cengage.com/loglessSupport?prdName=Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization%20&PI=*K12%20Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                        ><div class="link-1 opensans-semi-bold-black-24px">Pre-authorization</div></a
+                      ><a onclick="window.event.stopPropagation()">
+                        <div class="group-443 smart-layers-pointers hidden">
+                          <a
+                            href="https://mysupport.cengage.com/loglessSupport?prdName=Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization%20&PI=*K12%20Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="pre-authorization opensans-semi-bold-black-24px">Pre-authorization</div></a
+                          >
+                        </div></a
+                      >
+                    </div>
+                  </div></a
+                ><a
+                  href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/CenSVPLeftNavigationView?catalogId=12005&pageTitle=Returns+Policy+%7C+NGLStores&langId=-1&pageName=CenB2BReturnsPolicyESpot&storeId=11755"
+                  target="_blank"
+                >
+                  <div class="group-446">
+                    <div class="overlap-group1-2">
+                      <a
+                        href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/CenSVPLeftNavigationView?catalogId=12005&pageTitle=Returns+Policy+%7C+NGLStores&langId=-1&pageName=CenB2BReturnsPolicyESpot&storeId=11755"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                        ><div class="link-1 opensans-semi-bold-black-24px">Returns Policy &amp;<br />Address</div></a
+                      >
+                      <div class="group-445 smart-layers-pointers hidden">
+                        <a
+                          href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/CenSVPLeftNavigationView?catalogId=12005&pageTitle=Returns+Policy+%7C+NGLStores&langId=-1&pageName=CenB2BReturnsPolicyESpot&storeId=11755"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-306 opensans-semi-bold-black-24px">
+                            Returns Policy &amp;<br />Address
+                          </div></a
+                        >
+                      </div>
+                    </div>
+                  </div></a
+                >
+              </div>
+            </div>
+            <div class="overlap-group7">
+              <div class="group-285 border-1px-granite-gray">
+                <img class="access" src="../img/access-1@1x.png" />
+                <div class="text-1 opensans-bold-black-24px">Privacy and Accessibility</div>
+                <div class="text-2 opensans-normal-black-18px">Policies and Terms of Use</div>
+                <img class="polygon" src="../img/polygon-4@1x.png" />
+              </div>
+              <div class="group-286 smart-layers-pointers border-1px-granite-gray hidden">
+                <div class="text-309 opensans-normal-black-18px">Policies and Terms of Use</div>
+                <div class="text-310 opensans-bold-black-24px">Privacy and Accessibility</div>
+                <img class="access-1" src="../img/access-1@1x.png" />
+                <img class="polygon-1" src="../img/polygon-3@1x.png" />
+                <div class="overlap-group3-2">
+                  <a href="https://www.cengage.com/privacy/" target="_blank">
+                    <div class="group-453">
+                      <div class="overlap-group">
+                        <a
+                          href="https://www.cengage.com/privacy/"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-semi-bold-black-24px">Privacy Policy</div></a
+                        >
+                        <div class="group-45 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/privacy/"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link-1 opensans-semi-bold-black-24px">Privacy Policy</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/accessibility/" target="_blank">
+                    <div class="group-455">
+                      <div class="overlap-group">
+                        <a
+                          href="https://www.cengage.com/accessibility/"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-semi-bold-black-24px">Accessibility</div></a
+                        >
+                        <div class="group-45 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/accessibility/"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link-1 opensans-semi-bold-black-24px">Accessibility</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/legal/#terms" target="_blank">
+                    <div class="group-457">
+                      <div class="overlap-group">
+                        <a
+                          href="https://www.cengage.com/legal/#terms"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-semi-bold-black-24px">Terms of Use</div></a
+                        >
+                        <div class="group-45 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/legal/#terms"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link-1 opensans-semi-bold-black-24px">Terms of Use</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            href="https://mysupport.cengage.com/loglessSupport/?prdName=NGL%20-%20Journal%20Replenishment&PI=*K12"
+            target="_blank"
+          >
+            <div class="group-146 border-1px-granite-gray">
+              <img class="access-2" src="../img/access@1x.png" />
+              <div class="text-1 opensans-bold-black-24px">Resource<br />Replenishment</div>
+              <div class="text-2 opensans-normal-black-18px">Replenishment Support</div>
+            </div></a
+          >
+        </div>
+        <div class="overlap-group9">
+          <div class="text-296 opensans-semi-bold-sizzling-sunrise-30px">Digital and Classroom Materials</div>
+          <p class="national-geographic opensans-semi-bold-white-16px">
+            National Geographic Learning, a part of Cengage Learning, is a leading educational publisher of K–12 School
+            digital and curricular classroom materials. Through our digital learning programs and classroom learning
+            resources, schools experience the excitement and joy of learning that National Geographic explorers,
+            scientists, writers and photographers experience.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-center-horizontal">
+      <div class="k12-lp-customer-support-1-2 screen">
+        <div class="mask-group-127">
+          <div class="group-288">
+            <div class="customer-support opensans-semi-bold-white-30px">Customer Support</div>
+          </div>
+        </div>
+        <a href="https://ngl.cengage.com/assets/html/SampleNow/index.html" target="_blank">
+          <div class="group-149 border-1px-granite-gray">
+            <img class="asset-1" src="../img/asset-1@1x.png" />
+            <div class="overlap-group-1">
+              <div class="samples opensans-bold-black-24px">Samples</div>
+              <div class="text-3 opensans-normal-black-18px">Request Product Samples</div>
+            </div>
+          </div></a
+        ><a href="https://www.cengage.com/repfinder/natgeo/?ngl=true" target="_blank">
+          <div class="group-148">
+            <div class="overlap-group1">
+              <div class="rectangle-26 border-1px-granite-gray"></div>
+              <div class="text-313 opensans-normal-black-18px">Contact Your Sales <br />Representative</div>
+              <div class="quotes opensans-bold-black-24px">Quotes</div>
+              <div class="repeat-grid-1"></div>
+            </div></div></a
+        ><a href="k12-ordering-website.html">
+          <div class="group-147 border-1px-granite-gray">
+            <img class="mask-group-109" src="../img/mask-group-109@1x.png" />
+            <div class="overlap-group3">
+              <div class="place-an-order opensans-normal-black-18px">Place an Order</div>
+              <div class="order opensans-bold-black-24px">Order Instructions</div>
+            </div>
+          </div></a
+        ><a
+          href="https://mysupport.cengage.com/loglessSupport/?prdName=NGL%20-%20Journal%20Replenishment&PI=*K12"
+          target="_blank"
+        >
+          <div class="group-146 border-1px-granite-gray">
+            <img class="access" src="../img/access@1x.png" />
+            <div class="text-3-1 opensans-bold-black-24px">Resource<br />Replenishment</div>
+            <div class="text-3-2 opensans-normal-black-18px">Replenishment Support</div>
+          </div></a
+        >
+        <div class="overlap-group7">
+          <a href="https://mysupport.cengage.com/loglessSupport?PI=*K12%20Digital%20Course%20Support" target="_blank">
+            <div class="group-152 border-1px-granite-gray">
+              <img class="mask-group-110" src="../img/mask-group-103-1@1x.png" />
+              <div class="overlap-group2">
+                <div class="text-31 opensans-normal-black-18px">
+                  Digital Access Support,<br />Training Library, <br />Technical Support
+                </div>
+                <div class="digital-support opensans-bold-black-24px">Digital Support</div>
+              </div>
+            </div></a
+          >
+          <div class="overlap-group4">
+            <div class="group-282 border-1px-granite-gray">
+              <img class="mask-group-107" src="../img/mask-group-107@1x.png" />
+              <div class="overlap-group-2">
+                <div class="text-31 opensans-normal-black-18px">Address, Policy, <br />Preauthorization</div>
+                <div class="returns opensans-bold-black-24px">Returns</div>
+              </div>
+              <img class="polygon" src="../img/polygon-4@1x.png" />
+            </div>
+            <div class="group-283 smart-layers-pointers border-1px-granite-gray hidden">
+              <div class="overlap-group2-1">
+                <div class="text-31 opensans-normal-black-18px">Address, Policy, <br />Preauthorization</div>
+                <div class="returns-1 opensans-bold-black-24px">Returns</div>
+              </div>
+              <img class="mask-group-107-1" src="../img/mask-group-107@1x.png" />
+              <img class="polygon-1" src="../img/polygon-3@1x.png" />
+              <a
+                href="https://mysupport.cengage.com/loglessSupport?prdName=Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization%20&PI=*K12%20Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization"
+                target="_blank"
+              >
+                <div class="group-444">
+                  <div class="overlap-group-3">
+                    <a
+                      href="https://mysupport.cengage.com/loglessSupport?prdName=Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization%20&PI=*K12%20Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                      ><div class="link opensans-semi-bold-black-24px">Pre-authorization</div></a
+                    ><a onclick="window.event.stopPropagation()">
+                      <div class="group-443 smart-layers-pointers hidden">
+                        <a
+                          href="https://mysupport.cengage.com/loglessSupport?prdName=Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization%20&PI=*K12%20Returns%20Policy,%20Mailing%20Address,%20Pre-Authorization"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="pre-authorization opensans-semi-bold-black-24px">Pre-authorization</div></a
+                        >
+                      </div></a
+                    >
+                  </div>
+                </div></a
+              ><a
+                href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/CenSVPLeftNavigationView?catalogId=12005&pageTitle=Returns+Policy+%7C+NGLStores&langId=-1&pageName=CenB2BReturnsPolicyESpot&storeId=11755"
+                target="_blank"
+              >
+                <div class="group-446">
+                  <div class="overlap-group1-1">
+                    <a
+                      href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/CenSVPLeftNavigationView?catalogId=12005&pageTitle=Returns+Policy+%7C+NGLStores&langId=-1&pageName=CenB2BReturnsPolicyESpot&storeId=11755"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                      ><div class="link opensans-semi-bold-black-24px">Returns Policy &amp;<br />Address</div></a
+                    >
+                    <div class="group-445 smart-layers-pointers hidden">
+                      <a
+                        href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/CenSVPLeftNavigationView?catalogId=12005&pageTitle=Returns+Policy+%7C+NGLStores&langId=-1&pageName=CenB2BReturnsPolicyESpot&storeId=11755"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                        ><div class="text-321 opensans-semi-bold-black-24px">Returns Policy &amp;<br />Address</div></a
+                      >
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="overlap-group5">
+            <div class="group-279 border-1px-granite-gray">
+              <img class="mask-group-103" src="../img/mask-group-103@1x.png" />
+              <div class="overlap-group-4">
+                <div class="text-3 opensans-normal-black-18px">Status, Issue, Invoice</div>
+                <div class="order opensans-bold-black-24px">Order Support</div>
+              </div>
+              <img class="polygon-4" src="../img/polygon-4@1x.png" />
+            </div>
+            <a
+              href="https://mysupport.cengage.com/loglessSupport?prdName=Issue%20with%20My%20Order&PI=*K12%20Problem%20with%20an%20Order"
+              target="_blank"
+            >
+              <div class="group-280 smart-layers-pointers border-1px-granite-gray hidden">
+                <div class="overlap-group4-1">
+                  <div class="text-3 opensans-normal-black-18px">Status, Issue, Invoice</div>
+                  <div class="order opensans-bold-black-24px">Order Support</div>
+                </div>
+                <img class="mask-group-103-1" src="../img/mask-group-103@1x.png" />
+                <img class="polygon-4-1" src="../img/polygon-3@1x.png" />
+                <div class="overlap-group-5">
+                  <a
+                    href="https://mysupport.cengage.com/loglessSupport?prdName=Invoice%20Copy&PI=*K12%20Order%20Support&SI=Invoice%20Copy"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                    ><div class="invoice-copy opensans-semi-bold-black-24px">Invoice Copy</div></a
+                  >
+                  <div class="group-435 smart-layers-pointers hidden">
+                    <a
+                      href="https://mysupport.cengage.com/loglessSupport?prdName=Invoice%20Copy&PI=*K12%20Order%20Support&SI=Invoice%20Copy"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                      ><div class="invoice-copy opensans-semi-bold-black-24px">Invoice Copy</div></a
+                    >
+                  </div>
+                </div>
+                <div class="overlap-group3-1">
+                  <div class="overlap-group1-2">
+                    <a
+                      href="https://mysupport.cengage.com/loglessSupport?prdName=Issue%20with%20My%20Order&PI=*K12%20Problem%20with%20an%20Order"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                      ><div class="link-1 opensans-semi-bold-black-24px">Issue with an Order</div></a
+                    >
+                    <div class="group-437 smart-layers-pointers hidden">
+                      <div class="overlap-group-6">
+                        <div class="rectangle-296"></div>
+                        <a
+                          href="https://mysupport.cengage.com/loglessSupport?prdName=Issue%20with%20My%20Order&PI=*K12%20Problem%20with%20an%20Order"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-semi-bold-black-24px">Issue with an Order</div></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    href="https://mysupport.cengage.com/loglessSupport?prdName=Availability,%20Status,%20Tracking&PI=*K12%20Availability,%20Status,%20Tracking"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-440">
+                      <div class="overlap-group2-2">
+                        <a
+                          href="https://mysupport.cengage.com/loglessSupport?prdName=Availability,%20Status,%20Tracking&PI=*K12%20Availability,%20Status,%20Tracking"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-semi-bold-black-24px">Availability, Status, Tracking</div></a
+                        >
+                        <div class="group-439 smart-layers-pointers hidden">
+                          <div class="overlap-group-7">
+                            <div class="rectangle-297"></div>
+                            <a
+                              href="https://mysupport.cengage.com/loglessSupport?prdName=Availability,%20Status,%20Tracking&PI=*K12%20Availability,%20Status,%20Tracking"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="link-1 opensans-semi-bold-black-24px">Availability, Status, Tracking</div></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/en/nglstore"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                    ><div class="text-326 opensans-semi-bold-black-24px">Self-service for schools/districts</div></a
+                  ><a
+                    href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/en/nglstore"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-442">
+                      <div class="group-441 smart-layers-pointers hidden">
+                        <a
+                          href="https://nglstore.cengage.com/webapp/wcs/stores/servlet/en/nglstore"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-327 opensans-semi-bold-black-24px">
+                            Self-service for schools/districts
+                          </div></a
+                        >
+                      </div>
+                    </div></a
+                  >
+                </div>
+              </div></a
+            >
+          </div>
+        </div>
+        <div class="overlap-group8">
+          <a href="https://www.bigideaslearning.com/customer-support" target="_blank"
+            ><div class="text-311 opensans-semi-bold-mine-shaft-20px-2">
+              <span class="opensans-semi-bold-mine-shaft-20px">For digital support on <br /></span
+              ><span class="opensans-bolditalic-bold-mine-shaft-20px">Big Ideas Learning</span
+              ><span class="opensans-semi-bold-mine-shaft-20px"> programs, <br />please visit their </span
+              ><span class="opensans-extra-extra-bold-boston-blue-20px">Contact Us</span
+              ><span class="opensans-semi-bold-mine-shaft-20px"> page.</span>
+            </div></a
+          >
+          <div class="overlap-group6">
+            <div class="group-285 border-1px-granite-gray">
+              <img class="access-1" src="../img/access-1@1x.png" />
+              <div class="text-3-1 opensans-bold-black-24px">Privacy and Accessibility</div>
+              <div class="text-3-2 opensans-normal-black-18px">Policies and Terms of Use</div>
+              <img class="polygon" src="../img/polygon-4@1x.png" />
+            </div>
+            <div class="group-286 smart-layers-pointers border-1px-granite-gray hidden">
+              <div class="text-330 opensans-normal-black-18px">Policies and Terms of Use</div>
+              <div class="text-331 opensans-bold-black-24px">Privacy and Accessibility</div>
+              <img class="access-2" src="../img/access-1@1x.png" />
+              <img class="polygon-1" src="../img/polygon-3@1x.png" />
+              <div class="overlap-group3-2">
+                <a href="https://www.cengage.com/privacy/" target="_blank">
+                  <div class="group-453">
+                    <div class="overlap-group">
+                      <a
+                        href="https://www.cengage.com/privacy/"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                        ><div class="link opensans-semi-bold-black-24px">Privacy Policy</div></a
+                      >
+                      <div class="group-45 smart-layers-pointers hidden">
+                        <a
+                          href="https://www.cengage.com/privacy/"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link opensans-semi-bold-black-24px">Privacy Policy</div></a
+                        >
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="https://www.cengage.com/accessibility/" target="_blank">
+                  <div class="group-455">
+                    <div class="overlap-group">
+                      <a
+                        href="https://www.cengage.com/accessibility/"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                        ><div class="link opensans-semi-bold-black-24px">Accessibility</div></a
+                      >
+                      <div class="group-45 smart-layers-pointers hidden">
+                        <a
+                          href="https://www.cengage.com/accessibility/"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link opensans-semi-bold-black-24px">Accessibility</div></a
+                        >
+                      </div>
+                    </div>
+                  </div></a
+                ><a href="https://www.cengage.com/legal/#terms" target="_blank">
+                  <div class="group-457">
+                    <div class="overlap-group">
+                      <a
+                        href="https://www.cengage.com/legal/#terms"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                        ><div class="link opensans-semi-bold-black-24px">Terms of Use</div></a
+                      >
+                      <div class="group-45 smart-layers-pointers hidden">
+                        <a
+                          href="https://www.cengage.com/legal/#terms"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link opensans-semi-bold-black-24px">Terms of Use</div></a
+                        >
+                      </div>
+                    </div>
+                  </div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlap-group9">
+          <div class="text-317 opensans-semi-bold-sizzling-sunrise-20px">Digital and Classroom Materials</div>
+          <p class="national-geographic opensans-semi-bold-white-16px">
+            National Geographic Learning, a part of Cengage Learning, is a leading educational publisher of K–12 School
+            digital and curricular classroom materials. Through our digital learning programs and classroom learning
+            resources, schools experience the excitement and joy of learning that National Geographic explorers,
+            scientists, writers and photographers experience.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer id="footer_include" style="position:absolute; bottom:0;"></footer>
+    <div id="primaryHomeBody" style="display:none">
+      <div id="NGLRedesignpageContainer">
+          <div id="relativeSectionContainerPrimaryhomepage">
+              <!-- Primary Home -->
+              <section id="primaryHome">
+                  <div class="mainPageContainer">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                                  <div class="topicContainer">
+                                      <div class="contentContainer">
+                                          <div class="logoImgContainer eltLogoImgContainer">
+                                              <a href="https://eltngl.com" class="ELTPageLink">
+                                                  <img src="../primaryhomeimage/ng_learning_whiteyellow.png"
+                                                      class="img-responsive" alt="National Geographic Learning">
+                                              </a>
+                                          </div>
+                                          <div class="mainPageLink CountryCode ">
+                                              International
+                                          </div>
+                                          <div class="pageTitle">
+                                              <a href="//eltngl.com" class="ELTPageLink">
+                                                  English Language Teaching
+                                              </a>
+                                          </div>
+
+                                          <div class="schoolListContainer">
+                                              <p class="schoolListDescription">For English as Foreign
+                                                  Language,</p>
+                                              <p class="schoolListDescription">Including young
+                                                  learners,</p>
+                                              <p class="schoolListDescription">Teens, General English,
+                                              </p>
+                                              <p class="schoolListDescription">and Higher Education
+                                              </p>
+                                          </div>
+
+                                          <a href="https://eltngl.com" class="mainPageLink ELTPageLink">ELTNGL.COM</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center mobileTopSpace">
+                                  <div class="topicContainer">
+                                      <div class="contentContainer">
+                                          <div class="logoImgContainer">
+                                              <a href="javascript:void(0)" class="NGLPageLink">
+                                                  <img src="../primaryhomeimage/NGL_Cengage_YW.png"
+                                                      class="img-responsive" width="304px">
+                                              </a>
+                                          </div>
+                                          <div class="mainPageLink CountryCode">
+                                              United States
+                                          </div>
+                                          <div class="pageTitle">
+                                              <a href="javascript:void(0)" class="NGLPageLink">
+                                                  Grades PreK-12
+                                              </a>
+                                          </div>
+
+                                          <div class="schoolListContainer">
+                                              <p class="schoolListDescription">Mathematics <span
+                                                      class="dotPos">.</span> Science </p>
+                                              <p class="schoolListDescription">Social Studies <span
+                                                      class="dotPos">.</span> World Languages</p>
+                                              <p class="schoolListDescription">Reading/Language Arts
+                                              </p>
+                                              <p class="schoolListDescription">Advanced, Honors, and
+                                                  Electives</p>
+                                              <p class="schoolListDescription">Career and Technical
+                                                  Education</p>
+                                          </div>
+
+                                          <a href="javascript:void(0)"
+                                              class="mainPageLink NGLPageLink">NGL.Cengage.com</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+          </div>
+      </div>
+    </div>
+    <!-- Start Google tag manager -->
+    <script>
+      var seriesSearchResultRange = "0";
+      var seriesSearchResultSorting = sessionStorage.getItem("seriesSearchResultSorting") != null ? sessionStorage.getItem("seriesSearchResultSorting") : "";
+      var seriesSearchResultsPerPage = sessionStorage.getItem("seriesSearchResultsPerPage");
+  
+      if ("" > 0) {
+          if ("" == 1) {
+              seriesSearchResultRange = "1";
+          } else {
+              seriesSearchResultRange = "1 - " + "";
+          }
+      }
+  
+      var productSearchResultRange = "0";
+      var productSearchResultSorting = sessionStorage.getItem("productSearchResultSorting") != null ? sessionStorage.getItem("productSearchResultSorting") : "";
+      var productSearchResultsPerPage = sessionStorage.getItem("productSearchResultsPerPage");
+  
+      if ("" > 0) {
+          if ("" == 1) {
+              productSearchResultRange = "1";
+          } else {
+              productSearchResultRange = "1 - " + "";
+          }
+      }
+  
+  
+      if (("" == "") && (seriesSearchResultRange !== "0")) {
+          currentSeriesPage = "1";
+      } else {
+          currentSeriesPage = "";
+      }
+  
+      if (("" == "") && (productSearchResultRange !== "0")) {
+          currentProductPage = "1";
+      } else {
+          currentProductPage = "";
+      }
+      window.dataLayer
+          .push({
+              'returnedSearchResultsSeries': seriesSearchResultRange,
+              'returnedSearchResultsProducts': productSearchResultRange,
+              'combinedSearchVariables': "",
+              'combinedSearchVariablesValues': "",
+              'searchCategory': "",
+              'searchBoxInput': "",
+              'searchFilterLevel': "",
+              'searchFilterRecommended': "",
+              'searchFilterGrade': "",
+              'searchFilterLanguage': "",
+              'searchFilterMediaType': "",
+              'searchFilterSuplementType': "",
+              'searchFilterAuthor': "",
+              'searchFilterCourseArea': "",
+              'searchFilterSubject': "",
+              'searchFilterLexile': "",
+              'searchFilterGuidedReading': "",
+              'searchFilterDRARange': "",
+              'searchFilterSortyBySeries': seriesSearchResultSorting,
+              'searchFilterSortyByProducts': productSearchResultSorting,
+              'searchFilterResultsPerPageSeries': seriesSearchResultsPerPage,
+              'searchFilterResultsPerPageProducts': productSearchResultsPerPage,
+              'searchFilterResultsPageNumberSeries': currentSeriesPage,
+              'searchFilterResultsPageNumberProducts': currentProductPage,
+              'event': "searchValues"
+          });
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.cengage.com/js/yepnope/yepnope.1.5.4-min.js"></script>
+  <script src="/jscript/imports/nglCommon.js"></script>
+  <script src="/jscript/imports/RedesignNGLTwoColumnResultsPage.js"></script>
+  <script src="https://ngl.cengage.com/nglredesign/school/home/js/home.js"></script>
+  <!-- End Google tag manager -->
+  </body>
+</html>

@@ -1,0 +1,23 @@
+.main {
+    background: #FFFFFF;
+}
+
+.frame {
+    background: #FFFFFF;
+}
+
+
+body {
+    font-size: 100%;
+}
+
+.leftnav {
+    border: 0px ;
+    width: 0px;
+}
+
+
+.content {
+    margin-left: 200px;
+    border: 0px ;
+}

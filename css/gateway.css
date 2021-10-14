@@ -1,0 +1,167 @@
+html, body, div, span, applet, object, 
+iframe,h1, h2, h3, h4, h5, h6, p, blockquote, 
+pre,a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,small, 
+strike, strong, sub, sup, tt, var,b, u, i, center,
+dl, dt, dd, ol, ul, li,fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, 
+figcaption, footer, header, hgroup, menu, nav, 
+output, ruby, section, summary,time, mark, audio, 
+video {	
+  margin: 0;	
+  padding: 0;	
+  border: 0;	
+  font-size: 100%;	
+  font: inherit;	
+  vertical-align: baseline;
+} 
+html{
+  font-family: Arial,Helvetica,sans-serif;
+  background-color: #000;
+  font-size:0.75em; /*equlizes the font acoss all devices*/
+}
+div#global{
+  clear: both;
+  float: none;
+  margin: 0 auto;
+  width: 975px;
+}
+div#content_wrap{
+  height:625px;
+  float:left;
+  width:100%;
+  background-color: #000;
+  background-image: url("/images/gateway/gateway_bg.jpg");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+div#content{
+  width:100%;
+  margin:0px;
+  padding:143px 0px 50px 0px;
+}
+div#formWrap { 
+  margin:0px auto;
+	/*float:left;*/
+	width:61%;
+/*
+padding:0px 0px 0px 250px;
+margin:0px 0px 0px 100px;
+*/
+  font-size:1.25em;
+  color:#ffcc00;
+}
+div#formWrap label { padding: 0px 0px 0px 0px; }
+#country-selector { width:40%; }
+dt.logo {
+  margin: 0px auto;
+  width:35%;
+}
+#USCC {
+  border-radius: 15px 15px 15px 15px;
+  font-size:1.0em;
+  font-weight:bold;
+  color:#0089c5;
+  background-image: -webkit-linear-gradient(#ffffff,#d2d2d2);
+  background-image: -moz-linear-gradient(#ffffff,#d2d2d2);
+  background-image: -o-linear-gradient(#ffffff,#d2d2d2);
+  background-image: linear-gradient(#ffffff,#d2d2d2);
+  margin:0px 0px 8px 25px;
+  padding:0px 0px 0px 0px;
+  height:25px;
+  overflow:hidden;
+  border:1px solid #ccc;
+  width:40px;
+}
+#CC {
+  border-radius: 15px 15px 15px 15px;
+  font-size:1.0em;
+  font-weight:bold;
+  color:#0089c5;
+  background-image: -webkit-linear-gradient(#ffffff,#d2d2d2);
+  background-image: -moz-linear-gradient(#ffffff,#d2d2d2);
+  background-image: -o-linear-gradient(#ffffff,#d2d2d2);
+  background-image: linear-gradient(#ffffff,#d2d2d2);
+  margin:0px 0px 0px 10px;
+  padding:0px 0px 0px 0px;
+  height:25px;
+  overflow:hidden;
+  border:1px solid #ccc;
+  width:40px;
+}
+/************ styles for the auto compleet ******************/
+#countryText { width:300px;  }
+#suggestions {
+	display:hidden;
+  background-color:White;
+  color:Black;
+  max-height:300px;
+  padding: 0 10px 0 10px;
+  margin-left:15px;
+  overflow:auto;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}  
+#USBox {
+  display:none;
+  background-color: White;
+  margin: 0 0 0 2px;
+  color: Black;
+  padding-left:10px;
+  padding-right:10px;
+  font-size: 12px;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+          box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;	
+}
+.suggestion {
+  border-bottom: 1px solid #FFCC00;
+	padding:5px;
+}
+.suggestion:hover {
+	color:#CE3C23;
+	cursor:pointer!important;
+}
+.suggestionDum:hover {
+  color:#CE3C23;
+  cursor:pointer!important;
+}
+#USSelect {
+  padding-left:27px;
+  padding-bottom:5px;
+  border-bottom:1px solid #FFCC00;
+  font-weight:bold;
+}
+#USSelect.error {
+  background-image: url("/images/headerFooter/exclamation.png");
+  background-position: 3px 0px;
+  background-repeat: no-repeat;
+  z-index: 200;
+  color: #CE3C23;
+	}
+#dum {
+  margin-top:5px;
+  padding-left:27px;
+  padding-bottom:5px;
+  border-bottom:1px solid #FFCC00;
+  font-weight:bold;
+  background-image: url("/images/headerFooter/exclamation.png");
+  background-position: 3px 0px;
+  background-repeat: no-repeat;
+  z-index: 200;
+  color: #CE3C23;
+}
+.suggestionDum {
+  border-bottom: 1px solid #FFCC00;
+	padding:5px;
+	margin-bottom:10px;
+}	
+#UStype1 {
+  border-bottom:1px solid #FFCC00;
+	padding:3px 0px 5px 0px; 
+}
+#UStype2 { padding:5px 0px 5px 0px; }
+.hoverSuggestion { color:#CE3C23; }
+#countryselector { display: none; }

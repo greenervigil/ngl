@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/k12-hm-2021-1.css" />
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+    <script type="text/javascript" src="/search/ruxitagentjs_ICA27SVfqrx_10161190228170440.js"
+        data-dtconfig="app=ea7c4b59f27d43eb|srms=1,1,,,|uxrgcm=100,25,300,3;100,25,300,3|featureHash=ICA27SVfqrx|lastModification=1551864570456|srsr=25000|dtVersion=10161190228170440|tp=500,50,0,1|rdnt=1|uxrgce=1|agentUri=/search/ruxitagentjs_ICA27SVfqrx_10161190228170440.js|reportUrl=/search/rb_bf72382oux|rid=RID_-549854184|rpid=-951095915|domain=cengage.com"></script>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"
+        integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw=" crossorigin="anonymous"></script>
+    <script src="/jscript/imports/googleTagManager.js"></script>
+    <script src="https://cdn.cengage.com/js/contrib/jquery.cookie.min.js"></script>
+    <script>
+        (function () {
+            var env = "", countryCode, overlayDisplay;
+            var environmentSpecific = function () {
+                if (window.location.hostname.toUpperCase().indexOf("S-") != -1) {
+                    env = "s-";
+                } else if (window.location.hostname.toUpperCase().indexOf("D-") != -1) {
+                    env = "d-";
+                } else {
+                    env = "";
+                }
+            }
+            environmentSpecific();
+            var cookieDomain = env + "ngl.cengage.com";
+            var getCountryCode = function (callback) {
+                if ($.cookie("overlayDisplay")) {
+                    overlayDisplay = $.cookie("overlayDisplay");
+                }
+                if ($.cookie("P_Country_Cd")) {
+                    countryCode = $.cookie("P_Country_Cd");
+                    callback();
+
+                } else {
+                    $.post("https://" + env + "ngl.cengage.com/search/geocountrylocator",
+                        {},
+                        function (data, status) {
+                            countryCode = data.country;
+                            $.cookie("P_Country_Cd", countryCode, { path: "/;secure", expires: 0 });
+                            callback();
+                        });
+                }
+            }
+
+
+
+            $(document).ready(function () {
+
+
+                var showOverlay = function () {
+                    if (countryCode != undefined && countryCode != 'US' && overlayDisplay == undefined) {
+                        $('body').addClass('nobodyscroll');
+                        $('#primaryHomeBody').show();
+                    }
+                    else {
+
+                        $('body').removeClass('nobodyscroll');
+                        $('#primaryHomeBody').hide();
+                    }
+                }
+                getCountryCode(showOverlay);
+
+                $('.NGLPageLink').on('click', function () {
+                    $('body').removeClass('nobodyscroll');
+                    $('#primaryHomeBody').hide();
+                    if (!($.cookie("overlayDisplay"))) {
+                        $.cookie("overlayDisplay", 'yes', { domain: cookieDomain, path: "/" });
+                    }
+                });
+
+
+
+            });
+
+            $(window).load(function () {
+                if (env != "") {
+                    $('.ELTPageLink').each(function () {
+                        var link = $(this).attr('href');
+                        if (link.indexOf('eltngl.com') > -1) {
+                            $(this).attr('href', link.replace('eltngl.com', env + 'www.eltngl.com'));
+                        }
+                    });
+                }
+            });
+
+        })();
+
+    </script>
+    <script>
+        var dataLayer = window.dataLayer = window.dataLayer || [];
+        var channel = 'true' === 'true' ? 'School' : 'ELT';
+        var countryCode = $.cookie('P_Country_Cd');
+        window.dataLayer.push({
+            'countryCode': countryCode,
+            'channel': channel,
+            'siteSection': 'Catalog and Home',
+            'pagedelay': 'true'
+        });
+    </script>
+
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push(
+                { 'gtm.start': new Date().getTime(), event: 'gtm.js' }
+            ); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W9HXB8M');
+	//End Google Tag Manager
+    </script>
+    <!-- End of Google Tag Manager -->
+
+    <!-- The script tag should live in the head of your page if at all possible -->
+    <link href="/nglredesign/school/nglschoolcommon.min.css?v=2019364" rel="stylesheet" />
+    <!--[if IE 8]><html lang="en-us" class="ie8"><![endif]-->
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link href="/assets/css/sch/K12_2021.css" rel="stylesheet" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <header id="header_include" class="school"></header>
+    <input type="hidden" id="anPageName" name="page" value="k12-hm-2021-1" />
+    <div class="container-center-horizontal">
+      <div class="k12-hm-2021-1 screen" >
+        <div class="overlap-group3">
+          <div class="mask-group-122">
+            <video
+              width="100%"
+              height="100%"
+              src="https://anima-uploads.s3.amazonaws.com/projects/61000883addf8454546f643e/files/herocarousel.mp4"
+              loop
+              autoplay="autoplay"
+              playsinline
+              muted
+            ></video>
+          </div>
+        </div>
+        <div class="ready-to-explore opensans-semi-bold-mine-shaft-48px">Ready to explore?</div>
+        <div class="flex-row-1">
+          <img class="hmbtn" src="img/hm-btn-catalog@1x.png" />
+          <img class="hmbtn-1" src="img/hm-btn-exp-smp@1x.png" />
+          <img class="hmbtn-1" src="img/hm-btn-exp-sol@1x.png" />
+        </div>
+        <div class="flex-row-2">
+          <a
+            href="https://cloud.3dissue.net/14329/15290/15376/52242/index.html"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+          >
+            <div class="group-2">
+              <div class="overlap-group">
+                <div class="group-251 border-1px-mountain-mist">
+                  <div class="browse-our-catalog opensans-semi-bold-black-20px">Browse our catalog</div>
+                </div>
+                <div class="group-2-1 smart-layers-pointers">
+                  <div class="browse-our-catalog-1 opensans-semi-bold-sizzling-sunrise-20px">Browse our catalog</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://ngl.cengage.com/assets/html/SampleNow/index.html"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+          >
+            <div class="group-256">
+              <div class="overlap-group">
+                <div class="group-254">
+                  <div class="text opensans-semi-bold-black-20px">View a sample<br />Get digital trial access</div>
+                </div>
+                <div class="group-2-1 smart-layers-pointers">
+                  <div class="text-1 opensans-semi-bold-sizzling-sunrise-20px">
+                    View a sample<br />Get digital trial access
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a 
+            href="https://exploresuccess.ngl.cengage.com/" 
+            onclick="window.event.stopPropagation()" 
+            target="_blank"
+          >
+            <div class="group-260">
+              <div class="overlap-group">
+                <div class="group-258">
+                  <div class="text opensans-semi-bold-mine-shaft-20px">
+                    Learn more about <br />our digital solutions
+                  </div>
+                </div>
+                <div class="group-259 smart-layers-pointers">
+                  <div class="text-1 opensans-semi-bold-sizzling-sunrise-20px">
+                    Learn more about <br />our digital solutions
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="overlap-group2">
+          <div class="ready-to-order">Ready to order?</div>
+          <div class="flex-row-3">
+            <a href="./ordering/index.html" onclick="window.event.stopPropagation()" target="_blank">
+              <div class="group-266">
+                <div class="overlap-group-1">
+                  <div class="group-26">
+                    <div class="overlap-group-2">
+                      <div class="place-an-order opensans-semi-bold-white-20px">Place an order</div>
+                      <div class="rectangle-204 border-1px-white"></div>
+                    </div>
+                  </div>
+                  <div class="group-26-1 smart-layers-pointers">
+                    <div class="component-16-4">
+                      <div class="place-an-order-1">Place an order</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://nglstore.cengage.com/ordertracking"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-266">
+                <div class="overlap-group-1">
+                  <div class="group-26">
+                    <div class="overlap-group-2">
+                      <div class="track-my-order opensans-semi-bold-white-20px">Track my order</div>
+                      <div class="rectangle-204 border-1px-white"></div>
+                    </div>
+                  </div>
+                  <div class="group-26-1 smart-layers-pointers">
+                    <div class="component-16-4"><div class="track-my-order-1">Track my order</div></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="ready-to-implement opensans-semi-bold-mine-shaft-48px">Ready to implement?</div>
+        <div class="flex-row-4">
+          <img class="hmbtn" src="img/hm-btn-imp-prod@1x.png" />
+          <img class="hmbtn-1" src="img/hm-btn-imo-train@1x.png" />
+        </div>
+        <div class="flex-row-5">
+          <a href="/digitalSupport/index.html#training" onclick="window.event.stopPropagation()" target="_blank">
+            <div class="group-2">
+              <div class="overlap-group">
+                <div class="group-267 border-1px-mountain-mist">
+                  <div class="text-8 opensans-semi-bold-black-20px">Log in to <br />digital product</div>
+                </div>
+                <div class="group-2-1 smart-layers-pointers">
+                  <div class="text-9 opensans-semi-bold-sizzling-sunrise-20px">Log in to <br />digital product</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a 
+            href="./digitalSupport/index.html" 
+            onclick="window.event.stopPropagation()" 
+            target="_blank"
+          >
+            <div class="group-272">
+              <div class="overlap-group12">
+                <div class="group-27">
+                  <div class="overlap-group4-1">
+                    <div class="text-1-1 opensans-semi-bold-black-20px">
+                      Access training <br />resources &amp; services
+                    </div>
+                  </div>
+                </div>
+                <div class="group-27-1 smart-layers-pointers">
+                  <div class="overlap-group5-1">
+                    <div class="text-1-1 opensans-semi-bold-sizzling-sunrise-20px">
+                      Access training <br />resources &amp; services
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="overlap-group1">
+          <div class="stay-connected">Stay Connected</div>
+          <div class="flex-row-6">
+            <div class="mask-group-81">
+              <div class="group-4"></div>
+            </div>
+            <div class="mask-group-80">
+              <div class="overlap-group4-2">
+                <img class="mask-group-79" src="img/mask-group-79@1x.png" />
+                <img class="k12hmimg-explore-inside2020" src="img/k12-hm-img-exploreinside-2020@1x.png" />
+              </div>
+            </div>
+          </div>
+          <div class="flex-row-7">
+            <a
+              href="https://ngl.cengage.com/assets/html/forms/apsi.html"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-2">
+                <div class="overlap-group">
+                  <div class="group-27">
+                    <div class="overlap-group4-3 border-1px-white">
+                      <a
+                        href="https://ngl.cengage.com/assets/html/forms/apsi.html"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                      >
+                        <div class="text-12">
+                          <span class="opensans-semi-bold-white-20px">Learn about <br />AP</span>
+                          <span class="opensans-semi-bold-white-20px">®</span>
+                          <span class="opensans-semi-bold-white-20px"> Summer Institutes</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="group-27-1 smart-layers-pointers">
+                    <div class="overlap-group6">
+                      <a
+                        href="https://ngl.cengage.com/assets/html/forms/apsi.html"
+                        onclick="window.event.stopPropagation()"
+                        target="_blank"
+                      >
+                        <div class="text-13">
+                          <span class="opensans-semi-bold-paradiso-20px">Learn about <br />AP</span>
+                          <span class="opensans-semi-bold-paradiso-20px">®</span>
+                          <span class="opensans-semi-bold-paradiso-20px"> Summer Institutes</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://exploreinside.ngl.cengage.com/?_ga=2.184692845.539796715.1628528484-607289728.1627930776"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-278">
+                <div class="overlap-group7">
+                  <div class="group-276">
+                    <div class="text-14 opensans-semi-bold-white-20px">Visit Explore Inside</div>
+                  </div>
+                  <div class="group-277 smart-layers-pointers">
+                    <div class="text-15 opensans-semi-bold-paradiso-20px">Visit Explore Inside</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="flex-row-8">
+            <div class="text-3 opensans-normal-white-18px">Request programs for workshop participants</div>
+            <div class="text-2 opensans-normal-white-18px">Professional tips, insights and webinars</div>
+          </div>
+        </div>
+        <div class="new opensans-semi-bold-mine-shaft-48px">New</div>
+        <div class="flex-row-9 prod-carousel">
+          <div>
+            <a
+              href="https://ngl.cengage.com/search/productOverview.do?Ntt=human+geography|1575366863151816034020180802083406775&N=4294918395+201&Ntk=NGL%7CP_EPI&Ntx=mode+matchallpartial&homePage=false"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-468">
+                <img 
+                  class="image-servlet" 
+                  src="https://ngl.cengage.com/covers/imageServlet?epi=1575366863151816034020180802083406775&catalog=ngl" 
+                  style="padding-bottom: 10px;"/>
+                <div class="text-92 opensans-bold-black-18px">Human Geography A Spatial Perspective AP® Edition</div>
+                <p class="name opensans-semi-bold-black-14px">Sarah Bednarz | Mark <br />Bockenhauer…</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://ngl.cengage.com/search/productOverview.do?Ntt=1869820766189993212420190729070020629&N=4294918395+201&Ntk=P_EPI&Ntx=mode+matchallpartial&homePage=false"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-468">
+                <img class="image-servlet" src="https://ngl.cengage.com/covers/imageServlet?epi=1730509192109910701314161687911823422144&catalog=ngl" style="padding-bottom: 10px;"/>
+                <div class="text-92 opensans-bold-black-18px">Panorama: Social Studies 1 Teacher’s Guide CCSS/C3</div>
+                <div class="name opensans-semi-bold-black-14px">National Geographic Learning</div>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://ngl.cengage.com/search/productOverview.do?Ntt=113799522321691201620190313220735554&N=201+4294918395&Ntk=P_EPI&Ntx=mode+matchallpartial&homePage=false"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-468">
+                <img class="image-servlet" src="https://ngl.cengage.com/covers/imageServlet?epi=113799522321691201620190313220735554&catalog=ngl" style="padding-bottom: 10px;" />
+                <div class="text-92 opensans-bold-black-18px">DHO Health Science / Louis Simmers, et al</div>
+                <p class="name opensans-semi-bold-black-14px">Louise Simmer | Karen <br />Simmers…</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a 
+              href="https://ngl.cengage.com/search/productOverview.do?N=4294918395+201&amp;Ntt=1809456330178507079820190516203846707&amp;Ntk=P_EPI&amp;title=new_us"
+              target="_blank"
+            >
+              <div class="group-468">
+                <img  class="image-servlet"
+                  src="https://ngl.cengage.com/covers/imageServlet?epi=1809456330178507079820190516203846707&catalog=ngl" style="padding-bottom: 10px;" >
+                <p class="text-92 opensans-bold-black-18px">Calculus for AP<sup>®</sup></p>
+                <p class="name opensans-semi-bold-black-14px">Ron Larson, Ph.D.| Paul Battag...</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a 
+              href="https://ngl.cengage.com/search/productOverview.do?Ntt=voyages|117172925920008044611180900458470454772&N=4294918395+201&Ntk=NGL%7CP_EPI&Ntx=mode+matchallpartial&homePage=false"
+              target="_blank"
+            >
+              <div class="group-468">
+                <img class="image-servlet"
+                  src="https://ngl.cengage.com/covers/imageServlet?epi=117172925920008044611180900458470454772&catalog=ngl" style="padding-bottom: 10px;">
+                <p class="text-92 opensans-bold-black-18px">National Geographic World History Voyages of
+                  Exploration Student Edition</p>
+                <p class="name opensans-semi-bold-black-14px">Kenneth R. Curtis</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a 
+              href="https://ngl.cengage.com/search/productOverview.do?Ntt=earth+and+space+science|142219911771197662720180619201748476&N=201+4294918395&Ntk=NGL%7CP_EPI&Ntx=mode+matchallpartial&homePage=false"
+              target="_blank"
+            >
+              <div class="group-468">
+                <img class="image-servlet"
+                  src="https://ngl.cengage.com/covers/imageServlet?epi=142219911771197662720180619201748476&catalog=ngl" style="padding-bottom: 10px;">
+                <p class="text-92 opensans-bold-black-18px">Earth and Space Science, 1st Edition</p>
+                <p class="name opensans-semi-bold-black-14px">Marc Hendrix | Graham R. Thomps...</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="overlap-group-3">
+          <div class="text-1-2 opensans-semi-bold-sizzling-sunrise-50px">Digital and Classroom Materials</div>
+          <div class="national-geographic opensans-semi-bold-white-20px">
+            National Geographic Learning, a part of Cengage Learning, is a leading educational publisher of K–12 School
+            digital and curricular classroom materials. Through our digital learning programs and classroom learning
+            resources, schools experience the excitement and joy of learning that National Geographic explorers,
+            scientists, writers and photographers experience.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-center-horizontal">
+      <div class="k12-hm-2021-1-1 screen">
+        <div class="flex-col">
+          <div class="group-465">
+            <video
+              src="https://anima-uploads.s3.amazonaws.com/projects/61000883addf8454546f643e/files/1024.mp4"
+              loop
+              autoplay="autoplay"
+              playsinline
+              muted
+            ></video>
+          </div>
+          <div class="ready-to-explore opensans-semi-bold-mine-shaft-30px">Ready to explore?</div>
+          <div class="flex-row">
+            <img class="hmbtncatalog" src="img/hm-btn-catalog-1@1x.png" />
+            <img class="hmbtnexp-smp" src="img/hm-btn-exp-smp-1@1x.png" />
+            <img class="hmbtnexp-sol" src="img/hm-btn-exp-sol-1@1x.png" />
+          </div>
+          <div class="flex-row-1">
+            <a href="https://cloud.3dissue.net/14329/15290/15376/52242/index.html" target="_blank">
+              <div class="group-3">
+                <div class="overlap-group">
+                  <div class="group-160">
+                    <div class="browse-our-catalog opensans-semi-bold-black-14px">Browse our catalog</div>
+                  </div>
+                  <div class="group-160-1 smart-layers-pointers">
+                    <div class="browse-our-catalog-1 opensans-semi-bold-sizzling-sunrise-14px">Browse our catalog</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="https://ngl.cengage.com/assets/html/SampleNow/index.html" target="_blank">
+              <div class="group-3-1">
+                <div class="overlap-group">
+                  <a
+                    href="https://ngl.cengage.com/assets/html/SampleNow/index.html"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-16">
+                      <p class="text-2 opensans-semi-bold-black-14px">View a sample<br />Get digital trial access</p>
+                    </div>
+                  </a>
+                  <a
+                    href="https://ngl.cengage.com/assets/html/SampleNow/index.html"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-32 smart-layers-pointers">
+                      <p class="text opensans-semi-bold-sizzling-sunrise-14px">
+                        View a sample<br />Get digital trial access
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </a>
+            <a href="https://exploresuccess.ngl.cengage.com/" target="_blank">
+              <div class="group-3-1">
+                <div class="overlap-group">
+                  <a href="https://exploresuccess.ngl.cengage.com/" onclick="window.event.stopPropagation()" target="_blank">
+                    <div class="group-16">
+                      <p class="text-2 opensans-semi-bold-black-14px">Learn more about <br />our digital solutions</p>
+                    </div>
+                  </a>
+                  <a href="https://exploresuccess.ngl.cengage.com/" onclick="window.event.stopPropagation()" target="_blank">
+                    <div class="group-32 smart-layers-pointers">
+                      <p class="text opensans-semi-bold-sizzling-sunrise-14px">
+                        Learn more about <br />our digital solutions
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="overlap-group3">
+            <div class="ready-to-order">Ready to order?</div>
+            <div class="flex-row-2">
+              <div class="group-329 smart-layers-pointers">
+                <div class="overlap-group4-2">
+                  <a href="./ordering/index.html" target="_blank">
+                    <div class="group-165">
+                      <div class="overlap-group-1">
+                        <div class="rectangle-117 border-0-7px-white"></div>
+                        <div class="place-an-order opensans-semi-bold-white-14px">Place an order</div>
+                      </div>
+                    </div>
+                    <div class="group-328 smart-layers-pointers">
+                      <div class="overlap-group6">
+                        <div class="rectangle-117-1 border-0-7px-white"></div>
+                        <div class="place-an-order opensans-semi-bold-jacksons-purple-14px">Place an order</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <a
+                href="https://nglstore.cengage.com/ordertracking"
+                target="_blank"
+              >
+                <div class="group-331">
+                  <div class="overlap-group7">
+                    <div class="group-164">
+                      <div class="overlap-group-1">
+                        <div class="track-my-order opensans-semi-bold-white-14px">Track my order</div>
+                        <div class="rectangle-204 border-0-7px-white"></div>
+                      </div>
+                    </div>
+                    <div class="group-330 smart-layers-pointers">
+                      <div class="track-my-order opensans-semi-bold-jacksons-purple-14px">Track my order</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="ready-to-implement opensans-semi-bold-mine-shaft-30px">Ready to implement?</div>
+          <div class="flex-row-3">
+            <img class="hmbtnimp-prod" src="img/hm-btn-imp-prod-1@1x.png" />
+            <img class="hmbtnimo-train" src="img/hm-btn-imo-train-1@1x.png" />
+          </div>
+          <div class="flex-row-4">
+            <a href="./digitalSupport/index.html#training1" target="_blank">
+              <div class="group-3">
+                <div class="overlap-group">
+                  <a href="./digitalSupport/index.html#training1" onclick="window.event.stopPropagation()" target="_blank">
+                    <div class="group-16">
+                      <p class="text-3 opensans-semi-bold-black-14px">Log in to <br />digital product</p>
+                    </div>
+                  </a>
+                  <a href="./digitalSupport/index.html#training1" onclick="window.event.stopPropagation()" target="_blank">
+                    <div class="group-33 smart-layers-pointers">
+                      <p class="text-3-1 opensans-semi-bold-sizzling-sunrise-14px">Log in to <br />digital product</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </a>
+            <a href="./digitalSupport/index.html" target="_blank">
+              <div class="group-3-1">
+                <div class="overlap-group">
+                  <a href="./digitalSupport/index.html" onclick="window.event.stopPropagation()" target="_blank">
+                    <div class="group-16">
+                      <p class="text-3 opensans-semi-bold-black-14px">Access training <br />resources &amp; services</p>
+                    </div>
+                  </a>
+                  <a href="./digitalSupport/index.html" onclick="window.event.stopPropagation()" target="_blank">
+                    <div class="group-33 smart-layers-pointers">
+                      <p class="text-3-1 opensans-semi-bold-sizzling-sunrise-14px">
+                        Access training <br />resources &amp; services
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="overlap-group-2">
+            <div class="stay-connected opensans-semi-bold-white-30px">Stay Connected</div>
+            <div class="flex-row-5">
+              <div class="mask-group-81">
+                <div class="group-4"></div>
+              </div>
+              <div class="mask-group-80">
+                <div class="overlap-group4-3">
+                  <img class="mask-group-79" src="img/mask-group-79-1@1x.png" />
+                  <img class="k12hmimg-explore-inside2020" src="img/k12-hm-img-exploreinside-2020-1@1x.png" />
+                </div>
+              </div>
+            </div>
+            <div class="flex-row-6">
+              <a href="https://ngl.cengage.com/assets/html/forms/apsi.html" target="_blank">
+                <div class="group-3">
+                  <div class="overlap-group">
+                    <a
+                      href="https://ngl.cengage.com/assets/html/forms/apsi.html"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                    >
+                      <div class="group-168">
+                        <p class="text-35 opensans-semi-bold-white-14px">Learn about <br />AP® Summer Institutes</p>
+                      </div>
+                    </a>
+                    <a
+                      href="https://ngl.cengage.com/assets/html/forms/apsi.html"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                    >
+                      <div class="group-340 smart-layers-pointers">
+                        <p class="text-36 opensans-semi-bold-paradiso-14px">Learn about <br />AP® Summer Institutes</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://exploreinside.ngl.cengage.com/?_ga=2.108803910.539796715.1628528484-607289728.1627930776"
+                target="_blank"
+              >
+                <div class="group-343">
+                  <div class="overlap-group">
+                    <a
+                      href="https://exploreinside.ngl.cengage.com/?_ga=2.108803910.539796715.1628528484-607289728.1627930776"
+                      onclick="window.event.stopPropagation()"
+                    >
+                      <div class="group-169">
+                        <div class="text-37 opensans-semi-bold-white-14px">Visit Explore Inside</div>
+                      </div>
+                    </a>
+                    <a 
+                      href="https://exploreinside.ngl.cengage.com/?_ga=2.108803910.539796715.1628528484-607289728.1627930776" onclick="window.event.stopPropagation()"
+                      target="_blank"
+                    >
+                      <div class="group-342 smart-layers-pointers">
+                        <div class="text-38 opensans-semi-bold-paradiso-14px">Visit Explore Inside</div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="flex-row-7">
+              <p class="text-26 opensans-normal-white-12px">Request programs for workshop participants</p>
+              <p class="text-25 opensans-normal-white-12px">Professional tips, insights and webinars</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="new opensans-semi-bold-mine-shaft-30px">New</div>
+        <div class="flex-row-8 prod-carousel">
+          <!--<img class="path-65" src="img/path-65-1@1x.png" /> -->
+          <div><a
+            href="https://ngl.cengage.com/search/productOverview.do?Ntt=human+geography|1575366863151816034020180802083406775&N=4294918395+201&Ntk=NGL%7CP_EPI&Ntx=mode+matchallpartial&homePage=false"
+            target="_blank"
+          >
+            <div class="group-472">
+              <img class="image-servlet" src="https://ngl.cengage.com/covers/imageServlet?epi=1575366863151816034020180802083406775&catalog=ngl" style="padding-bottom: 10px;"/>
+              <p class="text-220 opensans-bold-black-12px">Human Geography A Spatial Perspective AP® Edition</p>
+              <p class="name opensans-semi-bold-black-10px">Sarah Bednarz | Mark <br />Bockenhauer…</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://ngl.cengage.com/search/productOverview.do?Ntt=1869820766189993212420190729070020629&N=4294918395+201&Ntk=P_EPI&Ntx=mode+matchallpartial&homePage=false"
+            target="_blank"
+          >
+            <div class="group-472">
+              <img class="image-servlet" src="https://ngl.cengage.com/covers/imageServlet?epi=1730509192109910701314161687911823422144&catalog=ngl" style="padding-bottom: 10px;"/>
+              <p class="text-220 opensans-bold-black-12px">Panorama: Social Studies 1 Teacher’s Guide CCSS/C3</p>
+              <div class="name opensans-semi-bold-black-10px">National Geographic Learning</div>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://ngl.cengage.com/search/productOverview.do?Ntt=113799522321691201620190313220735554&N=201+4294918395&Ntk=P_EPI&Ntx=mode+matchallpartial&homePage=false"
+            target="_blank"
+          >
+            <div class="group-472">
+              <img class="image-servlet" src="https://ngl.cengage.com/covers/imageServlet?epi=113799522321691201620190313220735554&catalog=ngl" style="padding-bottom: 10px;"/>
+              <p class="text-220 opensans-bold-black-12px">DHO Health Science / Louis Simmers, et al</p>
+              <p class="name opensans-semi-bold-black-10px">Louise Simmer | Karen <br />Simmers…</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a 
+            href="https://ngl.cengage.com/search/productOverview.do?N=4294918395+201&amp;Ntt=1809456330178507079820190516203846707&amp;Ntk=P_EPI&amp;title=new_us"
+            target="_blank"
+          >
+              <div class="group-472">
+                <img  class="image-servlet"
+                  src="https://ngl.cengage.com/covers/imageServlet?epi=1809456330178507079820190516203846707&catalog=ngl" style="padding-bottom: 10px;">
+                <p class="text-220 opensans-bold-black-12px">Calculus for AP<sup>®</sup></p>
+                <p class="name opensans-semi-bold-black-10px">Ron Larson, Ph.D.| Paul Battag...</p>
+                </div>
+            </a>
+          </div>
+          <div>
+            <a 
+              href="https://ngl.cengage.com/search/productOverview.do?Ntt=voyages|117172925920008044611180900458470454772&N=4294918395+201&Ntk=NGL%7CP_EPI&Ntx=mode+matchallpartial&homePage=false"
+              target="_blank"
+            >
+              <div class="group-472">
+                <img class="image-servlet"
+                  src="https://ngl.cengage.com/covers/imageServlet?epi=117172925920008044611180900458470454772&catalog=ngl" style="padding-bottom: 10px;">
+                <p class="text-220 opensans-bold-black-12px">National Geographic World History Voyages of
+                  Exploration Student Edition</p>
+                <p class="name opensans-semi-bold-black-10px">Kenneth R. Curtis</p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a 
+              href="https://ngl.cengage.com/search/productOverview.do?Ntt=earth+and+space+science|142219911771197662720180619201748476&N=201+4294918395&Ntk=NGL%7CP_EPI&Ntx=mode+matchallpartial&homePage=false"
+              target="_blank"
+            >
+              <div class="group-472">
+                <img class="image-servlet"
+                    src="https://ngl.cengage.com/covers/imageServlet?epi=142219911771197662720180619201748476&catalog=ngl" style="padding-bottom: 10px;">
+                <p class="text-220 opensans-bold-black-12px">Earth and Space Science, 1st Edition</p>
+                <p class="name opensans-semi-bold-black-10px">Marc Hendrix | Graham R. Thomps...</p>
+                </div>
+            </a>
+          </div>
+        </div>
+        <div class="overlap-group1">
+          <div class="text-24 opensans-semi-bold-sizzling-sunrise-30px">Digital and Classroom Materials</div>
+          <p class="national-geographic opensans-semi-bold-white-16px">
+            National Geographic Learning, a part of Cengage Learning, is a leading educational publisher of K–12 School
+            digital and curricular classroom materials. Through our digital learning programs and classroom learning
+            resources, schools experience the excitement and joy of learning that National Geographic explorers,
+            scientists, writers and photographers experience.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-center-horizontal">
+      <div class="k12-hm-2021-1-2 screen">
+        <div class="overlap-group7">
+          <div class="overlap-group4">
+            <div class="mask-group-112">
+              <video
+              width="100%"
+              height="100%"
+              src="https://anima-uploads.s3.amazonaws.com/projects/61000883addf8454546f643e/files/herocarousel.mp4"
+              loop
+              autoplay="autoplay"
+              playsinline
+              muted
+            ></video>
+            </div>
+          </div>
+        </div>
+        <div class="ready-to-explore opensans-semi-bold-mine-shaft-20px">Ready to explore?</div>
+        <img class="hmbtncatalog" src="img/hm-btn-catalog-1@1x.png" />
+        <a href="https://cloud.3dissue.net/14329/15290/15376/52242/index.html" target="_blank">
+          <div class="group-171">
+            <div class="browse-our-catalog opensans-semi-bold-black-14px">Browse our catalog</div>
+          </div>
+        </a>
+        <img class="hmbtnexp-smp" src="img/hm-btn-exp-smp-1@1x.png" />
+        <a href="https://ngl.cengage.com/assets/html/SampleNow/index.html" target="_blank">
+          <div class="group-17">
+            <p class="text-4 opensans-semi-bold-black-14px">View a sample<br />Get digital trial access</p>
+          </div>
+        </a>
+        <img class="hmbtnexp-sol" src="img/hm-btn-exp-sol-1@1x.png" />
+        <a href="https://exploresuccess.ngl.cengage.com/" target="_blank">
+          <div class="group-17">
+            <p class="text-4 opensans-semi-bold-black-14px">Learn more about <br />our digital solutions</p>
+          </div>
+          </a>
+          <div class="overlap-group2">
+            <div class="ready-to-order">Ready to order?</div>
+            <a href="./ordering/index.html" target="_blank">
+              <div class="group-173">
+                <div class="overlap-group">
+                  <div class="place-an-order opensans-semi-bold-white-14px">Place an order</div>
+                  <div class="rectangle-117 border-0-7px-white"></div>
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://nglstore.cengage.com/ordertracking"
+              target="_blank"
+            >
+            <div class="group-174">
+              <div class="overlap-group">
+                <div class="track-my-order opensans-semi-bold-white-14px">Track my order</div>
+                <div class="rectangle-204 border-0-7px-white"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="ready-to-implement opensans-semi-bold-mine-shaft-20px">Ready to implement?</div>
+        <img class="hmbtnimp-prod" src="img/hm-btn-imp-prod-1@1x.png" />
+        <a href="./digitalSupport/index.html#training2" target="_blank">
+          <div class="group-17-1">
+            <p class="text opensans-semi-bold-black-14px">Log in to <br />digital product</p>
+          </div>
+        </a>
+        <img class="hmbtnimo-train" src="img/hm-btn-imo-train-2@1x.png" />
+        <a href="./digitalSupport/index.html" target="_blank">
+          <div class="group-17-1">
+            <p class="text opensans-semi-bold-black-14px">Access training <br />resources &amp; services</p>
+          </div>
+        </a>
+        <div class="overlap-group1">
+          <div class="stay-connected opensans-semi-bold-white-20px">Stay Connected</div>
+          <div class="mask-group-121">
+            <div class="group-178"></div>
+          </div>
+          <a href="https://ngl.cengage.com/assets/html/forms/apsi.html" target="_blank">
+            <div class="group-179">
+              <p class="text-50 opensans-semi-bold-white-14px">Learn about <br />AP® Summer Institutes</p>
+            </div>
+          </a>
+          <p class="text-49 opensans-normal-white-12px">Request programs for workshop participants</p>
+          <div class="mask-group-119">
+            <div class="overlap-group5-1">
+              <img class="mask-group-118" src="img/mask-group-118@1x.png" />
+              <img class="k12hmimg-explore-inside2020" src="img/k12-hm-img-exploreinside-2020-1@1x.png" />
+            </div>
+          </div>
+          <a
+            href="https://exploreinside.ngl.cengage.com/?_ga=2.108803910.539796715.1628528484-607289728.1627930776"
+            target="_blank"
+          >
+            <div class="group-180">
+              <div class="text-53 opensans-semi-bold-white-14px">Visit Explore Inside</div>
+            </div>
+          </a>
+          <p class="text-52 opensans-normal-white-12px">Professional tips, insights and webinars</p>
+        </div>
+        <div class="new opensans-semi-bold-mine-shaft-20px">New</div>
+        <div class="flex-row prod-carousel-small">
+          <!--<img class="path-65" src="img/path-65-1@1x.png" /> -->
+          <div><a
+            href="https://ngl.cengage.com/search/productOverview.do?Ntt=human+geography|1575366863151816034020180802083406775&N=4294918395+201&Ntk=NGL%7CP_EPI&Ntx=mode+matchallpartial&homePage=false"
+            target="_blank"
+          >
+            <div class="group-468" style="width: 270px; padding-left: 60px;">
+              <img class="image-servlet" src="https://ngl.cengage.com/covers/imageServlet?epi=1575366863151816034020180802083406775&catalog=ngl" style="padding-bottom: 10px;"/>
+              <p class="text-217 opensans-bold-black-12px">Human Geography A Spatial Perspective AP® Edition</p>
+              <p class="name-1 opensans-semi-bold-black-10px">Sarah Bednarz | Mark <br />Bockenhauer…</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://ngl.cengage.com/search/productOverview.do?Ntt=1869820766189993212420190729070020629&N=4294918395+201&Ntk=P_EPI&Ntx=mode+matchallpartial&homePage=false"
+            target="_blank"
+          >
+            <div class="group-472" style="width: 270px; padding-left: 60px;  ">
+              <img class="image-servlet" src="https://ngl.cengage.com/covers/imageServlet?epi=1730509192109910701314161687911823422144&catalog=ngl" style="padding-bottom: 10px;"/>
+              <p class="text-218 opensans-bold-black-12px">Panorama: Social Studies 1 Teacher’s Guide CCSS/C3</p>
+              <div class="text-219 opensans-semi-bold-black-10px">National Geographic Learning</div>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://ngl.cengage.com/search/productOverview.do?Ntt=113799522321691201620190313220735554&N=201+4294918395&Ntk=P_EPI&Ntx=mode+matchallpartial&homePage=false"
+            target="_blank"
+          >
+            <div class="group-473" style="width: 270px; padding-left: 60px;  ">
+              <img class="image-servlet" src="https://ngl.cengage.com/covers/imageServlet?epi=113799522321691201620190313220735554&catalog=ngl" style="padding-bottom: 10px;"/>
+              <p class="text-220 opensans-bold-black-12px">DHO Health Science / Louis Simmers, et al</p>
+              <p class="name-1 opensans-semi-bold-black-10px">Louise Simmer | Karen <br />Simmers…</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a 
+            href="https://ngl.cengage.com/search/productOverview.do?N=4294918395+201&amp;Ntt=1809456330178507079820190516203846707&amp;Ntk=P_EPI&amp;title=new_us"
+            target="_blank"
+          >
+              <div class="group-473" style="width: 270px; padding-left: 60px;  ">
+                <img  class="image-servlet"
+                  src="https://ngl.cengage.com/covers/imageServlet?epi=1809456330178507079820190516203846707&catalog=ngl" style="padding-bottom: 10px;">
+                <p class="text-220 opensans-bold-black-12px">Calculus for AP<sup>®</sup></p>
+                <p class="name-1 opensans-semi-bold-black-10px">Ron Larson, Ph.D.| Paul Battag...</p>
+                </div>
+          </a></div>
+          <div><a 
+            href="https://ngl.cengage.com/search/productOverview.do?Ntt=voyages|117172925920008044611180900458470454772&N=4294918395+201&Ntk=NGL%7CP_EPI&Ntx=mode+matchallpartial&homePage=false"
+            target="_blank"
+          >
+              <div class="group-473" style="width: 270px; padding-left: 60px;  ">
+                <img class="image-servlet"
+                  src="https://ngl.cengage.com/covers/imageServlet?epi=117172925920008044611180900458470454772&catalog=ngl" style="padding-bottom: 10px;">
+                <p class="text-220 opensans-bold-black-12px">National Geographic World History Voyages of
+                  Exploration Student Edition</p>
+                <p class="name-1 opensans-semi-bold-black-10px">Kenneth R. Curtis</p>
+              </div>
+          </a></div>
+          <div><a 
+            href="https://ngl.cengage.com/search/productOverview.do?Ntt=earth+and+space+science|142219911771197662720180619201748476&N=201+4294918395&Ntk=NGL%7CP_EPI&Ntx=mode+matchallpartial&homePage=false"
+            target="_blank"
+          >
+            <div class="group-473" style="width: 270px; padding-left: 60px;  ">
+              <img class="image-servlet"
+                  src="https://ngl.cengage.com/covers/imageServlet?epi=142219911771197662720180619201748476&catalog=ngl" style="padding-bottom: 10px;">
+              <p class="text-220 opensans-bold-black-12px">Earth and Space Science, 1st Edition</p>
+              <p class="name-1 opensans-semi-bold-black-10px">Marc Hendrix | Graham R. Thomps...</p>
+              </div>
+          </a></div>
+          <!--<img class="path-71" src="img/path-71-1@1x.png" />-->
+        </div>
+        <div class="overlap-group3" >
+          <div class="text-55 opensans-semi-bold-sizzling-sunrise-20px">Digital and Classroom Materials</div>
+          <p class="national-geographic opensans-semi-bold-white-16px">
+            National Geographic Learning, a part of Cengage Learning, is a leading educational publisher of K–12 School
+            digital and curricular classroom materials. Through our digital learning programs and classroom learning
+            resources, schools experience the excitement and joy of learning that National Geographic explorers,
+            scientists, writers and photographers experience.
+          </p>
+        </div>
+      </div>
+      <footer id="footer_include" style="position:absolute; bottom:0;"></footer>
+    </div>
+    <div id="primaryHomeBody" style="display:none">
+      <div id="NGLRedesignpageContainer">
+          <div id="relativeSectionContainerPrimaryhomepage">
+              <!-- Primary Home -->
+              <section id="primaryHome">
+                  <div class="mainPageContainer">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                                  <div class="topicContainer">
+                                      <div class="contentContainer">
+                                          <div class="logoImgContainer eltLogoImgContainer">
+                                              <a href="https://eltngl.com" class="ELTPageLink">
+                                                  <img src="primaryhomeimage/ng_learning_whiteyellow.png"
+                                                      class="img-responsive" alt="National Geographic Learning">
+                                              </a>
+                                          </div>
+                                          <div class="mainPageLink CountryCode ">
+                                              International
+                                          </div>
+                                          <div class="pageTitle">
+                                              <a href="//eltngl.com" class="ELTPageLink">
+                                                  English Language Teaching
+                                              </a>
+                                          </div>
+
+                                          <div class="schoolListContainer">
+                                              <p class="schoolListDescription">For English as Foreign
+                                                  Language,</p>
+                                              <p class="schoolListDescription">Including young
+                                                  learners,</p>
+                                              <p class="schoolListDescription">Teens, General English,
+                                              </p>
+                                              <p class="schoolListDescription">and Higher Education
+                                              </p>
+                                          </div>
+
+                                          <a href="https://eltngl.com" class="mainPageLink ELTPageLink">ELTNGL.COM</a>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center mobileTopSpace">
+                                  <div class="topicContainer">
+                                      <div class="contentContainer">
+                                          <div class="logoImgContainer">
+                                              <a href="javascript:void(0)" class="NGLPageLink">
+                                                  <img src="primaryhomeimage/NGL_Cengage_YW.png"
+                                                      class="img-responsive" width="304px">
+                                              </a>
+                                          </div>
+                                          <div class="mainPageLink CountryCode">
+                                              United States
+                                          </div>
+                                          <div class="pageTitle">
+                                              <a href="javascript:void(0)" class="NGLPageLink">
+                                                  Grades PreK-12
+                                              </a>
+                                          </div>
+
+                                          <div class="schoolListContainer">
+                                              <p class="schoolListDescription">Mathematics <span
+                                                      class="dotPos">.</span> Science </p>
+                                              <p class="schoolListDescription">Social Studies <span
+                                                      class="dotPos">.</span> World Languages</p>
+                                              <p class="schoolListDescription">Reading/Language Arts
+                                              </p>
+                                              <p class="schoolListDescription">Advanced, Honors, and
+                                                  Electives</p>
+                                              <p class="schoolListDescription">Career and Technical
+                                                  Education</p>
+                                          </div>
+
+                                          <a href="javascript:void(0)"
+                                              class="mainPageLink NGLPageLink">NGL.Cengage.com</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+          </div>
+      </div>
+  </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.cengage.com/js/yepnope/yepnope.1.5.4-min.js"></script>
+    <script src="/jscript/imports/nglCommon.js"></script>
+    <script src="/jscript/imports/RedesignNGLTwoColumnResultsPage.js"></script>
+    <script src="https://ngl.cengage.com/nglredesign/school/home/js/home.js"></script>
+    <script>
+      $('.prod-carousel').slick({
+        nextArrow: '<button type="button" style="margin-top: 55px; margin-right: 15px; border: none; background: none; font-size: 70px;font-weight: bold;" class="slick-prev"><strong>&#8250;</strong></button>',
+        prevArrow: '<button type="button" style="margin-top: 55px; margin-left: 15px; border: none; background: none; font-size: 70px;font-weight: bold;" class="slick-prev">&#8249;</button>',
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        draggable: true,
+        speed: 100,
+      });
+
+      $('.prod-carousel-small').slick({
+        nextArrow: '<button type="button" style="margin-right: 15px; border: none; background: none; font-size: 50px;font-weight: bold;" class="slick-prev"><strong>&#8250;</strong></button>',
+        prevArrow: '<button type="button" style="margin-left: 15px; border: none; background: none; font-size: 50px;font-weight: bold;" class="slick-prev">&#8249;</button>',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        draggable: true,
+        speed: 100,
+      });
+    </script>
+    <!-- Start Google tag manager -->
+    <script>
+        var seriesSearchResultRange = "0";
+        var seriesSearchResultSorting = sessionStorage.getItem("seriesSearchResultSorting") != null ? sessionStorage.getItem("seriesSearchResultSorting") : "";
+        var seriesSearchResultsPerPage = sessionStorage.getItem("seriesSearchResultsPerPage");
+    
+        if ("" > 0) {
+            if ("" == 1) {
+                seriesSearchResultRange = "1";
+            } else {
+                seriesSearchResultRange = "1 - " + "";
+            }
+        }
+    
+        var productSearchResultRange = "0";
+        var productSearchResultSorting = sessionStorage.getItem("productSearchResultSorting") != null ? sessionStorage.getItem("productSearchResultSorting") : "";
+        var productSearchResultsPerPage = sessionStorage.getItem("productSearchResultsPerPage");
+    
+        if ("" > 0) {
+            if ("" == 1) {
+                productSearchResultRange = "1";
+            } else {
+                productSearchResultRange = "1 - " + "";
+            }
+        }
+    
+    
+        if (("" == "") && (seriesSearchResultRange !== "0")) {
+            currentSeriesPage = "1";
+        } else {
+            currentSeriesPage = "";
+        }
+    
+        if (("" == "") && (productSearchResultRange !== "0")) {
+            currentProductPage = "1";
+        } else {
+            currentProductPage = "";
+        }
+        window.dataLayer
+            .push({
+                'returnedSearchResultsSeries': seriesSearchResultRange,
+                'returnedSearchResultsProducts': productSearchResultRange,
+                'combinedSearchVariables': "",
+                'combinedSearchVariablesValues': "",
+                'searchCategory': "",
+                'searchBoxInput': "",
+                'searchFilterLevel': "",
+                'searchFilterRecommended': "",
+                'searchFilterGrade': "",
+                'searchFilterLanguage': "",
+                'searchFilterMediaType': "",
+                'searchFilterSuplementType': "",
+                'searchFilterAuthor': "",
+                'searchFilterCourseArea': "",
+                'searchFilterSubject': "",
+                'searchFilterLexile': "",
+                'searchFilterGuidedReading': "",
+                'searchFilterDRARange': "",
+                'searchFilterSortyBySeries': seriesSearchResultSorting,
+                'searchFilterSortyByProducts': productSearchResultSorting,
+                'searchFilterResultsPerPageSeries': seriesSearchResultsPerPage,
+                'searchFilterResultsPerPageProducts': productSearchResultsPerPage,
+                'searchFilterResultsPageNumberSeries': currentSeriesPage,
+                'searchFilterResultsPageNumberProducts': currentProductPage,
+                'event': "searchValues"
+            });
+    </script>
+    <!-- End Google tag manager -->
+  </body>
+</html>

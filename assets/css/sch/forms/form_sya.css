@@ -1,0 +1,154 @@
+@charset "UTF-8";
+#divWordCount {
+	display: inline-block;
+	float: left;
+	width: 200px;
+	font-size: 0.85em;
+}
+/* CSS Document */
+
+/* ---form---*/
+
+#formsya {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	counter-reset: fieldsets;
+	width: 900px;
+	display:block;
+	margin:0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+.sya {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	counter-reset: fieldsets;
+	width: 900px;
+	display:block;
+	margin:0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.sya fieldset  {
+	margin-bottom: 3px;
+	display: block;
+	border-radius:20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	}
+.sya fieldset:last-of-type {
+	margin-bottom: 0;
+	}
+.sya legend  {
+	color: #666666;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-bottom: 6px;
+	text-align: left;
+	display: block;
+	margin-left: 20px;
+	font-style: italic;
+	font-family: "Times New Roman", Times, serif;
+	}
+/*--form#dpkr > fieldset > legend:before {
+	content: "Step " counter(fieldsets) ": ";
+	counter-increment: fieldsets;
+	}--*/
+
+.sya fieldset fieldset legend  {
+	color: #111111;
+	font-weight: normal;
+	padding-bottom: 0;	
+}
+.sya label  {
+	width:160px;
+	display:inline-block;
+	text-align:right;
+	font-weight: bold;
+	padding-right: 10px;
+	font-size: 0.85em;
+	line-height: normal;
+	padding-top: 3px;
+	float: left;
+}
+.sya label span  {
+	width:200px;
+}
+.sya input   {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 0.85em;
+	font-style: italic;
+	display: inline-block;
+	width: 240px;
+	color: #333;
+	float: left;
+	margin-bottom: 18px;
+	margin-right: 12px;
+}
+.sya input textarea   {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	font-style: italic;
+	display: inline-block;
+	color: #333;
+	padding-bottom: 24px;
+}
+.sya input [type=radio]   {
+	width: 200px;
+	display: inline-block;
+	float: left;
+}
+.comments  {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	font-style: italic;
+	display: inline-block;
+	width: 245px;
+	height: 32px;
+	color: #333;
+	float: left;
+	margin-top: 12px;
+	margin-bottom: 24px;
+}
+.sya input textarea: hover {
+	cursor: pointer;
+}
+.sya button  {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffcc00), color-stop(100%,#e7a100));
+  	background: -webkit-linear-gradient(top, #ffcc00 0%,#e7a100 100%);
+    background: -moz-linear-gradient(top, #ffcc00 0%,#e7a100 100%);
+    background: -ms-linear-gradient(top, #ffcc00 0%,#e7a100 100%);
+    background: -o-linear-gradient(top, #ffcc00 0%,#e7a100 100%);
+    background: linear-gradient(top, #ffcc00 0%,#e7a100 100%);
+	color: #000;
+	border-radius:20px;
+	width: 130px;
+	margin-bottom: 0;
+	float:right;
+	font-weight: bold;
+	height: 32px;
+}
+.sya button:hover {
+	cursor: pointer;
+}
+#finalcount {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+#formsya div{
+	display: inline-block;
+	float: left;
+}
+	.form-radio-item, .form-checkbox-item{
+    margin-top:5px;
+    float:left;
+}
+#input_16 {
+	margin-right: 260px;
+}
+#input_11 {
+	margin-bottom: 24px;
+}

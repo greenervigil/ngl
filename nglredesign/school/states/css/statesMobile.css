@@ -1,0 +1,42 @@
+@media(max-width: 767px){
+
+	.seriesContainer{
+        padding: 0px 12px;
+	}
+
+	
+	.programInfonav ul{
+		margin: 0px;
+	}
+
+	.programInfonav .container{
+		padding: 0px;
+	}
+
+	/* Series banner section */
+
+	#seriesBanner{
+	    height: 144px;	   
+	    background-repeat: no-repeat;
+  		background-size: cover;
+  		background-position: bottom;
+	}
+
+	#seriesBanner .superheroImg{
+	    height: 100%;
+	    display: none;
+		
+	}
+
+	.heroOverlayText{
+	    font-size: 22px;
+	    margin: 5px auto;
+	    padding: 0 12px;
+	}
+
+	/*---- story block section ---*/
+	.storyBlockContainer{
+		padding: 0 12px;
+	}
+
+}

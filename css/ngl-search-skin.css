@@ -1,0 +1,75 @@
+/*--- Content Region Styles ----------------------*/
+html body { font-family: Arial, Helvetica, sans-serif; }
+
+h1, h2, h3 { font-weight: bold; }
+
+h2 { color: #333; }
+
+.container { opacity: 1; }
+
+/*---------- Aside Left --------------------------*/
+aside.main section, aside nav { border-color: #FC0; }
+aside.main h1 { color: #AF5700; }
+aside h2 { 
+  border-color: #FC0; 
+  font-size: 12px;
+}
+/* -------------- Cartidges ---------------------- */
+aside form { margin-bottom: 15px; }
+form input[type=text] { 
+  border-color: #CCC;
+ }
+
+.nonRecord { border-color: #CCC; }
+
+.border { border: 1px solid #FC0; }
+
+.quickLinks, .rssFeed, .titleText { 
+  border: 1px solid #FC0;
+  padding: 10px;
+  width: 703px;  
+}
+.quickLinks h1, .rssFeed h1, .titleText h1 {
+  color: #222;
+  border-bottom: 1px solid #FC0;
+  padding: 0 0 10px 10px;
+  margin: 0px -10px 10px -10px;
+}
+.quickLinks li, .rssFeed li { padding-bottom: 10px; }
+.recordScrollBanner .nav { 
+  background-color: #FFF;
+  border-color: #FC0; 
+}
+.recordScrollBanner img,
+.recordScrollBanner img.program { margin-left: 0; }
+
+.resultsList li ul li {  border-color: #FC0; } 
+/*  --------------  Companion Links  --------------  */
+.additional-links a.companion-link {
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,204,0,0)), color-stop(100%,rgba(255,204,0,0.3))); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,204,0,0.3) 100%); /* Chrome10+,Safari5.1+ */
+     background-image: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,204,0,0.3) 100%); /* FF3.6+ */
+      background-image: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,204,0,0.3) 100%); /* IE10+ */
+      background-image: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,204,0,0.3) 100%); /* W3C */
+       background-image: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,204,0,0.3) 100%); /* Opera 11.10+ */
+  background-repeat: repeat-x;
+  font-weight: bold;
+   -webkit-transition: all .2s linear;
+      -moz-transition: all .2s linear;
+       -ms-transition: all .2s linear;
+        -o-transition: all .2s linear;
+           transition: all .2s linear;
+}
+.ie8 .additional-links a.companion-link { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffcc00', endColorstr='#80ffcc00',GradientType=1 ); /* IE6-8 */  font-weight: bold; }
+.additional-links a.companion-link:hover { background-color: rgba(255,204,0,0.2); }
+
+.recordScrollBanner li button { color: #0071A2; }
+.rotatingBanner ul { height: 510px; } 
+/* ---- I-Frame Within The Products Tab On Products Page ---- */
+.products-included-iframe nav { width: 145px; }
+.products-included-iframe article { width: 510px; float: left; }
+.products-included-iframe aside.main { width: 192px; }
+.products-included-iframe aside.main section { width: 145px; }
+.products-included-iframe #RefSearchTXT { width: 120px; }

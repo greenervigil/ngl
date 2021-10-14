@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/*NYC*/
+
+* {
+	margin:0 auto;
+}
+
+a, img {
+    border:none;
+    outline:none
+}
+.logo {
+	height: 50px;
+	width: 295px;
+	padding-top: 10px;
+	border-collapse:collapse;
+	padding-left: 25px;
+}
+#banner {
+	margin:0;
+	display: block;
+	height: 200px;
+	width: 975px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 2px;
+	padding-left: 0;
+}
+#container {
+	height: auto;
+	width: 975px;
+}
+#content {
+	display: block;
+	float: left;
+	height: auto;
+	width: 500px;
+	margin-top: 42px;
+	margin-bottom: 100px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/*Left Nav*/
+#leftnav {
+	display: block;
+	width:240
+	float: left;
+	width: 210px;
+	float: left;
+	margin-top: 42px;
+	padding-right: 20px;
+}
+#rightnav {
+	display: block;
+	width:240
+	float: left;
+	width: 210px;
+	float: right;
+	margin-top: 42px;
+}
+
+.arrowlinks {
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	font-size : 0.85em;
+	color : #666666;
+	border: thin solid #CCC;
+	float: left;
+	height: auto;
+	width: 180px;
+	text-align: left;
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	list-style-type: none;
+	margin-left: -40px;
+	font-weight: lighter;
+}
+
+ol.arrowlinks{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+li.arrowlinks{
+	background:url("http://ngl.cengage.com/assets/css/arrow_grey.png") no-repeat 0 8px;
+	padding-left:24px;
+}
+.arrowlinks a:link {
+	text-decoration: none !important;
+	color : #666666;
+}
+.arrowlinks a:hover {
+	text-decoration: underline !important;
+	color : #666666;
+}
+.arrowlinks a:visited {
+	text-decoration: none !important;
+	color : #666666;
+}
+
+.arrowlinksHeaders {
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	font-weight : bold;
+	font-size : 0.85em;
+	color : #666666;
+	border: thin solid #CCC;
+	float: left;
+	height: auto;
+	width: 198px;
+	text-align: left;
+	clear: both;
+	line-height: normal;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	list-style-type: none;
+	margin-left: -40px;
+	padding-left: 6px;
+}
+.subjects {
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	color: #666;
+	font-size: 1.8em;
+	margin-bottom: 24px;
+	font-weight: bold;
+}
+
+.courseNames {
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	font-size: 1.5em;
+	color: #333333;
+	display: inline-block;
+	float: left;
+	text-align: left;
+	margin-bottom: 12px;
+}

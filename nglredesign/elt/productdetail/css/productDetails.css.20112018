@@ -1,0 +1,1497 @@
+section{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.NGLELTProductPage .modal-body button.close {
+    color: #000;
+    background-color: transparent;
+    height: 15px;
+    position: absolute;
+    right: 1px;
+    margin: -8px 6px 4px 0px;
+}
+
+.NGLELTProductPage .modal-content button[data-dismiss="modal"]:before {
+    content: "\f00d";
+    font-size: 18px;
+    font-family: FontAwesome;
+}
+
+.NGLELTProductPage .productDetailsPadding{
+    padding: 0px 70px;
+}
+
+.NGLELTProductPage #relativeSectionContainer {
+    margin-top: 44px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+/* -- productDetails section --*/
+
+.productDetailsnav .navbar{
+    margin: 0px;
+}
+
+.productDetailsnav .navbar-header {
+    float: none;
+}
+.productDetailsnav .navbar-toggle {
+    display: block;
+}
+.productDetailsnav .navbar-collapse.collapse {
+    display: none!important;
+}
+.productDetailsnav .navbar-collapse.collapse.in {
+    display: block!important;
+}
+.productDetailsnav .navbar-nav {
+    float: none!important;
+}
+.productDetailsnav .navbar-nav>li {
+    float: none;
+    z-index: 1;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color: transparent;
+}
+
+
+#productDetailsSection{
+    border-radius: 3px;
+    background-color: rgb(255, 204, 0);
+    height: 44px;
+    position: fixed;
+    z-index: 9;
+    top: 71px;
+}
+
+#productDetailsButtonContainer{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 2.4;
+    text-align: left;
+    float: left;
+}
+
+#productDetailsButtonContainer .navbar-toggle{
+    padding: 0px;
+    margin: 0px;
+}
+
+#productDetailsMenuMainContainer {
+    position: fixed;
+    z-index: 99;
+    top: 71px;
+}
+
+#productDetailsMenucontainer{
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 45px;
+    max-height: 500px;
+    overflow-y: auto !important;
+}
+
+#productDetailsMenucontainer>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(224, 221, 206);
+    height: 42px;
+    margin-top: 2px;
+}
+
+#productDetailsMenucontainer>li:hover, #productDetailsMenucontainer>li:focus, 
+#productDetailsMenucontainer>li a:hover, #productDetailsMenucontainer>li:focus,
+#productDetailsMenucontainer>li a .menuLinksText:hover, #productDetailsMenucontainer>li a .menuLinksText:focus{
+	background-color: rgb(128, 125, 117);
+	color: rgb(255, 255, 255);
+}
+
+
+#productDetailsMenucontainer .companionSiteMenu{
+background-color: rgb(184, 119, 15);
+}
+
+#productDetailsMenucontainer .companionSiteMenu a, #productDetailsMenucontainer .companionSiteMenu a .menuLinksText {
+    color: rgb(255, 255, 255);
+}
+
+#productDetailsMenucontainer .companionSiteMenu:hover, #productDetailsMenucontainer .companionSiteMenu:focus,
+#productDetailsMenucontainer .companionSiteMenu a:hover, #productDetailsMenucontainer .companionSiteMenu a:focus, 
+#productDetailsMenucontainer .companionSiteMenu a .menuLinksText:hover, #productDetailsMenucontainer .companionSiteMenu a .menuLinksText:focus{
+    background-color: rgb(128, 83, 10);
+}
+
+#productDetailsMenucontainer li a{
+    padding: 8px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 100%;
+    color: rgb(51, 51, 51);
+}
+
+#productDetailsMenucontainer .menuLinksText{    
+	font-size: 16px;    
+    line-height: 1.2;
+    text-align: left;
+}
+
+.productDetailsSubmenu{
+    padding: 0px;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenu>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    height: 42px;
+    margin-top: 2px;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenu .menuLinksText{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.productDetailsSubmenuChild>li {
+    border-radius: 3px;
+    background-color: rgb(176, 168, 139);
+    margin-top: 2px;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenuChild .menuLinksText{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+}
+
+#productDetailsMenucontainer .menuLinksIcon {
+    border: 1px solid #666666;
+    line-height: 17px;
+}
+
+/*-- Overview Section --*/
+
+.EltProductDetailInnerPadding{
+    padding: 0px 21px;
+}
+
+#EltProductDetailOverview{
+    padding: 25px 0px 0px;
+}
+
+.overviewTitle{
+    font-size: 24px;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0px;
+}
+
+.backToSeriesBtn{
+    background-color: rgb(0, 114, 163);
+    height: 28px;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 28px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.backToSeriesBtn:hover,.backToSeriesBtn:focus{
+    color: #ffffff;
+}
+
+.backToSeriesDropDownMainContainer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#backToSeriesDropDownContainer{
+    padding: 0px;
+}
+
+#backToSeriesDropDownContainer>li{
+    background-color: rgb(0, 114, 163);
+    height: 28px;
+    border-radius: 15px;
+    /*max-width: 650px;*/
+    margin: 0 auto;
+}
+
+#backToSeriesDropDownContainer>li a{
+    font-size: 12px;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    width: 100%;    
+    padding: 5px 10px;
+}
+
+.backToSeriesIcon{
+    float: left;
+    margin-right: 21px;
+    font-size: 20px;
+}
+
+#backToSeriesDropDownContainer .backToSeriesSubmenu{
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+#backToSeriesDropDownContainer .backToSeriesSubmenu li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    /*max-width: 650px;*/
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+#backToSeriesDropDownContainer .backToSeriesSubmenu li:hover{
+    background-color: rgb(0, 114, 163);
+}
+
+#backToSeriesDropDownContainer .backToSeriesSubmenu li a{
+    padding: 4px 10px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 100%;
+    text-align: left;
+    color: #000000;
+}
+
+#backToSeriesDropDownContainer .backToSeriesSubmenu li a:hover{
+    color: #ffffff;
+}
+
+/*-- overview box--*/
+#EltProductDetailOverview .EltProductDetailOverviewContentContainer{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.overviewBox{
+    height: 300px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.overviewImgContainer{
+    width: 209px;
+    height: 262px;
+}
+
+.overviewImgContainer img{
+    width: 100%;
+}
+
+
+.overviewModalContent .overviewBox{
+	float: none;
+	margin-top: 20px;
+	padding: 0px;
+	overflow-y: auto;
+	height: 300px;
+}
+
+.overViewMoreBtn {
+    font-size: 15px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: left;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.overviewBoxTitle{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.overviewBox .overviewDetails{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.overviewBox p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.overviewBox .srs_body{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.overviewBox ul{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.overviewAuthor .overviewDetails{
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.NGLELTProductPage h2.levels{
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.NGLELTProductPage .levels, .NGLELTProductPage .levels a{
+	font-size: 15px;
+	color: rgb(102, 102, 102);
+	line-height: 1.2;
+	text-align: left;
+    font-weight: lighter;
+}
+
+.overviewBold{
+    font-weight: 600;
+    color: rgb(0, 0, 0 );
+}
+
+.eltBuyBox{
+    width: 250px;
+    /*height: 256px;*/
+    position: relative;
+    float: left;
+    border: 0px solid green;
+}
+
+.eltBuyBox>a{
+    display: inline-block;
+    width: 100%;
+	text-decoration: none;
+}
+.eltBuyBox>a>span {
+    color: #585757;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    padding: 13px 0 20px;
+    display: block;
+    text-align: center;
+}
+.eltBuyBox>a>span:first-of-type {
+    font-size: 18px;
+    font-weight: bold;
+}
+.eltBuyBox>a>span:last-of-type {
+    font-size: 14px;
+    font-weight: 700;
+}
+.eltBuyBox ul li>span {
+    display: block;
+    padding: 5px 0;
+}
+.eltBuyBox a img{
+    margin: 0 auto;
+    display: block;
+}
+
+.eltBuyBox ul{
+    float: left;
+    padding: 0px;
+    margin-top: 10px;
+    width: 100%;
+    list-style: none;
+	border: 1px solid #ADACA8;
+    border-radius: 7px;
+}
+
+.eltBuyBox ul li {
+    border-bottom: 0px solid #CCC;
+    line-height: 16px;
+    margin: 0 10px;
+    padding: 5px;
+    font-weight: normal;
+    color: #000;
+}
+
+.eltBuyBox ul li:last-of-type {
+    border-bottom: 0px solid #CCC;
+    margin-bottom: 10px;
+}
+
+.eltBuyBox ul li .right {
+   /* font-weight: 700;*/
+    text-align: right;
+}
+
+.NGLELTProductPage .right {
+    float: right;
+}
+
+.eltBuyBox .button {
+    background: #FEFEFE;
+    background: url(https://www.cengage.com/images/headerFooter/btnBackgroundImage.jpg);
+    background: -moz-linear-gradient(top, #FEFEFE 0%, #D4D4D4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEFEFE), color-stop(100%,#D4D4D4));
+    background: -webkit-linear-gradient(top, #FEFEFE 0%,#D4D4D4 100%);
+    background: -o-linear-gradient(top, #FEFEFE 0%,#D4D4D4 100%);
+    background: -ms-linear-gradient(top, #FEFEFE 0%,#D4D4D4 100%);
+    background: linear-gradient(top, #FEFEFE 0%,#D4D4D4 100%);
+    float: right;
+    margin: 0 10px 0 0;
+    min-width: 30%;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.eltBuyBox .button {
+	float: none;
+    margin: 0px 10px -23px;    
+    padding: 7px 20px;
+    border: 1px solid #ADACA8;
+	-webkit-border-radius:7px;
+    border-radius: 7px;
+    box-shadow: none;
+    display: block;
+    font-weight: 900;
+    height: 45px;
+    line-height: 26px;
+    text-align: center;
+    background: none #FCD600;
+    color: #000;
+    font-size: 24px;
+}
+
+#EltProductDetailOverview .requestSampleBtn{
+    background-color: rgba(255, 204, 0, 0.502);
+    height: 28px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 28px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    border-radius: 15px;
+    /*margin-top: 30px;*/
+}
+
+#EltProductDetailOverview .requestSampleBtn:hover, #EltProductDetailOverview .requestSampleBtn:focus{
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+
+/*--More details section--*/
+.NGLELTProductPage #EltmoreDetails{
+    padding: 28px 0px;
+    border: 1px solid rgb(157, 157, 157);
+    background-color: rgb(102, 102, 102);
+}
+
+.NGLELTProductPage .titleMore{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#productDetailsMorecontainer{
+    padding:0px;
+}
+
+#productDetailsMorecontainer li {
+    margin-top: 2px;
+}
+
+#productDetailsMorecontainer>li{
+    border-radius: 3px;
+    background-color: rgb(224, 221, 206);
+    width: 100%;
+    margin-top: 2px;
+}
+
+#productDetailsMorecontainer>li>a{
+    padding: 10px 21px;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.productDetailsMoreSubmenu{
+    padding: 0px;
+}
+
+.productDetailsMoreSubmenu>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    padding:0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.productDetailsMoreSubmenu>li>a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.98283261802575,0,0,1,0,0);
+    -webkit-transform: matrix( 0.98283261802575,0,0,1,0,0);
+    -ms-transform: matrix( 0.98283261802575,0,0,1,0,0);
+    padding: 11px;
+}
+
+#productDetailsMorecontainer .menuLinksIcon{
+    border: 1px solid #666666;
+    line-height: 17px;
+}
+
+.productDetailsMoreSubmenuChild>li{
+    border-radius: 3px;
+    background-color: rgb(176, 168, 139);
+}
+
+.productDetailsMoreSubmenuChild>li>a{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+     padding: 6px;
+}
+
+.moreAuthorContainer{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: rgb(230, 230, 227);
+    padding: 12px 21px 38px;
+}
+
+.moreAuthorImgContainer{
+    position: relative;
+    float: left;
+    width: 18%;
+}
+
+.moreAuthorDescriptionContainer{
+    position: relative;
+    float: right;
+    width: 82%;
+}
+
+.moreAuthorTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.moreAuthorDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 2px;
+}
+
+.NGLELTProductPage .authorMoreBtn{
+    font-size: 15px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: left;
+    display: none;
+    margin-top: 7px;
+}
+
+.tableOfContentsBtn{
+    font-size: 15px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: left;
+    display: none;
+    margin-top: 7px;
+}
+
+.tableOfContentsContainer{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: rgb(230, 230, 227);
+    padding: 12px 21px 38px;
+}
+
+.tableOfContentsDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 2px;
+}
+
+/*-- productDetails carousel --*/
+#seriesCarousel {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.productDetailsCarouselTitle{
+    font-size: 18px;
+    color: #4498bc;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.viewAllSeriesBtn{
+    background-color: rgb(0, 114, 163);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    width: 100%;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.viewAllSeriesBtn:hover{
+    color: rgb(255, 255, 255);
+}
+
+#productScrollSection{
+    padding: 42px 0px;
+    background-color: rgb(242, 239, 223);
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.productScrollHeading{
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+#productScrollContainer {
+    margin-top: 25px;
+}
+
+#productScrollContainer .item img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 201px;
+}
+
+.NGLELTProductPage .owl-controls{
+    position: absolute;
+    width: 100%;
+    top: 92px;
+}
+
+.NGLELTProductPage .owl-prev{
+    text-align: left;
+}
+
+.NGLELTProductPage .owl-next{
+    text-align: right;
+}
+
+#productScrollContainer .left, #productScrollContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 3%;
+    padding-top: 5%;
+    opacity: 1;
+    color: #000000;
+}
+
+#productScrollContainer .item {
+    width: 280px;
+    display: inline-block;
+}
+
+#productScrollContainer .item a{
+    display: inline-block;
+   /* width: 201px;*/
+    text-decoration: none;
+}
+#productScrollContainer .item .scrollDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#productScrollContainer .item .scrollCopyRight{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.333;
+    text-align: left;
+}
+
+#productScrollContainer .item .scrollHeading{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+/* product button */
+.productBtnBuy {
+    border: 1px solid #0072a3;
+    font-size: 16px;
+    border-radius: 15px;
+    display: block;
+    line-height: 22px;
+    text-align: center;
+    width: 150px;
+    margin-top: 10px;
+    height: 28px;
+    background-color: #fff;
+    color: #0072a3;
+}
+
+/*-- Student Components --*/
+#studentsComponents{
+    background-color: rgb(242, 242, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+#studentsComponents .studentsComponentsBox{
+    margin-bottom:30px;
+    padding-right:1.9%;
+}
+
+.studentsComponentsBold{
+    font-weight: 600;
+}
+
+.studentsComponentsHeading{
+    font-size: 24px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.studentsComponentsDetailContainer{
+    width: 100%;
+    /*padding: 20px;*/
+    text-align: left;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    height: 330px;
+}
+
+.studentsComponentsDetailHeading{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.studentsComponentsDetailISBN{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.studentsComponentsDetail{
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.studentsComponentsDetailPrice{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+/*-- Instructor Components --*/
+#instructorComponents{
+    margin-top: 20px;
+    background-color: rgb(242, 242, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#instructorComponents .instructorComponentsBox{
+    margin-bottom:30px;
+    padding-right:1.9%;
+}
+
+.instructorComponentsBold{
+    font-weight: 600;
+}
+
+.instructorComponentsHeading{
+    font-size: 24px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.instructorComponentsDetailContainer{
+    width: 100%;
+    /*padding: 20px;*/
+    text-align: left;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    height: 330px;
+}
+
+.instructorComponentsDetailHeading{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.instructorComponentsDetailISBN{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.instructorComponentsDetail{
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.instructorComponentsDetailPrice{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+/*-- Alternate Formats --*/
+#alternateFormats{
+    margin-top: 20px;
+    background-color: rgb(242, 242, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+#alternateFormats .alternateFormatsComponentsBox{
+    margin-bottom:30px;
+    padding-right:1.9%;
+}
+
+.alternateFormatsBold{
+    font-weight: 600;
+}
+
+.alternateFormatsHeading{
+    font-size: 24px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.alternateFormatsSubHeading{
+    font-size: 14px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 6px;
+    max-width: 718px;
+    margin-bottom: 20px;
+}
+
+.alternateFormatsDetailContainer{
+    width: 100%;
+    /*padding: 20px;*/
+    text-align: left;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    height: 225px;
+}
+
+.alternateFormatsDetailHeading{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.alternateFormatsDetailISBN{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.alternateFormatsDetailPrice{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+/*-- Best Buy --*/
+#bestBuy{
+    margin-top: 20px;
+    background-color: rgb(242, 242, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.bestBuyBold{
+    font-weight: 600;
+}
+
+#bestBuy .bestBuyComponentsBox{
+    margin-bottom:30px;
+    padding-right:1.9%;
+}
+
+.bestBuyLine{
+    color: rgb(0, 114, 163);
+    width: 100%;
+    border: 1px solid;
+}
+
+.bestBuyDotedLine{
+    color: rgb(102, 102, 102);
+    width: 100%;
+    border: 1px dotted;
+}
+
+.bestBuyHeading{
+    font-size: 24px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bestBuySubHeading{
+    font-size: 14px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0px auto;
+    max-width: 718px;
+    margin-bottom: 20px;
+}
+
+.bestBuyDetailContainer{
+    width: 100%;
+    /*padding: 20px;*/
+    text-align: left;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.bestBuyDetailHeading{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bestBuyDetailISBN{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.bestBuyDetail{
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.bestBuyDetailPrice{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.bundleIncludes{
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+/*-- Related Program --*/
+#relatedProgramCarousel {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.relatedProgramCarouselTitle{
+    font-size: 20px;  
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+}
+
+#relatedProgramCarouselContainer {
+    margin-top: 25px;
+}
+
+#relatedProgramCarouselContainer .owl-stage{
+    margin: 0px auto;
+}
+
+#relatedProgramCarouselContainer .item img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 201px;
+}
+
+.NGLELTProductPage .owl-controls{
+    position: absolute;
+    width: 100%;
+    top: 92px;
+}
+
+.NGLELTProductPage .owl-prev{
+    text-align: left;
+}
+
+.NGLELTProductPage .owl-next{
+    text-align: right;
+}
+
+#relatedProgramCarouselContainer .left, #relatedProgramCarouselContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 3%;
+    padding-top: 5%;
+    opacity: 1;
+    color: #000000;
+}
+
+#relatedProgramCarouselContainer .item {
+    width: 280px;
+    display: inline-block;
+}
+
+#relatedProgramCarouselContainer .item a{
+    display: inline-block;
+   /* width: 201px;*/
+    text-decoration: none;
+}
+#relatedProgramCarouselContainer .item .scrollDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#relatedProgramCarouselContainer .item .scrollCopyRight{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.333;
+    text-align: left;
+}
+
+#relatedProgramCarouselContainer .item .scrollHeading{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+/*-- Custom tab html --*/
+.NGLELTProductPage .customTabHtml{
+    margin-top: 2px;
+    background-color: rgb(230, 230, 227);
+    padding-top: 25px;
+    padding-bottom:70px;
+}
+
+.NGLELTProductPage .customTabHtml .heading{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 25px;
+    font-weight: 600;
+
+}
+
+.NGLELTProductPage .customTabHtml p, .customTabHtml{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.NGLELTProductPage .customTabHtml ul{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.7;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/*-- Series Custom Tab --*/
+
+.NGLELTProductPage .seriesCustomTab{
+    background-color: rgb(21, 87, 117);
+    padding: 24px 0px;
+}
+
+.NGLELTProductPage .seriesCustomTabHeading{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 20px 
+}
+
+.NGLELTProductPage .seriesCustomTab .vidyard-video h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.NGLELTProductPage .seriesCustomTab .vidyard-video p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+/*-- Companion site --*/
+
+.NGLELTProductPage #companionSite{
+    margin-top: 2px;
+}
+
+.NGLELTProductPage #companionSitecontainer{
+    padding: 0px;
+}
+
+.NGLELTProductPage #companionSitecontainer>li{
+    border-radius: 3px;
+    background-color: rgb(184, 119, 15);
+    margin-top: 2px;
+}
+
+.NGLELTProductPage #companionSitecontainer>li a{
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    padding: 10px 21px;
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+}
+
+.NGLELTProductPage #companionSitecontainer>li a:hover, #companionSitecontainer>li a:focus{
+    text-decoration: none;
+}
+
+.NGLELTProductPage .companionSiteSubmenu{
+    padding: 0px;
+}
+
+.NGLELTProductPage .companionSiteSubmenu .productDetailsPadding{
+     padding-bottom: 14px;
+}
+
+.NGLELTProductPage .companionSiteSubmenu li{
+    margin-top: 2px;
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.NGLELTProductPage .companionSiteSubmenu li a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    padding: 10px 21px;
+    display: inline-block;
+    width: 100%;
+}
+
+.NGLELTProductPage .companionSiteSubmenu li a:hover, .companionSiteSubmenu li a:focus{
+    text-decoration: none;
+}
+
+/*-- Series Custom Tab 2 --*/
+.NGLELTProductPage .seriesCustomTab2{
+    background-color: rgb(0, 57, 133);
+    padding: 60px 0px;
+    margin-top: 2px
+}
+
+.NGLELTProductPage .seriesCustomTab2Heading{
+    font-size: 36px;  
+    color: rgb(255, 255, 255);
+    line-height: 0.75;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.NGLELTProductPage .seriesCustomTab2Img{
+    margin: 0 auto;
+}
+
+/*---- story block section ---*/
+
+.NGLELTProductPage .storyBlockContainer{
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+.NGLELTProductPage .story-block {
+    margin-top: 24px;
+    /*margin-bottom: 24px;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+.NGLELTProductPage .story-block .block:first-of-type {
+    margin-left: 0;
+}
+
+.NGLELTProductPage .story-block .block {
+    background: #FFF;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 4px;
+    display: inline-block;
+   /* min-height: 260px;*/
+    padding: 20px 0px;
+    margin: 0 .2% 20px;
+    text-align: center;
+    vertical-align: top;
+    max-width: 345px;
+    width: 100%;
+}
+
+.NGLELTProductPage .story-block .block a{
+    display: block;
+    text-decoration: none;
+}
+
+.NGLELTProductPage .story-block .block a.blockImgContainer{
+    min-height: 92px;
+}
+
+.NGLELTProductPage .story-block .block a.blockImgContainer img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NGLELTProductPage .storyBlockContainer .story-block .block h3{
+    font-size: 32.323px;
+    color: #951700;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+    -webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+    -ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+.NGLELTProductPage .storyBlockContainer .story-block .block .blockImgInnerContainer{
+    font-size: 62px;
+    color: rgb(27, 98, 178);
+    line-height: 1.048;
+    text-align: center;
+    font-weight: 700;
+}
+
+@media (min-width: 992px){
+
+    /*-- ProductDetails Carousel --*/
+    .productDetailsCarouselNoPadding>.productDetailsPadding{
+        padding: 0px;
+    }
+
+    /*-- zero padding sections --*/
+    #studentsComponents .productDetailsPadding,#instructorComponents .productDetailsPadding,#alternateFormats .productDetailsPadding,
+    #bestBuy .productDetailsPadding{
+        padding: 0px;
+    }
+}
+
+@media (min-width: 1025px){
+	#productDetailsSection {
+		top: 149px
+	}
+	#productDetailsMenuMainContainer{
+		top: 148px;
+	}
+	.NGLELTProductPage #relativeSectionContainer{
+		margin-top: 128px;
+	}
+}
+
+/* ------------ Purchase Panel ------------ */
+/*.purchasePanel {
+    border: 1px solid #85C33D;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    line-height: 20px;
+    display: block;
+    float: right;
+    width: 100%;
+}
+.purchasePanel ul { margin-top: 20px; }
+.purchasePanel a + ul {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+} 
+.purchasePanel ul li {
+    border-bottom: 1px solid #CCC;
+    line-height: 16px;
+    margin: 0 10px;
+    padding: 5px 0 5px 15px ;
+} 
+.purchasePanel input[type='checkbox'] { 
+    float: left;
+    margin: 2px 5px 12px 0;
+}
+.purchasePanel small { display: block; }
+.purchasePanel ul li {
+    border-bottom: 1px solid #CCC;
+    margin: 0 10px;
+    padding: 5px;
+}
+.purchasePanel ul li:last-of-type { border-bottom: 0px; }
+.purchasePanel ul li:last-of-type { 
+    border-bottom: 1px solid #CCC; 
+    margin-bottom: 10px;
+}
+
+.purchasePanel img {
+    max-width: 100%;
+}
+
+.button .double-arrow-right, .purchasePanel .button .double-arrow-right {
+    font-weight: normal;
+    vertical-align: -1px;
+}
+
+.bullet, .double-arrow-right {
+    font-size: 18px;
+    line-height: normal;
+}
+
+.purchasePanel .button {
+    background: #FEFEFE;
+    background: url(http://www.cengage.com/images/headerFooter/btnBackgroundImage.jpg);
+    background: -moz-linear-gradient(top, #FEFEFE 0%, #D4D4D4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEFEFE), color-stop(100%,#D4D4D4));
+    background: -webkit-linear-gradient(top, #FEFEFE 0%,#D4D4D4 100%);
+    background: -o-linear-gradient(top, #FEFEFE 0%,#D4D4D4 100%);
+    background: -ms-linear-gradient(top, #FEFEFE 0%,#D4D4D4 100%);
+    background: linear-gradient(top, #FEFEFE 0%,#D4D4D4 100%);
+    float: right;
+    margin: 0 10px 0 0;
+    min-width: 30%;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.button, .purchasePanel .button {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 0 #FFF;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button:hover, .purchasePanel .button:hover {
+    box-shadow: 0 0 10px #AAA;
+    text-decoration: none;
+    -webkit-transition: all .14s linear;
+    -moz-transition: all .14s linear;
+    -ms-transition: all .14s linear;
+    -o-transition: all .14s linear;
+    transition: all .14s linear;
+}*/

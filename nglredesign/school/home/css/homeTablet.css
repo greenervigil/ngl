@@ -1,0 +1,63 @@
+@media(max-width: 991px){
+	.homeBanner{
+		background: url(../images/schoolhomebanner-t.png) no-repeat;
+		height: 326px;
+		background-size: cover;
+		background-position: top;
+	}
+
+	#super-hero .heroOverlay{
+	    padding: 3px 0px;
+	}
+
+	.heroOverlay h1{
+		padding: 0 43px;
+		font-size: 42px;
+		width: 550px;
+		margin-left: 0;
+	}	
+
+	/*---- story block section ---*/
+	
+	#storyBlockContainer{
+		padding: 0 15px;
+	}
+
+	.story-block .block {
+		max-width: 350px;
+	}
+
+/* -- catalog section -- */
+	#catalogSection .row>div:not(:first-child) {
+	    margin-top: 35px;
+	}
+
+	/* product scroll section */
+
+	#productScrollSection .container{
+		padding: 0 43px;
+	}
+
+	/* -- About Section --*/
+
+	#about .container{
+		padding: 0 43px;
+	}
+	
+	#about{
+		background: url(../images/aboutBackgroundImg-t.png) no-repeat;
+	    background-size: 100%;
+	    background-position: top;
+	    height: 566px;
+	    position: relative;
+    	background-color: rgb(5, 55, 77);
+	}
+	.wavyLineYellow{
+		visibility: visible;
+	}
+
+	#aboutDescription{
+		max-width: 100%;
+		padding-left: 0;
+	}
+}

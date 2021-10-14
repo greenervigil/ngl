@@ -1,0 +1,5154 @@
+/*--Home desktop--*/
+
+/*---- Home section ---*/
+.homeBanner{
+    background-size: cover;
+    background-position: top;
+    height: 550px;
+    position: relative;
+}
+
+#super-hero .heroOverlay{
+	background-color: rgba(0, 0, 0,0.349);
+	position: absolute;
+	bottom: 0;
+	padding: 24px 0px;
+	width: 100%;
+}
+
+#super-hero .heroOverlay a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.NGLSchoolHomePage .heroOverlay .homeHeroOverlayText{
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	max-width: 1056px;
+	margin: 0 auto;
+	font-weight: bold;
+	line-height: 1.1;
+}
+
+.NGLSchoolHomePage .heroOverlay .homeHeroOverlayText:hover{
+	color: #D3D3D3;
+}
+
+/*---- story block section ---*/
+
+.NGLSchoolHomePage #storyBlockContainer{
+	max-width: 1056px;
+	margin: 0 auto;
+}
+
+.NGLSchoolHomePage .story-block {
+    margin-top: 24px;
+    /*margin-bottom: 24px;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+.NGLSchoolHomePage .story-block .block:first-of-type {
+    margin-left: 0;
+}
+
+.NGLSchoolHomePage .story-block .block {
+    background: #FFF;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 4px;
+    display: inline-block;
+    min-height: 260px;
+    padding: 20px 0px;
+    margin: 0 .2% 20px;
+    text-align: center;
+    vertical-align: top;
+    max-width: 345px;
+    width: 100%;
+}
+
+.NGLSchoolHomePage .story-block .block a{
+	display: block;
+}
+
+.NGLSchoolHomePage .story-block .block a.blockImgContainer{
+	min-height: 92px;
+}
+
+.NGLSchoolHomePage .story-block .block a.blockImgContainer img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.NGLSchoolHomePage #storyBlockContainer .story-block .block .storyBlockDescription{
+	font-size : 27px;
+	color: rgb(102, 102, 102);
+	line-height: 1.5;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  	margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.NGLSchoolHomePage #storyBlockContainer .story-block .block:nth-child(2) .storyBlockDescription{
+	margin-bottom: 20px
+}
+
+.NGLSchoolHomePage #storyBlockContainer .story-block .block:nth-child(3) .storyBlockDescription{
+	margin-bottom: 35px
+}
+
+/*#storyBlockContainer .story-block .block:nth-child(1) p{
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+	line-height: 1.5;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  -webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  -ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+#storyBlockContainer .story-block .block:nth-child(2) p{
+	font-size: 27px;
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+#storyBlockContainer .story-block .block:nth-child(3) p{
+	font-size: 24px;
+	color: rgb(104, 104, 104);
+	line-height: 1.875;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	font-weight: bold;
+}*/
+
+.NGLSchoolHomePage #storyBlockContainer .story-block .storyBlockActionLink{
+	margin: 0px;
+}
+
+.NGLSchoolHomePage #storyBlockContainer .story-block .storyBlockLink{
+	font-size: 36px;
+	font-family: "summerFont";
+	color: rgb(0, 114, 163);
+	line-height: 0.528;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px;
+    font-weight: 400;
+}
+
+/* -- catalog section -- */
+#catalogSection{
+	padding: 30px 0px;
+	background-color: rgb(0, 114, 163);
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#catalogSection img{
+	display: inline;
+}
+
+#catalogSection a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.catalogText{
+	font-size: 40.501px;
+	font-family: "summerFont";
+	color: rgb(255, 255, 255);
+	padding-top: 10px;
+}
+
+/* product scroll section */
+.NGLSchoolHomePage #productScrollSection{
+	padding: 42px 0px;
+	background-color: rgb(242, 239, 223);
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.NGLSchoolHomePage .productScrollHeading{
+	font-size: 36px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+
+.NGLSchoolHomePage #productScrollContainer .item img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NGLSchoolHomePage .owl-controls{
+	position: absolute;
+	width: 100%;
+	top: 92px;
+}
+
+.NGLSchoolHomePage .owl-prev{
+	text-align: left;
+}
+
+.NGLSchoolHomePage .owl-next{
+	text-align: right;
+}
+
+.NGLSchoolHomePage #productScrollContainer .left, .NGLSchoolHomePage #productScrollContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 3%;
+    padding-top: 5%;
+    opacity: 1;
+    color: #000000;
+}
+
+.NGLSchoolHomePage #productScrollContainer .item a{
+	display: inline-block;
+    width: 201px;
+    text-decoration: none;
+}
+.NGLSchoolHomePage #productScrollContainer .item p{
+	color: #000000;
+}
+
+.NGLSchoolHomePage #productScrollContainer .item h3{
+	display: inline-block;
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+/* -- About Section --*/
+#about{
+	/*background: url(../images/aboutBackgroundImg-d.png) no-repeat;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    height: 568px;
+    position: relative;
+    background-color: rgb(5, 55, 77);
+    padding: 12px 0px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#aboutHeading{
+	font-size: 72px;
+	font-family: "summerFont";
+	color: rgb(255, 255, 255);
+	line-height: 1;
+	margin-top: 26px;
+}
+
+#aboutDescription{
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	line-height: 1.556;
+	max-width: 920px;
+	padding-left: 160px;
+}
+
+#aboutDescription h1{
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	line-height: 1.556;
+	max-width: 920px;
+    margin: 0px;
+    display: inline;
+    font-weight: 400;
+}
+
+.wavyLineYellow{
+    margin: 15px auto;
+}
+/*--Home tablet--*/
+
+@media(max-width: 991px){
+	.homeBanner{
+		background: url(../images/schoolhomebanner-t.png) no-repeat;
+		height: 326px;
+		background-size: cover;
+		background-position: top;
+	}
+
+	#super-hero .heroOverlay{
+	    padding: 3px 0px;
+	}
+
+	.NGLSchoolHomePage .heroOverlay .homeHeroOverlayText{
+		padding: 0 43px;
+		font-size: 42px;
+		width: 550px;
+		margin-left: 0;
+	}	
+
+	/*---- story block section ---*/
+	
+	.NGLSchoolHomePage #storyBlockContainer{
+		padding: 0 15px;
+	}
+
+	.NGLSchoolHomePage .story-block .block {
+		max-width: 350px;
+	}
+
+/* -- catalog section -- */
+	#catalogSection .row>div:not(:first-child) {
+	    margin-top: 35px;
+	}
+
+	/* product scroll section */
+
+	.NGLSchoolHomePage #productScrollSection .container{
+		padding: 0 43px;
+	}
+
+	/* -- About Section --*/
+
+	#about .container{
+		padding: 0 43px;
+	}
+	
+	#about{
+		background: url(../images/aboutBackgroundImg-t.png) no-repeat;
+	    background-size: 100%;
+	    background-position: top;
+	    height: 566px;
+	    position: relative;
+    	background-color: rgb(5, 55, 77);
+	}
+	.wavyLineYellow{
+		visibility: visible;
+	}
+
+	#aboutDescription{
+		max-width: 100%;
+		padding-left: 0;
+	}
+}
+/*--Home mobile--*/
+@media(max-width: 767px){
+	.homeBanner{
+		background: url(../images/schoolhomebanner-t.png) no-repeat;
+		height: 216px;
+		background-size: cover;
+		background-position: top;
+	}
+
+	#super-hero .heroOverlay{
+	    padding: 7px 0px;
+	}
+
+	.NGLSchoolHomePage .heroOverlay .homeHeroOverlayText {
+	    padding: 0 12px;
+		font-size: 24px;
+		width: 300px;
+	}
+
+	/*---- story block section ---*/
+	.NGLSchoolHomePage #storyBlockContainer{
+		padding: 0 12px;
+	}
+
+	/* product scroll section */
+	.NGLSchoolHomePage #productScrollSection .container{
+		padding: 0 12px;
+	}
+
+	.NGLSchoolHomePage #productScrollContainer .left, .NGLSchoolHomePage #productScrollContainer .right{
+		width: 7%;
+	}
+
+	/* -- About Section --*/
+	#about .container{
+		padding: 0 12px;
+	}
+	
+	#about{
+		background: url(../images/aboutBackgroundImg-m.png) no-repeat;
+	    background-size: 100%;
+	    background-position: top;
+	    height: 858px;
+	    position: relative;
+    	background-color: rgb(5, 55, 77);
+	}
+}
+
+@media(max-width: 424px){
+	#schoolHome{
+		background: url(../images/schoolhomebanner-m.png) no-repeat;
+		height: 216px;
+		background-size: cover;
+		background-position: top;
+	}
+
+	/*---- story block section ---*/
+	.NGLSchoolHomePage .story-block .block{
+		margin-left: 0px;
+	}
+
+	.NGLSchoolHomePage #storyBlockContainer .story-block .storyBlockLink{
+		line-height: 1;
+	}
+}
+/*--Search result desktop--*/
+section{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.NGLSchoolSearchResultPage #relativeSectionContainer{
+   margin-top: 44px;
+   position: relative;
+    float: left;
+    width: 100%;
+}
+
+/* -- Filter section --*/
+
+.filternav .navbar{
+    margin: 0px;
+}
+
+.filternav .navbar-header {
+    float: none;
+}
+.filternav .navbar-toggle {
+    display: block;
+}
+.filternav .navbar-collapse.collapse {
+    display: none!important;
+}
+.filternav .navbar-collapse.collapse.in {
+    display: block!important;
+}
+.filternav .navbar-nav {
+    float: none!important;
+}
+.filternav .navbar-nav>li {
+    float: none;
+    z-index: 1;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color: transparent;
+}
+
+#filterSection{
+	border-radius: 3px;
+	background-color: rgb(0, 114, 163);
+	height: 44px;
+	position: fixed;
+    z-index: 9;
+    top: 71px;
+}
+
+#filterButtonContainer{
+	float: left;
+	font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 2.7;
+    text-align: left;
+}
+
+#filterButtonContainer .navbar-toggle{
+	padding: 0px;
+	margin: 0px;
+}
+
+#filterMenuMainContainer {
+    position: fixed;
+    z-index: 99;
+    top: 71px;
+}
+
+#filterMenucontainer{
+	padding: 0px;
+	position: absolute;
+	width: 100%;
+	z-index: 9;
+	top: 45px;
+	max-height: 500px;
+    overflow-y: auto !important;
+}
+
+#filterMenucontainer>li{
+	border-radius: 3px;
+	background-color: rgb(190, 219, 232);
+    border: 1px solid rgb(190, 219, 232);
+	margin-top: 1px;
+}
+
+#filterMenucontainer>li:not(:first-child){
+	/*height: 44px;*/
+}
+
+#filterMenuMainContainer .searchFilterSubmenu li{
+	border: 1px solid rgb(190, 219, 232);
+	border-radius: 3px;
+	background-color: rgb(255, 255, 255);
+	margin-top: 1px;
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+	text-align: left;
+	/*height: 44px;*/
+}
+
+#filterMenuMainContainer .searchFilterSubmenu li .searchFilterCheckboxContainer{
+	padding: 12px 8px;
+}
+
+#filterMenuMainContainer .searchFilterSubmenu li .searchFilterCheckbox{
+	outline: 1px solid rgb(102, 102, 102);
+    -webkit-appearance: none;
+    padding: 6px;
+    margin-left: 6px;
+    margin-right: 11px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#filterMenuMainContainer .searchFilterSubmenu li .searchFilterCheckbox:checked{
+	outline: 1px solid rgb(102, 102, 102);
+	background-color: rgb(0, 114, 163);
+}
+#filterMenuMainContainer .searchFilterSubmenu li .searchFilterCheckbox:focus{
+	outline: 1px solid rgb(102, 102, 102);
+	outline-offset: inherit;
+}
+
+#filterMenuMainContainer .searchFilterSubmenu li .searchFilterCheckboxContainer label{
+	margin-bottom: 0px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#filterMenuMainContainer .searchFilterSubmenu{
+	padding: 0px;
+}
+
+#filterMenucontainer li a {
+    /*line-height: 24px;
+    display: flex;
+    cursor: pointer;*/
+    cursor: pointer;
+    padding: 8px;
+}
+
+#filterMenucontainer .menuLinksText{
+	font-size: 16px;
+	color: rgb(51, 51, 51);
+	text-align: left;
+}
+
+#filterMenucontainer .filterSelectionText{
+	font-size: 16px;
+	color: rgb(0, 114, 163);
+	text-align: left;
+    padding-bottom: 7px;
+}
+
+#filterMenucontainer .selectedFilterContainer{
+	padding: 15px;
+	background-color: #ffffff;
+}
+
+#filterMenucontainer .filterSelectedList{
+	margin: 0px;
+    line-height: 1;
+    font-size: 12px;
+}
+
+#filterMenucontainer .filterSelectedList .filterSelectedListText{
+	border-radius: 7px;
+	background-color: rgb(0, 114, 163);
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	text-align: left;
+	padding: 5px;
+	display: inline-block;
+    margin: 0px;
+    margin-bottom: 3px;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+.filterSelectedListText .fa-times {
+    float: right;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+/*-- search result series banner --*/
+.NGLSchoolSearchResultPage #seriesBanner{
+    background-image: none;
+}
+
+.NGLSchoolSearchResultPage #seriesBanner .superheroImg{
+    /*height: 100%;*/
+    margin: 0 auto;
+    display: block;
+}
+
+.NGLSchoolSearchResultPage #seriesBanner .heroOverlay{
+    background-color: rgba(102, 102, 102,0.8);
+    position: absolute;
+    bottom: 0px;
+}
+
+.NGLSchoolSearchResultPage #seriesBanner .heroOverlayText{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    line-height: 1.071;
+    max-width: 1056px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+/* search result title */
+#searchresultstitleContainer, #searchresultsSingleItemtitleContainer{
+	border-radius: 3px;
+  	background-color: rgb(0, 114, 163);
+  	height: 22px;
+  	margin-top: 7px;
+}
+
+.searchresultstitle{
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.searchresultstitleImg{
+	display: inline;
+    margin-right: 4px;
+}
+
+/* Search results Series */
+#searchresultsSeries{
+	background-color: rgb(94, 173, 204);
+	padding-bottom: 20px;
+}
+
+.subResultsInfocontainer{
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 3px;
+	background-color: rgb(230, 230, 230);
+	height: auto;
+	margin-top: 10px;
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.searchResultsListSeriesResponsiveContainer{
+	width: 330px;
+	float: left;
+	position: relative;
+	margin:40px 1.99% 20px 0px;
+	height: 480px;
+	padding: 27px 26px;
+    background-color: #ffffff;
+}
+
+.subResultsInfocontainer ul{
+	/*height: 100%;*/
+}
+
+.subResultsInfocontainer ul li{
+	display: inline-block;
+	height: inherit;
+	position: relative;
+	float: left;
+	line-height: 28px;
+}
+
+.subResultsInfocontainer .searchResultsPageCount{
+	font-size: 16px;
+	color: rgb(0, 114, 163);
+	position: relative;
+    float: left;
+    vertical-align: middle;
+    height: inherit;
+    margin-left: 10px;
+}
+
+.subResultsInfocontainer .searchResultsSorting{
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	margin-left: 15px;
+}
+
+.subResultsInfocontainer .searchResultsSorting select{
+	border: 1px solid rgb(157, 157, 157);
+	border-radius: 3px;
+	background-color: rgb(255, 255, 255);
+	width: 233px;
+	height: 22px;
+}
+
+.subResultsInfocontainer .searchResultsperPage{
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	margin-left: 10px;
+}
+
+.subResultsInfocontainer .searchResultsperPage select{
+	border: 1px solid rgb(157, 157, 157);
+	border-radius: 3px;
+	background-color: rgb(255, 255, 255);
+	width: 72px;
+	height: 22px;
+}
+
+.searchResultsPagination ul {
+    padding: 0px;
+    margin-left: 25px;
+}
+
+.searchResultsPagination ul li {
+    margin-left: 5px;
+}
+
+.subResultsInfocontainer .searchResultsPagination{
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+}
+.subResultsInfocontainer .searchResultsPagination a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+}
+.subResultsInfocontainer .searchResultsPagination .selectedPaginationNumber a:visited{
+	color: #6096b6;
+}
+
+.subResultsInfocontainer .searchResultsPagination .currentPageNumber{
+	color: #cc0000;
+}
+
+.subResultsInfocontainer ul li.searchResultsDownloadsContainer, .subResultsInfocontainer ul li.searchResultsPrintContainer{
+	float: right;
+
+}
+
+.searchResultsDownloads{
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+	margin-right: 20px;
+}
+
+.searchResultsDownloads a{
+	text-decoration: none;
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+}
+
+.searchResultsPrint{
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+	-moz-transform: matrix( 0.99868131868132,0,0,1,0,0);
+	-webkit-transform: matrix( 0.99868131868132,0,0,1,0,0);
+	-ms-transform: matrix( 0.99868131868132,0,0,1,0,0);
+	margin-right: 20px;
+}
+
+.searchResultsPrint a{
+	text-decoration: none;
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+	-moz-transform: matrix( 0.99868131868132,0,0,1,0,0);
+	-webkit-transform: matrix( 0.99868131868132,0,0,1,0,0);
+	-ms-transform: matrix( 0.99868131868132,0,0,1,0,0);
+}
+
+
+/* -- search results list --*/
+.searchResultsListMainContainer{
+	/*padding: 40px 0px;*/
+    position: relative;
+    float: left;
+    width: 100%;
+    /*text-align: center;*/
+}
+
+#searchresultsSingleItem .searchResultsListMainContainer{
+	padding: 40px 0px;
+}
+
+.seriesMainContainer{
+    margin: 40px 0px 20px;
+}
+
+.searchResultsListContainer{
+	height: inherit;
+}
+/*.searchResultsListContainer{
+	width: 330px;
+    height: 450px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 27px 26px;
+}*/
+
+.searchResultsListContainer a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+.searchResultsListContainer a:hover{
+	color: rgb(0, 0, 0);
+}
+
+.searchResultsListContainer .seriesSearchResultTitle{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.searchResultsListContainer .seriesSearchResultTitle, .searchResultsListContainer .seriesSearchResultTitle a{
+	font-size: 15px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	text-align: left;
+}
+
+.searchResultsListContainer p{
+	font-size: 15px;
+	color: rgb(0, 0, 0);
+	line-height: 1.25;
+	text-align: left;
+}
+
+.searchResultsListContainer img{
+	width: 278px;
+	height: 174px;
+}
+
+.searchResultsListContainer p.copyRight{
+	font-size: 12px;
+    color: rgb(0, 0, 0);	
+}
+
+.searchResultsListBtnContainer{
+	position: absolute;
+	float: left;
+	width: 278px;
+	bottom: 50px;
+}
+
+.searchResultsListBtn{
+	border: 1px solid rgb(255, 204, 0);
+	background-color: rgb(255, 255, 255);
+	font-size: 12px;
+	/*font-family: "Myriad Pro";*/
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: center;
+	width: 68%;
+	border-radius: 10px;
+	height: 22px;
+	line-height: 22px;
+	margin:0px auto;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	/*bottom: 28px;*/
+}
+
+/*-- Search series result single item --*/
+.searchResultsListResponsiveContainer{
+	width: 32%;
+	float: left;
+	position: relative;
+	margin:0 1.33% 40px 0px;
+	height: 250px;
+	padding: 15px 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+#searchresultsSingleItem{
+	background-color: rgb(225, 241, 247);
+}
+
+.searchresultsSingleItemList {
+    position: relative;
+    height: auto;
+}
+
+.searchSingleItemImgContainer{
+	width: 27%;
+	float: left;
+}
+
+.searchSingleItemImg {
+	float: left;
+	width: 100%;
+}
+
+.searchSingleItemDetailContainer{
+	width: 71%;
+	float: right;
+	height: 100%;
+}
+.searchSingleItemDetailContainer .newItemContainer{
+	width: 100%;
+	position: relative;
+	float: left;
+}
+.searchSingleItemDetailContainer .newItem{
+	border-radius: 5px;
+	background-color: rgb(191, 25, 25);
+	font-size: 12px;
+	/*font-family: "Myriad Pro";*/
+	color: #ffffff;
+	line-height: 1.2;
+	text-align: left;
+	padding: 1px 4px;
+    font-weight: normal;
+    margin: 0;
+    float: left;
+}
+
+.author{
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: left;
+}
+
+.lexileDRA{
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: left;
+	font-weight: 600;
+}
+
+.bookEdition{
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: left;
+	font-weight: 700;
+}
+
+.copyRight{
+	font-size: 12px;
+	/*font-family: "Myriad Pro";*/
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: left;
+}
+
+.searchSingleItemDetailContainer p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.searchSingleItemDetailContainer .productSearchResultTitle{
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+.searchSingleItemDetailContainer .productSearchResultTitle a, .searchSingleItemDetailContainer .productSearchResultTitle,  .searchSingleItemDetailContainer span{
+	font-size: 15px;
+	color: rgb(0, 0, 0);	
+	line-height: 1.2;	
+}
+
+.searchSingleItemDetailContainer span{
+	font-size: 12px;
+}
+
+.float-left{
+	position: relative;
+	float: left;
+}
+
+.float-right{
+	position: relative;
+	float: right;
+}
+
+.searchSingleItemButtonContainer{
+	position: absolute;
+	float: left;
+	width: 100%;
+	bottom: 0px;
+	text-align: center;
+}
+
+.singleItemBtnLearn{
+    border: 1px solid rgb(255, 204, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    /* font-family: "Myriad Pro"; */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 4px 0;
+}
+
+.singleItemBtnBuy{
+	border: 1px solid rgb(0, 114, 163);
+	background-color: rgb(255, 255, 255);
+	font-size: 16px;
+	color: rgb(0, 114, 163);
+	line-height: 1.2;
+    padding: 2px 0;
+}
+
+.searchSingleItemDetailContainer a{
+	width: 45%;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.singleItemBtnLearn:hover{
+	color: rgb(0, 0, 0);
+}
+
+.singleItemBtnBuy:hover{
+	color: rgb(0, 114, 163);
+}
+
+@media(min-width: 992px){
+
+	/*.searchResultsListResponsiveContainer:nth-child(3n){
+		margin-right: 0px;
+	}*/
+
+}
+
+/* changes for JSP Page */
+
+.endeca-slot{
+	display: block;
+}
+
+/*-- search result error message--*/
+.red{
+	color: #951700;
+}
+
+.red:hover, .red:focus{
+	color: #951700;
+}
+
+.subResultsInfocontainer ul li.EmptySearchResultsMessageContainer{
+	width: 100%;
+}
+
+.EmptySearchResultsMessageContainer p{
+	font-size: 13.5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px;
+}
+
+/* hide show icon */
+.show{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+
+.seriesSearchResultShowHideIcon.collapsed > i, .productSearchResultShowHideIcon.collapsed > i {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.seriesSearchResultShowHideIcon .fa.menuLinksIcon, .productSearchResultShowHideIcon .fa.menuLinksIcon{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: rgb(102, 102, 102);
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-style: normal;
+    cursor: pointer;
+    line-height: 15px;
+    margin-top: 1px;
+}
+
+/* search menu overflow hiden */
+/*
+#filterMenucontainer .searchMenuOverflowHidden{
+	height: 470px !important;
+	overflow: hidden !important;
+}
+
+.searchMenuShowLink{
+	display: block;
+}
+
+.searchMenuHideLink{
+	display: none !important;
+}
+
+.searchResultRefinements{
+	font-weight: 600;
+}*/
+/*--Search result tablet--*/
+
+@media( max-width: 991px){
+.NGLSchoolSearchResultPage #pageContainer .container,.NGLSchoolSearchResultPage #NGLRedesignpageContainer .container{
+    padding: 0px 43px;
+}
+
+.subResultsInfocontainer ul li.searchResultsPageCountContainer{
+	width: 70%;
+}
+
+.subResultsInfocontainer .searchResultsSorting{
+	margin-left: 10px;
+}
+
+.searchResultsPagination ul{
+	margin-left: 57px;
+}
+
+.subResultsInfocontainer .searchResultsperPage{
+	margin-left: 60px;
+}
+
+.seriesResultLeft{
+	float: left;
+}
+
+.seriesResultRight{
+	float:  right;
+}
+
+.searchResultsListSeriesResponsiveContainer{
+	margin: 40px 1.6% 20px 0px;
+}
+
+.searchResultsListResponsiveContainer{
+	width: 45.4%;
+	margin: 0 4.6% 62px 0px;
+}
+
+.searchResultsListBtn{
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	line-height: 1.125;
+	text-align: center;
+	-moz-transform: matrix( 0.94013605442177,0,0,0.93866666666667,0,0);
+	-webkit-transform: matrix( 0.94013605442177,0,0,0.93866666666667,0,0);
+	-ms-transform: matrix( 0.94013605442177,0,0,0.93866666666667,0,0);
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	/*.searchResultsListResponsiveContainer:nth-child(2n) {
+	    margin-right: 0px;
+	}*/
+
+}
+/*--Search result mobile--*/
+
+@media( max-width: 767px){
+	.NGLSchoolSearchResultPage #pageContainer .container,.NGLSchoolSearchResultPage #NGLRedesignpageContainer .container{
+	    padding: 0px 12px;
+	}
+	
+	#filterMenucontainer, #filterMenuMainContainer .searchFilterSubmenu{
+		margin: 0px;
+	}
+
+	#filterMenuMainContainer .container{
+		padding: 0px;
+	}
+
+	/* Series banner section */
+
+	.NGLSchoolSearchResultPage #seriesBanner{
+	    height: 144px;
+	    /*background-image: url(http://d-ngl.cengage.com/covers/imageServlet?epi=10146259965966702329517769751686500408&image_type=OVTAB);*/
+	    background-repeat: no-repeat;
+  		background-size: cover;
+  		background-position: bottom;
+	}
+
+	.NGLSchoolSearchResultPage #seriesBanner .superheroImg{
+	    height: 100%;
+	    display: none;
+		
+	}
+
+	.NGLSchoolSearchResultPage #seriesBanner  .heroOverlayText{
+	    font-size: 22px;
+	    margin: 5px auto;
+	}
+	
+	/* search list container */
+	.subResultsInfocontainer ul li.searchResultsPageCountContainer{
+		width: 71%;
+	}
+
+	.searchResultsListContainer{
+		width: 100%;
+	}
+
+	.searchSingleItemDetailContainer{
+		width: 68%;
+	}
+
+	.searchResultsPrint a,.searchResultsDownloads a{
+	    font-size: 0;
+	    line-height: 0;
+	    color: transparent;
+	}
+
+	.searchResultsDownloads{
+		margin-right: 15px;
+	}
+
+	.searchResultsPrint{
+		margin-right: 10px;
+	}
+	
+	.subResultsInfocontainer .searchResultsSorting{
+		margin-top: 10px;
+	}
+
+	.subResultsInfocontainer .searchResultsperPage{
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.searchResultsPagination ul{
+		margin-top: 10px;
+		margin-left: 22px;
+	}
+
+	.searchResultsListMainContainer .seriesMainContainer:not(:first-child){
+		margin-top: 30px;
+	}
+
+	.searchResultsListSeriesResponsiveContainer{
+		width: 100%;
+		margin: 30px 0px 20px 0px;
+	}
+
+	.searchResultsListResponsiveContainer{
+		width: 100%;
+		margin: 0px 0px 62px 0px;
+	}
+
+	.searchSingleItemDetailContainer span.float-right{
+		margin-right: 9px;
+	}
+
+	.searchSingleItemDetailContainer a{
+		width: 42%;
+	}
+
+	.singleItemBtnBuy{
+		margin-right: 9px;
+	}
+
+	.searchResultsListBtn{
+		font-size: 16px;
+		color: rgb(0, 0, 0);
+		line-height: 1.125;
+		text-align: center;
+		-moz-transform: matrix( 0.997113997114,0,0,0.99733333333333,0,0);
+		-webkit-transform: matrix( 0.997113997114,0,0,0.99733333333333,0,0);
+		-ms-transform: matrix( 0.997113997114,0,0,0.99733333333333,0,0);
+	}
+}
+
+/* NGL SCHOOL PRODUCT PAGE CSS */
+
+/* DESKTOP*/
+.NGLSchoolProductPage #relativeSectionContainer{
+    margin-top: 44px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+section{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.NGLSchoolProductPage .productDetailsPadding{
+    padding: 0px 70px;
+}
+
+.NGLSchoolProductPage .row {
+    margin: 0px;
+    width: 100% !important;
+    height: 100%;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+    padding: 0px;
+}
+
+.NGLSchoolProductPage .container {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.NGLSchoolProductPage .moreBtn{
+    font-size: 15px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: left;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.NGLSchoolProductPage .modal-body button.close {
+    color: #000;
+    background-color: transparent;
+    height: 15px;
+    position: absolute;
+    right: 1px;
+    margin: -8px 6px 4px 0px;
+}
+
+.NGLSchoolProductPage .modal-content button[data-dismiss="modal"]:before {
+    content: "\f00d";
+    font-size: 18px;
+    font-family: FontAwesome;
+    font-style: normal;
+}
+
+.overViewMoreBtn {
+    font-size: 15px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: left;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+/*.overviewModalContent{
+    float: none;
+    margin-top: 20px;
+    padding: 0px;
+    overflow-y: auto;
+    height: 400px;
+}*/
+
+/* -- productDetails section --*/
+
+.productDetailsnav .navbar{
+    margin: 0px;
+}
+
+.productDetailsnav .navbar-header {
+    float: none;
+}
+.productDetailsnav .navbar-toggle {
+    display: block;
+}
+.productDetailsnav .navbar-collapse.collapse {
+    display: none!important;
+}
+.productDetailsnav .navbar-collapse.collapse.in {
+    display: block!important;
+}
+.productDetailsnav .navbar-nav {
+    float: none!important;
+}
+.productDetailsnav .navbar-nav>li {
+    float: none;
+    z-index: 1;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color: transparent;
+}
+
+
+#productDetailsSection{
+    border-radius: 3px;
+    background-color: rgb(255, 204, 0);
+    height: 44px;
+    position: fixed;
+    z-index: 9;
+    top: 71px;
+}
+
+#productDetailsButtonContainer{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 2.4;
+    text-align: left;
+    float: left;
+}
+
+#productDetailsButtonContainer .navbar-toggle{
+    padding: 0px;
+    margin: 0px;
+}
+
+#productDetailsMenuMainContainer{
+    position: fixed;
+    z-index: 99;
+    top: 71px;   
+}
+#productDetailsMenucontainer{
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 45px;
+    max-height: 500px;
+    overflow-y: auto !important;
+}
+
+#productDetailsMenucontainer>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(224, 221, 206);
+    height: 42px;
+    margin-top: 2px;
+}
+
+#productDetailsMenucontainer>li:hover, #productDetailsMenucontainer>li:focus, 
+#productDetailsMenucontainer>li a:hover, #productDetailsMenucontainer>li a:focus{
+	border-radius: 3px;
+	background-color: rgb(128, 125, 117);
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+}
+
+#productDetailsMenucontainer li a{
+    padding: 8px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#productDetailsMenucontainer .companionSiteMenu{
+background-color: rgb(184, 119, 15);
+}
+
+#productDetailsMenucontainer .companionSiteMenu a{
+	color: rgb(255, 255, 255);
+}
+#productDetailsMenucontainer .companionSiteMenu:hover, #productDetailsMenucontainer .companionSiteMenu:focus,
+#productDetailsMenucontainer .companionSiteMenu a:hover, #productDetailsMenucontainer .companionSiteMenu a:focus{
+	background-color: rgb(128, 83, 10);
+}
+/*#productDetailsMenucontainer .menuLinksText{
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#productDetailsMenucontainer .menuLinksText:hover{
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+}*/
+
+.productDetailsSubmenu{
+    padding: 0px;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenu>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    height: 42px;
+    margin-top: 2px;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenu>li a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#productDetailsMenucontainer .menuLinksIcon{
+    border: 1px solid #666666;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenuChild>li{
+    border-radius: 3px;
+    background-color: rgb(176, 168, 139);
+    margin-top: 2px;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenuChild>li>a {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    padding: 8px;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenu>li:hover, #productDetailsMenucontainer .productDetailsSubmenu>li:focus, 
+#productDetailsMenucontainer .productDetailsSubmenu>li a:hover, #productDetailsMenucontainer .productDetailsSubmenu>li a:focus{
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+	background-color: rgb(137, 137, 137);
+}
+
+
+/*-- Overview Section k12 --*/
+.overviewTitle{
+    font-size: 24px;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0px;
+}
+/*-- overview box--*/
+#EltProductDetailOverview .EltProductDetailOverviewContentContainer{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.overviewBox{
+    height: 300px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.overviewImgContainer{
+    width: 209px;
+    height: 262px;
+}
+
+.overviewImgContainer img{
+    width: 100%;
+}
+
+
+.overviewModalContent .overviewBox{
+    float: none;
+    margin-top: 20px;
+    padding: 0px;
+    overflow-y: auto;
+    height: 300px;
+}
+
+.overViewMoreBtn {
+    font-size: 15px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: left;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.overviewBoxTitle{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.overviewBox .overviewDetails{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.overviewAuthor .overviewDetails{
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+}
+
+.levels, .levels a{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.overviewBold{
+    font-weight: 600;
+    color: rgb(0, 0, 0 );
+}
+
+.eltBuyBox{
+    width: 250px;
+    /*height: 256px;*/
+    position: relative;
+    float: left;
+    border: 1px solid green;
+}
+
+.eltBuyBox>a{
+    display: inline-block;
+    width: 100%;
+}
+
+.eltBuyBox a img{
+    margin: 0 auto;
+    display: block;
+}
+
+.eltBuyBox ul{
+    float: left;
+    padding: 0px;
+    margin-top: 10px;
+    width: 100%;
+    list-style: none;
+}
+
+.eltBuyBox ul li {
+    border-bottom: 1px solid #CCC;
+    line-height: 16px;
+    margin: 0 10px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.eltBuyBox ul li:last-of-type {
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 10px;
+}
+
+.eltBuyBox ul li .right {
+    font-weight: 700;
+    text-align: right;
+}
+
+.right {
+    float: right;
+}
+
+.eltBuyBox .button {
+    background: #FEFEFE;
+    background: url(http://www.cengage.com/images/headerFooter/btnBackgroundImage.jpg);
+    background: -moz-linear-gradient(top, #FEFEFE 0%, #D4D4D4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEFEFE), color-stop(100%,#D4D4D4));
+    background: -webkit-linear-gradient(top, #FEFEFE 0%,#D4D4D4 100%);
+    background: -o-linear-gradient(top, #FEFEFE 0%,#D4D4D4 100%);
+    background: -ms-linear-gradient(top, #FEFEFE 0%,#D4D4D4 100%);
+    background: linear-gradient(top, #FEFEFE 0%,#D4D4D4 100%);
+    float: right;
+    margin: 0 10px 0 0;
+    min-width: 30%;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.eltBuyBox .button {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 0 #FFF;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    height: 28px;
+    line-height: 26px;
+    /*margin-bottom: 20px;*/
+    text-align: center;
+}
+
+#EltProductDetailOverview .requestSampleBtn{
+    background-color: rgba(255, 204, 0, 0.502);
+    height: 28px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 28px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    border-radius: 15px;
+    max-width: 280px;
+    margin-top: 30px;
+}
+
+
+#EltProductDetailOverview .requestSampleBtn:hover, #EltProductDetailOverview .requestSampleBtn:focus{
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+#EltProductDetailOverview .overviewBuyBtn{
+    font-size: 18px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    border: 1px solid rgb(0, 114, 163);
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    border-radius: 15px;
+    max-width: 280px;
+    margin-top: 30px;
+    height: 28px;
+}
+
+#EltProductDetailOverview .overviewBuyBtn:hover, .overviewBuyBtn:focus{
+    color: rgb(0, 114, 163);
+    outline: none;
+}
+
+/*request sample dropdown button style*/
+.requestSampleDropDownMainContainer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.productHeadingContainer #requestSampleDropDowncontainer{
+    width: 72%;
+    float: right;
+}
+
+#requestSampleDropDowncontainer{
+    padding: 0px;
+    z-index: 1;
+}
+
+#requestSampleDropDowncontainer>.requestSampleBtnContainer{
+    z-index: 9;
+}
+
+#EltProductDetailOverview .requestSampleBtnDropDown{
+    background-color: rgba(255, 204, 0, 1);
+    height: 28px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    /*line-height: 28px;*/
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    border-radius: 15px;
+    padding: 0px;
+    z-index: 9;
+}
+
+#EltProductDetailOverview .requestSampleBtnDropDown:hover{
+    background-color: rgb(199, 172, 64);
+    /*color: #ffffff;*/
+}
+#requestSampleDropDowncontainer>li a{
+    font-size: 12px;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    width: 100%;    
+    padding: 0px;
+}
+
+.requestSampleBtnDropDown .requestSampleLinksIcon{
+    float: right;
+    margin-right: 21px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.requestSampleDropDownMainContainer.open .requestSampleBtnDropDown .requestSampleLinksIcon{
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.requestSampleBtnDropDown .menuLinksText{
+    display: inline-block;
+    margin-left: 35px;
+    text-align: left;
+	float: left;
+}
+
+#requestSampleDropDowncontainer #requestSampleSubmenu1{
+    padding-top: 7px;
+    /*padding-bottom: 7px;*/
+    overflow: hidden !important;
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu {
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(0, 114, 163);
+    background-color: rgb(110, 112, 113);
+    border-radius: 5px 5px 5px 5px;
+    margin-top: -20px;
+    z-index: -1;
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu li:first-child {
+    margin-top: 20px;
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu li{   
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu li:hover{
+    background-color: rgb(0, 114, 163);
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu li a{
+    padding: 4px 10px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;    
+    font-size: 14px;
+    color: #ffffff;
+    /*margin-left: 12px;*/
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu .menuLinksText{
+	margin-left: 0px;
+    display: inline-block;
+    width: 100%;
+    padding-right: 21px;
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu li a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+    background-color: rgb(0, 114, 163);
+}
+
+#EltProductDetailOverview #viewesamleModal + .overviewBuyBtn{
+    font-size: 18px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    border: 1px solid rgb(0, 114, 163);
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 30px;
+    height: 28px;
+    max-width: 100%;
+}
+
+/* view e-sample modal*/
+.NGLSchoolProductPage #viewesamleModal .modal-header{
+    background-color: rgb(0, 114, 163);
+    color: #ffffff;
+}
+
+.NGLSchoolProductPage #viewesamleModal .modal-header .close{
+    line-height: 5px;
+    margin-top: 0px;
+}
+
+.NGLSchoolProductPage div.required-field label::before {
+    content: "*";
+    /*float: left;*/
+    color: red;
+    text-align: center;
+}
+
+.NGLSchoolProductPage #viewesamleModal .modal-footer .btn-primary{
+    background-color: transparent;
+    border-color: rgb(0, 114, 163);
+    color: rgb(0, 114, 163);
+}
+
+.NGLSchoolProductPage #viewesamleModal .modal-footer .btn-primary:hover{
+    background-color: #3071a9;
+    color: #ffffff
+}
+
+.NGLSchoolProductPage #requestSampleDropDowncontainer .dropdown-backdrop{
+	display: none;
+}
+
+#fooDiv{
+display: none;
+}
+
+/*request sample collapse button style*/
+/*.requestSampleDropDownMainContainer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#requestSampleDropDowncontainer{
+    padding: 0px;
+}
+
+#requestSampleDropDowncontainer>.requestSampleBtnContainer{
+    z-index: 9;
+}
+
+#EltProductDetailOverview .requestSampleBtnDropDown{
+    background-color: rgba(255, 204, 0, 1);
+    height: 28px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 28px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    border-radius: 15px;    
+}
+
+#EltProductDetailOverview .requestSampleBtnDropDown:hover{
+    background-color: rgb(199, 172, 64);    
+}
+
+#requestSampleDropDowncontainer>li a{
+    font-size: 12px;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    width: 100%;    
+    padding: 0px;
+}
+
+.requestSampleBtnDropDown .requestSampleLinksIcon{
+    float: right;
+    margin-right: 21px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.requestSampleBtnDropDown .menuLinksText{
+    display: inline-block;
+    margin-left: 28px;
+    text-align: left;
+}
+
+#requestSampleDropDowncontainer #requestSampleSubmenu1{
+    padding-top: 7px;    
+    overflow: hidden !important;
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu {
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(0, 114, 163);
+    background-color: rgb(110, 112, 113);
+    border-radius: 5px 5px 5px 5px;
+    margin-top: -20px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu li:first-child {
+    margin-top: 14px;
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu li{   
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu li:hover{
+    background-color: rgb(0, 114, 163);
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu li a{
+    padding: 4px 10px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 100%;
+    text-align: left;    
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 12px;
+}
+
+#requestSampleDropDowncontainer .requestSampleSubmenu li a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#EltProductDetailOverview .requestSampleDropDownMainContainer + .overviewBuyBtn{
+    font-size: 18px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    border: 1px solid rgb(0, 114, 163);
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 30px;
+    height: 28px;
+    max-width: 100%;
+}*/
+
+/*-- Overview Section k8 --*/
+
+.EltProductDetailInnerPadding{
+    padding: 0px 21px;
+}
+
+#EltProductDetailOverview{
+    padding: 25px 0px 25px;
+}
+
+
+#productOverview{
+    padding: 30px 0px;
+}
+
+.productOverviewContainer {
+    max-width: 786px;
+}
+
+.productImgContainer {
+    width: 209px;
+    height: 262px;
+    margin-right: 3%;
+    position: relative;
+    float: left;
+}
+
+.productHeadingContainer{
+    position: relative;
+    float: left;
+    /*width: 81%;*/
+    width: 68%;
+}
+
+img.productImg {
+    float: left;
+    width: 100%;
+}
+
+.float-right{
+    float: right;
+}
+
+.productTitle {
+    font-size: 24px;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0px;
+}
+
+.productISBN, .productPrice {
+    font-size: 12px;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.productPrice {
+    margin-left: 16%;
+}
+
+.productBtnContainer {
+    position: relative;
+    float: right;
+    width: 62%;
+    margin-top: 10px;
+}
+.productBtnBuy{
+    border: 1px solid rgb(0, 114, 163);
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    border-radius: 15px;
+    /*padding: .4% 0px;*/
+    text-align: center;
+    width: 72%;
+    margin-top: 10px;
+    display: block;
+    height: 28px;
+    line-height: 22px;
+}
+
+.productBtnBuy:hover{
+    border: 1px solid rgb(0, 114, 163);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 114, 163);
+}
+
+.productBtnRequestSample{
+    border: 0px solid rgb(0, 114, 163);
+    background-color: rgba(255, 204, 0, 0.502);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    border-radius: 15px;
+    margin-top: 10px;
+    /*padding: .4% 0px;*/
+    text-align: center;
+    width: 72%;
+    margin-top: 10px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.productBtnRequestSample:hover{
+    border: 0px solid rgb(0, 114, 163);
+    background-color: rgba(255, 204, 0, 0.502);
+    color: rgb(0, 0, 0);
+}
+
+.overviewDescriptionContainer .OverviewTitle{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.overviewDescriptionContainer .overviewDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+
+/*--More details section--*/
+#EltmoreDetails{
+    padding: 28px 0px;
+    border: 1px solid rgb(157, 157, 157);
+    background-color: rgb(102, 102, 102);
+}
+
+.titleMore{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#productDetailsMorecontainer{
+    padding:0px;
+}
+
+#productDetailsMorecontainer li {
+    margin-top: 2px;
+}
+
+#productDetailsMorecontainer>li{
+    border-radius: 3px;
+    background-color: rgb(224, 221, 206);
+    width: 100%;
+    margin-top: 2px;
+}
+
+#productDetailsMorecontainer>li>a{
+    padding: 10px 21px;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.productDetailsMoreSubmenu{
+    padding: 0px;
+}
+
+.productDetailsMoreSubmenu>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    padding:0px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.productDetailsMoreSubmenu>li>a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.98283261802575,0,0,1,0,0);
+    -webkit-transform: matrix( 0.98283261802575,0,0,1,0,0);
+    -ms-transform: matrix( 0.98283261802575,0,0,1,0,0);
+    padding: 11px;
+}
+
+#productDetailsMorecontainer .menuLinksIcon{
+    border: 1px solid #666666;
+    line-height: 17px;
+}
+
+.productDetailsMoreSubmenuChild>li{
+    border-radius: 3px;
+    background-color: rgb(176, 168, 139);
+}
+
+.productDetailsMoreSubmenuChild>li>a{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+     padding: 6px;
+}
+
+.moreAuthorContainer{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: rgb(230, 230, 227);
+    padding: 12px 21px 38px;
+}
+
+.moreAuthorImgContainer{
+    position: relative;
+    float: left;
+    width: 18%;
+}
+
+.moreAuthorImgContainer img{
+    max-width: 121px;
+    max-height: 149px;
+}
+
+.moreAuthorDescriptionContainer{
+    position: relative;
+    float: right;
+    width: 82%;
+}
+
+.moreAuthorTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.moreAuthorDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 2px;
+}
+
+.NGLSchoolProductPage .authorMoreBtn{
+    font-size: 15px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: left;
+    display: none;
+    margin-top: 7px;
+}
+
+.tableOfContentsBtn{
+    font-size: 15px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: left;
+    display: none;
+    margin-top: 7px;
+}
+
+.tableOfContentsContainer{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: rgb(230, 230, 227);
+    padding: 12px 21px 38px;
+}
+
+.tableOfContentsDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 2px;
+}
+
+/*-- productDetails carousel --*/
+#productDetailsCarousel {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.productDetailsCarouselTitle{
+    font-size: 18px;
+    color: #4498bc;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.viewAllSeriesBtn{
+    background-color: rgb(0, 114, 163);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    width: 100%;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.viewAllSeriesBtn a{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    display: inline-block;
+    text-align: center;
+}
+
+.viewAllSeriesBtn a:hover{
+    color: rgb(255, 255, 255);
+}
+
+/*.viewAllSeriesBtn{
+    background-color: rgb(0, 114, 163);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    width: 100%;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.viewAllSeriesBtn:hover{
+    color: rgb(255, 255, 255);
+}*/
+
+.NGLSchoolProductPage #productScrollSection{
+    padding: 42px 0px;
+    background-color: rgb(242, 239, 223);
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.NGLSchoolProductPage .productScrollHeading{
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.NGLSchoolProductPage #productScrollContainer {
+    margin-top: 25px;
+}
+
+.NGLSchoolProductPage #productScrollContainer .item img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 201px;
+}
+
+.NGLSchoolProductPage .owl-controls{
+    position: absolute;
+    width: 100%;
+    top: 92px;
+}
+
+.NGLSchoolProductPage .owl-prev{
+    text-align: left;
+}
+
+.NGLSchoolProductPage .owl-next{
+    text-align: right;
+}
+
+.NGLSchoolProductPage #productScrollContainer .left, .NGLSchoolProductPage #productScrollContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 3%;
+    padding-top: 5%;
+    opacity: 1;
+    color: #000000;
+}
+
+.NGLSchoolProductPage #productScrollContainer .item {
+    width: 280px;
+    display: inline-block;
+}
+
+.NGLSchoolProductPage #productScrollContainer .item a{
+    display: inline-block;
+   /* width: 201px;*/
+    text-decoration: none;
+}
+.NGLSchoolProductPage #productScrollContainer .item .scrollDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.NGLSchoolProductPage #productScrollContainer .item .scrollCopyRight{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.333;
+    text-align: left;
+}
+
+.NGLSchoolProductPage #productScrollContainer .item .scrollHeading{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+/* Teacher Components section */
+#teacherComponents{
+    background-color: rgb(242, 242, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.teacherComponentsBold{
+    font-weight: 600;
+}
+
+.teacherComponentsDetailContainer {
+    display: block;
+    position: relative;
+    float: left;
+    height: 350px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.teacherComponentsTitle{
+    font-size: 24px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#teacherComponents .teacherComponentsBox{
+    margin-bottom:30px;
+    padding-right:1.9%;
+}
+
+.teacherComponentsBookTitle{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#teacherComponents .teacherComponentsDescription{
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.teacherComponentsISBNPriceContainer {
+    position: absolute;
+    bottom: 37px;
+    width: 100%;
+}
+
+.teacherComponentsProductISBN, .teacherComponentsProductPrice {
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+}
+
+#teacherComponents .productBtnContainer{
+    text-align: center;
+    position: absolute;
+    bottom: 3px;
+}
+
+
+/* student Components section */
+#studentComponents{
+    background-color: rgb(242, 242, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.studentComponentsDetailContainer {
+    display: block;
+    position: relative;
+    float: left;
+    height: 350px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.studentComponentsBold{
+    font-weight: 600;
+}
+
+.studentComponentsTitle{
+    font-size: 24px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#studentComponents .studentComponentsBox{
+    margin-bottom:30px;
+    padding-right:1.9%;
+}
+
+
+.studentComponentsBookTitle{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#studentComponents .studentComponentsDescription{
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.studentComponentsISBNPriceContainer {
+    position: absolute;
+    bottom: 37px;
+    width: 100%;
+}
+
+.studentComponentsProductISBN, .studentComponentsProductPrice {
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+}
+
+#studentComponents .productBtnContainer{
+    text-align: center;
+    position: absolute;
+    bottom: 3px;
+}
+
+/*-- Alternate Formats --*/
+#alternateFormats{
+    margin-top: 20px;
+    background-color: rgb(242, 242, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+#alternateFormats .alternateFormatsComponentsBox{
+    margin-bottom:30px;
+    padding-right:1.9%;
+}
+
+.alternateFormatsBold{
+    font-weight: 600;
+}
+
+.alternateFormatsHeading{
+    font-size: 24px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.alternateFormatsSubHeading{
+    font-size: 14px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 6px;
+    max-width: 718px;
+    margin-bottom: 20px;
+}
+
+.alternateFormatsDetailContainer{
+    width: 100%;
+    /*padding: 20px;*/
+    text-align: left;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    height: 170px;
+    overflow: hidden;
+}
+
+.alternateFormatsDetailHeading{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.alternateFormatsDetailISBN{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.alternateFormatsDetailPrice{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+/*-- Best Buy --*/
+#bestBuy{
+    margin-top: 20px;
+    background-color: rgb(242, 242, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.bestBuyBold{
+    font-weight: 600;
+}
+
+#bestBuy .bestBuyComponentsBox{
+    margin-bottom:30px;
+    padding-right:1.9%;
+}
+
+.bestBuyLine{
+    color: rgb(0, 114, 163);
+    width: 100%;
+    border: 1px solid;
+}
+
+.bestBuyDotedLine{
+    color: rgb(102, 102, 102);
+    width: 100%;
+    border: 1px dotted;
+}
+
+.bestBuyHeading{
+    font-size: 24px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bestBuySubHeading{
+    font-size: 14px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0px auto;
+    max-width: 718px;
+    margin-bottom: 20px;
+}
+
+.bestBuyDetailContainer{
+    width: 100%;
+    /*padding: 20px;*/
+    text-align: left;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    height : 275px;
+    overflow: hidden;
+}
+
+.bestBuyDetailHeading{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bestBuyDetailISBN{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.bestBuyDetail{
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.bestBuyDetailPrice{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.bundleIncludes{
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.bestBuyProductBtnContainer{
+    position: absolute;
+    bottom: 4px;
+}
+
+/*-- Related Program --*/
+#relatedProgramCarousel {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.relatedProgramCarouselTitle{
+    font-size: 20px;  
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+}
+
+#relatedProgramCarouselContainer {
+    margin-top: 25px;
+}
+
+#relatedProgramCarouselContainer .owl-stage{
+    margin: 0px auto;
+}
+
+#relatedProgramCarouselContainer .item img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 201px;
+}
+
+.NGLSchoolProductPage .owl-controls{
+    position: absolute;
+    width: 100%;
+    top: 92px;
+}
+
+.NGLSchoolProductPage .owl-prev{
+    text-align: left;
+}
+
+.NGLSchoolProductPage .owl-next{
+    text-align: right;
+}
+
+#relatedProgramCarouselContainer .left, #relatedProgramCarouselContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 3%;
+    padding-top: 5%;
+    opacity: 1;
+    color: #000000;
+}
+
+#relatedProgramCarouselContainer .item {
+    width: 280px;
+    display: inline-block;
+}
+
+#relatedProgramCarouselContainer .item a{
+    display: inline-block;
+   /* width: 201px;*/
+    text-decoration: none;
+}
+#relatedProgramCarouselContainer .item .scrollDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#relatedProgramCarouselContainer .item .scrollCopyRight{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.333;
+    text-align: left;
+}
+
+#relatedProgramCarouselContainer .item .scrollHeading{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+/*-- Custom tab html --*/
+.NGLSchoolProductPage .customTabHtml{
+    margin-top: 2px;
+    background-color: rgb(230, 230, 227);
+    padding-top: 25px;
+    padding-bottom:70px;
+}
+
+.NGLSchoolProductPage .customTabHtml .heading{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 25px;
+    font-weight: 600;
+
+}
+
+.NGLSchoolProductPage .customTabHtml p, .NGLSchoolProductPage .customTabHtml{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.NGLSchoolProductPage .customTabHtml ul{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.7;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/*-- Series Custom Tab --*/
+
+.NGLSchoolProductPage .seriesCustomTab{
+    background-color: rgb(21, 87, 117);
+    padding: 24px 0px;
+}
+
+.NGLSchoolProductPage .seriesCustomTabHeading{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 20px 
+}
+
+.NGLSchoolProductPage .seriesCustomTab .vidyard-video h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.NGLSchoolProductPage .seriesCustomTab .vidyard-video p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+/*-- Companion site --*/
+
+.NGLSchoolProductPage #companionSite{
+    margin-top: 2px;
+}
+
+.NGLSchoolProductPage #companionSitecontainer{
+    padding: 0px;
+}
+
+.NGLSchoolProductPage #companionSitecontainer>li{
+    border-radius: 3px;
+    background-color: rgb(184, 119, 15);
+    margin-top: 2px;
+}
+
+.NGLSchoolProductPage #companionSitecontainer>li a{
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    padding: 10px 21px;
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+}
+
+.NGLSchoolProductPage #companionSitecontainer>li a:hover, .NGLSchoolProductPage #companionSitecontainer>li a:focus{
+    text-decoration: none;
+}
+
+.NGLSchoolProductPage .companionSiteSubmenu{
+    padding: 0px;
+}
+
+.NGLSchoolProductPage .companionSiteSubmenu .productDetailsPadding{
+     padding-bottom: 14px;
+}
+
+.NGLSchoolProductPage .companionSiteSubmenu li{
+    margin-top: 2px;
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.NGLSchoolProductPage .companionSiteSubmenu li a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    padding: 10px 21px;
+    display: inline-block;
+    width: 100%;
+}
+
+.NGLSchoolProductPage .companionSiteSubmenu li a:hover, .NGLSchoolProductPage .companionSiteSubmenu li a:focus{
+    text-decoration: none;
+}
+
+/*-- Series Custom Tab 2 --*/
+.NGLSchoolProductPage .seriesCustomTab2{
+    background-color: rgb(0, 57, 133);
+    padding: 60px 0px;
+    margin-top: 2px
+}
+
+.NGLSchoolProductPage .seriesCustomTab2Heading{
+    font-size: 36px;  
+    color: rgb(255, 255, 255);
+    line-height: 0.75;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.NGLSchoolProductPage .seriesCustomTab2Img{
+    margin: 0 auto;
+}
+
+/*---- story block section ---*/
+
+.NGLSchoolProductPage .storyBlockContainer{
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+.NGLSchoolProductPage .story-block {
+    margin-top: 24px;
+    /*margin-bottom: 24px;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+.NGLSchoolProductPage .story-block .block:first-of-type {
+    margin-left: 0;
+}
+
+.NGLSchoolProductPage .story-block .block {
+    background: #FFF;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 4px;
+    display: inline-block;
+   /* min-height: 260px;*/
+    padding: 20px 0px;
+    margin: 0 .2% 20px;
+    text-align: center;
+    vertical-align: top;
+    max-width: 345px;
+    width: 100%;
+}
+
+.NGLSchoolProductPage .story-block .block a{
+    display: block;
+    text-decoration: none;
+}
+
+.NGLSchoolProductPage .story-block .block a.blockImgContainer{
+    min-height: 92px;
+}
+
+.NGLSchoolProductPage .story-block .block a.blockImgContainer img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NGLSchoolProductPage .storyBlockContainer .story-block .block h3{
+    font-size: 32.323px;
+    color: #951700;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+    -webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+    -ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+.NGLSchoolProductPage .storyBlockContainer .story-block .block .blockImgInnerContainer{
+    font-size: 62px;
+    color: rgb(27, 98, 178);
+    line-height: 1.048;
+    text-align: center;
+    font-weight: 700;
+}
+
+@media (min-width: 992px){
+
+    /*-- ProductDetails Carousel --*/
+    .productDetailsCarouselNoPadding>.productDetailsPadding{
+        padding: 0px;
+    }
+
+    /*-- zero padding sections --*/
+    #studentComponents .productDetailsPadding,#teacherComponents .productDetailsPadding,#alternateFormats .productDetailsPadding,
+    #bestBuy .productDetailsPadding{
+        padding: 0px;
+    }
+}
+
+/* PRODUCT PAGE TABLET */
+@media(max-width: 991px){
+	.NGLSchoolProductPage .container {
+	    padding: 0px 15px;
+	}
+
+	.NGLSchoolProductPage .productDetailsPadding {
+	    padding: 0px 42px;
+	}
+
+	.EltProductDetailInnerPadding{
+		padding: 0px;
+	}
+
+	#productDetailsSection .container{
+		padding: 0px 8px;
+	}
+
+	#productDetailsMenuMainContainer .container{
+		padding: 0px;
+	}
+	
+	/*-- Overview Section k12 --*/
+	#EltProductDetailOverview .requestSampleBtn{
+		margin-top: 30px;
+	}
+
+	#EltProductDetailOverview .overviewBuyBtn{
+		margin-top: 25px;
+	}
+	/* product Overview section */
+
+	.productImgContainer {
+		/*width: 26%;*/
+	}
+
+    .productHeadingContainer{
+    	/*width: 71%;*/
+    	width: 65%;
+    }
+
+    .productTitle{
+		font-size: 15px;
+		color: rgb(0, 0, 0);
+		font-weight: bold;
+		line-height: 1.2;
+		text-align: left;
+    }
+
+    .productISBN{
+    	float: left;
+    }
+
+    .productBtnContainer{
+    	text-align: center;
+    }
+
+    .productBtnBuy{
+    	float: none;
+    	padding: .3% 29%;
+    }
+
+    .productHeadingContainer #requestSampleDropDowncontainer{	    
+	    float: none;
+	}
+
+	/*-- More Section --*/
+
+	.moreAuthorImgContainer{
+	    width: 22%;
+	}
+
+	.moreAuthorDescriptionContainer{
+	    width: 78%;
+	}
+
+	/* Teacher Components section */
+    #teacherComponents .teacherComponentsBox{
+    	padding-right: 1.5%;
+    }
+
+    #teacherComponents .productBtnBuy{
+    	padding: .3% 21%;
+    }
+
+	/* Student Components section */
+    #studentComponents .studentComponentsBox{
+    	padding-right: 1.5%;
+    }
+
+    #studentComponents .productBtnBuy{
+    	padding: .3% 21%;
+    }
+
+	/*-- Alternate Formats --*/
+	#alternateFormats{
+	    padding-bottom: 10px;
+	}
+
+	#alternateFormats .alternateFormatsComponentsBox{
+	    padding-right: 1.5%;
+	}
+
+	/*.alternateFormatsDetailContainer{
+		padding: 10px;
+	}*/
+
+	/*-- Best Buy --*/
+
+	#bestBuy{
+	    padding-bottom: 10px;
+	}
+
+	#bestBuy .bestBuyComponentsBox{
+	    padding-right: 1.5%;
+	}
+
+	/*.bestBuyDetailContainer{
+		padding: 10px;
+	}*/
+
+	/*---- story block section ---*/
+	
+	.NGLSchoolProductPage .storyBlockContainer{
+		padding: 0 15px;
+	}
+
+	.NGLSchoolProductPage .story-block .block {
+		max-width: 350px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	.swap-right{
+		left: 50%;
+	}
+
+	.swap-left{
+		right: 50%;
+	}
+}
+
+/*PRODUCT PAGE MOBILE */
+@media(max-width: 767px){
+	.NGLSchoolProductPage .container {
+	    padding: 0px 12px;
+	}
+	.NGLSchoolProductPage .productDetailsPadding {
+	    padding: 0px 12px;
+	}
+
+	.productDetailsnav ul{
+		margin: 0px;
+	}
+
+	.productDetailsnav .container{
+		padding: 0px;
+	}
+
+	/* product Overview section k12 */
+	.overviewBox{
+		height: auto;
+	    width: 100%;
+	    padding: 0px;
+	}
+
+	.eltBuyBox {
+	    display: table;
+	    margin: 0 auto;
+	    float: none;
+	}
+	
+	.overviewImgContainer{
+		margin: 0 auto;
+	}
+
+	.overviewAuthor .overviewAuthorContainer{
+	    width: 210px;
+	    text-align: center;
+	    position: relative;
+	    margin: 0 auto 30px;
+	    display: table;
+	    float: none;
+	}
+
+	.overviewAuthorBtnContainer{
+		text-align: center;
+	}
+	/* product Overview section k8 */
+
+	.productOverviewContainer {
+        width: 100%;
+        position: relative;
+        float: left;
+    }
+
+	.productImgContainer {
+		/*width: 26%;*/
+        margin: 0 auto;
+        float: none;
+	}
+
+    .productHeadingContainer{
+    	/*width: 71%;*/
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .productTitle{
+		font-size: 15px;
+		color: rgb(0, 0, 0);
+		font-weight: bold;
+		line-height: 1.2;
+		text-align: left;
+    }
+
+    .productISBN{
+    	float: left;
+    }
+
+    .productBtnContainer{
+    	text-align: center;
+        width: 100%;
+    }
+
+    .productBtnBuy{
+    	float: none;
+    	padding: .4% 0px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .productHeadingContainer #requestSampleDropDowncontainer{	    
+	    width: 100%;    	
+	}
+
+    .productBtnRequestSample{
+        float: none;
+        padding: .4% 0px;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    /* view e-sample modal*/
+    #requestSampleDropDowncontainer{
+		/*overflow: hidden;*/
+    }
+
+    .NGLSchoolProductPage #viewesamleModal .modal-content, .NGLSchoolProductPage #viewesamleModal .modal-body, .NGLSchoolProductPage #viewesamleModal .modal-footer{
+	    position: relative;
+	    float: left;
+	}
+
+    .NGLSchoolProductPage #viewesamleModal .form-group{
+	    position: relative;
+	    float: left;
+	    width: 100%;
+	}
+
+	.NGLSchoolProductPage #viewesamleModal .form-group label{
+	    position: relative;
+	    float: left;
+	    width: 50%;
+	    line-height: 30px;
+	}
+
+	.NGLSchoolProductPage #viewesamleModal .form-group input{
+	    position: relative;
+	    float: left;
+	    width: 50%;
+	}
+
+	.NGLSchoolProductPage #viewesamleModal .modal-footer{
+		width: 100%;
+	}
+
+	/*-- More Section --*/
+
+	#EltmoreDetails .productDetailsPadding {
+		padding: 0px;
+	}
+
+	.titleMore{
+		padding-left: 12px;
+	}
+	
+	.moreAuthorImgContainer{
+	    width: 40%;
+	}
+
+	.moreAuthorDescriptionContainer{
+	    width: 60%;
+	}
+
+	.moreAuthorDescription{
+		height: 108px;
+		overflow: hidden;
+	}
+
+	.NGLSchoolProductPage .authorMoreBtn{
+	    display: block;
+	}
+
+	.tableOfContentsBtn{
+	    display: block;
+	}
+
+	.moreAuthorContainer {
+		padding: 12px 12px 38px;
+	}
+
+	#productDetailsMorecontainer>li>a{
+		padding: 11px 12px;
+	}
+
+	.tableOfContentsContainer {
+		padding: 12px 12px 38px;
+	}
+
+	.tableOfContentsDescription{
+		height: 108px;
+		overflow: hidden;
+	}
+	/*-- ProductDetails Carousel --*/
+	.NGLSchoolProductPage #productScrollContainer .left, .NGLSchoolProductPage #productScrollContainer .right{
+		width: 6%;
+	}
+
+	/* Teacher Components section */
+	#teacherComponents{
+	    padding-bottom: 10px;
+	}
+	
+	.teacherComponentsDetailContainer{
+		height: auto;
+	}
+
+	.teacherComponentsTitle{
+		text-align: left;
+		padding-left: 3%;
+	}
+
+    #teacherComponents .teacherComponentsBox{
+    	padding: 0px 3%;
+    }
+
+    #teacherComponents .productBtnContainer{
+		text-align: center;
+		position: relative;
+		bottom: 3px;
+    }
+
+    .teacherComponentsISBNPriceContainer {
+	    position: relative;
+	    bottom: 2px;
+	    width: 100%;
+	}
+
+    #teacherComponents .productBtnBuy{
+    	padding: .3% 21%;
+    }
+
+	 /* Student Components section */
+	#studentComponents{
+	    padding-bottom: 10px;
+	}
+
+	.studentComponentsDetailContainer{
+		height: auto;
+	}
+
+	.studentComponentsTitle{
+		text-align: left;
+		padding-left: 3%;
+	}
+	
+	#studentComponents .studentComponentsBox{
+    	padding: 0px 3%;
+    }
+
+    #studentComponents .productBtnContainer{
+		text-align: center;
+		position: relative;
+		bottom: 3px;
+    }
+    
+     .studentComponentsISBNPriceContainer {
+	    position: relative;
+	    bottom: 2px;
+	    width: 100%;
+	}
+
+    #studentComponents .productBtnBuy{
+    	padding: .3% 21%;
+    }
+
+	/*-- Alternate Formats --*/
+	#alternateFormats{
+	    padding-bottom: 10px;
+	}
+
+	#alternateFormats .alternateFormatsComponentsBox{
+	    padding: 0px 3%;
+	}
+
+	.alternateFormatsHeading{
+		text-align: left;
+		padding-left: 3%;
+	}
+
+	.alternateFormatsSubHeading{
+		text-align: left;
+		padding-left: 3%;
+	}
+
+	.alternateFormatsDetailContainer{
+		height: auto;
+	}
+
+	/*-- Best Buy --*/
+	#bestBuy{
+	    padding-bottom: 10px;
+	}
+
+	#bestBuy .bestBuyComponentsBox{
+	    padding: 0px 3%;
+	}
+
+	.bestBuyHeading{
+		text-align: left;
+		padding-left: 3%;
+	}
+
+	.bestBuySubHeading{
+		text-align: left;
+		padding-left: 3%;
+	}
+
+	/*.bestBuyDetailContainer{
+		padding: 10px;
+	}*/
+
+	/*-- ProductDetails Carousel --*/
+	#relatedProgramCarouselContainer .left, #relatedProgramCarouselContainer .right{
+		width: 6%;
+	}
+	
+	/*-- Companion site --*/
+
+	.NGLSchoolProductPage #companionSitecontainer>li a{
+		padding: 10px 0px;
+	}
+
+	.NGLSchoolProductPage .companionSiteSubmenu li a{
+		padding: 10px 0px;
+	}
+
+	/*-- Series Custom Tab --*/
+	.NGLSchoolProductPage .seriesCustomTab2{
+	    padding: 20px 0px;
+	}
+
+	.NGLSchoolProductPage .seriesCustomTab2Heading{
+		font-size: 20px;
+		color: rgb(255, 255, 255);
+		line-height: 1.35;
+	}
+
+	/*---- story block section ---*/
+	.NGLSchoolProductPage .storyBlockContainer{
+		padding: 0 12px;
+	}
+
+}
+
+@media(max-width: 350px){
+	.moreAuthorImgContainer{
+	    width: 45%;
+	}
+
+	.moreAuthorDescriptionContainer{
+	    width: 55%;
+	}
+}
+
+/* NGL SCHOOL SERIES PAGE */
+/* SERIES PAGE DESKTOP*/
+section{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.NGLSchoolSeriesPage .pageContainer{
+    display: initial;
+}
+
+.NGLSchoolSeriesPage .seriesContainer,.NGLSchoolSeriesPage .productDetailsPadding{
+    padding: 0px 65px;
+}
+
+.NGLSchoolSeriesPage #relativeSectionContainer{
+    margin-top: 44px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+#subSeriesGroupContainer .subseriesGroupPadding, #barSeriesMenuContainer .subseriesGroupPadding,
+#customTab .subseriesGroupPadding, .seriesCustomTab2 .subseriesGroupPadding, #companionSiteMenu .subseriesGroupPadding{
+    padding:10px 65px;
+}
+
+.NGLSchoolSeriesPage .modal-body button.close {
+    color: #000;
+    background-color: transparent;
+    height: 15px;
+    position: absolute;
+    right: 1px;
+    margin: -8px 6px 4px 0px;
+}
+
+.NGLSchoolSeriesPage .modal-content button[data-dismiss="modal"]:before {
+    content: "\f00d";
+    font-size: 18px;
+    font-family: FontAwesome;
+}
+
+/* -- program info section --*/
+
+.programInfonav .navbar{
+    margin: 0px;
+}
+
+.programInfonav .navbar-header {
+    float: none;
+}
+.programInfonav .navbar-toggle {
+    display: block;
+}
+.programInfonav .navbar-collapse.collapse {
+    display: none!important;
+}
+.programInfonav .navbar-collapse.collapse.in {
+    display: block!important;
+}
+.programInfonav .navbar-nav {
+    float: none!important;
+}
+.programInfonav .navbar-nav>li {
+    float: none;
+    z-index: 1;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color: transparent;
+}
+
+
+#programInfoSection{
+    border-radius: 3px;
+    background-color: rgb(255, 204, 0);
+    height: 44px;
+    position: fixed;
+    z-index: 9;
+    top: 71px;
+}
+
+#programInfoMenuMainContainer {
+    position: fixed;
+    margin-top: 44px;
+    z-index: 9;
+}
+
+#programInfoButtonContainer{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 2.4;
+    text-align: left;
+    float: left;
+}
+
+#programInfoButtonContainer .navbar-toggle{
+    padding: 0px;
+    margin: 0px;
+}
+
+#programInfoMenucontainer{
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    max-height: 500px;
+    overflow-y: auto !important;
+}
+
+#programInfoMenucontainer>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(224, 221, 206);
+    /*height: 42px;*/
+    margin-top: 2px;
+}
+
+#programInfoMenucontainer>li:hover, #programInfoMenucontainer>li:focus, 
+#programInfoMenucontainer>li a:hover, #programInfoMenucontainer>li a:focus{
+    border-radius: 3px;
+    background-color: rgb(128, 125, 117);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+#programInfoMenucontainer li a{
+    padding: 8px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#programInfoMenucontainer .companionSiteMenu{
+background-color: rgb(184, 119, 15);
+}
+
+#programInfoMenucontainer .companionSiteMenu a{
+    color: rgb(255, 255, 255);
+}
+#programInfoMenucontainer .companionSiteMenu:hover, #programInfoMenucontainer .companionSiteMenu:focus,
+#programInfoMenucontainer .companionSiteMenu a:hover, #programInfoMenucontainer .companionSiteMenu a:focus{
+    background-color: rgb(128, 83, 10);
+}
+
+/*#programInfoMenucontainer .menuLinksText{
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}*/
+
+.programInfoSubmenu{
+    padding: 0px;
+}
+
+#programInfoMenucontainer .programInfoSubmenu>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    /*height: 42px;*/
+    margin-top: 2px;
+}
+
+#programInfoMenucontainer .programInfoSubmenu a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#programInfoMenucontainer .programInfoSubmenu>li:hover, #programInfoMenucontainer .programInfoSubmenu>li:focus, 
+#programInfoMenucontainer .programInfoSubmenu>li a:hover, #programInfoMenucontainer .programInfoSubmenu>li a:focus{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: rgb(137, 137, 137);
+}
+
+/* Series banner section */
+
+.NGLSchoolSeriesPage #seriesBanner{
+    /*background-image: none;*/
+    background: #000 center no-repeat;
+}
+
+.NGLSchoolSeriesPage #seriesBanner .superheroImg{
+   /* height: 100%;*/
+    /*width: 100%;*/
+    margin: 0 auto;
+    display: block;
+}
+
+.NGLSchoolSeriesPage .heroOverlay{
+    background-color: rgba(0, 0, 0,0.349);
+    position: absolute;
+    bottom: 0px;
+}
+
+.NGLSchoolSeriesPage .heroOverlayText{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    line-height: 1.071;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 1056px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+/*-- Reasons To Choose section --*/
+
+#reasonsToChoose{
+    padding-top: 17px;
+    padding-bottom: 17px;    
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.3;
+    text-align: left;
+}
+
+.reasonsToChooseHeading{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bolder;
+    /*margin-bottom: 10px;*/
+}
+
+#reasonsToChoose ul {
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.7;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#reasonsToChoose p{
+     font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.3;
+    text-align: left;
+}
+
+/*-- Grades K-6 section --*/
+#gradesK6 {
+    padding-bottom: 30px;
+}
+
+.gradesImgContainer{
+	width: 100%;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+}
+.gradesK6Title{
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.gradesK6Img{
+	width: 18%;
+	display: inline-block;
+	margin: 10px;
+}
+
+.gradesK6Img img{
+	width: 100%;
+}
+
+.NGLSchoolSeriesPage .requestSampleBtn{
+	font-size: 15px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: center;
+	background-color: rgba(255, 204, 0, 0.502);
+	width: 47%;
+	display: inline-block;
+	border-radius: 20px;
+	padding: 7px 0px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.NGLSchoolSeriesPage .requestSampleBtn:hover, .NGLSchoolSeriesPage .requestSampleBtn:focus{
+	font-size: 15px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: center;
+}
+
+/*-- Subseries group --*/
+#subSeriesGroup {
+    padding-top: 20px;
+}
+
+#subSeriesGroupContainer{
+    padding: 0px;
+}
+
+.subseriesGroupDetailContainer{
+    display: inline-block;
+    width: 100%;
+}
+
+#subSeriesGroupContainer>li a{
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#subSeriesGroupContainer>li{
+margin-top: 2px;
+}
+
+#subSeriesGroupContainer>li a:hover, #subSeriesGroupContainer>li a:focus{
+    color: rgb(51, 51, 51);
+}
+
+#subSeriesGroupContainer li{
+	border-radius: 3px;
+  background-color: rgba(255, 204, 0, 0.502);
+}
+
+#subSeriesGroupContainer .subSeriesGroupSubmenu{
+    padding: 0px;
+}
+
+#subSeriesGroupContainer .subSeriesGroupSubmenu>li{
+    background-color: rgb(247, 244, 228);
+    display: inline-block;
+    width: 100%;
+}
+
+.subSeriesGroupImg{
+    width: 100%;
+}
+
+.subSeriesGroupImgCaption{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    font-style: italic;
+    line-height: 1.875;
+    text-align: right;
+}
+
+.subSeriesGroupTitle{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.subseriesGroupDetailDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#subSeriesGroup .subSeriesGroupBtn{
+    border: 1px solid rgb(0, 114, 163);
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    display: inline-block;
+    border-radius: 14px;
+    margin: 40px 0px 10px 0px;
+}
+
+#subSeriesGroup .subSeriesGroupBtn:hover. #subSeriesGroup .subSeriesGroupBtn:focus{
+    color: rgb(0, 0, 0);
+}
+
+/*-- Assessment Section --*/
+#assessment{
+    margin-top: 2px;
+    background-color: rgb(230, 230, 227);
+    padding-top: 25px;
+    padding-bottom:70px;
+}
+
+.assessmentHeading{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 25px;
+    font-weight: bold;
+
+}
+
+.assessmentImg{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#assessment .srs_pullquotesmall, #assessment .srs_pullquotelarge{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+    /*padding-top: 30px;*/
+    /*padding-bottom: 12px;*/
+}
+
+#assessment .srs_headC{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 900;
+    /*padding-top: 30px;*/
+   /* padding-bottom: 12px;*/
+}
+
+#assessment .srs_body, #assessment p, #assessment{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#assessment ul.srs_bulletbody, #assessment ul{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.7;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+/*-- Technology Section --*/
+#technology{
+    margin-top: 2px;
+    background-color: rgb(230, 230, 227);
+    padding-top: 25px;
+    padding-bottom:70px;
+}
+
+.technologyHeading{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 25px;
+    font-weight: bold;
+
+}
+
+.technologyImg{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#technology .srs_pullquotesmall, #technology .srs_pullquotelarge{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+    /*padding-top: 30px;
+    padding-bottom: 12px;*/
+}
+
+#technology .srs_body, #technology p, #technology {
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#technology ul.srs_bulletbody, #technology ul{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.7;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#technology .srs_headC{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 900;
+    /*padding-top: 30px;*/
+   /* padding-bottom: 12px;*/
+}
+
+/*-- barSeriesMenu Section --*/
+#barSeriesMenuContainer{
+    padding: 0px;
+}
+
+#barSeriesMenuContainer>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(153, 151, 141);
+    margin-top: 2px;
+}
+
+#barSeriesMenuContainer>li a{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.barSeriesMenuSubmenu{
+    padding: 0px;
+}
+
+.barSeriesMenuSubmenu>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin-top: 2px;
+}
+
+.barSeriesMenuSubmenu>li a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+/*-- Related Programs section --*/
+
+#relatedPrograms{
+    padding: 24px 0px;
+}
+
+.relatedProgramsHeading{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+}
+
+/*-- Related Programs Scroll section --*/
+
+#relatedProgramsContainer {
+    margin-top: 20px;
+}
+#relatedProgramsContainer .item img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 201px;
+}
+
+#relatedProgramsContainer .owl-stage{
+    margin: 0 auto;
+}
+
+.NGLSchoolSeriesPage .owl-controls{
+    position: absolute;
+    width: 100%;
+    top: 46px;
+}
+
+.NGLSchoolSeriesPage .owl-prev{
+    text-align: left;
+}
+
+.NGLSchoolSeriesPage .owl-next{
+    text-align: right;
+}
+
+#relatedProgramsContainer .left, #relatedProgramsContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 3%;
+    padding-top: 0%;
+    opacity: 1;
+    color: #000000;
+}
+
+#relatedProgramsContainer .item a{
+    display: inline-block;
+    width: 280px;
+    text-decoration: none;
+}
+#relatedProgramsContainer .item p{
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#relatedProgramsContainer .item h2{
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/*-- Custom tab html --*/
+.NGLSchoolSeriesPage .customTabHtml{
+    margin-top: 2px;
+    background-color: rgb(230, 230, 227);
+    padding-top: 25px;
+    padding-bottom:70px;
+}
+
+.NGLSchoolSeriesPage .customTabHtml .heading{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 25px;
+    font-weight: 600;
+
+}
+
+.NGLSchoolSeriesPage .customTabHtml p, .NGLSchoolSeriesPage .customTabHtml{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.NGLSchoolSeriesPage .customTabHtml ul{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.7;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/*-- Custom tab --*/
+.NGLSchoolSeriesPage .seriesCustomTab{
+    padding: 24px 0px;
+    background-color: rgb(102, 60, 81);
+}
+
+.NGLSchoolSeriesPage .seriesCustomTabHeading{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.NGLSchoolSeriesPage .seriesCustomTab .video-container.vidyard-video{
+	width: inherit !important;
+}
+
+.NGLSchoolSeriesPage .seriesCustomTab .vidyard-video h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.NGLSchoolSeriesPage .seriesCustomTab .vidyard-video p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+/*-- Series Custom Tab 2 Section --*/
+
+.NGLSchoolSeriesPage .seriesCustomTab2{
+    padding: 60px 0px;
+    background-color: rgb(0, 98, 140);
+    margin-top: 2px;
+}
+
+.NGLSchoolSeriesPage .seriesCustomTab2Heading{
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+    line-height: 0.643;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.NGLSchoolSeriesPage .seriesCustomTab2Img {
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+/*---- story block section ---*/
+
+.NGLSchoolSeriesPage .storyBlockContainer{
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+.NGLSchoolSeriesPage .story-block {
+    margin-top: 24px;
+    /*margin-bottom: 24px;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+.NGLSchoolSeriesPage .story-block .block:first-of-type {
+    margin-left: 0;
+}
+
+/* .NGLSchoolSeriesPage .story-block .block {
+    background: #FFF;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 4px;
+    display: inline-block;
+    padding: 20px 0px;
+    margin: 0 .2% 20px;
+    text-align: center;
+    vertical-align: top;
+    max-width: 345px;
+    width: 100%;
+} */
+
+.NGLSchoolSeriesPage .story-block .block {
+    background: #FFF;
+    display: inline-block;
+    margin: 0 .2% 20px;
+    vertical-align: top;
+    max-width: 345px;
+    width: 100%;
+}
+
+.NGLSchoolSeriesPage .story-block .block a{
+    display: block;
+    text-decoration: none;
+}
+
+.NGLSchoolSeriesPage .story-block .block a.blockImgContainer{
+    min-height: 92px;
+}
+
+.NGLSchoolSeriesPage .story-block .block a.blockImgContainer img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NGLSchoolSeriesPage .storyBlockContainer .story-block .block h3{
+    font-size: 32.323px;
+    color: #951700;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+    -webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+    -ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+.NGLSchoolSeriesPage .storyBlockContainer .story-block .block .blockImgInnerContainer{
+    font-size: 62px;
+    color: rgb(27, 98, 178);
+    line-height: 1.048;
+    text-align: center;
+    font-weight: 700;
+}
+
+/*-- Companion site --*/
+
+.NGLSchoolSeriesPage #companionSite{
+    margin-top: 2px;
+}
+
+.NGLSchoolSeriesPage #companionSitecontainer{
+    padding: 0px;
+}
+
+.NGLSchoolSeriesPage #companionSitecontainer>li{
+    border-radius: 3px;
+    background-color: rgb(184, 119, 15);
+    margin-top: 2px;
+}
+
+.NGLSchoolSeriesPage #companionSitecontainer>li a{
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    padding: 10px 0px;
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+}
+
+.NGLSchoolSeriesPage #companionSitecontainer>li a:hover, .NGLSchoolSeriesPage #companionSitecontainer>li a:focus{
+    text-decoration: none;
+}
+
+.NGLSchoolSeriesPage .companionSiteSubmenu{
+    padding: 0px;
+}
+
+.NGLSchoolSeriesPage .companionSiteSubmenu .productDetailsPadding{
+     padding-bottom: 14px;
+}
+
+.NGLSchoolSeriesPage .companionSiteSubmenu li{
+    margin-top: 2px;
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.NGLSchoolSeriesPage .companionSiteSubmenu li a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    padding: 10px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.NGLSchoolSeriesPage .companionSiteSubmenu li a:hover, .NGLSchoolSeriesPage .companionSiteSubmenu li a:focus{
+    text-decoration: none;
+}
+
+/*-- companion site menu --*/
+/*#companionSiteMenuContainer{
+    padding: 0px;
+}
+
+#companionSiteMenuContainer>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(224, 221, 206);
+    margin-top: 2px;
+}
+
+#companionSiteMenuContainer>li:hover{
+    background-color: rgb(184, 119, 15);
+}
+
+#companionSiteMenuContainer>li a{
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#companionSiteMenuContainer>li a:hover{
+  color: rgb(255, 255, 255);
+}
+*/
+/*--Authors Section--*/
+#authors{
+    padding:15px 0px;
+    background-color: rgb(230, 230, 227);
+}
+
+.authorsHeading{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/*.authorContainer{
+    position: relative;
+    float: left;
+    width: 50%;
+    background-color: rgb(230, 230, 227);
+    padding: 12px 21px 35px 0px;
+}*/
+
+.authorContainer{
+    position: relative;
+    float: left;
+    width: 50%;
+    background-color: rgb(230, 230, 227);
+    padding: 0px 12px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.authorImgContainer{
+    position: relative;
+    float: left;
+    width: 20%;
+    margin-right: 5%
+}
+
+.authorDescriptionContainer.fullWidth{
+    width: 100%;
+}
+
+.authorDescriptionContainer {
+	height: 132px;
+}
+
+.authorDescriptionContainer{
+    position: relative;
+    float: left;
+    width: 75%;
+    /*padding-left: 5%;*/
+}
+
+.authorTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+	margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.authorDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 2px;
+}
+
+.NGLSchoolSeriesPage .authorMoreBtn{
+    font-size: 15px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: left;
+    display: none;
+    margin-top: 7px;
+}
+
+/*-- See level section --*/
+#seeLevel {
+    padding: 10px 0px;
+}
+
+.seeLevelTitle{
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: left;
+	margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#seeLevelContainer {
+    margin-top: 20px;
+}
+#seeLevelContainer .item img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 201px;
+}
+
+#seeLevelContainer .owl-stage{
+    margin: 0 auto;
+}
+
+.NGLSchoolSeriesPage .owl-controls{
+    position: absolute;
+    width: 100%;
+    top: 92px;
+}
+
+.NGLSchoolSeriesPage .owl-prev{
+    text-align: left;
+}
+
+.NGLSchoolSeriesPage .owl-next{
+    text-align: right;
+}
+
+#seeLevelContainer .left, #seeLevelContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 3%;
+    padding-top: 5%;
+    opacity: 1;
+    color: #000000;
+}
+
+#seeLevelContainer .item a{
+    display: inline-block;
+    width: 280px;
+    text-decoration: none;
+}
+#seeLevelContainer .item .seeLevelCarouselDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#seeLevelContainer .item .published{
+	font-size: 15px;	
+	font-weight: lighter;
+	color: rgb(102, 102, 102);
+	line-height: 1.333;
+	text-align: left;
+}
+
+#seeLevelContainer .item h2{
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.seeAllSeriesTitlesBtn{
+    background-color: rgb(0, 114, 163);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    width: 90%;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 7px 0px;
+    margin: 20px auto;
+}
+
+.seeAllSeriesTitlesBtn:hover, .seeAllSeriesTitlesBtn:focus{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.seriesViewESampleBtn{
+    background-color: rgb(255, 204, 0);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    width: 90%;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.seriesViewESampleBtn:hover, .seriesViewESampleBtn:focus{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* view e-sample modal*/
+.NGLSchoolSeriesPage #viewesamleModal .modal-header{
+    background-color: rgb(0, 114, 163);
+    color: #ffffff;
+}
+
+.NGLSchoolSeriesPage #viewesamleModal .modal-header .close{
+    line-height: 5px;
+    margin-top: 0px;
+}
+
+.NGLSchoolSeriesPage div.required-field label::before {
+    content: "*";
+    /*float: left;*/
+    color: red;
+    text-align: center;
+}
+
+.NGLSchoolSeriesPage #viewesamleModal .modal-footer .btn-primary{
+    background-color: transparent;
+    border-color: rgb(0, 114, 163);
+    color: rgb(0, 114, 163);
+}
+
+.NGLSchoolSeriesPage #viewesamleModal .modal-footer .btn-primary:hover{
+    background-color: #3071a9;
+    color: #ffffff
+}
+
+.NGLSchoolSeriesPage #viewesamleModal .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* SERIES PAGE TABLET */
+@media(max-width: 991px){
+
+	.NGLSchoolSeriesPage .seriesContainer{
+    	padding: 0px 43px;
+	}
+
+	#subSeriesGroupContainer .subseriesGroupPadding, #seeLevel .subseriesGroupPadding, #barSeriesMenuContainer .subseriesGroupPadding, #relatedPrograms .subseriesGroupPadding,
+	.seriesCustomTab .productDetailsPadding, .seriesCustomTab2 .productDetailsPadding, #companionSiteMenu .subseriesGroupPadding{
+	    padding:10px 43px;
+	}
+
+	#programInfoSection .container{
+		padding: 0px 8px;
+	}
+
+	#programInfoMenuMainContainer .container{
+		padding: 0px;
+	}
+
+	/* Series banner section */
+
+	.NGLSchoolSeriesPage #seriesBanner{
+	   /* height: 290px;*/
+	}
+	
+		/*--Authors Section--*/
+	.authorDescriptionContainer.fullWidth {
+	    height: auto;
+	}
+
+	.authorDescriptionContainer{
+		height: auto;
+	}
+
+	.authorContainer{
+		width: 100%;
+	}
+
+	.authorImgContainer{
+		margin-right: 2%;
+	}
+
+	.NGLSchoolSeriesPage .authorMoreBtn{
+		display: block;
+	}
+
+	/*---- story block section ---*/
+	
+	.NGLSchoolSeriesPage .storyBlockContainer{
+		padding: 0 15px;
+	}
+
+	.NGLSchoolSeriesPage .story-block .block {
+		max-width: 350px;
+	}
+	
+	/*-- Companion site --*/
+	.NGLSchoolSeriesPage #companionSitecontainer>li a{
+		padding: 10px 0px;
+	}
+
+	.NGLSchoolSeriesPage .companionSiteSubmenu li a{
+		padding: 10px 0px;	
+	}
+
+}
+
+/* SERIES PAGE MOBILE */
+@media(max-width: 767px){
+
+	.NGLSchoolSeriesPage .seriesContainer{
+        padding: 0px 12px;
+	}
+
+	#subSeriesGroupContainer .subseriesGroupPadding, #barSeriesMenuContainer .subseriesGroupPadding, #relatedPrograms .subseriesGroupPadding,
+	.seriesCustomTab .productDetailsPadding, .seriesCustomTab2 .productDetailsPadding, #companionSiteMenu .subseriesGroupPadding{
+	    padding:10px 12px;
+	}
+
+	.programInfonav ul{
+		margin: 0px;
+	}
+
+	.programInfonav .container{
+		padding: 0px;
+	}
+
+	/* Series banner section */
+
+	.NGLSchoolSeriesPage #seriesBanner{
+	    height: 144px;
+	    /*background-image: url(http://d-ngl.cengage.com/covers/imageServlet?epi=10146259965966702329517769751686500408&image_type=OVTAB);*/
+	    background-repeat: no-repeat;
+  		background-size: cover;
+  		background-position: center;
+	}
+
+	.NGLSchoolSeriesPage #seriesBanner .superheroImg{
+	    height: 100%;
+	    display: none;
+		
+	}
+
+	.NGLSchoolSeriesPage .heroOverlayText{
+	    font-size: 22px;
+	    margin: 5px auto;
+	}
+	
+	/*-- Grades K-6 section --*/
+
+	.NGLSchoolSeriesPage .requestSampleBtn{
+		width: 100%;
+	}
+
+
+	/*-- Subseries group --*/
+
+	#subSeriesGroup .subSeriesGroupBtn{
+	    width: 90%;
+	}
+
+	/*-- Assessment Section --*/
+	#assessment{
+	    padding-bottom:33px;
+	}
+
+	/*-- Technology Section --*/
+	#technology{
+	    padding-bottom:33px;
+	}
+
+	/*-- Related Programs section --*/
+	#relatedPrograms{
+	    padding: 20px 0px;
+	}
+
+	/*-- Related Programs Scroll section --*/
+	#relatedProgramsContainer .left, #relatedProgramsContainer .right {
+		width: 6%;
+	}
+
+	/*-- Series Custom Tab 2 Section --*/
+	.NGLSchoolSeriesPage .seriesCustomTab2{
+	    padding: 32px 0px;
+	}
+
+	.NGLSchoolSeriesPage .seriesCustomTab2Heading{
+		font-size: 28px;
+		color: rgb(255, 255, 255);
+		line-height: 0.964;
+		text-align: center;
+	}
+	
+	/*-- see level section --*/
+
+	#seeLevelContainer .left, #seeLevelContainer .right {
+	    width: 6%;
+	}
+
+	.NGLSchoolSeriesPage .requestSampleBtn{
+		width: 100%;
+	}
+
+	.seeAllSeriesTitlesBtn{
+		width: 100%;
+	}
+	.seriesViewESampleBtn{
+		width: 90%;
+	}
+
+	/*--Authors Section--*/
+	.authorImgContainer{
+		width: 30%;
+	    margin-right: 5%;
+	}
+
+	.authorDescriptionContainer{
+		width: 65%;
+	}
+
+	/*---- story block section ---*/
+	.NGLSchoolSeriesPage .storyBlockContainer{
+		padding: 0 12px;
+	}
+
+}
+
+/* Home Page CSS */
+
+/* Desktop */
+body#primaryHomeBody{
+	margin-top: 0px;
+	height: auto;
+    padding-bottom: 150px;
+}
+
+#relativeSectionContainer {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+section{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+/*-- Primary Home --*/
+#primaryHome{
+	background: url('http://d-ngl.cengage.com/primaryhomeimage/primehomebackgroundimage-d.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    /*height: 910px;*/
+    padding: 46px 0px;
+}
+
+.topicContainer{
+	max-width: 334px;
+	margin: 0 auto;
+	border: 1px solid rgb(157, 157, 157);
+	background-color: rgb(255, 255, 255);
+	padding: 20px 15px;
+}
+
+.contentContainer.min{
+	overflow: hidden;
+	height: 185px;
+}
+
+.contentContainer.max{
+	height: auto;
+}
+
+.logoImgContainer{
+	margin-bottom: 20px;
+	height: 68px;
+}
+
+.logoImgContainer img{
+	margin: 0 auto;
+}
+
+.logoImgContainer a {
+    display: inline-block;
+}
+
+.eltLogoImgContainer a{
+	width: 131px;
+}
+
+.pageTitle a{
+	font-size: 22px; 
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	display: block;
+	font-weight: 500;
+}
+
+.pageTitle a:hover{
+	color: rgb(0, 0, 0);
+}
+
+.mainPageLink{
+	font-size: 22px;	
+	color: rgb(174, 49, 74);
+	line-height: 1.273;
+	text-align: center;
+	-moz-transform: matrix( 1.00677490234375,0,0,1,0,0);
+	-webkit-transform: matrix( 1.00677490234375,0,0,1,0,0);
+	-ms-transform: matrix( 1.00677490234375,0,0,1,0,0);
+	margin-top: 15px;
+	margin-bottom: 15px;
+    display: inline-block;
+}
+
+.mainPageLink:hover{
+	color: rgb(174, 49, 74);
+}
+.eltListContainer{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.eltListTitle{
+	font-size: 16px;
+	color: rgb(216, 169, 44);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.eltListDescription{
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: center;
+	color: #8c8c8c;
+}
+
+.overviewELT{
+	font-size: 14px;  
+	color: rgb(153, 153, 153);
+	line-height: 1.714;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.eltPageLinks{
+	font-size: 14px;
+	color: rgb(128, 128, 128);
+	line-height: 1.5;
+	text-align: center;
+	max-width: 207px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.eltPageLinks a{
+	color: rgb(128, 128, 128);
+}
+
+.eltPageLinks a:hover{
+	color: rgb(128, 128, 128);
+}
+
+.scrollBtnContainer{
+	margin-top: 15px;
+	font-size: 25px;
+	-webkit-text-stroke: 2px white;
+    cursor: pointer;
+        right: 0;
+    display: inline-table;
+}
+.scrollBtnContainer i.fa{
+	-webkit-text-stroke: 2px white;
+}
+
+.scrollBtnContainer i.fa.closed{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.schoolListDescription{
+	font-size: 16px;  
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: center;
+    margin-bottom: 15px;
+}
+
+.schoolListContainer{
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+.overviewSchool{
+	font-size: 14px;  
+	color: rgb(153, 153, 153);
+	line-height: 1.714;
+	text-align: center;
+    margin-bottom: 38px;
+    margin-top: 25px;
+}
+
+.schoolPageLinks{
+	font-size: 14px;
+	color: rgb(128, 128, 128);
+	line-height: 1.5;
+	text-align: center;
+	max-width: 207px;
+	margin: 0 auto;
+	margin-top: 15px;
+	/*margin-bottom: 15px;*/
+	margin-bottom: 36px;
+}
+
+.schoolPageLinks a{
+	color: rgb(128, 128, 128);
+}
+
+.schoolPageLinks a:hover{
+	color: rgb(128, 128, 128);
+}
+
+
+/*-- primary home footer changes --*/
+
+#footer_include .mainPageContainer{
+	max-width: 858px
+}
+
+#footer_include .EltfooterOpenContainer .footercolumnContainer{
+    width: 133px;
+}
+
+#footer_include #footerMiddleHeaderText{
+	margin-bottom: 20px;
+}
+
+/* Home Tablet */
+@media(max-width: 991px){
+	
+	/*-- primary home footer changes --*/
+	#footer_include .EltfooterOpenContainer .footercolumnContainer {
+	    width: initial;
+        margin-right: 21px;
+	}
+
+	body#primaryHomeBody {
+	    padding-bottom: 145px;
+	}
+}
+
+/* Home Mobile */
+@media(max-width: 767px){
+	.mobileTopSpace{
+		margin-top: 30px;
+	}
+
+
+	/*-- primary home footer changes --*/
+	#footer_include #footerMiddleHeaderText {
+	    margin: 0px;
+	}
+
+	#footer_include .EltfooterOpenContainer .footercolumnContainer {
+	    width: 110px;
+	    margin-right: 0px;
+	}
+
+	body#primaryHomeBody {
+	    padding-bottom: 218px;
+	}
+}
+
+
+@media(max-width: 356px){
+	/*-- primary home footer changes --*/
+	#footer_include .EltfooterOpenContainer .footercolumnContainer {
+	    width: 98px;
+	    margin-right: 0px;
+	}
+
+	body#primaryHomeBody {
+	    padding-bottom: 260px;
+	}
+
+}
+
+@media(max-width: 332px){
+	.pageTitle{
+		font-size: 21px;
+	}
+}

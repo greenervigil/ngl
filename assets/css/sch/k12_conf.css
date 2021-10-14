@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+@media (min-width: 1200px) {
+    .container{
+	max-width: 975px;
+    }
+
+}
+p {
+	font-size: 15px;
+	line-height: 1.4;
+}
+
+	body {
+    padding-bottom: 250px;
+}
+
+
+.col-spaced {
+	margin-left: 15px;
+}
+
+#relativeSectionContainer2 {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.confheader {
+	font-family : "Myriad Pro", "Myriad Web Pro";
+	font-weight : 900;
+	font-style : normal;
+	font-size : 1.25em;
+	font-variant : normal;
+	line-height : normal;
+	text-align : left;
+	text-indent : 0px;
+	width: 200px;
+}
+.confmonth {
+	display: block;
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	font-size: 1.5em;
+	text-align: left;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-style: normal;
+	font-weight: bold;
+	color: #cf5300;
+	border-bottom: #999999 thin solid;
+	margin-top: 35px;
+	margin-bottom: 0px;
+  margin-right: 30px;
+	width: 220px;
+}
+.confdate {
+	display: block;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+	color: #cf5300;
+	margin-top: 0.85em;
+	margin-bottom: 0.25em;
+	margin-start: 0px;
+	margin-end: 0px;
+	font-weight: normal;
+	font-style: normal;
+}
+.confintrotxt {
+		font-family: Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	font-size:.95em;
+	margin-bottom: 15px;
+	line-height : 1.25em;
+	text-align : left;
+	text-indent : 0px;
+	vertical-align: top;
+}
+a:link{
+	text-decoration: none;
+	color: #4B4B4B;
+}
+
+
+a:visited {
+	text-decoration: none;
+	color: #4B4B4B;
+}
+a:hover {
+	text-decoration: underline;
+	color: #4B4B4B;
+}
+.apnote {
+	font-size: 0.6em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #666;
+	}

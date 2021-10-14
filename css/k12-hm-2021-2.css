@@ -1,0 +1,821 @@
+/* screen - k12-hm-2021-2 */
+
+.k12-hm-2021-2 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 2558px;
+  width: 1024px;
+}
+
+.k12-hm-2021-2 .overlap-group15 {
+  height: 420px;
+  position: relative;
+  width: 1024px;
+}
+
+.k12-hm-2021-2 .overlap-group4 {
+  height: 420px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1024px;
+}
+
+.k12-hm-2021-2 .mask-group-112 {
+  background-image: url(../img/mask-group-97-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 378px;
+  left: 0;
+  position: absolute;
+  top: 80px;
+  width: 1024px;
+}
+
+.k12-hm-2021-2 .text-374 {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  left: 230px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 378px;
+  white-space: nowrap;
+}
+
+.k12-hm-2021-2 .overlap-group3 {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1024px;
+  padding: 0 241px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-hm-2021-2 .group-369 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 38px;
+  min-width: 540px;
+}
+
+.k12-hm-2021-2 .overlap-group6 {
+  height: 40px;
+  margin-bottom: -7px;
+  position: relative;
+  width: 540px;
+}
+
+.k12-hm-2021-2 .text-390 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.k12-hm-2021-2 .span1 {
+  text-decoration: underline;
+}
+
+.k12-hm-2021-2 .text-391 {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xxs);
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 14px;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.k12-hm-2021-2 .text-391:hover {
+  opacity: 1;
+}
+
+.k12-hm-2021-2 .ready-to-explore {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 2.0px;
+  margin-top: 69px;
+  min-height: 43px;
+  text-align: center;
+  width: 414px;
+}
+
+.k12-hm-2021-2 .flex-row {
+  align-items: flex-end;
+  display: flex;
+  height: 163px;
+  margin-right: 0;
+  margin-top: 33px;
+  min-width: 610px;
+}
+
+.k12-hm-2021-2 .hmbtncatalog {
+  height: 158px;
+  object-fit: cover;
+  width: 158px;
+}
+
+.k12-hm-2021-2 .hmbtnexp-smp {
+  align-self: flex-start;
+  height: 158px;
+  margin-left: 68px;
+  object-fit: cover;
+  width: 158px;
+}
+
+.k12-hm-2021-2 .hmbtnexp-sol {
+  height: 158px;
+  margin-left: 67px;
+  object-fit: cover;
+  width: 158px;
+}
+
+.k12-hm-2021-2 .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 17px;
+  min-width: 644px;
+}
+
+.k12-hm-2021-2 .group-3 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  min-width: 192px;
+}
+
+.k12-hm-2021-2 .overlap-group {
+  height: 50px;
+  position: relative;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .group-160 {
+  align-items: flex-start;
+  background-image: url(../img/path-34-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 192px;
+  padding: 7px 19px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-hm-2021-2 .browse-our-catalog {
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  white-space: nowrap;
+  width: 152px;
+}
+
+.k12-hm-2021-2 .group-160-1 {
+  background-image: url(../img/path-34-5@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 50px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .group-160-1:hover {
+  opacity: 1;
+}
+
+.k12-hm-2021-2 .browse-our-catalog-1 {
+  height: 24px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  white-space: nowrap;
+  width: 152px;
+}
+
+.k12-hm-2021-2 .group-3-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 34px;
+  min-width: 192px;
+}
+
+.k12-hm-2021-2 .group-16 {
+  align-items: flex-start;
+  background-image: url(../img/path-34-10@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 192px;
+  padding: 4px 19px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-hm-2021-2 .text-3 {
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 39px;
+  text-align: center;
+  width: 152px;
+}
+
+.k12-hm-2021-2 .group-32 {
+  background-image: url(../img/path-34-9@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 50px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .group-32:hover {
+  opacity: 1;
+}
+
+.k12-hm-2021-2 .text-3-1 {
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 152px;
+}
+
+.k12-hm-2021-2 .overlap-group-2 {
+  align-items: center;
+  background-color: var(--jacksons-purple);
+  display: flex;
+  flex-direction: column;
+  margin-top: 53px;
+  min-height: 205px;
+  padding: 32px 0;
+  width: 1024px;
+}
+
+.k12-hm-2021-2 .ready-to-order {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xl);
+  height: 47px;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 2.0px;
+  text-align: center;
+  width: 230px;
+}
+
+.k12-hm-2021-2 .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 34px;
+  min-width: 406px;
+}
+
+.k12-hm-2021-2 .group-329 {
+  height: 40px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .group-329:hover {
+  opacity: 1;
+}
+
+.k12-hm-2021-2 .overlap-group6-1 {
+  height: 40px;
+  position: relative;
+}
+
+.k12-hm-2021-2 .group-165 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.k12-hm-2021-2 .overlap-group-1 {
+  border-radius: 48px;
+  height: 40px;
+  position: relative;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .rectangle-117 {
+  border-radius: 48px;
+  cursor: pointer;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .place-an-order {
+  cursor: pointer;
+  height: 22px;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  white-space: nowrap;
+  width: 106px;
+}
+
+.k12-hm-2021-2 .group-328 {
+  height: 40px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .group-328:hover {
+  opacity: 1;
+}
+
+.k12-hm-2021-2 .overlap-group8 {
+  border-radius: 48px;
+  height: 40px;
+  position: relative;
+}
+
+.k12-hm-2021-2 .rectangle-117-1 {
+  background-color: var(--white);
+  border-radius: 48px;
+  cursor: pointer;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .group-331 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 22px;
+  min-width: 192px;
+}
+
+.k12-hm-2021-2 .overlap-group9 {
+  height: 40px;
+  position: relative;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .group-164 {
+  align-items: flex-start;
+  display: flex;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.k12-hm-2021-2 .track-my-order {
+  height: 22px;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  white-space: nowrap;
+  width: 112px;
+}
+
+.k12-hm-2021-2 .rectangle-204 {
+  border-radius: 48px;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .group-330 {
+  background-image: url(../img/path-70@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 40px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .group-330:hover {
+  opacity: 1;
+}
+
+.k12-hm-2021-2 .ready-to-implement {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 2.0px;
+  margin-top: 40px;
+  min-height: 43px;
+  text-align: center;
+  width: 320px;
+}
+
+.k12-hm-2021-2 .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 1.0px;
+  margin-top: 38px;
+  min-width: 383px;
+}
+
+.k12-hm-2021-2 .hmbtnimp-prod {
+  height: 157px;
+  object-fit: cover;
+  width: 158px;
+}
+
+.k12-hm-2021-2 .hmbtnimo-train {
+  height: 157px;
+  margin-left: 68px;
+  object-fit: cover;
+  width: 157px;
+}
+
+.k12-hm-2021-2 .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 18px;
+  min-width: 418px;
+}
+
+.k12-hm-2021-2 .text-38 {
+  height: 39px;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+  width: 152px;
+}
+
+.k12-hm-2021-2 .group-33 {
+  background-image: url(../img/path-34-5@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 50px;
+  left: 0;
+  opacity: 0.0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .group-33:hover {
+  opacity: 1;
+}
+
+.k12-hm-2021-2 .text-38-1 {
+  height: 39px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 152px;
+}
+
+.k12-hm-2021-2 .overlap-group2 {
+  align-items: center;
+  background-color: var(--paradiso);
+  display: flex;
+  flex-direction: column;
+  margin-top: 53px;
+  min-height: 402px;
+  padding: 28px 203px;
+  width: 1024px;
+}
+
+.k12-hm-2021-2 .stay-connected {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 2.0px;
+  min-height: 43px;
+  text-align: center;
+  width: 414px;
+}
+
+.k12-hm-2021-2 .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 32px;
+  min-width: 602px;
+}
+
+.k12-hm-2021-2 .mask-group-81 {
+  align-items: flex-end;
+  display: flex;
+  height: 147px;
+  overflow: hidden;
+  width: 263px;
+}
+
+.k12-hm-2021-2 .group-4 {
+  background-image: url(../img/mask-group-30-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 199px;
+  margin-bottom: -48.41px;
+  margin-left: -5px;
+  width: 273px;
+}
+
+.k12-hm-2021-2 .mask-group-80 {
+  align-items: flex-end;
+  display: flex;
+  height: 147px;
+  margin-left: 76px;
+  overflow: hidden;
+  width: 263px;
+}
+
+.k12-hm-2021-2 .overlap-group6-2 {
+  height: 230px;
+  margin-bottom: -79.0px;
+  position: relative;
+  width: 291px;
+}
+
+.k12-hm-2021-2 .mask-group-79 {
+  height: 230px;
+  left: 14px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 277px;
+}
+
+.k12-hm-2021-2 .k12hmimg-explore-inside2020 {
+  height: 199px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 265px;
+}
+
+.k12-hm-2021-2 .flex-row-6 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 19px;
+  min-width: 532px;
+}
+
+.k12-hm-2021-2 .group-168 {
+  align-items: flex-start;
+  background-image: url(../img/path-34-12@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 192px;
+  padding: 3px 14px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-hm-2021-2 .text-386 {
+  height: 42px;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+  width: 162px;
+}
+
+.k12-hm-2021-2 .group-340 {
+  background-image: url(../img/path-34-13@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 50px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .group-340:hover {
+  opacity: 1;
+}
+
+.k12-hm-2021-2 .text-387 {
+  height: 42px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 162px;
+}
+
+.k12-hm-2021-2 .group-343 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 148px;
+  min-width: 192px;
+}
+
+.k12-hm-2021-2 .group-169 {
+  align-items: flex-start;
+  background-image: url(../img/path-34-12@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 192px;
+  padding: 14px 19px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-hm-2021-2 .text-388 {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  width: 152px;
+}
+
+.k12-hm-2021-2 .group-342 {
+  background-image: url(../img/path-34-13@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 50px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 192px;
+}
+
+.k12-hm-2021-2 .group-342:hover {
+  opacity: 1;
+}
+
+.k12-hm-2021-2 .text-389 {
+  height: 23px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  width: 152px;
+}
+
+.k12-hm-2021-2 .flex-row-7 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  margin-top: 3px;
+  min-width: 593px;
+}
+
+.k12-hm-2021-2 .text-377 {
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  width: 280px;
+}
+
+.k12-hm-2021-2 .text-376 {
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 87px;
+  text-align: center;
+  white-space: nowrap;
+  width: 226px;
+}
+
+.k12-hm-2021-2 .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(../img/mask-group-82-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 260px;
+  justify-content: flex-end;
+  margin-top: 35px;
+  min-width: 1024px;
+  padding: 58px 281px;
+}
+
+.k12-hm-2021-2 .cropped9780357419991cvrhr {
+  height: 132px;
+  object-fit: cover;
+  width: 103px;
+}
+
+.k12-hm-2021-2 .overlap-group5 {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  margin-top: 95px;
+  min-height: 311px;
+  padding: 54.0px 65px;
+  width: 1024px;
+}
+
+.k12-hm-2021-2 .text-375 {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 43px;
+  text-align: center;
+  width: 891px;
+}
+
+.k12-hm-2021-2 .national-geographic {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 3.0px;
+  margin-top: 5px;
+  min-height: 112px;
+  text-align: center;
+  width: 641px;
+}

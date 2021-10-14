@@ -1,0 +1,406 @@
+@charset "UTF-8";
+
+@media (min-width: 320px) {
+	body {
+	padding-bottom: 450px !important;
+	}
+
+}
+
+@media (min-width: 1200px) {
+    .container{
+		max-width:975px;
+		margin: 0 auto;
+    }
+	body {
+    padding-bottom: 250px !important;
+	}
+	.nav-tabd { padding-left: 500px; }
+}
+	
+p {
+	font-size: 15px;
+	line-height: 1.4;
+}
+
+
+
+
+
+.nav2 {
+	background-color: #666666;
+	
+}
+
+
+
+.dig  {
+	cursor: pointer;
+    font-family: "Myriad Web Pro", "Myriad Web Pro Bold", "Myriad Web Pro Italic", "Myriad Pro";
+    color: #333333;
+    font-size: 1.5em;
+    border-radius: 11px;
+    font-weight: 600;
+    background-color: #ffd65e;
+    letter-spacing: 0.01em;
+    border-collapse: collapse;
+    margin-left: -28px;
+    line-height: 1.4em;
+    margin-top: 2px;
+    padding-right: -12px;
+    padding-left: -12px;
+}
+
+
+#apptxt {
+	color : #666666;
+	line-height: 1em;
+	vertical-align: top;
+}
+#appsR {
+	width: 620px;
+	height: 50px;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+#apptbl {
+	width: 440px;
+	height: 90px;
+	float: right;
+	margin: 0;
+	border-collapse: collapse;
+	padding: 0;
+	vertical-align: top;
+}
+
+
+.content {
+	width: 975px;
+	position: relative;
+	float: left;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#pic {
+	float: right;
+}
+
+.divcol  {
+	width: 300px;
+	display: block;
+	float: left;
+	position: relative;
+	height: auto;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: top;
+	font-size: 0.85em;
+	line-height: 1.5em;
+	padding-right: 20px;
+}
+
+
+.promo_list {
+	border: none;
+	float: right;
+	height: auto;
+	width: 200px;
+	text-align: left;
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	list-style-type: none;
+}
+.solutions {
+	display: inline-block;
+	float: left;
+	width: 300px;
+	height: auto;
+	text-align: left;
+	margin-top: -24;
+}
+li.solutiontxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.855em;
+	line-height: 1em;
+	font-weight: bold;
+	color: #4B4B4B;
+	text-align: left;
+	list-style-type: none;
+	margin-left: -24px;
+}
+li.solutions {
+	display:list-item;
+	list-style-type: disc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: normal;
+	color: #5D5D5D;
+	text-align: left;
+	list-style-position: outside;
+}
+ol.solutions {
+	list-style-position:outside;
+	list-style-type:disc;
+	display:list-item;
+}
+
+.imgTablets {
+	float: right;
+	display: inline-block;
+	width: 510px;
+	position: relative;
+}
+#eSampleTxt {
+	width: 450px;
+	display: inline-block;
+	float: left;
+}
+.imgeSamples {
+	float: right;
+	display: inline-block;
+	position: relative;
+	clear: right;
+	padding-left: 60px;
+}
+.arrowlinksheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : .7em;
+	color : #666666;
+	border: thin solid #CCC;
+	float: right;
+	height: auto;
+	width: 220px;
+	font-style: normal;
+	font-variant: normal;
+	margin-left: -24px;
+	text-align: left;
+	clear: both;
+	line-height: normal;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	list-style-type: none;
+}
+
+li.arrowlinksheading {
+	background: none;
+	padding-left:4px;
+	padding-right:0px;
+}
+
+.rightnav {
+	display: block;
+	float: right;
+}
+.arrowlinkesmpl {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	font-size : 1.2em;
+	color : #666666;
+	border: thin solid #CCC;
+	float: left;
+	height: auto;
+	width: 280px;
+	font-style: normal;
+	font-variant: normal;
+	margin-left: -24px;
+	text-align: left;
+	clear: both;
+	line-height: normal;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	list-style-type: none;
+}
+ol.arrowlinkesmpl{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+li.arrowlinkesmpl{
+	background:url("http://ngl.cengage.com/assets/css/arrow_grey.png") no-repeat 0 8px;
+	padding-left:24px;
+}
+.arrowlinkesmpl a:link {
+	text-decoration: none;
+	color : #666666;
+}
+.arrowlinkesmpl a:link2 {
+	text-decoration: none;
+	color : #666666;
+}
+.arrowlinkesmpl a:hover {
+	text-decoration: underline;
+	color : #666666;
+}
+.arrowlinkesmplHeaders {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 0.9em;
+	color : #666666;
+	border: thin solid #CCC;
+	float: left;
+	height: auto;
+	width: 280px;
+	text-align: left;
+	clear: both;
+	line-height: normal;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	list-style-type: none;
+	padding-right: 20px;
+	padding-left: 4px;
+}
+ol.arrowlinkesmplHeaders {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+li.arrowlinkesmplHeaders {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 1.2em;
+	color : #666666;
+	border: thin solid #CCC;
+	float: left;
+	height: auto;
+	width: 280px;
+	font-style: normal;
+	font-variant: normal;
+	margin-left: -24px;
+	text-align: left;
+	clear: both;
+	line-height: normal;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	list-style-type: none;
+}
+.arrowlinkesmplGrades {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 0.9em;
+	color : #FFFFFF;
+	border: thin solid #CCC;
+	float: right;
+	height: auto;
+	width: 280px;
+	text-align: left;
+	clear: both;
+	line-height: normal;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	list-style-type: none;
+	padding-right: 20px;
+	padding-left: 4px;
+	background-color: #666;
+}
+li.arrowlinkesmplGrades {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 0.9em;
+	color : #FFFFFF;
+	border: thin solid #666;
+	float: right;
+	height: auto;
+	width: 280px;
+	font-style: normal;
+	font-variant: normal;
+	margin-left: -24px;
+	text-align: left;
+	clear: both;
+	line-height: normal;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	list-style-type: none;
+}
+
+#apps {
+	float: right;
+}
+#grlvlk8{
+	border: 1px solid #ffc826;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	font-size: 1.4em;
+	font-family: Myriad Web Pro", "Myriad Web Pro Bold", "Myriad Web Pro Italic", "Myriad Pro;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	background-color: #ffd65e;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd65e), to(#febf04));
+	background-image: -webkit-linear-gradient(top, #ffd65e, #febf04);
+	background-image: -moz-linear-gradient(top, #ffd65e, #febf04);
+	background-image: -ms-linear-gradient(top, #ffd65e, #febf04);
+	background-image: -o-linear-gradient(top, #ffd65e, #febf04);
+	background-image: linear-gradient(to bottom, #ffd65e, #febf04);
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffd65e, endColorstr=#febf04);
+	width: 180px;
+	margin: 12px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 12px;
+}
+#grlvl912 {
+	border: 1px solid #ffc826;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+	font-size: 1.4em;
+	font-family: Myriad Web Pro", "Myriad Web Pro Bold", "Myriad Web Pro Italic", "Myriad Pro;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	background-color: #ffd65e;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd65e), to(#febf04));
+	background-image: -webkit-linear-gradient(top, #ffd65e, #febf04);
+	background-image: -moz-linear-gradient(top, #ffd65e, #febf04);
+	background-image: -ms-linear-gradient(top, #ffd65e, #febf04);
+	background-image: -o-linear-gradient(top, #ffd65e, #febf04);
+	background-image: linear-gradient(to bottom, #ffd65e, #febf04);
+filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffd65e, endColorstr=#febf04);
+	width: 180px;
+	margin: 12px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 12px;
+}
+
+.grlvl a{
+	text-decoration: none;	
+}
+.grlvl:hover{
+ border:1px solid #f7b800;
+ background-color: #ffc92b; background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc92b), to(#ce9a01));
+ background-image: -webkit-linear-gradient(top, #ffc92b, #ce9a01);
+ background-image: -moz-linear-gradient(top, #ffc92b, #ce9a01);
+ background-image: -ms-linear-gradient(top, #ffc92b, #ce9a01);
+ background-image: -o-linear-gradient(top, #ffc92b, #ce9a01);
+ background-image: linear-gradient(to bottom, #ffc92b, #ce9a01);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc92b, endColorstr=#ce9a01);
+}
+
+
+
+
+	
+
+
+
+.accord-content {
+    display: none;
+}
+.rotate {
+	transform: rotate(180deg);
+	/*transform: rotate(90deg);*/
+	transition: .3s;
+}
+.rotate2 {
+    transform: rotate(0deg);
+    transition: .3s;
+}
+

@@ -1,0 +1,240 @@
+section{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+/*---- Home section ---*/
+/*#eltSuperHero{
+	background: url(../images/schoolhomebanner-d.png) no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 550px;
+    position: relative;
+}*/
+
+.superheroBgImg{
+	background-image: none;
+}
+
+#superHeroContainer .item img{
+    /*height: auto;*/
+    /*height: 550px;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#superHeroContainer .item .thumbnailContainer{
+	max-width: 1056px;
+	margin: 0 auto;
+
+}
+
+#superHeroContainer .item .thumbnailContainer .superheroThumbnailImg{
+	width: 382px;
+	height: 131px;
+    margin-left: 0px;
+    position: absolute;
+	bottom: 0;
+	top: 40%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#eltSuperHero .heroOverlay{
+	background-color: rgba(0, 0, 0,0.349);
+	position: absolute;
+	bottom: 0;
+	padding: 5px 0px;
+	z-index: 99;
+    width: 100%;
+}
+
+.heroOverlay h1{
+	font-size: 48px;
+	color: rgb(255, 255, 255);
+	max-width: 1056px;
+	margin: 0 auto;
+	line-height: 1.25;
+}
+
+.heroOverlay h1 span{
+	max-width: 800px;
+	text-align: left;
+	display: inline-block;
+}
+
+.owl-controls{
+	position: absolute;
+	width: 100%;
+	top: 92px;
+}
+
+.owl-prev{
+	text-align: left;
+}
+
+.owl-next{
+	text-align: right;
+}
+
+#superHeroContainer .left, #superHeroContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 5%;
+    padding-top: 5%;
+    opacity: 1;
+    color: #000000;
+}
+
+#superHeroContainer .owl-controls i{
+	border-radius: 50%;
+    background-color: rgb(204, 204, 204);
+    opacity: 0.8;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#superHeroContainer .owl-controls i.fa-angle-right:before,#superHeroContainer .owl-controls i.fa-angle-left:before{
+	opacity: 0.8;
+}
+
+#superHeroContainer .item a{
+	display: block;
+    text-decoration: none;
+}
+
+
+/*---- story block section ---*/
+
+#storyBlockContainer{
+	max-width: 1056px;
+	margin: 0 auto;
+}
+
+.story-block {
+    margin-top: 24px;
+    /*margin-bottom: 24px;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+.story-block .block:first-of-type {
+    margin-left: 0;
+}
+
+.story-block .block {
+    background: #FFF;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 4px;
+    display: inline-block;
+   /* min-height: 260px;*/
+    padding: 20px 0px;
+    margin: 0 .2% 20px;
+    text-align: center;
+    vertical-align: top;
+    max-width: 345px;
+    width: 100%;
+}
+
+.story-block .block a{
+	display: block;
+	text-decoration: none;
+}
+
+.story-block .block a.blockImgContainer{
+	min-height: 92px;
+}
+
+.story-block .block a.blockImgContainer img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#storyBlockContainer .story-block .block h3{
+	font-size: 32.323px;
+	color: #951700;
+	line-height: 1.2;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+#storyBlockContainer .story-block .block .blockImgInnerContainer{
+	font-size: 62px;
+	color: rgb(27, 98, 178);
+	line-height: 1.048;
+	text-align: center;
+	font-weight: 700;
+}
+
+/*-- New title section --*/
+#newTitleSection{
+	background: url(../images/newtitleBg.jpg) no-repeat;
+	height: 241px;
+	background-size: cover;
+	background-position: top;
+}
+
+.newTitleSectionLink{
+	display: inline-block;
+	width: 100%;
+	padding-top: 35px; 
+	height: inherit;
+}
+
+.newTitleContent{
+	font-size: 48px;
+	color: rgb(255, 255, 255);
+	line-height: 1.25;
+	text-align: left;
+}
+
+/*-- NGl Mission section --*/
+
+#nglMissionSection{
+	background: url(../images/nglMissionbg.jpg) no-repeat;
+	height: 463px;
+	background-size: cover;
+	background-position: top;
+	margin-top: 2px;
+}
+
+.nglMissionSectionLink{
+	display: inline-block;
+	width: 100%;
+	height: inherit;
+}
+
+.nglMissionHeading{
+	font-size: 48px;
+	color: rgb(255, 255, 255);
+	line-height: 1.25;
+	text-align: left;
+}
+
+.nglMissionContent{
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	line-height: 1.5;
+	text-align: left;
+	max-width: 518px;
+}
+
+.nglMissionOverlay{
+	background-color: rgba(0, 0, 0,0.349);
+	max-width: 1100px;
+	margin: 0 auto;
+    height: 100%;
+    padding: 28px 0px;
+}
+
+@media(max-width: 1024px){
+	#superHeroContainer .item .thumbnailContainer .superheroThumbnailImg {
+	    height: 79px;
+	    margin-left: 56px;
+	}
+}

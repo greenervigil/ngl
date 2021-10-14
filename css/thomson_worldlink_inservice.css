@@ -1,0 +1,60 @@
+.AudioText {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.ParagraphText {
+	FONT-SIZE: 12px; MARGIN: 0px; COLOR: #000000; LINE-HEIGHT: 0.45cm; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.ParagraphAnchor {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.ParagraphAnchor:link {
+	COLOR: #3366cc
+}
+.ParagraphAnchor:visited {
+	COLOR: #3366cc
+}
+.ParagraphAnchor:hover {
+	COLOR: #999999
+}
+.ParagraphAnchor:active {
+	COLOR: #999999
+}
+.CopyTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; MARGIN: 0px; COLOR: #003399; LINE-HEIGHT: 0.45cm; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.CopyText {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN: 0px; COLOR: #003399; LINE-HEIGHT: 0.45cm; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.NarrativeText1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN: 0px; COLOR: #000000; LINE-HEIGHT: 0.45cm; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.NarrativeText2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; MARGIN: 0px; COLOR: #000000; LINE-HEIGHT: 0.45cm; FONT-FAMILY: Arial Narrow, Arial, Helvetica, sans-serif
+}
+.NarrativeText3 {
+	BORDER-RIGHT: #c1c1c1 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #c1c1c1 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 12px; VISIBILITY: visible; PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: #c1c1c1 1px solid; COLOR: #000000; LINE-HEIGHT: 0.45cm; PADDING-TOP: 10px; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f0f0e0; layer-background-color: #f0f0e0
+}
+.NarrativeText4 {
+	BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 12px; VISIBILITY: visible; PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: #000000 1px solid; COLOR: #000000; LINE-HEIGHT: 0.45cm; PADDING-TOP: 10px; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f0f0e0; layer-background-color: #f0f0e0
+}
+.NarrativeText5 {
+	BORDER-RIGHT: #c1c1c1 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #c1c1c1 1px solid; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 13px; VISIBILITY: visible; PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: #c1c1c1 1px solid; COLOR: #000000; LINE-HEIGHT: 0.45cm; PADDING-TOP: 10px; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-FAMILY: "Times New Roman", Roman; BACKGROUND-COLOR: #f0f0e0; layer-background-color: #f0f0e0
+}
+.NarrativeText6 {
+	BORDER-RIGHT: #c1c1c1 0px solid; PADDING-RIGHT: 10px; BORDER-TOP: #c1c1c1 0px solid; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 12px; VISIBILITY: visible; PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: #c1c1c1 0px solid; COLOR: #000000; LINE-HEIGHT: 0.45cm; PADDING-TOP: 10px; BORDER-BOTTOM: #c1c1c1 0px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f0f0e0; layer-background-color: #f0f0e0
+}
+.NarrativeText7 {
+	BORDER-RIGHT: #c1c1c1 0px solid; PADDING-RIGHT: 10px; BORDER-TOP: #c1c1c1 0px solid; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 12px; VISIBILITY: visible; PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: #c1c1c1 0px solid; COLOR: #000000; LINE-HEIGHT: 0.45cm; PADDING-TOP: 10px; BORDER-BOTTOM: #c1c1c1 0px solid; FONT-FAMILY: Courier, "Courier New"; BACKGROUND-COLOR: #f0f0e0; layer-background-color: #f0f0e0
+}
+.CopyTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; MARGIN: 0px; COLOR: #003399; LINE-HEIGHT: 0.45cm; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.CopyText {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN: 0px; COLOR: #003399; LINE-HEIGHT: 0.45cm; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.CopyQuote {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN: 0px; COLOR: #003399; LINE-HEIGHT: 0.45cm; FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.CopyUL {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #003399; LINE-HEIGHT: 0.45cm; FONT-FAMILY: Arial, Helvetica, sans-serif
+}

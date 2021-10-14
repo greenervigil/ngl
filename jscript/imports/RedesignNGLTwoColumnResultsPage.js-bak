@@ -1,0 +1,29 @@
+yepnope([ 
+  { 
+    load: [
+      "/jscript/jquery.typeAhead.js",
+      "/jscript/jquery.zrssfeed_ngl.js",
+      "/jscript/isbnHyphenation.js",
+      "/jscript/cartridge/RedesignNGLResultsList.js",
+      "/nglredesign/school/searchresults/js/searchresults.js"
+    ],
+    complete: function () {
+    	yepnope({
+	        test: $("#RefSearchTXT").length,
+	        yep: "/jscript/cartridge/nglRefineSearch.js"
+      	});
+
+		yepnope({
+			test: $(".main nav").length,
+			yep: "/jscript/cartridge/RedesignGuidedNavigation.js"
+		});
+    }
+  },
+  {
+    load: [
+      "/jscript/ngl.js",
+      "/jscript/search/customLinkTracking.js",
+      "/jscript/search/NGLRedesign_common.js"
+    ]
+  }
+]);

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*overlay*/
+
+div.imageSub { position: relative; }
+div.imageSub img { z-index: 1; }
+div.imageSub div {
+    position: absolute;
+	margin: 0 auto;
+	bottom: 0;
+    width: 100%;
+    line-height: 50px;
+	
+	text-align: left;
+    z-index: 2;
+        background-color: #000;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        filter: alpha(opacity=50);
+        opacity: 0.5;
+      }
+}
+div.imageSub div.label {
+        z-index: 3;
+        color: white;
+}
+
+@media (min-width: 1200px) {
+    div.imageSub div{
+	padding-left: 300px;
+    }
+}

@@ -1,0 +1,29 @@
+@media(max-width: 991px){
+
+	.seriesContainer{
+    	padding: 0px 43px;
+	}
+
+	#programInfoSection .container{
+		padding: 0px 8px;
+	}
+
+	#programInfoMenuMainContainer .container{
+		padding: 0px;
+	}
+
+	/* Series banner section */
+	.heroOverlayText{
+		padding: 0 15px;
+	}
+	/*---- story block section ---*/
+	
+	.storyBlockContainer{
+		padding: 0 15px;
+	}
+
+	.story-block .block {
+		max-width: 350px;
+	}
+
+}

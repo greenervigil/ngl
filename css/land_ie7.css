@@ -1,0 +1,55 @@
+/* ie7 css style sheet */
+div#logos {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 1024px;
+}
+div#text_left {
+  background-image: url("../images/welcome/blue_BG_Gradiant.png");
+  background-position: left top;
+  background-repeat: repeat-x;
+  float: left;
+  text-align: center;
+  width: 490px;
+  z-index: 10;
+}   
+div#text{
+  float:left;
+  width:1024px;
+  padding:10px 0px 10px 0px;
+  margin:0px 0px 0px 0px;
+}
+div#textBlock h4{ 
+  line-height:1.5em;	
+  color:#fff;
+  font-size:1.25em;
+  padding:0px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
+  text-align:center;
+  width:40%;
+}
+.ngsp_eltLink{
+  color: #FFFFFF;
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.5em;
+  list-style-type: none;
+  margin: 66px 0 0 0px;
+  padding: 0 0 0 4px;
+  width: 21%;
+}
+div#nglH_covers img { border:none; }
+div#nglH_covers {
+  margin: -127px 0 20px -10px;
+  padding: 0 10px 0 10px;
+  width: 75%;
+}
+div#nglH_covers ul li {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 10px;
+  width: 25%;
+}

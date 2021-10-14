@@ -1,0 +1,1665 @@
+/* screen - k12-lp-digitalsupport-2021-0603-1 */
+
+.k12-lp-digitalsupport-2021-0603-1 {
+  align-items: center;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 6801px;
+  padding: 25.0px 0;
+  width: 1920px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 5201px;
+  width: 1920px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-row {
+  align-items: center;
+  display: flex;
+  min-width: 1480px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .ngl-cengage-logocmyk-01 {
+  height: 80px;
+  object-fit: cover;
+  width: 404px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .grades-k-12 {
+  height: 47px;
+  margin-left: 202px;
+  margin-top: 7.02px;
+  object-fit: cover;
+  width: 268px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .magnifyingglass-01 {
+  height: 42px;
+  margin-left: 471px;
+  margin-top: 10.02px;
+  object-fit: cover;
+  width: 38px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .magnifyingglass-02 {
+  height: 50px;
+  margin-left: 41px;
+  margin-top: 10.02px;
+  object-fit: cover;
+  width: 56px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group5 {
+  height: 662px;
+  margin-top: 35px;
+  position: relative;
+  width: 1920px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .digital-support {
+  left: 479px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 564px;
+  width: 213px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .mask-group-74 {
+  height: 662px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-124 {
+  height: 118px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 544px;
+  width: 1920px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 711px;
+  margin-left: 1.0px;
+  margin-top: 56px;
+  min-width: 1469px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group8 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 711px;
+  padding: 29px 7px;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .asset-1 {
+  height: 218px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 218px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-610 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 6.0px;
+  margin-top: 28px;
+  min-height: 63px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-611 {
+  align-self: flex-end;
+  height: 84px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 9px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group18 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 54px;
+  margin-top: 26px;
+  min-width: 210px;
+  padding: 2px 20px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-6 {
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 46px;
+  text-align: center;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group17 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 54px;
+  margin-top: 14px;
+  min-width: 210px;
+  padding: 2.0px 20px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
+  min-height: 711px;
+  padding: 29px 0;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .traning {
+  height: 218px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 218px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-615 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-right: 14.0px;
+  margin-top: 28px;
+  min-height: 63px;
+  text-align: center;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-612 {
+  height: 172px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 9px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group19 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-top: 26px;
+  min-width: 210px;
+  padding: 8px 14px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-618 {
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 26px;
+  text-align: center;
+  width: 182px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group6 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  min-height: 711px;
+  padding: 29px 14.0px;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .mask-group-103 {
+  height: 218px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 218px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .technical-support {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-right: 0;
+  margin-top: 28px;
+  min-height: 35px;
+  text-align: center;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-613 {
+  align-self: flex-start;
+  height: 197px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 37px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group20 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-right: 0;
+  margin-top: 26px;
+  min-width: 210px;
+  padding: 5px 20.0px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .create-tech-ticket {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group21 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 54px;
+  margin-right: 0;
+  margin-top: 11px;
+  min-width: 210px;
+  padding: 3px 20.0px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .access {
+  height: 218px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 218px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .digital-access {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 28px;
+  min-height: 35px;
+  text-align: center;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-614 {
+  height: 141px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 37px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group22 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-top: 26px;
+  min-width: 210px;
+  padding: 5px 20px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .request-access {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .mask-group-107 {
+  height: 218px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 218px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-626 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 16.0px;
+  margin-top: 28px;
+  min-height: 63px;
+  text-align: center;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-625 {
+  height: 141px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 9px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group16 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 54px;
+  margin-top: 34px;
+  min-width: 210px;
+  padding: 2px 20px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 77px;
+  min-height: 3580px;
+  width: 1920px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group1-2 {
+  align-items: flex-end;
+  background-color: var(--elephant);
+  display: flex;
+  flex-direction: column;
+  min-height: 264px;
+  padding: 58.0px 352px;
+  width: 1920px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-620 {
+  color: var(--white);
+  font-family: var(--font-family-opensans-semibold);
+  font-size: var(--font-size-xxl);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 1px;
+  min-height: 57px;
+  text-align: center;
+  width: 1214px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group30 {
+  align-items: flex-start;
+  align-self: center;
+  background-image: url(../img/path-8-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 72px;
+  justify-content: flex-end;
+  margin-top: 19px;
+  min-width: 300px;
+  padding: 13.0px 3px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .access-resources {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 35px;
+  text-align: center;
+  width: 292px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-619 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 2.0px;
+  margin-top: 81px;
+  min-height: 57px;
+  text-align: center;
+  width: 1214px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .cengage-mind-t-horizontalrgb {
+  height: 105px;
+  margin-top: 34px;
+  object-fit: cover;
+  width: 864px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-104 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  height: 46px;
+  margin-top: 36px;
+  min-width: 644px;
+  padding: 0 19px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .select-course-area {
+  height: 42px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  width: 194px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .polygon-1 {
+  height: 6px;
+  margin-bottom: 2.0px;
+  margin-left: 398px;
+  object-fit: cover;
+  width: 12px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-105 {
+  align-items: flex-start;
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-top: 68px;
+  min-width: 208px;
+  padding: 4px 19px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .log-in {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-row-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 336px;
+  margin-top: 157px;
+  min-width: 1396px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-90 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 336px;
+  width: 227px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .cengage-web-as-gn-stackedrgb {
+  height: 196px;
+  object-fit: cover;
+  width: 227px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group31 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-right: 1.0px;
+  margin-top: 32px;
+  min-width: 214px;
+  padding: 4px 22px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .access-resources-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group32 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-right: 1.0px;
+  margin-top: 16px;
+  min-width: 214px;
+  padding: 4px 22px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .log-in-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-89 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 98px;
+  min-height: 336px;
+  width: 214px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .cengage-owl-v2-stackedrgb {
+  height: 196px;
+  margin-left: 0.37px;
+  object-fit: cover;
+  width: 184px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group37 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-top: 32px;
+  min-width: 214px;
+  padding: 4px 22px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .access-resources-2 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group38 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-top: 16px;
+  min-width: 214px;
+  padding: 4px 22px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .log-in-2 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-87 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 99px;
+  min-height: 285px;
+  width: 347px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .my-n-gconnectlogok {
+  height: 124px;
+  object-fit: cover;
+  width: 347px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group33 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-left: 1.0px;
+  margin-top: 53px;
+  min-width: 214px;
+  padding: 4px 22px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .access-resources-3 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-left: 1.0px;
+  margin-top: 16px;
+  min-width: 214px;
+  padding: 4px 22px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .log-in-3 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-88 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 98px;
+  min-height: 334px;
+  width: 313px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .stacked-full-color {
+  height: 177px;
+  object-fit: cover;
+  width: 313px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group36 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-left: 1.0px;
+  margin-top: 49px;
+  min-width: 214px;
+  padding: 4px 22px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .access-resources-4 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .log-in-4 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group-1 {
+  align-items: center;
+  background-color: var(--bahama-blue);
+  display: flex;
+  flex-direction: column;
+  margin-top: 126px;
+  min-height: 1303px;
+  padding: 93px 0;
+  width: 1920px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-624 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 3.0px;
+  min-height: 57px;
+  text-align: center;
+  width: 1007px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 674px;
+  margin-top: 63px;
+  min-width: 1028px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 674px;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group28 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  padding: 16px 0;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .cengage-sam-stackedrgb {
+  height: 151px;
+  margin-left: 6.0px;
+  margin-top: 7px;
+  object-fit: cover;
+  width: 142px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+  min-height: 108px;
+  width: 208px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  min-width: 208px;
+  padding: 3px 19px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .access-resources-5 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group1-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-top: 16px;
+  min-width: 208px;
+  padding: 3px 19px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .log-in-5 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group29 {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+  min-height: 320px;
+  padding: 22px 26px;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .cognero {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 51px;
+  min-height: 78px;
+  text-align: center;
+  width: 264px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-32 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  margin-top: 39px;
+  min-height: 108px;
+  width: 208px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .access-resources-6 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .log-in-6 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 34px;
+  min-height: 674px;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group24 {
+  align-items: center;
+  background-image: url(../img/path-1-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  padding: 16px 0;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .cengagec-now-v2-stackedrgb {
+  height: 151px;
+  margin-left: 6.04px;
+  margin-top: 7px;
+  object-fit: cover;
+  width: 142px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .access-resources-7 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .log-in-7 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group27 {
+  align-items: center;
+  background-image: url(../img/path-1-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+  min-height: 320px;
+  padding: 22px 0;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .my-elt-logo2color-black {
+  height: 64px;
+  margin-right: 9.0px;
+  margin-top: 43px;
+  object-fit: cover;
+  width: 185px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-33 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 61px;
+  min-height: 108px;
+  width: 208px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .access-resources-8 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .log-in-8 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group23 {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  padding: 22px 41px;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .vs-logo-horrgb {
+  height: 43px;
+  margin-top: 53px;
+  object-fit: cover;
+  width: 236px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-31 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 72px;
+  min-height: 108px;
+  width: 208px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .access-resources-9 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .log-in-9 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group25 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+  min-height: 320px;
+  padding: 20px 55px;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .online-practice-blk {
+  height: 83px;
+  margin-top: 45px;
+  object-fit: cover;
+  width: 209px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-35 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+  min-height: 108px;
+  width: 208px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .access-resources-10 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .log-in-10 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.0px;
+  margin-top: 154px;
+  min-height: 149px;
+  width: 965px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-622 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 57px;
+  text-align: center;
+  width: 965px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group26 {
+  border-radius: 53px;
+  height: 58px;
+  margin-right: 2.0px;
+  margin-top: 34px;
+  position: relative;
+  width: 333px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-623 {
+  left: 2px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+  width: 330px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .rectangle-50 {
+  border-radius: 53px;
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 333px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group2 {
+  align-items: flex-end;
+  background: linear-gradient(179.33deg, #1e6f7e 1.58%, #309caf 98.67%);
+  display: flex;
+  flex-direction: column;
+  min-height: 750px;
+  padding: 95px 352px;
+  width: 1920px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-621 {
+  height: 67px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  width: 1214px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group14 {
+  align-items: center;
+  align-self: center;
+  background-color: var(--white);
+  display: flex;
+  height: 386px;
+  justify-content: flex-end;
+  margin-top: 42px;
+  min-width: 756px;
+  padding: 0 44px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .start-strong {
+  height: 308px;
+  object-fit: cover;
+  width: 309px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-5 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.0px;
+  margin-left: 28px;
+  min-height: 189px;
+  width: 329px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-608 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 35px;
+  text-align: center;
+  width: 277px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-609 {
+  height: 68px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 16px;
+  text-align: center;
+  width: 329px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group15 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  margin-right: 1.0px;
+  margin-top: 24px;
+  min-width: 208px;
+  padding: 3px 19px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .place {
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-634 {
+  height: 67px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 2.0px;
+  margin-top: 104px;
+  text-align: center;
+  width: 1214px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 8.0px;
+  margin-top: 50px;
+  min-width: 1176px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 609px;
+  min-width: 761px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-6 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 609px;
+  width: 329px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group4 {
+  height: 310px;
+  margin-right: 5.0px;
+  position: relative;
+  width: 312px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .mask-group-99 {
+  height: 310px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 310px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .mask-group-100 {
+  height: 310px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 310px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .privacy {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-right: 1.0px;
+  margin-top: 28px;
+  min-height: 35px;
+  text-align: center;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-629 {
+  height: 148px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 17px;
+  text-align: center;
+  width: 329px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group9 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 54px;
+  margin-right: 7.0px;
+  margin-top: 17px;
+  min-width: 208px;
+  padding: 3px 19px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-7 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 97px;
+  min-height: 609px;
+  width: 335px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .mask-group-102 {
+  height: 310px;
+  margin-right: 3.0px;
+  object-fit: cover;
+  width: 310px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .accessibility {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-right: 1.0px;
+  margin-top: 28px;
+  min-height: 35px;
+  text-align: center;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-630 {
+  height: 148px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 17px;
+  text-align: center;
+  width: 335px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group13 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 54px;
+  margin-right: 3.0px;
+  margin-top: 17px;
+  min-width: 208px;
+  padding: 3px 19px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-8 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 105px;
+  min-height: 603px;
+  width: 310px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .mask-group-101 {
+  height: 310px;
+  object-fit: cover;
+  width: 310px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .terms-of-use {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 2.0px;
+  margin-top: 28px;
+  min-height: 35px;
+  text-align: center;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-631 {
+  height: 140px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 3.0px;
+  margin-top: 17px;
+  text-align: center;
+  width: 291px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group12 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 48px;
+  margin-top: 25px;
+  min-width: 208px;
+  padding: 5px 19px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .view-terms-of-use {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 170px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .overlap-group3-1 {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  margin-top: 185px;
+  min-height: 731px;
+  padding: 59px 125px;
+  width: 1920px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-9 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 41px;
+  min-height: 482px;
+  width: 1668px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .group-76 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 267px;
+  width: 1668px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-635 {
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  text-align: center;
+  width: 1668px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .national-geographic {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 5.0px;
+  margin-top: 18px;
+  min-height: 173px;
+  text-align: center;
+  width: 873px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-row-6 {
+  align-items: flex-start;
+  display: flex;
+  height: 36px;
+  margin-right: 193.0px;
+  margin-top: 180px;
+  min-width: 777px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .ngl-cengagecom {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 35px;
+  min-width: 218px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .text-636 {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 133px;
+  min-height: 26px;
+  min-width: 426px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-row-7 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-right: 3.0px;
+  margin-top: 13px;
+  min-width: 975px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .mask-group-85 {
+  align-self: center;
+  height: 73px;
+  margin-top: 1.0px;
+  object-fit: cover;
+  width: 123px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .mask-group-84 {
+  height: 76px;
+  margin-left: 51px;
+  object-fit: cover;
+  width: 151px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-10 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 31px;
+  margin-top: 0.5px;
+  min-height: 61px;
+  width: 58px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .about {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -7px;
+  min-height: 21px;
+  min-width: 42px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .site-map {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -7px;
+  margin-top: 19px;
+  min-height: 21px;
+  min-width: 58px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-11 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+  margin-top: 0.5px;
+  min-height: 61px;
+  width: 80px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .careers {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -7px;
+  min-height: 21px;
+  min-width: 52px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .accessibility-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -7px;
+  margin-top: 19px;
+  min-height: 21px;
+  min-width: 80px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-12 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 23px;
+  margin-top: 0.5px;
+  min-height: 61px;
+  width: 82px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .investors {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -7px;
+  min-height: 21px;
+  min-width: 62px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .permissions {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -7px;
+  margin-top: 19px;
+  min-height: 21px;
+  min-width: 82px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-13 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 21px;
+  margin-top: 0.5px;
+  min-height: 61px;
+  width: 68px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .news {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -7px;
+  min-height: 21px;
+  min-width: 38px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .ngl-store {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -7px;
+  margin-top: 19px;
+  min-height: 21px;
+  min-width: 68px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-14 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-top: 0.5px;
+  min-height: 61px;
+  width: 88px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .terms-of-use-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -7px;
+  min-height: 21px;
+  min-width: 88px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .piracy {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -7px;
+  margin-top: 19px;
+  min-height: 21px;
+  min-width: 40px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .flex-col-15 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 0.5px;
+  min-height: 61px;
+  width: 104px;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .privacy-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -7px;
+  min-height: 21px;
+  min-width: 48px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-2021-0603-1 .country-region {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -7px;
+  margin-top: 19px;
+  min-height: 21px;
+  min-width: 104px;
+  text-align: center;
+  white-space: nowrap;
+}

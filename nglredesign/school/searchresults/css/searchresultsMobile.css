@@ -1,0 +1,111 @@
+@media( max-width: 767px){
+	#pageContainer .container,#NGLRedesignpageContainer .container{
+	    padding: 0px 12px;
+	}
+	
+	#filterMenucontainer, #filterMenuMainContainer .searchFilterSubmenu{
+		margin: 0px;
+	}
+
+	#filterMenuMainContainer .container{
+		padding: 0px;
+	}
+
+	/* Series banner section */
+
+	#seriesBanner{
+	    height: 144px;
+	    /*background-image: url(http://d-ngl.cengage.com/covers/imageServlet?epi=10146259965966702329517769751686500408&image_type=OVTAB);*/
+	    background-repeat: no-repeat;
+  		background-size: cover;
+  		background-position: bottom;
+	}
+
+	#seriesBanner .superheroImg{
+	    height: 100%;
+	    display: none;
+		
+	}
+
+	#seriesBanner  .heroOverlayText{
+	    font-size: 22px;
+	    margin: 5px auto;
+	}
+	
+	/* search list container */
+	.subResultsInfocontainer ul li.searchResultsPageCountContainer{
+		width: 71%;
+	}
+
+	.searchResultsListContainer{
+		width: 100%;
+	}
+
+	.searchSingleItemDetailContainer{
+		width: 68%;
+	}
+
+	.searchResultsPrint a,.searchResultsDownloads a{
+	    font-size: 0;
+	    line-height: 0;
+	    color: transparent;
+	}
+
+	.searchResultsDownloads{
+		margin-right: 15px;
+	}
+
+	.searchResultsPrint{
+		margin-right: 10px;
+	}
+	
+	.subResultsInfocontainer .searchResultsSorting{
+		margin-top: 10px;
+	}
+
+	.subResultsInfocontainer .searchResultsperPage{
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.searchResultsPagination ul{
+		margin-top: 10px;
+		margin-left: 22px;
+	}
+
+	.searchResultsListMainContainer .seriesMainContainer:not(:first-child){
+		margin-top: 30px;
+	}
+
+	.searchResultsListSeriesResponsiveContainer{
+		width: 100%;
+		margin: 30px 0px 20px 0px;
+	}
+
+	.searchResultsListResponsiveContainer{
+		width: 100%;
+		margin: 0px 0px 62px 0px;
+	}
+
+	.searchSingleItemDetailContainer span.float-right{
+		margin-right: 9px;
+	}
+
+	.searchSingleItemDetailContainer a{
+		width: 42%;
+	}
+
+	.singleItemBtnBuy{
+		margin-right: 9px;
+	}
+
+	.searchResultsListBtn{
+		font-size: 16px;
+		color: rgb(0, 0, 0);
+		line-height: 1.125;
+		text-align: center;
+		-moz-transform: matrix( 0.997113997114,0,0,0.99733333333333,0,0);
+		-webkit-transform: matrix( 0.997113997114,0,0,0.99733333333333,0,0);
+		-ms-transform: matrix( 0.997113997114,0,0,0.99733333333333,0,0);
+	}
+}

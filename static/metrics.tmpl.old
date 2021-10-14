@@ -1,0 +1,56 @@
+
+<script type='text/javascript' language='JavaScript' src='/jscript/elqNow/elqCfg.js'></script> 
+<script type='text/javascript' language='JavaScript' src='/jscript/elqNow/elqImg.js'></script> 
+
+<!-- SiteCatalyst code version: H.24.
+Copyright 1996-2011 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="jscript/natGeoOmniture.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+
+s.channel="PAN CL" // REQUIRED - Fill this in with the site's channel - Higher Education, School, Professional, Library & Research or PAN CL
+s.pageType="" // this only gets filled in with "errorPage" on the custom 404 page that is setup for the site
+s.prop6="" // optional but reserved - Promo Code/Source Code
+s.prop7="" // optional but reserved - Internal Search Terms - (non-catalog searching/site specific searching)
+s.prop7 = s.prop7.toLowerCase();
+s.prop8="" // optional but reserved - Site ID
+s.prop9="National Geographic Learning" // optional but reserved - Site Name
+s.prop11="" // optional but reserved - User/Visitor ID
+
+// you may fill in s.prop5 - s.prop11 with the information that has been designated for it
+
+// s.prop15 - s.prop25 are available for customization. Please DO NOT customize any of the other variables. 
+
+// s.prop30 - s.prop52 are reserved for the Catalog/Endeca specific variables. DO NOT use these variables for anything else.
+
+
+/* Conversion Variables */
+s.state=""
+s.zip=""
+s.events=""
+s.products=""
+s.purchaseID=""
+
+s.eVar5="" // optional but reserved - Form Analysis
+s.eVar6="" // optional but reserved - Promo Code/Source Code
+s.eVar7="" // optional but reserved - Internal Search Terms - (non-catalog searching/site specific searching)
+s.eVar7 = s.eVar7.toLowerCase();
+s.eVar8="" // optional but reserved - Site ID
+s.eVar9="National Geographic Learning" // optional but reserved - Site Name
+s.eVar11="" // optional but reserved - User/Visitor ID
+
+// you may fill in s.eVar5 - s.eVar11 with the information that has been designated for it
+
+// s.eVar15 - s.eVar25 are available for customization. Please DO NOT customize any of the other variables. 
+
+// s.eVar30 - s.eVar52 are reserved for the Catalog/Endeca specific variables. DO NOT use these variables for anything else.
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><img src="http://cengagelearning.112.2o7.net/b/ss/cengagengl/1/H.24--NS/0?[AQB]&cdp=3&[AQE]"
+height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.24. -->

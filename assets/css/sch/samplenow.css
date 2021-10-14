@@ -1,0 +1,131 @@
+
+
+body{
+padding: 0px 0px 250px;
+
+}
+.sn_intro {
+            font-family: "Open Sans"sans-serif;
+            font-size: 40px;
+            line-height: 1.5em;
+            color: #666666;
+            font-weight: 100;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+.sn_descrip {
+            font-family: "Open Sans"sans-serif;
+            font-size: 30px;
+            line-height: 1.5em;
+            color: #666666;
+            font-weight: 100;
+            text-align: center;
+            padding-top: 10px;
+        }
+#sn_zero {
+            background-color: #ffffff;
+
+        }
+
+#sn_video {
+            background-color: #7E164E;
+
+        }
+
+
+        #one,
+        #three,
+        #four {
+            background-color: #ffffff;
+        }
+
+        #last {
+            background-color: rgba(255, 255, 255, 1.00);
+            font-size: 18px;
+            line-height: 1.3;
+        }
+
+        .list-group-item-access {
+            width: 300px;
+            height: 50px;
+            position: relative;
+            display: block;
+            padding: 10px 10px;
+            margin: 0px 25%;
+            background-color: #fff;
+            border: 3px solid #155876;
+            border-radius: 12px;
+            font-size: 18px;
+            line-height: 1.25em;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .list-group-item-access a:hover {
+            color: #B70000;
+            text-decoration: none;
+        }
+
+        .list-group-item-access a {
+            color: #666;
+        }
+
+
+        .panel-overlay {
+            position: absolute;
+            z-index: 4;
+            float: none;
+        }
+
+        .panel-group {
+            border: none;
+            width: 432px;
+        }
+
+        .panel-heading {
+            padding: 0;
+
+        }
+
+.ui-accordion-content ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+        #relativeSectionContainer{
+            margin-top: 44px;
+            position: relative;
+            float: left;
+            width: 100%;}
+
+        @media(max-width: 767px){
+
+            body{
+                padding: 0px 0px 450px;
+                
+                }
+
+            .seriesContainer{
+                padding: 0px 12px;
+            }
+
+            #seriesBanner{
+                height: 144px;
+                background-repeat: no-repeat;
+                  background-size: cover;
+                  background-position: center;
+            }
+
+            #seriesBanner .superheroImg{
+                height: 100%;
+                display: none;
+                
+            }
+
+        }
+
+
+
+
+

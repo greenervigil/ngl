@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="../css/k12-ordering-website.css" />
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="../css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="../css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+    <script type="text/javascript" src="../search/ruxitagentjs_ICA27SVfqrx_10161190228170440.js"
+        data-dtconfig="app=ea7c4b59f27d43eb|srms=1,1,,,|uxrgcm=100,25,300,3;100,25,300,3|featureHash=ICA27SVfqrx|lastModification=1551864570456|srsr=25000|dtVersion=10161190228170440|tp=500,50,0,1|rdnt=1|uxrgce=1|agentUri=/search/ruxitagentjs_ICA27SVfqrx_10161190228170440.js|reportUrl=/search/rb_bf72382oux|rid=RID_-549854184|rpid=-951095915|domain=cengage.com"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"
+        integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw=" crossorigin="anonymous"></script>
+    <script src="../jscript/imports/googleTagManager.js"></script>
+    <script src="https://cdn.cengage.com/js/contrib/jquery.cookie.min.js"></script>
+    <script>
+      (function () {
+          var env = "", countryCode, overlayDisplay;
+          var environmentSpecific = function () {
+              if (window.location.hostname.toUpperCase().indexOf("S-") != -1) {
+                  env = "s-";
+              } else if (window.location.hostname.toUpperCase().indexOf("D-") != -1) {
+                  env = "d-";
+              } else {
+                  env = "";
+              }
+          }
+          environmentSpecific();
+          var cookieDomain = env + "ngl.cengage.com";
+          var getCountryCode = function (callback) {
+              if ($.cookie("overlayDisplay")) {
+                  overlayDisplay = $.cookie("overlayDisplay");
+              }
+              if ($.cookie("P_Country_Cd")) {
+                  countryCode = $.cookie("P_Country_Cd");
+                  callback();
+
+              } else {
+                  $.post("https://" + env + "ngl.cengage.com/search/geocountrylocator",
+                      {},
+                      function (data, status) {
+                          countryCode = data.country;
+                          $.cookie("P_Country_Cd", countryCode, { path: "/;secure", expires: 0 });
+                          callback();
+                      });
+              }
+          }
+
+
+
+          $(document).ready(function () {
+
+
+              var showOverlay = function () {
+                  if (countryCode != undefined && countryCode != 'US' && overlayDisplay == undefined) {
+                      $('body').addClass('nobodyscroll');
+                      $('#primaryHomeBody').show();
+                  }
+                  else {
+
+                      $('body').removeClass('nobodyscroll');
+                      $('#primaryHomeBody').hide();
+                  }
+              }
+              getCountryCode(showOverlay);
+
+              $('.NGLPageLink').on('click', function () {
+                  $('body').removeClass('nobodyscroll');
+                  $('#primaryHomeBody').hide();
+                  if (!($.cookie("overlayDisplay"))) {
+                      $.cookie("overlayDisplay", 'yes', { domain: cookieDomain, path: "/" });
+                  }
+              });
+
+
+
+          });
+
+          $(window).load(function () {
+              if (env != "") {
+                  $('.ELTPageLink').each(function () {
+                      var link = $(this).attr('href');
+                      if (link.indexOf('eltngl.com') > -1) {
+                          $(this).attr('href', link.replace('eltngl.com', env + 'www.eltngl.com'));
+                      }
+                  });
+              }
+          });
+
+      })();
+
+  </script>
+  <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      var channel = 'true' === 'true' ? 'School' : 'ELT';
+      var countryCode = $.cookie('P_Country_Cd');
+      window.dataLayer.push({
+          'countryCode': countryCode,
+          'channel': channel,
+          'siteSection': 'Catalog and Home',
+          'pagedelay': 'true'
+      });
+  </script>
+
+  <script>
+      (function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push(
+              { 'gtm.start': new Date().getTime(), event: 'gtm.js' }
+          ); var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                  'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-W9HXB8M');
+//End Google Tag Manager
+  </script>
+  <!-- End of Google Tag Manager -->
+
+  <!-- The script tag should live in the head of your page if at all possible -->
+  <link href="../nglredesign/school/nglschoolcommon.min.css?v=2019364" rel="stylesheet" />
+  <!--[if IE 8]><html lang="en-us" class="ie8"><![endif]-->
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link href="../assets/css/sch/K12_2021.css" rel="stylesheet" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="k12-ordering-website" />
+    <header id="header_include" class="school"></header>
+    <div class="container-center-horizontal">
+      <div class="k12-ordering-website screen">
+        <div class="mask-group-124">
+          <div class="group-290"><div class="ordering opensans-semi-bold-white-50px">Ordering</div></div>
+        </div>
+        <div class="text-58 opensans-semi-bold-fiord-40px">K-12 Ordering Instructions</div>
+        <div class="text-59 opensans-normal-black-24px">
+          Our dedicated teams are here to help you purchase digital learning programs and classroom learning resources.
+          You can pay with credit card or purchase order.
+        </div>
+        <div class="overlap-group9"><div class="text-65 opensans-semi-bold-white-40px">Institution Purchase</div></div>
+        <div class="text-64 opensans-normal-black-24px">
+          To place an order, you must first obtain a quote from your local sales consultant.
+        </div>
+        <div class="flex-row">
+          <div class="overlap-group12">
+            <div class="overlap-group2">
+              <div class="text-6 opensans-bold-white-24px">I have an active quote link with no changes required.</div>
+            </div>
+            <div class="overlap-group-2 border-1px-granite-gray">
+              <a
+                href="https://mysupport.cengage.com/loglessSupport?prdName=Order%20Support&PI=*K12%20Order%20Support&SI=Place%20An%20Order"
+                target="_blank"
+                ><div class="click-the-submit-cus opensans-normal-black-18px-2">
+                  <span class="opensans-normal-black-18px">Click the </span
+                  ><span class="span-1">Submit Customer Purchase Order Here</span
+                  ><span class="opensans-normal-black-18px">
+                    button in the top right corner of your quote and complete the order form to submit your order.<br /> <br />Don’t
+                    see a </span
+                  ><span class="span-1">Submit Customer Purchase Order Here</span
+                  ><span class="opensans-bold-black-18px">&nbsp;</span
+                  ><span class="opensans-normal-black-18px">button? No problem! </span
+                  ><span class="span-2 opensans-bold-boston-blue-18px">Click here</span
+                  ><span class="opensans-normal-black-18px">
+                    to complete the order form&nbsp;&nbsp;to submit your order.</span
+                  >
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="overlap-group1">
+            <div class="overlap-group border-1px-granite-gray">
+              <a
+                href="https://mysupport.cengage.com/loglessSupport?prdName=Order%20Support&PI=*K12%20Order%20Support&SI=Place%20An%20Order"
+                target="_blank"
+                ><div class="text-61 opensans-normal-black-18px-2">
+                  <span class="span-2 opensans-bold-boston-blue-18px">Click here</span
+                  ><span class="opensans-bold-black-18px">&nbsp;</span
+                  ><span class="opensans-normal-black-18px">to complete the order form to submit your order.</span>
+                </div></a
+              >
+            </div>
+            <div class="overlap-group-1">
+              <div class="text-6 opensans-bold-white-24px">
+                I have an active paper <br />(or PDF) quote with no changes required
+              </div>
+            </div>
+          </div>
+          <div class="overlap-group1">
+            <div class="overlap-group10 border-1px-granite-gray">
+              <a href="https://www.cengage.com/repfinder/natgeo/?ngl=true/" target="_blank"
+                ><div class="text-6-1 opensans-normal-black-18px-2">
+                  <span class="opensans-normal-black-18px">Contact your local </span
+                  ><span class="span-2 opensans-bold-boston-blue-18px">sales consultant</span
+                  ><span class="opensans-bold-black-18px">&nbsp;</span
+                  ><span class="opensans-normal-black-18px">to assist with changes to the quote.</span>
+                </div></a
+              >
+            </div>
+            <div class="overlap-group5">
+              <div class="text-6 opensans-bold-white-24px">
+                I have a quote, but I need to make changes before submitting my order.
+              </div>
+            </div>
+          </div>
+          <div class="overlap-group15">
+            <div class="overlap-group border-1px-granite-gray">
+              <a href="https://www.cengage.com/repfinder/natgeo/?ngl=true/" target="_blank"
+                ><div class="text-6-1 opensans-normal-black-18px-2">
+                  <span class="opensans-normal-black-18px">Contact your local </span
+                  ><span class="span-2 opensans-bold-boston-blue-18px">sales consultant</span
+                  ><span class="opensans-bold-black-18px">&nbsp;</span
+                  ><span class="opensans-normal-black-18px">to request a quote.</span>
+                </div></a
+              >
+            </div>
+            <div class="overlap-group-1">
+              <div class="text-6 opensans-bold-white-24px">I do not have a quote <br />(or my quote has expired).</div>
+            </div>
+          </div>
+        </div>
+        <div class="text-71 opensans-normal-black-24px">
+          Upon order submission you will immediately receive an email with your order Case ID and a toll-free number to
+          follow-up. <br />This Case ID will be the main identifier on further correspondence regarding your order.
+        </div>
+        <div class="overlap-group11">
+          <div class="individual-purchase opensans-semi-bold-white-40px">Individual Purchase</div>
+        </div>
+        <div class="overlap-group7">
+          <img class="path-33" src="../img/path-33@1x.png" />
+          <div class="text-69 opensans-bold-white-24px">
+            I am not affiliated with an institution and&nbsp;&nbsp;would like to place an order.
+          </div>
+          <div class="rectangle-229 border-1px-granite-gray"></div>
+          <div class="text-70 opensans-normal-black-24px">
+            Please contact Customer Support and an agent will assist you. Toll free 888-915-3276
+          </div>
+        </div>
+        <div class="overlap-group4">
+          <div class="group-76">
+            <div class="text-72 opensans-semi-bold-sizzling-sunrise-50px">Digital and Classroom Materials</div>
+            <div class="national-geographic opensans-semi-bold-white-20px">
+              National Geographic Learning, a part of Cengage Learning, is a leading educational publisher of K–12
+              School digital and curricular classroom materials. Through our digital learning programs and classroom
+              learning resources, schools experience the excitement and joy of learning that National Geographic
+              explorers, scientists, writers and photographers experience.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-center-horizontal">
+      <div class="k12-ordering-website-1 screen">
+        <div class="mask-group-128">
+          <div class="group-368"><div class="ordering opensans-semi-bold-white-30px">Ordering</div></div>
+        </div>
+        <div class="text-73">K-12 Ordering Instructions</div>
+        <p class="text-74 opensans-normal-black-16px">
+          Our dedicated teams are here to help you purchase digital learning programs <br />and classroom learning
+          resources. You can pay with credit card or purchase order.
+        </p>
+        <div class="overlap-group6"><div class="text-80 opensans-semi-bold-white-25px">Institution Purchase</div></div>
+        <p class="text-79 opensans-normal-black-16px">
+          To place an order, you must first obtain a quote from your local sales consultant.
+        </p>
+        <div class="flex-row">
+          <div class="overlap-group2">
+            <img class="path" src="../img/path-19-1@1x.png" />
+            <div class="rectangle-2 border-1px-granite-gray"></div>
+            <p class="text-75 opensans-semi-bold-white-16px">I have an active quote link with no changes required.</p>
+            <a
+              href="https://mysupport.cengage.com/loglessSupport?prdName=Order%20Support&PI=*K12%20Order%20Support&SI=Place%20An%20Order"
+              target="_blank"
+              ><p class="click-the-submit-cus opensans-normal-black-14px-2">
+                <span class="opensans-normal-black-14px">Click the </span
+                ><span class="opensans-bold-black-14px-2">Submit Customer Purchase Order Here</span
+                ><span class="opensans-normal-black-14px">
+                  button in the top right corner of your quote and complete the order form to submit your order.<br /> <br />Don’t
+                  see a </span
+                ><span class="opensans-bold-black-14px-2">Submit Customer Purchase Order Here</span
+                ><span class="opensans-bold-black-14px">&nbsp;</span
+                ><span class="opensans-normal-black-14px">button? No problem! </span
+                ><span class="span-1 opensans-bold-boston-blue-14px">Click here</span
+                ><span class="opensans-normal-black-14px">
+                  to complete the order form&nbsp;&nbsp;to submit your order.</span
+                >
+              </p></a
+            >
+          </div>
+          <div class="overlap-group">
+            <div class="rectangle-2 border-1px-granite-gray"></div>
+            <a
+              href="https://mysupport.cengage.com/loglessSupport?prdName=Order%20Support&PI=*K12%20Order%20Support&SI=Place%20An%20Order"
+              target="_blank"
+              ><p class="text-76 opensans-normal-black-14px-2">
+                <span class="span-1 opensans-bold-boston-blue-14px">Click here</span
+                ><span class="opensans-bold-black-14px">&nbsp;</span
+                ><span class="opensans-normal-black-14px">to complete the order form to submit your order.</span>
+              </p></a
+            ><img class="path" src="../img/path-28-1@1x.png" />
+            <p class="text-8 opensans-semi-bold-white-16px">
+              I have an active paper (or PDF) quote with no changes required.
+            </p>
+          </div>
+          <div class="flex-col">
+            <div class="overlap-group-1">
+              <p class="text-83 opensans-semi-bold-white-16px">
+                I have a quote, but I need to make changes before submitting <br />my order.
+              </p>
+            </div>
+            <div class="overlap-group7 border-1px-granite-gray">
+              <a href="https://www.cengage.com/repfinder/natgeo/?ngl=true/" target="_blank"
+                ><p class="text-77 opensans-normal-black-14px-2">
+                  <span class="opensans-normal-black-14px">Contact your local </span
+                  ><span class="span-1 opensans-bold-boston-blue-14px">sales consultant</span
+                  ><span class="opensans-bold-black-14px">&nbsp;</span
+                  ><span class="opensans-normal-black-14px">to assist with changes to the quote.</span>
+                </p></a
+              >
+            </div>
+          </div>
+          <div class="overlap-group">
+            <div class="rectangle-2 border-1px-granite-gray"></div>
+            <a href="https://www.cengage.com/repfinder/natgeo/?ngl=true/" target="_blank"
+              ><p class="text-78 opensans-normal-black-14px-2">
+                <span class="opensans-normal-black-14px">Contact your local </span
+                ><span class="span-1 opensans-bold-boston-blue-14px">sales consultant</span
+                ><span class="opensans-bold-black-14px">&nbsp;</span
+                ><span class="opensans-normal-black-14px">to request <br />a quote.</span>
+              </p></a
+            ><img class="path" src="../img/path-28-1@1x.png" />
+            <p class="text-8 opensans-semi-bold-white-16px">I do not have a quote (or my quote has expired).</p>
+          </div>
+        </div>
+        <p class="text-86 opensans-normal-black-16px">
+          Upon order submission you will immediately receive an email with your order Case ID and <br />a toll-free
+          number to follow-up. This Case ID will be the main identifier on further correspondence <br />regarding your
+          order.
+        </p>
+        <div class="overlap-group3">
+          <div class="individual-purchase opensans-semi-bold-white-25px">Individual Purchase</div>
+        </div>
+        <div class="overlap-group10">
+          <div class="overlap-group5">
+            <p class="text-84 opensans-bold-white-16px">
+              I am not affiliated with an institution and&nbsp;&nbsp;would like to place an order.
+            </p>
+          </div>
+          <div class="overlap-group9 border-1px-granite-gray">
+            <p class="text-85 opensans-normal-black-14px">
+              Please contact Customer Support and an agent will assist you. <br />Toll free 888-915-3276
+            </p>
+          </div>
+        </div>
+        <div class="overlap-group8">
+          <div class="text-87 opensans-semi-bold-sizzling-sunrise-30px">Digital and Classroom Materials</div>
+          <p class="national-geographic opensans-semi-bold-white-16px">
+            National Geographic Learning, a part of Cengage Learning, is a leading educational publisher of K–12 School
+            digital and curricular classroom materials. Through our digital learning programs and classroom learning
+            resources, schools experience the excitement and joy of learning that National Geographic explorers,
+            scientists, writers and photographers experience.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-center-horizontal" >
+      <div class="k12-ordering-website-2 screen">
+        <div class="mask-group-129"><div class="ordering opensans-semi-bold-white-25px">Ordering</div></div>
+        <div class="text-88">K-12 Ordering Instructions</div>
+        <p class="text-89 opensans-normal-black-14px">
+          Our dedicated teams are here to help you purchase digital learning programs and classroom learning resources.
+          You can pay with credit card <br />or purchase order.
+        </p>
+        <div class="overlap-group12">
+          <img class="path-57" src="../img/path-57@1x.png" />
+          <div class="text-92 opensans-semi-bold-white-18px">Institution Purchase</div>
+        </div>
+        <p class="text-91 opensans-normal-black-14px">
+          To place an order, you must first obtain a quote <br />from your local sales consultant.
+        </p>
+        <div class="overlap-group13">
+          <div class="overlap-group11">
+            <p class="text opensans-semi-bold-white-16px">
+              I have an active quote link with <br />no changes required.
+            </p>
+          </div>
+          <div class="overlap-group10 border-1px-granite-gray">
+            <a
+              href="https://mysupport.cengage.com/loglessSupport?prdName=Order%20Support&PI=*K12%20Order%20Support&SI=Place%20An%20Order"
+              target="_blank"
+              ><p class="click-the-submit-cus opensans-normal-black-14px-2">
+                <span class="opensans-normal-black-14px">Click the </span
+                ><span class="opensans-bold-black-14px-2">Submit Customer Purchase Order Here</span
+                ><span class="opensans-normal-black-14px">
+                  button in the top right corner of your quote and complete the order form to submit your order.<br /> <br />Don’t
+                  see a </span
+                ><span class="opensans-bold-black-14px-2">Submit Customer Purchase Order Here</span
+                ><span class="opensans-bold-black-14px">&nbsp;</span
+                ><span class="opensans-normal-black-14px">button? No problem! </span
+                ><span class="span-1 opensans-bold-boston-blue-14px">Click here</span
+                ><span class="opensans-normal-black-14px">
+                  to complete the order form&nbsp;&nbsp;to submit your order.</span
+                >
+              </p></a
+            >
+          </div>
+        </div>
+        <div class="overlap-group4">
+          <p class="text-9 opensans-semi-bold-white-16px">
+            I have an active paper (or PDF) quote with no changes required.
+          </p>
+          <img class="path-63" src="../img/path-56@1x.png" />
+          <p class="text-9 opensans-semi-bold-white-16px">
+            I have an active paper (or PDF) quote with no changes required.
+          </p>
+        </div>
+        <div class="overlap-group8 border-1px-granite-gray">
+          <p class="text-93 opensans-normal-black-14px-2">
+            <span class="span-1 opensans-bold-boston-blue-14px">Click here</span
+            ><span class="opensans-bold-black-14px">&nbsp;</span
+            ><span class="opensans-normal-black-14px">to complete the order <br />form to submit your order.</span>
+          </p>
+          <div class="rectangle-249 border-1px-granite-gray"></div>
+          <a
+            href="https://mysupport.cengage.com/loglessSupport?prdName=Order%20Support&PI=*K12%20Order%20Support&SI=Place%20An%20Order"
+            target="_blank"
+            ><p class="text-95 opensans-normal-black-14px-2">
+              <span class="span-1 opensans-bold-boston-blue-14px">Click here</span
+              ><span class="opensans-bold-black-14px">&nbsp;</span
+              ><span class="opensans-normal-black-14px">to complete the order <br />form to submit your order.</span>
+            </p></a
+          >
+        </div>
+        <div class="overlap-group14">
+          <div class="overlap-group1 border-1px-granite-gray">
+            <a href="https://www.cengage.com/repfinder/natgeo/?ngl=true/" target="_blank"
+              ><p class="text-97 opensans-normal-black-14px-2">
+                <span class="opensans-normal-black-14px">Contact your local </span
+                ><span class="span-1 opensans-bold-boston-blue-14px">sales consultant</span
+                ><span class="opensans-bold-black-14px">&nbsp;</span
+                ><span class="opensans-normal-black-14px">to assist with changes to the quote.</span>
+              </p></a
+            >
+          </div>
+          <div class="overlap-group">
+            <p class="text opensans-semi-bold-white-16px">
+              I have a quote, but I need to make changes before submitting my order.
+            </p>
+          </div>
+        </div>
+        <div class="overlap-group15">
+          <div class="overlap-group6 border-1px-granite-gray">
+            <a href="https://www.cengage.com/repfinder/natgeo/?ngl=true/" target="_blank"
+              ><p class="text-99 opensans-normal-black-14px-2">
+                <span class="opensans-normal-black-14px">Contact your local </span
+                ><span class="span-1 opensans-bold-boston-blue-14px">sales consultant</span
+                ><span class="opensans-bold-black-14px"> <br /></span
+                ><span class="opensans-normal-black-14px">to request a quote.</span>
+              </p></a
+            >
+          </div>
+          <div class="overlap-group">
+            <p class="text opensans-semi-bold-white-16px">I do not have a quote <br />(or my quote has expired).</p>
+          </div>
+        </div>
+        <p class="text-101 opensans-normal-black-14px">
+          Upon order submission you will immediately <br />receive an email with your order Case ID and <br />a
+          toll-free number to follow-up. This Case ID will <br />be the main identifier on further correspondence
+          regarding your order.
+        </p>
+        <div class="overlap-group-1">
+          <div class="individual-purchase opensans-semi-bold-white-18px">Individual Purchase</div>
+        </div>
+        <div class="overlap-group16">
+          <div class="overlap-group5">
+            <p class="text opensans-bold-white-16px">
+              I am not affiliated with an institution and&nbsp;&nbsp;would like to place an order.
+            </p>
+          </div>
+          <div class="overlap-group3 border-1px-granite-gray">
+            <p class="text-103 opensans-normal-black-14px">
+              Please contact Customer Support and an agent will assist you. Toll free 888-915-3276
+            </p>
+          </div>
+        </div>
+        <div class="overlap-group2">
+          <div class="text-104 opensans-semi-bold-sizzling-sunrise-20px">Digital and Classroom Materials</div>
+          <p class="national-geographic opensans-semi-bold-white-16px">
+            National Geographic Learning, a part of Cengage Learning, is a leading educational publisher of K–12 School
+            digital and curricular classroom materials. Through our digital learning programs and classroom learning
+            resources, schools experience the excitement and joy of learning that National Geographic explorers,
+            scientists, writers and photographers experience.
+          </p>
+        </div>
+      </div>
+      <footer id="footer_include"></footer>
+      <div id="primaryHomeBody" style="display:none">
+        <div id="NGLRedesignpageContainer">
+            <div id="relativeSectionContainerPrimaryhomepage">
+                <!-- Primary Home -->
+                <section id="primaryHome">
+                    <div class="mainPageContainer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                                    <div class="topicContainer">
+                                        <div class="contentContainer">
+                                            <div class="logoImgContainer eltLogoImgContainer">
+                                                <a href="https://eltngl.com" class="ELTPageLink">
+                                                    <img src="../primaryhomeimage/ng_learning_whiteyellow.png"
+                                                        class="img-responsive" alt="National Geographic Learning">
+                                                </a>
+                                            </div>
+                                            <div class="mainPageLink CountryCode ">
+                                                International
+                                            </div>
+                                            <div class="pageTitle">
+                                                <a href="//eltngl.com" class="ELTPageLink">
+                                                    English Language Teaching
+                                                </a>
+                                            </div>
+  
+                                            <div class="schoolListContainer">
+                                                <p class="schoolListDescription">For English as Foreign
+                                                    Language,</p>
+                                                <p class="schoolListDescription">Including young
+                                                    learners,</p>
+                                                <p class="schoolListDescription">Teens, General English,
+                                                </p>
+                                                <p class="schoolListDescription">and Higher Education
+                                                </p>
+                                            </div>
+  
+                                            <a href="https://eltngl.com" class="mainPageLink ELTPageLink">ELTNGL.COM</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center mobileTopSpace">
+                                    <div class="topicContainer">
+                                        <div class="contentContainer">
+                                            <div class="logoImgContainer">
+                                                <a href="javascript:void(0)" class="NGLPageLink">
+                                                    <img src="../primaryhomeimage/NGL_Cengage_YW.png"
+                                                        class="img-responsive" width="304px">
+                                                </a>
+                                            </div>
+                                            <div class="mainPageLink CountryCode">
+                                                United States
+                                            </div>
+                                            <div class="pageTitle">
+                                                <a href="javascript:void(0)" class="NGLPageLink">
+                                                    Grades PreK-12
+                                                </a>
+                                            </div>
+  
+                                            <div class="schoolListContainer">
+                                                <p class="schoolListDescription">Mathematics <span
+                                                        class="dotPos">.</span> Science </p>
+                                                <p class="schoolListDescription">Social Studies <span
+                                                        class="dotPos">.</span> World Languages</p>
+                                                <p class="schoolListDescription">Reading/Language Arts
+                                                </p>
+                                                <p class="schoolListDescription">Advanced, Honors, and
+                                                    Electives</p>
+                                                <p class="schoolListDescription">Career and Technical
+                                                    Education</p>
+                                            </div>
+  
+                                            <a href="javascript:void(0)"
+                                                class="mainPageLink NGLPageLink">NGL.Cengage.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.cengage.com/js/yepnope/yepnope.1.5.4-min.js"></script>
+    <script src="/jscript/imports/nglCommon.js"></script>
+    <script src="/jscript/imports/RedesignNGLTwoColumnResultsPage.js"></script>
+    <script src="https://ngl.cengage.com/nglredesign/school/home/js/home.js"></script>
+    <script>
+      $(window).resize(() => {
+        window.location.reload()
+      })
+      </script>
+      <!-- Start Google tag manager -->
+    <script>
+      var seriesSearchResultRange = "0";
+      var seriesSearchResultSorting = sessionStorage.getItem("seriesSearchResultSorting") != null ? sessionStorage.getItem("seriesSearchResultSorting") : "";
+      var seriesSearchResultsPerPage = sessionStorage.getItem("seriesSearchResultsPerPage");
+  
+      if ("" > 0) {
+          if ("" == 1) {
+              seriesSearchResultRange = "1";
+          } else {
+              seriesSearchResultRange = "1 - " + "";
+          }
+      }
+  
+      var productSearchResultRange = "0";
+      var productSearchResultSorting = sessionStorage.getItem("productSearchResultSorting") != null ? sessionStorage.getItem("productSearchResultSorting") : "";
+      var productSearchResultsPerPage = sessionStorage.getItem("productSearchResultsPerPage");
+  
+      if ("" > 0) {
+          if ("" == 1) {
+              productSearchResultRange = "1";
+          } else {
+              productSearchResultRange = "1 - " + "";
+          }
+      }
+  
+  
+      if (("" == "") && (seriesSearchResultRange !== "0")) {
+          currentSeriesPage = "1";
+      } else {
+          currentSeriesPage = "";
+      }
+  
+      if (("" == "") && (productSearchResultRange !== "0")) {
+          currentProductPage = "1";
+      } else {
+          currentProductPage = "";
+      }
+      window.dataLayer
+          .push({
+              'returnedSearchResultsSeries': seriesSearchResultRange,
+              'returnedSearchResultsProducts': productSearchResultRange,
+              'combinedSearchVariables': "",
+              'combinedSearchVariablesValues': "",
+              'searchCategory': "",
+              'searchBoxInput': "",
+              'searchFilterLevel': "",
+              'searchFilterRecommended': "",
+              'searchFilterGrade': "",
+              'searchFilterLanguage': "",
+              'searchFilterMediaType': "",
+              'searchFilterSuplementType': "",
+              'searchFilterAuthor': "",
+              'searchFilterCourseArea': "",
+              'searchFilterSubject': "",
+              'searchFilterLexile': "",
+              'searchFilterGuidedReading': "",
+              'searchFilterDRARange': "",
+              'searchFilterSortyBySeries': seriesSearchResultSorting,
+              'searchFilterSortyByProducts': productSearchResultSorting,
+              'searchFilterResultsPerPageSeries': seriesSearchResultsPerPage,
+              'searchFilterResultsPerPageProducts': productSearchResultsPerPage,
+              'searchFilterResultsPageNumberSeries': currentSeriesPage,
+              'searchFilterResultsPageNumberProducts': currentProductPage,
+              'event': "searchValues"
+          });
+  </script>
+  <!-- End Google tag manager -->
+  </body>
+</html>

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/*South Carolina Adoption*/
+
+* {
+	margin:0 auto;
+}
+#container {
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	height: auto;
+	width: 975px;
+	color: #333;	
+}
+
+body {
+	font-family:"Myriad Pro", "Myriad Web Pro";
+}
+
+img {
+	border:none;
+}
+#rightnav {
+	display: block;
+	width:240
+	float: left;
+	width: 210px;
+	float: right;
+	margin-top: 42px;
+}
+
+#content {
+	display: block;
+	width: 650px;
+	float: left;
+}
+
+#course {
+	font-size: 1em;
+	color: #333;
+	display: inline-block;
+	float: left;
+	width: 182px;
+	margin-right: 24px;
+}
+
+.title {
+	font-size: .9em;
+	font-weight: normal;
+	margin-bottom: 24px;
+	margin-top: 3px;
+	color: #333;
+	text-align: left;
+}
+.reps {
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	font-size: 1.125em;
+	color: #666;
+	text-align: left;
+	width: 600px;
+	padding-bottom: 36px;
+}
+
+.reps-territory  {
+	font-family: "Arial Narrow", "Arial Narrow Bold", "Arial Narrow Bold Italic", "Arial Narrow Italic";
+	font-size: 1.125em;
+	color: #666;
+	text-align: left;
+	width: 600px;
+	padding-bottom: 24px;
+	font-weight: lighter;
+	line-height: normal;
+}
+
+.reps-territory a  {
+	font-family: "Arial Narrow", "Arial Narrow Bold", "Arial Narrow Bold Italic", "Arial Narrow Italic";
+	font-size: 1.125em;
+	color: #666;
+	text-align: left;
+	width: 600px;
+	padding-bottom: 24px;
+	text-decoration: underline;
+	font-weight: lighter;
+}
+.togglelink {
+	font-weight: bold;
+}
+
+a {
+	color: #666;
+}

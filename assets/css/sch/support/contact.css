@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media (min-width:992px) {
+ 
+ .container{
+	max-width: 975px;
+    }
+	
+.seriesContainer{
+    padding: 0px 65px;
+}
+
+
+#content {
+	width: 975px;
+	height: auto;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+h3 {
+	color: #999;
+}
+.headers {
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #666666;
+}
+.plist {
+	font-size: 1em;
+	margin-left: 24px;
+	color: #333;
+}
+p {
+	font-size: 1.2em;
+}
+
+
+#content #accordion div ul li {
+	list-style-type: none;
+	font-size: 0.875em;
+	line-height: 1.8em;
+	font-weight: 500;
+	color: #999;
+	text-decoration: none;
+}
+#content #accordion div ul li a {
+	list-style-type: none;
+	color: #333;
+	text-decoration: none;
+}
+#content #accordion div ul li a:hover{
+	list-style-type: none;
+	color: #000;
+	text-decoration: underline;
+}
+
+#content #accordion div ul li:before {
+	content:"\00bb" "\00a0";
+}
+
+.listbox {
+	height: auto;
+	width: 975px;
+}
+
+
+#myNGbox {
+	width: 225px;
+	float:right;
+	display: block;
+}
+
+
+ol.arrowlinks3{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+li.arrowlinks3{
+	background:url("http://ngl.cengage.com/assets/css/arrow_red.png") no-repeat 0 8px;
+	padding-left:24px;
+}
+.arrowlinks3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	font-size : 0.7em;
+	color : #666666;
+	border: thin solid #CCC;
+	float: right;
+	height: auto;
+	width: 200px;
+	font-style: normal;
+	font-variant: normal;
+	margin-left: -24px;
+	text-align: left;
+	line-height: normal;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	list-style-type: none;
+	clear: both;
+}
+.arrowlinks3 a:link {
+	text-decoration: none;
+	color : #666666;
+}
+.arrowlinks3 a:hover {
+	text-decoration: underline;
+	color : #666666;
+}
+
+.heroOverlayText2{
+   
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 1056px;
+    margin: 10px auto;
+}

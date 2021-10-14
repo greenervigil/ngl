@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--ToolTip--*/
+
+
+
+.ui-tooltip {
+	max-width:300px;
+	padding: 8px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	box-shadow: 0 0 7px black;
+	font-family: "Arial Narrow", "Arial Narrow Bold", "Arial Narrow Bold Italic", "Arial Narrow Italic";
+	font-size: 8px;
+	}
+.ui-tooltip, .arrow:after {
+	background: #000;
+	border: 2px solid white;
+	}
+.arrow {
+	width: 70px;
+	height: 16px;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	bottom: -16px;
+	}
+.arrow.top {
+	top: -16px;
+	bottom: auto;
+	}
+.arrow.left {
+	left: 20%;
+	}
+.arrow:after {
+	content: "";
+	position: absolute;
+	left: 20px;
+	top: -20px;
+	width: 25px;
+	height: 25px;
+	box-shadow: 6px 5px 9px -9px black;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	tranform: rotate(45deg);
+	}
+.arrow.top:after {
+		bottom: -20px;
+		top: auto;
+	}

@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* modified div tags 2012_1228 start*/
+
+
+.seriesleft {
+	width:236px;  
+	float:left; 	 
+}
+
+.seriesmiddle { 
+	width:236px;  
+	float:left;
+	margin-left: 25px; 
+}
+
+.seriesright { 
+	width: 236px;  
+	float:left;
+	margin-left: 25px;  
+}
+
+.seriesdivider { 
+	clear:both; 
+}
+
+.seriesfirst {
+	width:367px;
+	float:left;
+}
+
+.seriessecond {
+	width:367px;
+	float:left;
+	margin-left: 25px;
+}
+
+.seriesdouble {
+	width:499px;
+	float:left;
+	margin-left: 25px;
+}
+
+/* modified div tags 2012_1228 end*/
+
+
+
+/* begin modified typestyle options for series pages 2012_1228 */
+
+.srs_body {
+	font-size: 1.25em;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	color: #666;
+	padding-top: 0.25em;
+	padding-bottom: 0.30em;
+}
+
+.srs_intro {
+	font-size: 1.50em;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	color: #666;
+	padding-top: 0.25em;
+	padding-bottom: 0.30em;
+}
+
+.srs_pullquotelarge {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	color: #333;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+	font-style: oblique;
+	font-weight: 600;
+}
+
+.srs_pullquotesmall {
+	font-size: 1.25em;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	color: #333;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+	font-style: oblique;
+	font-weight: 600;
+}
+
+.srs_headA {
+	font-size: 3.25em;
+	margin: 0;
+	padding: 0;
+	line-height: 1.50em;
+	font-weight: 900;
+}
+
+.srs_headB {
+	font-size: 2.25em;
+	margin: 0;
+	line-height: 1.5em;
+	font-weight: 900;
+	padding-top: .25em;
+}
+
+.srs_headC {
+	font-size: 1.75em;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-weight: 900;
+	padding-top: .25em;
+}
+
+.srs_headD {
+	font-size: 1.25em;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-weight: 900;
+	font-variant: small-caps;
+	padding-top: 0.25em;
+	letter-spacing: .10em;
+}
+
+.srs_bulletbody{
+	font-size: 1.25em;
+	margin: 0;
+	padding: 10px;
+	line-height: 1.5em;
+	font-weight: normal;
+	list-style: ul;
+	list-style-position: outside;
+	color: #666;
+}
+
+
+.srs_bulletintro {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 10px;
+	line-height: 1.5em;
+	font-weight: normal;
+	list-style: ul;
+	list-style-position: outside;
+	color: #666;
+	list-style-type: disc;
+}
+
+/* end modified typestyle options for series pages 2012_1228 */

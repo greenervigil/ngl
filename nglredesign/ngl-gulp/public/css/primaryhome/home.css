@@ -1,0 +1,222 @@
+body#primaryHomeBody{
+	margin-top: 0px;
+	height: auto;
+    padding-bottom: 150px;
+}
+
+#relativeSectionContainer {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+section{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#primaryHomeBody a:hover{
+	text-decoration: none;
+}
+
+/*-- Primary Home --*/
+#primaryHome{
+	background: url(../../primaryhomeimage/primehomebackgroundimage-d.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    /*height: 910px;*/
+    padding: 46px 0px;
+}
+
+#primaryHomeBody .topicContainer{
+	max-width: 334px;
+	margin: 0 auto;
+	border: 1px solid rgb(157, 157, 157);
+	background-color: rgb(255, 255, 255);
+	padding: 20px 15px;
+}
+
+#primaryHomeBody .contentContainer.min{
+	overflow: hidden;
+	height: 185px;
+}
+
+#primaryHomeBody .contentContainer.max{
+	height: auto;
+}
+
+#primaryHomeBody .logoImgContainer{
+	margin-bottom: 20px;
+	height: 68px;
+}
+
+#primaryHomeBody .logoImgContainer img{
+	margin: 0 auto;
+}
+
+#primaryHomeBody .logoImgContainer a {
+    display: inline-block;
+}
+
+#primaryHomeBody .eltLogoImgContainer a{
+	width: 131px;
+}
+
+#primaryHomeBody .pageTitle a{
+	font-size: 22px; 
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	display: block;
+	font-weight: 500;
+}
+
+#primaryHomeBody .pageTitle a:hover{
+	color: rgb(0, 0, 0);
+}
+
+#primaryHomeBody .mainPageLink{
+	font-size: 22px;	
+	color: rgb(174, 49, 74);
+	line-height: 1.273;
+	text-align: center;
+	-moz-transform: matrix( 1.00677490234375,0,0,1,0,0);
+	-webkit-transform: matrix( 1.00677490234375,0,0,1,0,0);
+	-ms-transform: matrix( 1.00677490234375,0,0,1,0,0);
+	margin-top: 15px;
+	margin-bottom: 15px;
+    display: inline-block;
+}
+
+#primaryHomeBody .mainPageLink:hover{
+	color: rgb(174, 49, 74);
+}
+#primaryHomeBody .eltListContainer{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#primaryHomeBody .eltListTitle{
+	font-size: 16px;
+	color: rgb(216, 169, 44);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#primaryHomeBody .eltListDescription{
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: center;
+	color: #8c8c8c;
+}
+
+#primaryHomeBody .overviewELT{
+	font-size: 14px;  
+	color: rgb(153, 153, 153);
+	line-height: 1.714;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#primaryHomeBody .eltPageLinks{
+	font-size: 14px;
+	color: rgb(128, 128, 128);
+	line-height: 1.5;
+	text-align: center;
+	max-width: 207px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#primaryHomeBody .eltPageLinks a{
+	color: rgb(128, 128, 128);
+}
+
+#primaryHomeBody .eltPageLinks a:hover{
+	color: rgb(128, 128, 128);
+}
+
+#primaryHomeBody .scrollBtnContainer{
+	margin-top: 15px;
+	font-size: 25px;
+	-webkit-text-stroke: 2px white;
+    cursor: pointer;
+        right: 0;
+    display: inline-table;
+}
+#primaryHomeBody .scrollBtnContainer i.fa{
+	-webkit-text-stroke: 2px white;
+}
+
+#primaryHomeBody .scrollBtnContainer i.fa.closed{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+#primaryHomeBody .schoolListDescription{
+	font-size: 16px;  
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: center;
+    margin-bottom: 15px;
+}
+
+#primaryHomeBody .schoolListContainer{
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+#primaryHomeBody .overviewSchool{
+	font-size: 14px;  
+	color: rgb(153, 153, 153);
+	line-height: 1.714;
+	text-align: center;
+    margin-bottom: 38px;
+    margin-top: 25px;
+}
+
+#primaryHomeBody .schoolPageLinks{
+	font-size: 14px;
+	color: rgb(128, 128, 128);
+	line-height: 1.5;
+	text-align: center;
+	max-width: 207px;
+	margin: 0 auto;
+	margin-top: 15px;
+	/*margin-bottom: 15px;*/
+	margin-bottom: 36px;
+}
+
+#primaryHomeBody .schoolPageLinks a{
+	color: rgb(128, 128, 128);
+}
+
+#primaryHomeBody .schoolPageLinks a:hover{
+	color: rgb(128, 128, 128);
+}
+
+
+/*-- primary home footer changes --*/
+
+#primaryHomeBody #footer_include .mainPageContainer{
+	max-width: 858px
+}
+
+#primaryHomeBody #footer_include .EltfooterOpenContainer .footercolumnContainer{
+    width: 133px;
+}
+
+#primaryHomeBody #footer_include #footerMiddleHeaderText{
+	margin-bottom: 20px;
+}

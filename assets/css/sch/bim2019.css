@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.bnnrtxt {
+	font-family: "Open Sans";
+	font-size: 36px;
+	text-align: center;
+}
+
+.k5bnnr {
+	font-size: 22px;
+	line-height: 24px;
+	padding-top: 18px;
+	background-color: #0099cc; 
+	color: #FFFFFF; 
+	text-align: center; 
+	font-weight: lighter;
+}
+
+
+
+.k5bnnr2 {
+	font-size: 22px;
+	line-height: 24px;
+	padding-top: 18px;
+	background-color: #3366cc; 
+	color: #FFFFFF; 
+	text-align: center; 
+	font-weight: lighter;
+}

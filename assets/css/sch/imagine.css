@@ -1,0 +1,327 @@
+ @charset "UTF-8";
+/* CSS Document */
+ 
+ 
+ 
+ #imagine-intro {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        #imagine-intro div.intro {
+            max-width: 914px;
+            margin: 15px auto 0px auto;
+        }
+
+        #imagine-intro p.intro {
+            font-size: 28px;
+            line-height: 1.5em;
+            color: #666666;
+            font-weight: 100;
+            text-align: center;
+            margin: 0px auto;
+        }
+
+        #imagine-intro h4.introbld {
+            font-size: 36px;
+            line-height: 1.5em;
+            color: #333333;
+            font-weight: 800;
+            text-align: center;
+            margin: 0px auto 10px auto;
+        }
+
+        #imagine-intro .button {
+            background-color: #ffffff;
+            border: 1px solid #333333;
+            border-radius: 20px;
+            color: rgb(221, 92, 6);
+            font-weight: 400;
+            padding: 18px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 4px 15px;
+            cursor: pointer;
+            line-height: 1.5em;
+            margin: 0px auto 5px auto;
+        }
+
+        #imagine-approach {
+            text-align: center;
+            background-color: #F7F0D4;
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            width: 100%;
+        }
+
+        #imagine-approach p.head {
+            font-size: 36px;
+            line-height: 1.25em;
+            font-weight: 300;
+            color: #000000;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #imagine-approach p.description {
+            font-size: 24px;
+            line-height: 1.25em;
+            font-weight: 400;
+            color: #000000;
+            text-align: center;
+        }
+
+        #imagine-approach div.approach {
+            text-align: center;
+            width: 300px;
+            margin: 20px auto;
+        }
+
+        #imagine-approach img.approach {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        #imagine-option-online {
+            text-align: center;
+            text-align: center;
+            margin: 0px auto;
+            padding: 20px;
+            width: 100%;
+        }
+
+        #imagine-option-online p.description {
+            font-size: 24px;
+            line-height: 1.5em;
+            font-weight: 200;
+            color: #000000;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #imagine-option-online p.head {
+            font-size: 36px;
+            line-height: 1.25em;
+            font-weight: 700;
+            color: #000000;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #imagine-option-online div.online {
+            text-align: center;
+            width: 300px;
+            height: 300px;
+            margin: 15px auto;
+        }
+
+        #imagine-option-ebooks {
+            text-align: center;
+            margin: 0px auto;
+            padding: 20px;
+            width: 100%;
+        }
+
+        #imagine-option-ebooks p.description {
+            font-size: 24px;
+            line-height: 1.5em;
+            font-weight: 200;
+            color: #000000;
+            text-align: center;
+        }
+
+        #imagine-option-ebooks p.head {
+            font-size: 36px;
+            line-height: 1.25em;
+            font-weight: 700;
+            color: #000000;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        #imagine-option-ebooks div.ebooks {
+            text-align: center;
+            width: 375px;
+            margin: 20px auto;
+        }
+
+
+        #imagine-option-printbooks {
+            text-align: center;
+            text-align: center;
+            margin: 0px auto;
+            padding: 20px;
+            width: 100%;
+        }
+
+        #imagine-option-printbooks p.description {
+            font-size: 24px;
+            line-height: 1.5em;
+            font-weight: 200;
+            color: #000000;
+            text-align: center;
+        }
+
+        #imagine-option-printbooks p.head {
+            font-size: 36px;
+            line-height: 1.25em;
+            font-weight: 700;
+            color: #000000;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        #imagine-option-printbooks div.printbooks {
+            text-align: center;
+            width: 375px;
+            margin: 20px auto;
+        }
+
+        #imagine-samplenow {
+            text-align: center;
+            background-color: #7E164E;
+            margin: 1px auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 100%;
+        }
+
+        #imagine-samplenow p.intro {
+            font-size: 22px;
+            line-height: 1.75em;
+            color: #ffffff;
+            font-weight: 100;
+            text-align: center;
+        }
+
+        #imagine-samplenow div.samplenow {
+            text-align: center;
+            max-width: 700px;
+            margin: 30px auto;
+        }
+
+        #imagine-samplenow div.samplenowvid {
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        #imagine-samplenow .button {
+            border: 1px solid #ffffff;
+            border-radius: 20px;
+            color: #ffffff;
+            font-weight: 300;
+            padding: 10px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 20px auto 10px;
+            cursor: pointer;
+            line-height: 1.5em;
+        }
+
+        #imagine-covid19 {
+            text-align: center;
+            background-color: #8E714A;
+            margin: 1px auto;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            width: 100%;
+        }
+
+        #imagine-covid19 p.head {
+            font-size: 32px;
+            line-height: 1.25em;
+            font-weight: 700;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #imagine-covid19 p.description {
+            font-size: 22px;
+            line-height: 1.25em;
+            font-weight: 200;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        #imagine-covid19 .button {
+            border: 1px solid #ffffff;
+            border-radius: 20px;
+            color: #ffffff;
+            font-weight: 300;
+            padding: 10px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 20px auto 10px;
+            cursor: pointer;
+            line-height: 1.5em;
+        }
+
+        #imagine-covid19 div.covid19 {
+            text-align: center;
+            max-width: 914px;
+            margin: 20px auto;
+        }
+
+
+        #imagine-sales {
+            text-align: center;
+            background-color: #000000;
+            margin: 1px auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 100%;
+        }
+
+        #imagine-sales p.head {
+            font-size: 32px;
+            line-height: 1.25em;
+            font-weight: 700;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #imagine-sales p.description {
+            font-size: 24px;
+            line-height: 1.75em;
+            font-weight: 200;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        #imagine-sales .button {
+            border: 1px solid #ffffff;
+            border-radius: 20px;
+            color: rgb(254, 203, 0);
+            font-weight: 400;
+            padding: 10px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 20px auto 10px;
+            cursor: pointer;
+            line-height: 1.5em;
+        }
+
+        #imagine-sales div.sales {
+            text-align: center;
+            max-width: 914px;
+            margin: 20px auto;
+        }
+
+        .hidden-anchor {
+            position: absolute;
+            top: -100px;
+        }
+    

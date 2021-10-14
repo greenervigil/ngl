@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'summerFont';
+  src: url('Summer-Font-Regular.woff') format('woff'), url('Summer-Font-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'summerFontItalic';
+  src: url('Summer-Font-Regular-Italic.woff') format('woff'), url('Summer-Font-Regular-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'summerFontLight';
+  src: url('Summer-Font-Light.woff') format('woff'), url('Summer-Font-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'summerFontLightItalic';
+  src: url('Summer-Font-Light-Italic.woff') format('woff'), url('Summer-Font-Light-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'summerFontBold';
+  src: url('Summer-Font-Bold.woff') format('woff'), url('Summer-Font-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'summerFontBoldItalic';
+  src: url('Summer-Font-Bold-Italic.woff') format('woff'), url('Summer-Font-Bold-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,123 @@
+@charset "UTF-8";
+.modal {
+	position: absolute;
+	display: none;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom:0;
+	left: 0;
+	z-index: 99999;
+	background: gray;
+	background: rgba(0,0,0,0.8);
+
+}
+
+.modal > div {	
+	height: auto;
+	visibility: visible;
+	display: block;
+	z-index: 6000;
+	padding: 10px;
+	overflow: hidden;
+	border-radius: 12px;
+	background: #ccc;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+.modal input[type=text] {	
+	width: 300px;
+}
+.modal input[type=email] {	
+	width: 300px;
+}
+
+label, input, select {
+	display:block;
+	margin-bottom: 0.75em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+h1, legend {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.email label{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	font-size : 1.;
+	line-height : 1.8em;
+	text-align : right;
+	color : #5D5D5D;
+	text-indent : 0px;
+	vertical-align: top;
+	float:left;
+	width:100px;
+	display: block;
+	padding-right: 10px;
+	padding-left: 21px;
+}
+.email input  {
+	font-size : 1.;
+	display: block;
+	width: 400px;
+}
+.email input[type=checkbox] {	font-size : 1.;
+	display: block;
+	width: 40px;
+	line-height: 2em;
+	-ms-transform: scale(1.25); /* IE */
+	-moz-transform: scale(1.25); /* FF */
+	-webkit-transform: scale(1.25); /* Safari and Chrome */
+	-o-transform: scale(1.25);
+	float: left;
+}
+
+
+
+#submit {
+	height: 24px;
+	padding-top: 18px;
+}
+fieldset {
+	margin-bottom: 2em;
+	padding: 1em;
+}
+fieldset fieldset {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.range {
+	margin-bottom:1em;
+}	
+.card-type input, .card-type label {
+	display:inline-block;
+}
+#divctr {
+	width:350px;
+	position: relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#divform {
+	width:975px;
+	position: relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	vertical-align: top;
+}
+.divcolumn     {
+	float: left;
+	width: 275px;
+	display: block;
+	margin-right: 50px;
+	margin-top: 25px;
+}

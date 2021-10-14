@@ -1,0 +1,450 @@
+/* Importing Video Styles */
+@import url("//cdn.cengage.com/css/apps/search/videoStyle.css");
+
+/* NGL FOOTER */
+
+/*-----------------[Footer Reset]------------------------*/
+
+#footer_include,
+#footer_include section,
+#footer_include div, 
+#footer_include img,
+#footer_include button, 
+#footer_include ul, 
+#footer_include li,
+#footer_include p,
+#footer_include a { 
+  background: transparent;
+  border: 0;
+  font-size: 100%; 
+  margin: 0; 
+  padding: 0; 
+  list-style: none;
+  vertical-align: baseline; 
+  text-rendering: optimizeLegibility !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/* HTML5 display-role reset for older browsers */
+#footer_include nav, #footer_include section { display: block; }
+
+#footer_include :before, 
+#footer_include :after {
+  content: initial;
+  display: inline-block;
+  text-rendering: optimizeLegibility !important;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased !important;
+  font-family: FontAwesome;
+  font-weight: normal;
+  webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+/*----- So Footer Does Not Cover Body Content -----*/
+
+body {
+  float: left;
+  min-height:100%;
+  overflow: auto;
+  padding-bottom: 80px;
+}
+
+/*----- FOOTER ----------------------*/
+
+#footer_include  {
+  background: #FFF;
+  bottom: 0;
+  font: 400 12px/1 'Roboto', Arial, Helvetica, sans-serif;
+  margin:0;
+  position: fixed;  
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#footer_include p { 
+  float: left;
+  line-height: 33px;
+}
+
+#footer_include a, 
+#footer_include a:visited { 
+  color: #0071A2;
+  text-decoration:none; 
+}
+
+#footer_include a:hover { text-decoration: underline; }
+
+#footer_include button { cursor: pointer; }
+
+#footer_include ul li { display: inline-block; }
+
+#footer_include .top,
+#footer_include .bottom { 
+  float: left;
+  margin: 0;
+  width: 100%;
+}
+
+#footer_include .container {
+  margin: 0 auto;
+  position: relative;
+  width: 975px; 
+}
+
+#footer_include .top {
+  color: #000;
+  background: #FFF url(//cdn.cengage.com/images/sites/cengage/headerfooter/footerBGimage.jpg);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(1%,rgba(206,206,206,1)),color-stop(20%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,rgba(206,206,206,1)0%,rgba(255,255,255,1)20%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom,rgba(206,206,206,1)0%,rgba(255,255,255,1)20%); /* W3C */
+     background: -moz-linear-gradient(top,rgba(206,206,206,1)0%,rgba(255,255,255,1)20%); /* FF3.6+ */
+      background: -ms-linear-gradient(top,rgba(206,206,206,1)0%,rgba(255,255,255,1)20%); /* IE10+ */
+       background: -o-linear-gradient(top,rgba(206,206,206,1)0%,rgba(255,255,255,1)20%); /* Opera 11.10+ */
+  border-top: 1px solid #000;
+  font-weight: bold;
+  letter-spacing: .3px;
+  height: 33px;
+  line-height: 33px;
+}
+
+#footer_include .top p a:first-of-type { 
+  color: #000;
+  padding-right: 21px; 
+  position: relative;
+}
+
+#footer_include .top p a:first-of-type:after { 
+  background-color: #FC0;
+  content: "";
+  height: 22px;
+  position: absolute;
+  right: 5px;
+  top: -4px;
+  width: 5px;
+}
+
+#footer_include ul.top-links { text-align: right; }
+
+#footer_include ul.top-links li a, 
+#footer_include ul.top-links li button { 
+  border-left: 1px solid #CCC; 
+  padding: 0 10px;
+}
+
+#footer_include ul.top-links li:last-child a { padding-right:0; }
+
+#footer_include ul.top-links li button { 
+  border: 0;
+  color: #0071A2;
+  font: 600 12px/1 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#footer_include .bottom {
+  background: #000;
+  color: #FFF;
+}
+
+#footer_include .bottom a,
+#footer_include .bottom a:visited { color: #FFF; }
+
+#footer_include .bottom ul { line-height: 23px; }
+
+#footer_include .social-links { 
+  float: left; 
+  font-weight: bold;
+}
+
+#footer_include .social-links img {  
+  padding-left: 3px;
+  vertical-align:middle;
+}
+
+#footer_include .bottom-links { 
+  font-size: 10px;
+  text-align: right;
+}
+
+#footer_include .bottom-links li a {
+  border-right: 1px solid #FFF;
+  margin-right: 4px;
+  padding-right: 8px;
+}
+
+/* -- ABOUT MODAL --*/
+
+div[id^="modal"] :before, 
+div[id^="modal"] :after {
+  display: inline-block;
+  text-rendering: optimizeLegibility !important;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased !important;
+  font-family: FontAwesome;
+  font-weight: normal;
+  webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+div[id^="modal"].modal-open { overflow: hidden; }
+
+div[id^="modal"].modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+
+div[id^="modal"].modal.fade .modal-content {
+  -webkit-transition: -webkit-transform .3s ease-out;
+       -o-transition:      -o-transform .3s ease-out;
+          transition:         transform .3s ease-out;
+  -webkit-transform: translate(0, -25%);
+      -ms-transform: translate(0, -25%);
+       -o-transform: translate(0, -25%);
+          transform: translate(0, -25%);
+}
+div[id^="modal"].modal.in .modal-content {
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+       -o-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+div[id^="modal"] .modal-content {
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #FC0;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+  outline: 0;
+  padding: 0 20px 20px;
+  position: relative;
+  margin: 30px auto;
+  width: 935px;
+}
+
+div[id^="modal"] .modal-content:after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+div[id^="modal"] button {
+  border: 0;
+  cursor: pointer; 
+  font: 400 12px/1 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+div[id^="modal"] button.close {
+  background: none;
+  position: absolute;
+  color: #FFF;
+  font-size: 24px;
+  right: 5px;
+  opacity: .85;
+  filter: alpha(opacity=.85);
+  top: 3px;
+  text-shadow: 0 0 1px #000;
+  -webkit-text-stroke: 1px rgba(0,0,0,.1)
+}
+
+div[id^="modal"] button.close:hover { 
+  opacity: 1;
+  filter: alpha(opacity=1);
+  text-shadow: 0 0 4px #000;
+  -webkit-text-stroke: 1px rgba(0,0,0,.7);
+}
+
+div[id^="modal"] button.close:after { content: "\f00d"; }
+
+div[id^="modal"] .modal-content img.banner-image { 
+  margin: 0 0 24px -20px;
+  width: 975px;
+  border-radius: 6px 6px 0 0;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+
+.modal-backdrop.fade {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+.modal-backdrop.in {
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+
+/* -- ABOUT PAGE FOOTER CSS --*/
+
+.modal-content .header {
+  font-family : "Myriad Pro", "Myriad Web Pro";
+  font-weight : bold;
+  font-size : 1.5em;
+  text-align : left;
+  color : #4B4B4B;
+  text-indent : 0px;
+}
+
+.modal-content .text {
+  font-family: "Myriad Pro", "Myriad Web Pro";
+  font-weight : normal;
+  font-style : normal;
+  font-size : 0.875em;
+  font-variant : normal;
+  line-height : 26px;
+  text-align : left;
+  color : #5D5D5D;
+  text-indent : 0px;
+  width: 600px;
+}
+
+.modal-content .text a:link {
+  text-decoration: none;
+  color : #5D5D5D;
+}
+
+.modal-content .arrowlinks {
+  font-family: "Myriad Pro", "Myriad Web Pro";
+  font-weight : normal;
+  font-size : 0.7em;
+  color : #666666;
+  border: thin solid #CCC;
+  float: left;
+  height: auto;
+  width: 180px;
+  text-align: left;
+  clear: both;
+  line-height: normal;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.modal-content ol.arrowlinks{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.modal-content li.arrowlinks{
+  background:url("http://ngl.cengage.com/assets/css/arrow_grey.png") no-repeat 0 8px;
+  padding-left:24px;
+}
+
+.modal-content .arrowlinks a:link {
+  text-decoration: none;
+  color : #666666;
+}
+
+.modal-content .arrowlinks a:hover {
+  text-decoration: underline;
+  color : #666666;
+}
+
+.modal-content #rightnav {
+  display: block;
+  width:240
+  float: left;
+  width: 210px;
+  float: right;
+}
+
+.modal-content .rightimg {
+  width:240
+  float: left;
+  float: right;
+  margin-top: 24px;
+}
+
+.modal-content .begindiv{
+  width:550px;
+  float:left;
+  clear:both
+}
+
+.modal-content .videobucket{
+  width:975px; 
+  margin:0 auto; 
+  clear:both
+}
+
+
+/* -- Updated About Modal Code --
+div[id^="modal"] .modal-content aside {
+  float: right;
+  width: 210px;
+  margin-left: 20px;
+}
+
+div[id^="modal"] .modal-content aside a:first-of-type {
+  border: 1px solid #CCC;
+  color: #555;
+  display: block;
+  font-size: 10.5px;
+  padding: 5px 0px 12px 20px;
+  position: relative;
+  text-decoration: none;
+} 
+
+div[id^="modal"] .modal-content aside a:first-of-type:before {
+  border-style: solid;
+  border-width: 6px 0 6px 12px;
+  border-color: transparent transparent transparent #777;
+  content: "";
+  position: absolute;
+  left: 4px;
+  height: 0;
+  top: 14px;
+  width: 0;
+}
+
+div[id^="modal"] .modal-content aside a:first-of-type img {
+  display: block;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+div[id^="modal"] .modal-content aside > img {
+  margin-top: 20px;
+}
+
+div[id^="modal"] .modal-content h1 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+div[id^="modal"] .modal-content p { 
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+div[id^="modal"] .modal-content p:last-child { clear: both; } 
+*/
+
+
+

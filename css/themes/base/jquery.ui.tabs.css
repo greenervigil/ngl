@@ -1,0 +1,44 @@
+/*
+ * jQuery UI Tabs @VERSION
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+ 
+.ui-tabs {
+position: relative;
+}
+
+.ui-tabs .ui-tabs-nav {
+float: left;
+margin-left: 5px;
+}
+
+.ui-tabs .ui-tabs-nav li {
+float: left;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+float: left;
+color:#0071a2;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+cursor: pointer;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-tabs-loading a {
+cursor: pointer;
+color: #ce3c23;
+}
+
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a {
+cursor: pointer;
+}
+
+.ui-tabs .ui-tabs-panel {
+background: none;
+}

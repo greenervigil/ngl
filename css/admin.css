@@ -1,0 +1,207 @@
+
+@import url("/css/index.css");
+
+table { background: transparent; }
+table td { background: inherit; }
+
+.bannerBG { background-color: #003399; }
+.topnavBG { background-color: #ACBCD5; padding: 2px 2px 2px; }
+.trans	{ background-image: url(images/mini_fade.gif); background-repeat: repeat-x; }
+
+.topnav 		 { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #000000; text-decoration: none; }
+topnav a:active  { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #000000; text-decoration: none; }
+.topnav a:link    { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #000000; text-decoration: none; }
+.topnav a:hover   { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #003399; text-decoration: none; }
+.topnav a:visited { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #000000; text-decoration: none; }
+
+H1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; color: #ACBCD5; }
+H3 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; color: #47689E; }
+H3.red { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; color: #9A3636; }
+H3.instructions { font: bold 13px verdana,arial,sans-serif; color: #9A3636;  padding-left: 20px; margin-bottom: -10px;}
+p.instructions { color: black; font-family: verdana; font-size: 11px; padding: 0 20px; }
+p.instructionsRed { color: #9A3636; font-family: verdana; font-size: 11px; padding: 0 20px; }
+
+.n-a { font: 11px Verdana, Geneva, Arial, sans-serif; color: #900; }
+.sml { font: 11px verdana, Verdana, Geneva, Arial, sans-serif; color: #23417C; }
+.smlB { font: bold 11px verdana, Verdana, Geneva, Arial, sans-serif; color: #23417C; }
+
+.instRES {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; color: #993333; }
+
+.resource-head {
+    font: 12px bold Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+    background: #E4EAF5 url("/images/bookadmin/bg_bl_lt.gif") repeat fixed;
+    margin: 0px;
+    padding: 2px 8px 1px;
+}
+.chapter-head { background: url("/images/bookadmin/bg_gr_lt.gif"); padding: 4px 0 4px 2px; }
+
+.marketing-head {
+    font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+    background: #F8F2DB url("/images/bookadmin/bg_yel_lt.gif") repeat fixed;
+    margin: 0px;
+    padding: 2px 8px 1px;
+}
+.cover-head {
+    font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+    color: #000000;
+    background: #F8F2DB url("/images/bookadmin/bg_lav_lt.gif") repeat fixed;
+    margin: 0px;
+    padding: 2px 8px 1px;
+}
+
+.column-head { font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #000000; margin: 0px; padding: 2px 8px 1px; }
+.legHEAD { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #000000; margin: 0px; padding: 2px 8px 1px; }
+
+textarea {
+        font-family: arial, helvetica, sans-serif;
+        font-size: 11px;
+        color: #000000;
+}
+
+/*
+ *	Table row colors
+ */
+ 
+ 
+.resource-head-row {  background: #E4EAF5 url("/images/bookadmin/bg_bl_lt.gif"); }
+.marketing-head-row {  background: #F8F2DB url("/images/bookadmin/bg_yel_lt.gif"); }
+.chapter-head-row { background: url("/images/bookadmin/bg_gr_lt.gif"); }
+.cover-head-row {  background: #EDE6EF url("/images/bookadmin/bg_lav_lt.gif"); }
+.featured-head-row {  background: #E4F4F6 url("/images/bookadmin/bg_teal_lt.gif"); }
+
+.resource-even-row { background: #dce2ed url("/images/bookadmin/bg_bl_reg.gif"); }
+.marketing-even-row {  background: #f0ead3 url("/images/bookadmin/bg_yel_reg.gif"); }
+.chapter-even-row { background: url("/images/bookadmin/bg_gr_reg.gif"); padding: 2px 0 2px 0; }
+.cover-even-row { background: #e5dee7 url("/images/bookadmin/bg_lav_reg.gif"); }
+.featured-even-row {  background: #E4F4F6 url("/images/bookadmin/bg_teal_reg.gif"); }
+
+.resource-odd-row {  background: #d4dae5 url("/images/bookadmin/bg_bl_dk.gif"); }
+.marketing-odd-row {  background: #e8e2cb url("/images/bookadmin/bg_yel_dk.gif"); }
+.chapter-odd-row { background: url("/images/bookadmin/bg_gr_dk.gif"); padding: 2px 0 2px 0;  }
+.cover-odd-row {  background: #ddd6df url("/images/bookadmin/bg_lav_dk.gif"); }
+.featured-odd-row {  background: #E4F4F6 url("/images/bookadmin/bg_teal_dk.gif"); }
+
+/* Table row links */
+.resource-even-row a { font: normal 11px verdana, Verdana, Geneva, Arial, sans-serif; color: #23417C; text-decoration: none; }
+.resource-odd-row a { font: normal 11px verdana, Verdana, Geneva, Arial, sans-serif; color: #23417C; text-decoration: none; }
+
+.marketing-even-row a { font: normal 11px verdana, Verdana, Geneva, Arial, sans-serif; color: #23417C; text-decoration: none; }
+.marketing-odd-row a { font: normal 11px verdana, Verdana, Geneva, Arial, sans-serif; color: #23417C; text-decoration: none; }
+
+
+.chapter-even-row a { font: normal 11px verdana, Verdana, Geneva, Arial, sans-serif; color: #23417C; text-decoration: none; }
+.chapter-odd-row a { font: normal 11px verdana, Verdana, Geneva, Arial, sans-serif; color: #23417C; text-decoration: none; }
+
+/*
+ *	Tabs and Tab links
+ */
+.tab-spacer { background-color: #ffffff; }
+
+/* Resource */
+.resource-tab {
+    background: #E4EAF5 url("/images/bookadmin/bg_bl_reg.gif") repeat fixed;
+    margin: 0px;
+    padding: 2px 8px 1px;
+    font: bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #193F7D;
+}
+.resource-tab a { font: normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif; color: #193f7d; text-decoration: none; }
+.resource-tab a:visited { color: #193F7D; }
+.resource-tab a:hover { color: #000; }
+
+
+
+/* Marketing */
+.marketing-tab {
+    background: #F8F2DB url("/images/bookadmin/bg_yel_reg.gif") repeat fixed;
+    margin: 0px;
+    padding: 2px 8px 1px;
+    font: bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #193f7d;
+}
+.marketing-tab a { font: normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif; color: #193f7d; text-decoration: none; }
+.marketing-tab a:visited { color: #193F7D; }
+.marketing-tab a:hover { color: #000; }
+
+
+/* Chapter */
+.chapter-tab {
+    background: #DBEBE1 url("/images/bookadmin/bg_gr_reg.gif") repeat fixed;
+    margin: 0px;
+    padding: 2px 8px 1px;
+    font: bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #193F7D;
+}
+.chapter-tab a { font: normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif; color: #193f7d; text-decoration: none; }
+.chapter-tab a:visited { color: #193F7D; }
+.chapter-tab a:hover { 
+	background: #DBEBE1 url("/images/bookadmin/bg_gr_reg.gif") repeat;
+	color: #000; }
+
+
+/* Cover */
+.cover-tab { 
+    background: #ede6ef url("/images/bookadmin/bg_lav_reg.gif") repeat fixed;
+    margin: 0px;
+    padding: 2px 8px 1px;
+    font: bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #19347d;
+}
+.cover-tab a { font: normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif; color: #193f7d; text-decoration: none; }
+.cover-tab a:visited { color: #193F7D; }
+.cover-tab a:hover { color: #000; }
+
+
+/* Featured Titles */
+.featured-tab { 
+    background: #E4F4F6 url("/images/bookadmin/bg_teal_reg.gif") repeat;
+    margin: 0px;
+    padding: 2px 8px 1px;
+    font: bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #19347d;
+}
+.featured-tab a { font: normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif; color: #193f7d; text-decoration: none; }
+.featured-tab a:visited { color: #193F7D; }
+.featured-tab a:hover { color: #000; }
+
+
+
+/* END TABS */
+
+/* BEGIN FRAMES */
+.topFrame { margin-top: 2px; margin-right: 15px; margin-bottom: 4px; margin-left: 15px; }
+.tabsFrame { margin-top: 0px; margin-right: 20px; margin-bottom: 0px; margin-left: 30px; }
+
+
+.resFrame { margin: 2px 15px 15px 15px; background: #E4EAF5 url("/images/bookadmin/bg_bl_reg.gif") repeat;}
+.chapFrame { padding: 0; margin: 2px 15px 15px 15px;  background: #DBEBE1 url("/images/bookadmin/bg_gr_reg.gif") repeat;}
+.marketFrame { margin: 2px 15px 15px 15px;  background: #F8F2DB url("/images/bookadmin/bg_yel_reg.gif") repeat;}
+.coverFrame { margin: 2px 15px 15px 15px;  background: #EDE6EF url("/images/bookadmin/bg_lav_reg.gif") repeat;}
+.featuredFrame { margin: 2px 15px 15px 15px;  background: #E4F4F6 url("/images/bookadmin/bg_teal_reg.gif") repeat;}
+
+.topFrameR { margin: 2px 25px 25px 25px; background: #FFFFCC; padding: 2px 8px 1px;}
+/* END FRAMES */
+
+.alert {
+	font: 11px verdana, Verdana, Geneva, Arial, sans-serif;
+	color: red;
+	text-decoration: none;
+	padding: 6px 4px 6px; font-weight: bold;
+}
+.tog1 {
+	font: 11px courier;
+	color: #999999;
+	text-decoration: none;
+	padding: 6px 4px 6px; font-weight: normal;
+}
+.tog2 {
+	font: 11px courier;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 6px 4px 6px; font-weight: normal;
+}
+
+
+

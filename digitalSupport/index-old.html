@@ -1,0 +1,2831 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="../css/k12-lp-digitalsupport-1.css" />
+    <link rel="stylesheet" type="text/css" href="../css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="../css/globals.css" />
+
+    <script type="text/javascript" src="/search/ruxitagentjs_ICA27SVfqrx_10161190228170440.js"
+        data-dtconfig="app=ea7c4b59f27d43eb|srms=1,1,,,|uxrgcm=100,25,300,3;100,25,300,3|featureHash=ICA27SVfqrx|lastModification=1551864570456|srsr=25000|dtVersion=10161190228170440|tp=500,50,0,1|rdnt=1|uxrgce=1|agentUri=/search/ruxitagentjs_ICA27SVfqrx_10161190228170440.js|reportUrl=/search/rb_bf72382oux|rid=RID_-549854184|rpid=-951095915|domain=cengage.com">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://animaapp.s3.amazonaws.com/launchpad-static/launchpad.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"
+        integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw=" crossorigin="anonymous"></script>
+    <script src="/jscript/imports/googleTagManager.js"></script>
+    <script src="https://cdn.cengage.com/js/contrib/jquery.cookie.min.js"></script>
+    <script>
+      (function () {
+          var env = "", countryCode, overlayDisplay;
+          var environmentSpecific = function () {
+              if (window.location.hostname.toUpperCase().indexOf("S-") != -1) {
+                  env = "s-";
+              } else if (window.location.hostname.toUpperCase().indexOf("D-") != -1) {
+                  env = "d-";
+              } else {
+                  env = "";
+              }
+          }
+          environmentSpecific();
+          var cookieDomain = env + "ngl.cengage.com";
+          var getCountryCode = function (callback) {
+              if ($.cookie("overlayDisplay")) {
+                  overlayDisplay = $.cookie("overlayDisplay");
+              }
+              if ($.cookie("P_Country_Cd")) {
+                  countryCode = $.cookie("P_Country_Cd");
+                  callback();
+
+              } else {
+                  $.post("https://" + env + "ngl.cengage.com/search/geocountrylocator",
+                      {},
+                      function (data, status) {
+                          countryCode = data.country;
+                          $.cookie("P_Country_Cd", countryCode, { path: "/;secure", expires: 0 });
+                          callback();
+                      });
+              }
+          }
+
+
+
+          $(document).ready(function () {
+
+
+              var showOverlay = function () {
+                  if (countryCode != undefined && countryCode != 'US' && overlayDisplay == undefined) {
+                      $('body').addClass('nobodyscroll');
+                      $('#primaryHomeBody').show();
+                  }
+                  else {
+
+                      $('body').removeClass('nobodyscroll');
+                      $('#primaryHomeBody').hide();
+                  }
+              }
+              getCountryCode(showOverlay);
+
+              $('.NGLPageLink').on('click', function () {
+                  $('body').removeClass('nobodyscroll');
+                  $('#primaryHomeBody').hide();
+                  if (!($.cookie("overlayDisplay"))) {
+                      $.cookie("overlayDisplay", 'yes', { domain: cookieDomain, path: "/" });
+                  }
+              });
+
+
+
+          });
+
+          $(window).load(function () {
+              if (env != "") {
+                  $('.ELTPageLink').each(function () {
+                      var link = $(this).attr('href');
+                      if (link.indexOf('eltngl.com') > -1) {
+                          $(this).attr('href', link.replace('eltngl.com', env + 'www.eltngl.com'));
+                      }
+                  });
+              }
+          });
+
+      })();
+
+  </script>
+  <script>
+      var dataLayer = window.dataLayer = window.dataLayer || [];
+      var channel = 'true' === 'true' ? 'School' : 'ELT';
+      var countryCode = $.cookie('P_Country_Cd');
+      window.dataLayer.push({
+          'countryCode': countryCode,
+          'channel': channel,
+          'siteSection': 'Catalog and Home',
+          'pagedelay': 'true'
+      });
+  </script>
+
+  <script>
+      (function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push(
+              { 'gtm.start': new Date().getTime(), event: 'gtm.js' }
+          ); var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                  'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-W9HXB8M');
+  //End Google Tag Manager
+    </script>
+    <!-- End of Google Tag Manager -->
+
+    <!-- The script tag should live in the head of your page if at all possible -->
+    <link href="/nglredesign/school/nglschoolcommon.min.css?v=2019364" rel="stylesheet" />
+    <!--[if IE 8]><html lang="en-us" class="ie8"><![endif]-->
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link href="/assets/css/sch/K12_2021.css" rel="stylesheet" />
+    
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="k12-lp-digitalsupport-1" />
+    <header id="header_include" class="school"></header>
+    <div class="container-center-horizontal">
+      <div class="k12-lp-digitalsupport-1 screen">
+        <div class="flex-col-1">
+          <div class="overlap-group37">
+            <div class="digital-support opensans-normal-white-28px">Digital Support</div>
+            <img class="mask-group-74" src="../img/mask-group-74@1x.png" />
+            <div class="mask-group-123">
+              <div class="digital-support-1 opensans-semi-bold-white-50px">Digital Support</div>
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="overlap-group41 border-1px-granite-gray">
+              <img class="asset-1" src="../img/asset-1-1@1x.png" />
+              <div class="text-3-1 opensans-bold-black-24px">On-demand <br />Training Resources</div>
+              <div class="text-4 opensans-normal-black-18px">
+                Access&nbsp;&nbsp;how-to guides and videos to make the most <br />of your class.
+              </div>
+              <a href="#training" >
+                <div class="group-2">
+                  <div class="overlap-group2">
+                    <div class="group-2-1 border-1px-mountain-mist">
+                      <div class="text opensans-semi-bold-black-18px">View Platform Training Library</div>
+                    </div>
+                    <div class="group-2-2 smart-layers-pointers hidden">
+                      <div class="text-1 opensans-semi-bold-sizzling-sunrise-18px">View Platform Training Library</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#overlap-group38">
+                <div class="group-2-3">
+                  <div class="overlap-group2">
+                    <div class="group-2-1 border-1px-mountain-mist">
+                      <div class="text-29 opensans-semi-bold-black-18px">View LMS Integration Library</div>
+                    </div>
+                    <div class="group-2-2 smart-layers-pointers hidden">
+                      <div class="text-30 opensans-semi-bold-sizzling-sunrise-18px">View LMS Integration Library</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="overlap-group4 border-1px-granite-gray">
+              <img class="traning" src="../img/traning-1@1x.png" />
+              <div class="text-8 opensans-bold-black-24px">Virtual Training Events</div>
+              <div class="text-5-1 opensans-normal-black-18px">
+                Start the year off right <br />and participate in a virtual training event. These sessions are focused
+                on <br />LMS Integration with Schoology and Canvas.
+              </div>
+              <a href="#rectangle-56">
+                <div class="group-2">
+                  <div class="overlap-group">
+                    <div class="group-233">
+                      <div class="text-31 opensans-semi-bold-black-18px">View Training Events</div>
+                    </div>
+                    <div class="group-2-4 smart-layers-pointers hidden">
+                      <div class="text-32 opensans-semi-bold-sizzling-sunrise-18px">View Training Events</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="overlap-group39 border-1px-granite-gray">
+              <img class="mask-group-103" src="../img/mask-group-103-1@1x.png" />
+              <div class="technical-support opensans-bold-black-24px">Technical Support</div>
+              <div class="text-6 opensans-normal-black-18px">
+                Experiencing a technical glitch or error message? We’re here for you and your students whenever you
+                <br />need us. Please identify yourself as a K12 Instructor <br />in the comments.
+              </div>
+              <a href=" https://support.cengage.com" target="_blank">
+                <div class="group-2">
+                  <div class="overlap-group">
+                    <div class="group-236">
+                      <div class="create-tech-ticket opensans-semi-bold-black-18px">Create Tech Ticket</div>
+                    </div>
+                    <div class="group-2-4 smart-layers-pointers hidden">
+                      <div class="create-tech-ticket-1 opensans-semi-bold-sizzling-sunrise-18px">
+                        Create Tech Ticket
+                      </div>
+                    </div>
+                  </div>
+                </div></a
+              ><a href="https://techcheck.cengage.com/" target="_blank">
+                <div class="group-2-3">
+                  <div class="overlap-group2">
+                    <div class="group-2-5 border-1px-mountain-mist">
+                      <div class="text opensans-semi-bold-black-18px">Platform Status Check</div>
+                    </div>
+                    <div class="group-2-2 smart-layers-pointers hidden">
+                      <div class="text-2 opensans-semi-bold-sizzling-sunrise-18px">Platform Status Check</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="overlap-group4 border-1px-granite-gray">
+              <img class="access" src="../img/access-1@1x.png" />
+              <div class="digital-access opensans-bold-black-24px">Digital Access</div>
+              <div class="text-7 opensans-normal-black-18px">
+                Haven’t received <br />your digital access? <br />Need assistance with <br />login credentials? <br />We
+                are here to help.
+              </div>
+              <a href="https://mysupport.cengage.com/loglessSupport?PI=*K12%20Digital%20Course%20Support" target="_blank">
+                <div class="group-2">
+                  <div class="overlap-group">
+                    <div class="group-242 border-1px-mountain-mist">
+                      <div class="request-access opensans-semi-bold-black-18px">Request Access</div>
+                    </div>
+                    <div class="group-2-4 smart-layers-pointers hidden">
+                      <div class="request-access-1 opensans-semi-bold-sizzling-sunrise-18px">Request Access</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="overlap-group4 border-1px-granite-gray">
+              <img class="mask-group-107" src="../img/mask-group-100-1@1x.png" />
+              <div class="text-15 opensans-bold-black-24px">Privacy and Accessibility</div>
+              <div class="text-14 opensans-normal-black-18px">
+                Learn about our privacy policy, product accessibility, and terms of use for NGL/Cengage products
+                <br />and services.
+              </div>
+              <a href="#rectangle-259">
+                <div class="group-2">
+                  <div class="overlap-group31">
+                    <div class="group-245 border-1px-mountain-mist">
+                      <div class="text opensans-semi-bold-black-18px">Resources and Support</div>
+                    </div>
+                    <div class="group-246 smart-layers-pointers">
+                      <div class="text-1 opensans-semi-bold-sizzling-sunrise-18px">Resources and Support</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div id="overlap-group38" name="overlap-group38" class="overlap-group38">
+            <div class="text-10 opensans-semi-bold-white-40px">LMS Integration Training Library</div>
+            <a href="https://www.cengage.com/coursepages/LMS_K12" target="_blank" class="align-self-flex-center">
+              <div class="group-250">
+                <div class="overlap-group32">
+                  <div class="group-248">
+                    <div class="access-resources opensans-semi-bold-white-20px">Access Resources</div>
+                  </div>
+                  <div class="group-249 smart-layers-pointers hidden">
+                    <div class="access-resources-1 opensans-semi-bold-elephant-20px">Access Resources</div>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <a href=" https://www.cengage.com/coursepages/NGL_MindTapSupport" target="_blank"
+            ><div name="training" id="training" class="text-9 opensans-semi-bold-fiord-40px">Platform-Specific Training Library</div></a
+          ><a href=" https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank"
+            ><img class="cengage-mind-t-horizontalrgb" src="../img/cengage-mindtap-horizontal-rgb@1x.png" />
+          </a>
+        </div>
+        <div class="flex-row-1">
+          <div class="flex-row-2">
+            <div class="flex-col-2">
+              <img class="cengage-web-as-gn-stackedrgb" src="../img/cengage-webassign-stacked-rgb-1@1x.png" />
+              <a href="https://www.cengage.com/coursepages/NGL_EWAsupport" target="_blank">
+                <div class="group-187">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="access-resources-2 opensans-semi-bold-black-20px">Access Resources</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers">
+                      <div class="access-resources-3 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                    </div>
+                  </div>
+                </div></a
+              ><a href="www.webassign.net" target="_blank">
+                <div class="group-186">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="log-in opensans-semi-bold-black-20px">Log In</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers hidden">
+                      <div class="log-in-1 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="overlap-group36">
+              <img class="my-n-gconnectlogok" src="../img/myngconnect-logo-k-1@1x.png" />
+              <img class="cengage-owl-v2-stackedrgb" src="../img/cengage-owlv2-stacked-rgb-1@1x.png" />
+              <a href="https://nglsync.cengage.com/portal/Account/LogOn?ReturnUrl=%2fportal" target="_blank">
+                <div class="group-194">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="log-in-2 opensans-semi-bold-black-20px">Log In</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers hidden">
+                      <div class="log-in-3 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                    </div>
+                  </div>
+                </div></a
+              ><a href="https://www.cengage.com/coursepages/NGL_OWLv2Support" target="_blank">
+                <div class="group-195">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="access-resources-4 opensans-semi-bold-black-20px">Access Resources</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers">
+                      <div class="access-resources-5 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                    </div>
+                  </div>
+                </div></a
+              ><a href=" https://www.myngconnect.com/login/chooseMainUI.spr" target="_blank">
+                <div class="group-196">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="log-in-4 opensans-semi-bold-black-20px">Log In</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers hidden">
+                      <div class="log-in-5 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                    </div>
+                  </div>
+                </div></a
+              ><a href="https://www.cengage.com/coursepages/NGL_myNGconnectsupport" target="_blank">
+                <div class="group-197">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="access-resources-6 opensans-semi-bold-black-20px">Access Resources</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers">
+                      <div class="access-resources-7 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+              <div class="select-course-area opensans-normal-boston-blue-22px">Select Course Area</div>
+              <img class="polygon-1" src="../img/polygon-11@1x.png" />
+              <div class="select-course-area opensans-normal-boston-blue-22px">Select Course Area</div>
+              <div class="overlap-group33">
+                <div class="group-427 border-1px-dove-gray">
+                  <div class="select-course-area-1 opensans-normal-boston-blue-22px">Select Course Area</div>
+                  <img class="polygon-1-1" src="../img/polygon-11@1x.png" />
+                </div>
+                <div class="group-507 smart-layers-pointers hidden">
+                  <div class="overlap-group15">
+                    <img 
+                    id="scroll-back"
+                      class="rectangle-270" 
+                      src="../img/rectangle-270@1x.png" 
+                      onmouseover="document.getElementById('scroll-back').setAttribute('hidden', 'hidden'); document.getElementById('scroll-group').setAttribute('hidden', 'hidden');"
+                    />
+                    <img 
+                      class="rectangle-294" 
+                      src="../img/rectangle-294@1x.png" 
+                      onmouseover="document.getElementById('scroll-back').removeAttribute('hidden'); document.getElementById('scroll-group').removeAttribute('hidden');"
+                    />
+                    <img class="polygon-11" src="../img/polygon-11@1x.png" />
+                    <div class="select-course-area-2 opensans-normal-boston-blue-22px">Select Course Area</div>
+                    <div id="scroll-group" class="scroll-group-7">
+                      <div class="grades-k-8 opensans-semi-bold-midnight-blue-20px-3">
+                        <span class="span opensans-bold-midnight-blue-20px">Grades K-8</span
+                        ><span class="span opensans-semi-bold-midnight-blue-20px-2"></span>
+                      </div>
+                      <a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                        <div class="group-4">
+                          <div class="overlap-group-2">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="k-5-reading opensans-normal-midnight-blue-20px">K-5 Reading</div></a
+                            >
+                            <div class="group smart-layers-pointers hidden">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="link opensans-semi-bold-midnight-blue-20px">K-5 Reading</div></a
+                              >
+                            </div>
+                          </div>
+                        </div></a
+                      ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                        <div class="group-1">
+                          <div class="overlap-group-2">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="link-1 opensans-normal-midnight-blue-20px">K-5 Science</div></a
+                            >
+                            <div class="group smart-layers-pointers hidden">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="link opensans-semi-bold-midnight-blue-20px">K-5 Science</div></a
+                              >
+                            </div>
+                          </div>
+                        </div></a
+                      >
+                      <div class="overlap-group14">
+                        <div class="grades-9-12 opensans-bold-midnight-blue-20px">Grades 9-12</div>
+                        <a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                          <div class="group-483">
+                            <div class="overlap-group-2">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="link-2 opensans-normal-midnight-blue-20px">
+                                  Middle School Social Studies
+                                </div></a
+                              >
+                              <div class="group smart-layers-pointers">
+                                <a
+                                  href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                                  onclick="window.event.stopPropagation()"
+                                  target="_blank"
+                                  ><div class="link opensans-semi-bold-midnight-blue-20px">
+                                    Middle School Social Studies
+                                  </div></a
+                                >
+                              </div>
+                            </div>
+                          </div></a
+                        >
+                      </div>
+                      <a href="https://www.cengage.com/coursepages/NGL_MindTapSupport" target="_blank">
+                        <div class="group-4">
+                          <div class="overlap-group-2">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="link-1 opensans-normal-midnight-blue-20px">
+                                Career and Technical Education
+                              </div></a
+                            >
+                            <div class="group smart-layers-pointers hidden">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="link opensans-semi-bold-midnight-blue-20px">
+                                  Career and Technical Education
+                                </div></a
+                              >
+                            </div>
+                          </div>
+                        </div></a
+                      ><a href="https://www.cengage.com/coursepages/NGL_MindTapSupport" target="_blank">
+                        <div class="group-1">
+                          <div class="overlap-group-2">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="link-2 opensans-normal-midnight-blue-20px">Language Arts</div></a
+                            >
+                            <div class="group smart-layers-pointers hidden">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="link opensans-semi-bold-midnight-blue-20px">Language Arts</div></a
+                              >
+                            </div>
+                          </div>
+                        </div></a
+                      ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                        <div class="group-1">
+                          <div class="overlap-group-2">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="link-1 opensans-normal-midnight-blue-20px">
+                                Science: National Geographic Earth and Space Science
+                              </div></a
+                            >
+                            <div class="group smart-layers-pointers">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="link opensans-semi-bold-midnight-blue-20px">
+                                  Science: National Geographic Earth and Space Science
+                                </div></a
+                              >
+                            </div>
+                          </div>
+                        </div></a
+                      ><a href="https://www.cengage.com/coursepages/NGL_MindTapSupport" target="_blank">
+                        <div class="group-1">
+                          <div class="overlap-group-2">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="link-1 opensans-normal-midnight-blue-20px">
+                                Science: All other AP, Honors, Elective Science courses
+                              </div></a
+                            >
+                            <div class="group smart-layers-pointers hidden">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="link opensans-semi-bold-midnight-blue-20px">
+                                  Science: All other AP, Honors, Elective Science courses
+                                </div></a
+                              >
+                            </div>
+                          </div>
+                        </div></a
+                      ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                        <div class="group-494">
+                          <div class="overlap-group-3">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="text-3 opensans-normal-midnight-blue-20px">
+                                Social Studies: National Geographic Human Geography: <br />A Spatial Perspective AP
+                                Edition (AP)
+                              </div></a
+                            >
+                            <div class="group-49 smart-layers-pointers hidden">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="text-3 opensans-semi-bold-midnight-blue-20px">
+                                  Social Studies: National Geographic Human Geography: <br />A Spatial Perspective AP
+                                  Edition (AP)
+                                </div></a
+                              >
+                            </div>
+                          </div>
+                        </div></a
+                      ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                        <div class="group-49-1">
+                          <div class="overlap-group-3">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="text-43 opensans-normal-midnight-blue-20px">
+                                Social Studies: National Geographic U.S. History: <br />America Through the Lens (Core)
+                              </div></a
+                            >
+                            <div class="group-495 smart-layers-pointers hidden">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="text-44 opensans-semi-bold-midnight-blue-20px">
+                                  Social Studies: National Geographic U.S. History: <br />America Through the Lens
+                                  (Core)
+                                </div></a
+                              >
+                            </div>
+                          </div>
+                        </div></a
+                      ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                        <div class="group-49-1">
+                          <div class="overlap-group-3">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="text-45 opensans-normal-midnight-blue-20px">
+                                Social Studies: National Geographic World History <br />Voyages of Exploration (Core)
+                              </div></a
+                            >
+                            <div class="group-49 smart-layers-pointers hidden">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="text-46 opensans-semi-bold-midnight-blue-20px">
+                                  Social Studies: National Geographic World History <br />Voyages of Exploration (Core)
+                                </div></a
+                              >
+                            </div>
+                          </div>
+                        </div></a
+                      ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                        <div class="group-50">
+                          <div class="overlap-group6">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="link-1 opensans-normal-midnight-blue-20px">
+                                Social Studies: National Geographic American Government (Core)
+                              </div></a
+                            >
+                            <div class="group-499 smart-layers-pointers hidden">
+                              <div class="overlap-group-4">
+                                <div class="rectangle-288"></div>
+                                <a
+                                  href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                                  onclick="window.event.stopPropagation()"
+                                  target="_blank"
+                                  ><div class="text-48 opensans-semi-bold-midnight-blue-20px">
+                                    Social Studies: National Geographic American Government (Core)
+                                  </div></a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div></a
+                      ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                        <div class="group-502">
+                          <div class="overlap-group13">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="text-5 opensans-normal-midnight-blue-20px">
+                                Social Studies: All other AP, Honors, <br />Electives Social Studies courses
+                              </div></a
+                            >
+                            <div class="group-501 smart-layers-pointers hidden">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="text-5 opensans-semi-bold-midnight-blue-20px">
+                                  Social Studies: All other AP, Honors, <br />Electives Social Studies courses
+                                </div></a
+                              >
+                            </div>
+                          </div>
+                        </div></a
+                      ><a href="https://www.cengage.com/coursepages/NGL_MindTapSupport" target="_blank">
+                        <div class="group-50">
+                          <div class="overlap-group-2">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="link-2 opensans-normal-midnight-blue-20px">World Languages</div></a
+                            >
+                            <div class="group smart-layers-pointers hidden">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="link opensans-bold-midnight-blue-20px">World Languages</div></a
+                              >
+                            </div>
+                          </div>
+                        </div></a
+                      ><a href="https://www.cengage.com/coursepages/NGL_MindTapSupport" target="_blank">
+                        <div class="group-1">
+                          <div class="overlap-group-2">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="link-1 opensans-normal-midnight-blue-20px">Math (Financial Algebra)</div></a
+                            >
+                            <div class="group smart-layers-pointers hidden">
+                              <a
+                                href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                                onclick="window.event.stopPropagation()"
+                                target="_blank"
+                                ><div class="link opensans-bold-midnight-blue-20px">Math (Financial Algebra)</div></a
+                              >
+                            </div>
+                          </div>
+                        </div></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-col-3">
+            <img class="stacked-full-color" src="../img/stacked-full-color-1@1x.png" />
+            <a href="https://support.bigideasmath.com/hc/en-us" target="_blank">
+              <div class="group-199">
+                <div class="overlap-group-1">
+                  <div class="group-18 border-1px-mountain-mist">
+                    <div class="access-resources-8 opensans-semi-bold-black-20px">Access Resources</div>
+                  </div>
+                  <div class="group-18-1 smart-layers-pointers">
+                    <div class="access-resources-9 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                  </div>
+                </div>
+              </div></a
+            ><a href="https://www.bigideasmath.com/BIM/login" target="_blank">
+              <div class="group-198">
+                <div class="overlap-group-1">
+                  <div class="group-18 border-1px-mountain-mist">
+                    <div class="log-in-6 opensans-semi-bold-black-20px">Log In</div>
+                  </div>
+                  <div class="group-18-1 smart-layers-pointers hidden">
+                    <div class="log-in-7 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+        </div>
+        <div class="flex-col-4">
+          <div class="overlap-group35">
+            <div class="text-13 opensans-semi-bold-white-40px">Additional Platforms and eTexts</div>
+            <div class="flex-row-3">
+              <div class="flex-col-5">
+                <div class="overlap-group4-1">
+                  <img class="cengage-sam-stackedrgb" src="../img/cengage-sam-stacked-rgb-1@1x.png" />
+                  <a href="https://www.cengage.com/coursepages/SAM_Office" target="_blank">
+                    <div class="group-20">
+                      <div class="overlap-group-1">
+                        <div class="group-18 border-1px-mountain-mist">
+                          <div class="access-resources-10 opensans-semi-bold-black-20px">Access Resources</div>
+                        </div>
+                        <div class="group-18-1 smart-layers-pointers">
+                          <div class="access-resources-11 opensans-semi-bold-sizzling-sunrise-20px">
+                            Access Resources
+                          </div>
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href=" http://sam.cengage.com/" target="_blank">
+                    <div class="group-2-6">
+                      <div class="overlap-group-1">
+                        <div class="group-18 border-1px-mountain-mist">
+                          <div class="log-in-8 opensans-semi-bold-black-20px">Log In</div>
+                        </div>
+                        <div class="group-18-1 smart-layers-pointers hidden">
+                          <div class="log-in-9 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                </div>
+                <div class="overlap-group49">
+                  <div class="cognero opensans-bold-mine-shaft-56px">Cognero</div>
+                  <a href="https://www.cengage.com/coursepages/NGL_CogneroSupport" target="_blank">
+                    <div class="group-208">
+                      <div class="overlap-group-1">
+                        <div class="group-18 border-1px-mountain-mist">
+                          <div class="access-resources-12 opensans-semi-bold-black-20px">Access Resources</div>
+                        </div>
+                        <div class="group-18-1 smart-layers-pointers">
+                          <div class="access-resources-13 opensans-semi-bold-sizzling-sunrise-20px">
+                            Access Resources
+                          </div>
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://nglsync.cengage.com/portal/Account/LogOn?ReturnUrl=%2fportal" target="_blank">
+                    <div class="group-207">
+                      <div class="overlap-group-1">
+                        <div class="group-18 border-1px-mountain-mist">
+                          <div class="log-in-10 opensans-semi-bold-black-20px">Log In</div>
+                        </div>
+                        <div class="group-18-1 smart-layers-pointers hidden">
+                          <div class="log-in-11 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                </div>
+              </div>
+              <div class="flex-col">
+                <div class="overlap-group47">
+                  <img class="cengagec-now-v2-stackedrgb" src="../img/cengage-cnowv2-stacked-rgb-1@1x.png" />
+                  <a href="https://www.cengage.com/coursepages/CNOWv2_CengageNOWv2" target="_blank">
+                    <div class="group-20">
+                      <div class="overlap-group-1">
+                        <div class="group-18 border-1px-mountain-mist">
+                          <div class="access-resources-14 opensans-semi-bold-black-20px">Access Resources</div>
+                        </div>
+                        <div class="group-18-1 smart-layers-pointers">
+                          <div class="access-resources-15 opensans-semi-bold-sizzling-sunrise-20px">
+                            Access Resources
+                          </div>
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://nglsync.cengage.com/portal/Account/LogOn?ReturnUrl=%2fportal" target="_blank">
+                    <div class="group-2-6">
+                      <div class="overlap-group-1">
+                        <div class="group-18 border-1px-mountain-mist">
+                          <div class="log-in-12 opensans-semi-bold-black-20px">Log In</div>
+                        </div>
+                        <div class="group-18-1 smart-layers-pointers hidden">
+                          <div class="log-in-13 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                </div>
+                <div class="overlap-group51">
+                  <img class="my-elt-logo2color-black" src="../img/myelt-logo-2color-black-1@1x.png" />
+                  <a href="https://www.cengage.com/coursepages/DigitalTools13" target="_blank">
+                    <div class="group-210">
+                      <div class="overlap-group-1">
+                        <div class="group-18 border-1px-mountain-mist">
+                          <div class="access-resources-16 opensans-semi-bold-black-20px">Access Resources</div>
+                        </div>
+                        <div class="group-18-1 smart-layers-pointers">
+                          <div class="access-resources-17 opensans-semi-bold-sizzling-sunrise-20px">
+                            Access Resources
+                          </div>
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://myelt.heinle.com" target="_blank">
+                    <div class="group-2-6">
+                      <div class="overlap-group-1">
+                        <div class="group-18 border-1px-mountain-mist">
+                          <div class="log-in-14 opensans-semi-bold-black-20px">Log In</div>
+                        </div>
+                        <div class="group-18-1 smart-layers-pointers hidden">
+                          <div class="log-in-15 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                </div>
+              </div>
+              <div class="flex-col">
+                <div class="overlap-group4-1">
+                  <img class="vs-logo-horrgb" src="../img/vs-logo-hor--rgb--1@1x.png" />
+                  <a href="https://www.cengage.com/coursepages/NGL_VitalSource" target="_blank">
+                    <div class="group-206">
+                      <div class="overlap-group-1">
+                        <div class="group-18 border-1px-mountain-mist">
+                          <div class="access-resources-18 opensans-semi-bold-black-20px">Access Resources</div>
+                        </div>
+                        <div class="group-18-1 smart-layers-pointers">
+                          <div class="access-resources-19 opensans-semi-bold-sizzling-sunrise-20px">
+                            Access Resources
+                          </div>
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://bookshelf.vitalsource.com/#/user/signin" target="_blank">
+                    <div class="group-2-6">
+                      <div class="overlap-group-1">
+                        <div class="group-18 border-1px-mountain-mist">
+                          <div class="log-in-16 opensans-semi-bold-black-20px">Log In</div>
+                        </div>
+                        <div class="group-18-1 smart-layers-pointers hidden">
+                          <div class="log-in-17 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                </div>
+                <div class="overlap-group50">
+                  <img class="online-practice-blk" src="../img/onlinepractice-blk-1@1x.png" />
+                  <a href="https://www.cengage.com/coursepages/DigitalTools12" target="_blank">
+                    <div class="group-212">
+                      <div class="overlap-group-1">
+                        <div class="group-18 border-1px-mountain-mist">
+                          <div class="access-resources-20 opensans-semi-bold-black-20px">Access Resources</div>
+                        </div>
+                        <div class="group-18-1 smart-layers-pointers">
+                          <div class="access-resources-21 opensans-semi-bold-sizzling-sunrise-20px">
+                            Access Resources
+                          </div>
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://learn.eltngl.com/" target="_blank">
+                    <div class="group-2-6">
+                      <div class="overlap-group-1">
+                        <div class="group-18 border-1px-mountain-mist">
+                          <div class="log-in-18 opensans-semi-bold-black-20px">Log In</div>
+                        </div>
+                        <div class="group-18-1 smart-layers-pointers hidden">
+                          <div class="log-in-19 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="flex-col-6">
+              <div class="text-12 opensans-semi-bold-white-40px">Looking for program-specific training resources?</div>
+              <a href="https://ngl.cengage.com/assets/html/producttraining/" target="_blank">
+                <div class="group-214">
+                  <div class="overlap-group20">
+                    <div class="group-143 border-1px-white">
+                      <div class="text-21 opensans-semi-bold-white-18px">Visit our Product Training Library</div>
+                    </div>
+                    <div class="group-213 smart-layers-pointers hidden">
+                      <div class="text-22 opensans-semi-bold-bahama-blue-18px">Visit our Product Training Library</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="overlap-group43">
+            <a href="https://www.cengage.com/privacy/" target="_blank">
+              <div class="rectangle-56" id="rectangle-56"></div
+            ></a>
+            <div class="rectangle-155"></div>
+            <div class="text-1-1 opensans-bold-black-24px">Virtual Training Series</div>
+            <div class="text-2-1 opensans-normal-black-20px">
+              Register for one of our scheduled online training events
+            </div>
+            <img class="start-strong" src="../img/start-strong@1x.png" />
+            <div class="text-11 opensans-semi-bold-white-40px">Virtual Training Events</div>
+            <a href="https://www.cengage.com/coursepages/VirtualTrainingSeries_K12" target="_blank">
+              <div class="group-217">
+                <div class="overlap-group21">
+                  <div class="group-215 border-1px-mountain-mist">
+                    <div class="place opensans-semi-bold-black-20px">Register</div>
+                  </div>
+                  <div class="group-216 smart-layers-pointers hidden">
+                    <div class="place-1 opensans-semi-bold-sizzling-sunrise-20px">Register</div>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="overlap-group34">
+            <a href="https://www.cengage.com/privacy/" target="_blank">
+              <div class="rectangle-259" id="rectangle-259"></div
+            ></a>
+            <div class="privacy opensans-bold-black-24px">Privacy</div>
+            <div class="accessibility opensans-bold-black-24px">Accessibility</div>
+            <div class="terms-of-use opensans-bold-black-24px">Terms of Use</div>
+            <div class="text-16 opensans-normal-black-18px">
+              We take your privacy very seriously and work hard to protect the data you entrust to us on our websites.
+              Learn how we keep your personal information safe and secure.
+            </div>
+            <div class="text-17 opensans-normal-black-18px">
+              Committed to making educational materials accessible for users of all abilities, Cengage continuously
+              improves the usability and accessibility of our products and services.
+            </div>
+            <div class="text-18 opensans-normal-black-18px">
+              Looking for more information <br />on the Terms of Use for <br />Cengage’s products, services <br />and
+              more? Head to our Terms <br />of Use for more details.
+            </div>
+            <div class="text-19 opensans-semi-bold-black-40px">Resources and Support</div>
+            <img class="mask-group-99" src="../img/mask-group-99@1x.png" />
+            <img class="mask-group-100" src="../img/mask-group-100@1x.png" />
+            <img class="mask-group-101" src="../img/mask-group-101@1x.png" />
+            <img class="mask-group-102" src="../img/mask-group-102@1x.png" />
+            <a href="https://www.cengage.com/privacy/" target="_blank">
+              <div class="group-220">
+                <div class="overlap-group2">
+                  <div class="group-2-5 border-1px-mountain-mist">
+                    <div class="text opensans-semi-bold-black-18px">Explore Privacy Policy</div>
+                  </div>
+                  <div class="group-2-2 smart-layers-pointers hidden">
+                    <div class="text-2 opensans-semi-bold-sizzling-sunrise-18px">Explore Privacy Policy</div>
+                  </div>
+                </div>
+              </div></a
+            ><a href="https://www.cengage.com/accessibility/" target="_blank">
+              <div class="group-222">
+                <div class="overlap-group2">
+                  <div class="group-223 border-1px-mountain-mist">
+                    <div class="text opensans-semi-bold-black-18px">Visit Accessibility Page</div>
+                  </div>
+                  <div class="group-221 smart-layers-pointers hidden">
+                    <div class="text-2 opensans-semi-bold-sizzling-sunrise-18px">Visit Accessibility Page</div>
+                  </div>
+                </div>
+              </div></a
+            ><a href="https://www.cengage.com/legal/#terms" target="_blank">
+              <div class="group-226">
+                <div class="overlap-group24">
+                  <div class="group-224 border-1px-mountain-mist">
+                    <div class="view-terms-of-use opensans-semi-bold-black-18px">View Terms of Use</div>
+                  </div>
+                  <div class="group-225 smart-layers-pointers hidden">
+                    <div class="view-terms-of-use-1 opensans-semi-bold-sizzling-sunrise-18px">View Terms of Use</div>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="overlap-group42">
+            <div class="text-20 opensans-semi-bold-sizzling-sunrise-50px">Digital and Classroom Materials</div>
+            <div class="national-geographic opensans-semi-bold-white-20px">
+              National Geographic Learning, a part of Cengage Learning, is a leading educational publisher of K–12
+              School digital and curricular classroom materials. Through our digital learning programs and classroom
+              learning resources, schools experience the excitement and joy of learning that National Geographic
+              explorers, scientists, writers and photographers experience.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-center-horizontal">
+      <div class="k12-lp-digitalsupport-1-1 screen">
+        <div class="mask-group-131">
+          <div class="group-291">
+            <div class="overlap-group-4">
+              <div class="digital-support opensans-semi-bold-white-40px">Digital Support</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-row-1">
+          <div class="overlap-group37 border-1px-granite-gray">
+            <img class="asset-1" src="../img/asset-1-1@1x.png" />
+            <div class="text-59 opensans-bold-black-24px">On-demand <br />Training Resources</div>
+            <div class="text-60 opensans-normal-black-18px">
+              Access&nbsp;&nbsp;how-to guides and videos to make the most <br />of your class.
+            </div>
+            <a href="#training1" >
+              <div class="overlap-group13">
+                <div class="group-2 border-1px-mountain-mist">
+                  <div class="text opensans-semi-bold-black-18px">View Platform Training Library</div>
+                </div>
+                <div class="group-2-1 smart-layers-pointers hidden">
+                  <div class="text-1 opensans-semi-bold-sizzling-sunrise-18px">View Platform Training Library</div>
+                </div>
+              </div>
+            </a>
+            <div class="overlap-group14">
+              <div class="group-2 border-1px-mountain-mist">
+                <div class="text-72 opensans-semi-bold-black-18px">View LMS Integration Library</div>
+              </div>
+              <div class="group-2-1 smart-layers-pointers hidden">
+                <div class="text-73 opensans-semi-bold-sizzling-sunrise-18px">View LMS Integration Library</div>
+              </div>
+            </div>
+          </div>
+          <div class="overlap-group39 border-1px-granite-gray">
+            <img class="traning" src="../img/traning-1@1x.png" />
+            <div class="text-63 opensans-bold-black-24px">Virtual Training Events</div>
+            <div class="text-61 opensans-normal-black-18px">
+              Start the year off right <br />and participate in a virtual training event. These sessions are focused on
+              <br />LMS Integration with Schoology and Canvas.
+            </div>
+            <a href="#training2" >
+              <div class="overlap-group15">
+                <div class="group-233"><div class="text-74 opensans-semi-bold-black-18px">View Training Events</div></div>
+                <div class="group-2-2 smart-layers-pointers hidden">
+                  <div class="text-75 opensans-semi-bold-sizzling-sunrise-18px">View Training Events</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="overlap-group36 border-1px-granite-gray">
+            <img class="mask-group-103" src="../img/mask-group-103-1@1x.png" />
+            <div class="technical-support opensans-bold-black-24px">Technical Support</div>
+            <div class="text-62 opensans-normal-black-18px">
+              Experiencing a technical glitch or error message? We’re here for you and your students whenever you
+              <br />need us. Please identify yourself as a K12 Instructor <br />in the comments.
+            </div>
+            <a href=" https://support.cengage.com" target="_blank">
+              <div class="group-2-3">
+                <div class="overlap-group1">
+                  <div class="group-236">
+                    <div class="create-tech-ticket opensans-semi-bold-black-18px">Create Tech Ticket</div>
+                  </div>
+                  <div class="group-2-2 smart-layers-pointers hidden">
+                    <div class="create-tech-ticket-1 opensans-semi-bold-sizzling-sunrise-18px">Create Tech Ticket</div>
+                  </div>
+                </div>
+              </div></a
+            ><a href="https://techcheck.cengage.com/" target="_blank">
+              <div class="group-241">
+                <div class="overlap-group">
+                  <div class="group-2-4 border-1px-mountain-mist">
+                    <div class="text opensans-semi-bold-black-18px">Platform Status Check</div>
+                  </div>
+                  <div class="group-2-1 smart-layers-pointers hidden">
+                    <div class="text-2 opensans-semi-bold-sizzling-sunrise-18px">Platform Status Check</div>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+        </div>
+        <div class="flex-row-2">
+          <div class="overlap-group40 border-1px-granite-gray">
+            <img class="access" src="../img/access-1@1x.png" />
+            <div class="digital-access opensans-bold-black-24px">Digital Access</div>
+            <div class="text-78 opensans-normal-black-18px">
+              Haven’t received <br />your digital access? <br />Need assistance with <br />login credentials? <br />We
+              are here to help.
+            </div>
+            <a href="https://mysupport.cengage.com/loglessSupport?PI=*K12%20Digital%20Course%20Support" target="_blank">
+              <div class="group-2-3">
+                <div class="overlap-group1">
+                  <div class="group-242 border-1px-mountain-mist">
+                    <div class="request-access opensans-semi-bold-black-18px">Request Access</div>
+                  </div>
+                  <div class="group-2-2 smart-layers-pointers hidden">
+                    <div class="request-access-1 opensans-semi-bold-sizzling-sunrise-18px">Request Access</div>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="overlap-group43 border-1px-granite-gray">
+            <div class="group-372"></div>
+            <div class="text-80 opensans-bold-black-24px">Privacy and Accessibility</div>
+            <div class="text-79 opensans-normal-black-18px">
+              Learn about our privacy policy, product accessibility, and terms of use for NGL/Cengage products <br />and
+              services.
+            </div>
+            <a href="#rectangle-2591">
+              <div class="group-2-3">
+                <div class="overlap-group20">
+                  <div class="group-245 border-1px-mountain-mist">
+                    <div class="text opensans-semi-bold-black-18px">Resources and Support</div>
+                  </div>
+                  <div class="group-246 smart-layers-pointers">
+                    <div class="text-1 opensans-semi-bold-sizzling-sunrise-18px">Resources and Support</div>
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+        </div>
+        <div class="overlap-group44">
+          <div name="rectangle-169" class="rectangle-169"></div>
+          <div class="text-64 opensans-semi-bold-white-40px">LMS Integration Training Library</div>
+          <a href="https://www.cengage.com/coursepages/LMS_K12" target="_blank">
+            <div class="group-250">
+              <div class="overlap-group18">
+                <div class="group-248">
+                  <div class="access-resources opensans-semi-bold-white-20px">Access Resources</div>
+                </div>
+                <div class="group-249 smart-layers-pointers hidden">
+                  <div class="access-resources-1 opensans-semi-bold-elephant-20px">Access Resources</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div id="training1" name="training1" class="group-371">
+          <div class="text-92 opensans-semi-bold-fiord-40px">Platform-Specific Training Library</div>
+        </div>
+        <div class="group-370">
+          <img class="cengage-mind-t-horizontalrgb" src="../img/cengage-mindtap-horizontal-rgb-1@1x.png" />
+        </div>
+        <div class="overlap-group41">
+          <img class="cengage-web-as-gn-stackedrgb" src="../img/cengage-webassign-stacked-rgb-1@1x.png" />
+          <img class="my-n-gconnectlogok" src="../img/myngconnect-logo-k-1@1x.png" />
+          <a href="www.webassign.net" target="_blank">
+            <div class="group-186">
+              <div class="overlap-group-1">
+                <div class="group-18 border-1px-mountain-mist">
+                  <div class="log-in opensans-semi-bold-black-20px">Log In</div>
+                </div>
+                <div class="group-18-1 smart-layers-pointers hidden">
+                  <div class="log-in-1 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                </div>
+              </div>
+            </div></a
+          ><a href="https://www.cengage.com/coursepages/NGL_EWAsupport" target="_blank">
+            <div class="group-187">
+              <div class="overlap-group-1">
+                <div class="group-18 border-1px-mountain-mist">
+                  <div class="access-resources-2 opensans-semi-bold-black-20px">Access Resources</div>
+                </div>
+                <div class="group-18-1 smart-layers-pointers">
+                  <div class="access-resources-3 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                </div>
+              </div>
+            </div></a
+          ><a href=" https://www.myngconnect.com/login/chooseMainUI.spr" target="_blank">
+            <div class="group-196">
+              <div class="overlap-group-1">
+                <div class="group-18 border-1px-mountain-mist">
+                  <div class="log-in-2 opensans-semi-bold-black-20px">Log In</div>
+                </div>
+                <div class="group-18-1 smart-layers-pointers hidden">
+                  <div class="log-in-3 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                </div>
+              </div>
+            </div></a
+          ><a href="https://www.cengage.com/coursepages/NGL_myNGconnectsupport" target="_blank">
+            <div class="group-197">
+              <div class="overlap-group-1">
+                <div class="group-18 border-1px-mountain-mist">
+                  <div class="access-resources-4 opensans-semi-bold-black-20px">Access Resources</div>
+                </div>
+                <div class="group-18-1 smart-layers-pointers">
+                  <div class="access-resources-5 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                </div>
+              </div>
+            </div></a
+          >
+          <div class="overlap-group33">
+            <div class="group-427 border-1px-dove-gray">
+              <div class="select-course-area opensans-normal-boston-blue-22px">Select Course Area</div>
+              <img class="polygon-1" src="../img/polygon-11@1x.png" />
+            </div>
+            <div class="group-507 smart-layers-pointers hidden">
+              <div class="overlap-group15-1">
+                <img id="scroll-back-1" 
+                  class="rectangle-270" 
+                  src="../img/rectangle-270@1x.png" 
+                  onmouseover="document.getElementById('scroll-back-1').setAttribute('hidden', 'hidden'); document.getElementById('scroll-group-1').setAttribute('hidden', 'hidden');"/>
+                <img class="rectangle-294" src="../img/rectangle-294@1x.png" 
+                  onmouseover="document.getElementById('scroll-back-1').removeAttribute('hidden'); document.getElementById('scroll-group-1').removeAttribute('hidden');"/>
+                <img class="polygon-11" src="../img/polygon-11@1x.png" />
+                <div class="select-course-area-1 opensans-normal-boston-blue-22px">Select Course Area</div>
+                <div id="scroll-group-1" class="scroll-group-7">
+                  <div class="grades-k-8 opensans-semi-bold-midnight-blue-20px-3">
+                    <span class="span opensans-bold-midnight-blue-20px">Grades K-8</span
+                    ><span class="span opensans-semi-bold-midnight-blue-20px-2"></span>
+                  </div>
+                  <a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                    <div class="group-4">
+                      <div class="overlap-group-2">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="k-5-reading opensans-normal-midnight-blue-20px">K-5 Reading</div></a
+                        >
+                        <div class="group smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-midnight-blue-20px">K-5 Reading</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                    <div class="group-1">
+                      <div class="overlap-group-2">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-normal-midnight-blue-20px">K-5 Science</div></a
+                        >
+                        <div class="group smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-midnight-blue-20px">K-5 Science</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                  <div class="overlap-group14-1">
+                    <div class="grades-9-12 opensans-bold-midnight-blue-20px">Grades 9-12</div>
+                    <a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                      <div class="group-483">
+                        <div class="overlap-group-2">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link-2 opensans-normal-midnight-blue-20px">
+                              Middle School Social Studies
+                            </div></a
+                          >
+                          <div class="group smart-layers-pointers">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="link opensans-semi-bold-midnight-blue-20px">
+                                Middle School Social Studies
+                              </div></a
+                            >
+                          </div>
+                        </div>
+                      </div></a
+                    >
+                  </div>
+                  <a href="https://www.cengage.com/coursepages/NGL_MindTapSupport" target="_blank">
+                    <div class="group-4">
+                      <div class="overlap-group-2">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-normal-midnight-blue-20px">
+                            Career and Technical Education
+                          </div></a
+                        >
+                        <div class="group smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-midnight-blue-20px">
+                              Career and Technical Education
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/coursepages/NGL_MindTapSupport" target="_blank">
+                    <div class="group-1">
+                      <div class="overlap-group-2">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-2 opensans-normal-midnight-blue-20px">Language Arts</div></a
+                        >
+                        <div class="group smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-midnight-blue-20px">Language Arts</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                    <div class="group-1">
+                      <div class="overlap-group-2">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-normal-midnight-blue-20px">
+                            Science: National Geographic Earth and Space Science
+                          </div></a
+                        >
+                        <div class="group smart-layers-pointers">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-midnight-blue-20px">
+                              Science: National Geographic Earth and Space Science
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/coursepages/NGL_MindTapSupport" target="_blank">
+                    <div class="group-1">
+                      <div class="overlap-group-2">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-normal-midnight-blue-20px">
+                            Science: All other AP, Honors, Elective Science courses
+                          </div></a
+                        >
+                        <div class="group smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-midnight-blue-20px">
+                              Science: All other AP, Honors, Elective Science courses
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                    <div class="group-494">
+                      <div class="overlap-group-3">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-9 opensans-normal-midnight-blue-20px">
+                            Social Studies: National Geographic Human Geography: <br />A Spatial Perspective AP Edition
+                            (AP)
+                          </div></a
+                        >
+                        <div class="group-49 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="text-9 opensans-semi-bold-midnight-blue-20px">
+                              Social Studies: National Geographic Human Geography: <br />A Spatial Perspective AP
+                              Edition (AP)
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                    <div class="group-49-1">
+                      <div class="overlap-group-3">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-99 opensans-normal-midnight-blue-20px">
+                            Social Studies: National Geographic U.S. History: <br />America Through the Lens (Core)
+                          </div></a
+                        >
+                        <div class="group-495 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="text-100 opensans-semi-bold-midnight-blue-20px">
+                              Social Studies: National Geographic U.S. History: <br />America Through the Lens (Core)
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                    <div class="group-49-1">
+                      <div class="overlap-group-3">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-101 opensans-normal-midnight-blue-20px">
+                            Social Studies: National Geographic World History <br />Voyages of Exploration (Core)
+                          </div></a
+                        >
+                        <div class="group-49 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="text-102 opensans-semi-bold-midnight-blue-20px">
+                              Social Studies: National Geographic World History <br />Voyages of Exploration (Core)
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                    <div class="group-50">
+                      <div class="overlap-group6">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-normal-midnight-blue-20px">
+                            Social Studies: National Geographic American Government (Core)
+                          </div></a
+                        >
+                        <div class="group-499 smart-layers-pointers hidden">
+                          <div class="overlap-group-5">
+                            <div class="rectangle-288"></div>
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="text-104 opensans-semi-bold-midnight-blue-20px">
+                                Social Studies: National Geographic American Government (Core)
+                              </div></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/coursepages/NGL_MTSsupport" target="_blank">
+                    <div class="group-502">
+                      <div class="overlap-group13-1">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-11 opensans-normal-midnight-blue-20px">
+                            Social Studies: All other AP, Honors, <br />Electives Social Studies courses
+                          </div></a
+                        >
+                        <div class="group-501 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="text-11 opensans-semi-bold-midnight-blue-20px">
+                              Social Studies: All other AP, Honors, <br />Electives Social Studies courses
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/coursepages/NGL_MindTapSupport" target="_blank">
+                    <div class="group-50">
+                      <div class="overlap-group-2">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-2 opensans-normal-midnight-blue-20px">World Languages</div></a
+                        >
+                        <div class="group smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-bold-midnight-blue-20px">World Languages</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a href="https://www.cengage.com/coursepages/NGL_MindTapSupport" target="_blank">
+                    <div class="group-1">
+                      <div class="overlap-group-2">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-normal-midnight-blue-20px">Math (Financial Algebra)</div></a
+                        >
+                        <div class="group smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-bold-midnight-blue-20px">Math (Financial Algebra)</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-row-3">
+          <img class="cengage-owl-v2-stackedrgb" src="../img/cengage-owlv2-stacked-rgb-1@1x.png" />
+          <img class="stacked-full-color" src="../img/stacked-full-color-1@1x.png" />
+        </div>
+        <div class="flex-row-4">
+          <a href="https://www.cengage.com/coursepages/NGL_OWLv2Support" target="_blank">
+            <div class="group-19">
+              <div class="overlap-group-1">
+                <div class="group-18 border-1px-mountain-mist">
+                  <div class="access-resources-6 opensans-semi-bold-black-20px">Access Resources</div>
+                </div>
+                <div class="group-18-1 smart-layers-pointers">
+                  <div class="access-resources-7 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                </div>
+              </div>
+            </div></a
+          ><a href="https://support.bigideasmath.com/hc/en-us" target="_blank">
+            <div class="group-19-1">
+              <div class="overlap-group-1">
+                <div class="group-18 border-1px-mountain-mist">
+                  <div class="access-resources-8 opensans-semi-bold-black-20px">Access Resources</div>
+                </div>
+                <div class="group-18-1 smart-layers-pointers">
+                  <div class="access-resources-9 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="flex-row-5">
+          <a href="https://nglsync.cengage.com/portal/Account/LogOn?ReturnUrl=%2fportal" target="_blank">
+            <div class="group-19">
+              <div class="overlap-group-1">
+                <div class="group-18 border-1px-mountain-mist">
+                  <div class="log-in-4 opensans-semi-bold-black-20px">Log In</div>
+                </div>
+                <div class="group-18-1 smart-layers-pointers hidden">
+                  <div class="log-in-5 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                </div>
+              </div>
+            </div></a
+          ><a href="https://www.bigideasmath.com/BIM/login" target="_blank">
+            <div class="group-19-1">
+              <div class="overlap-group-1">
+                <div class="group-18 border-1px-mountain-mist">
+                  <div class="log-in-6 opensans-semi-bold-black-20px">Log In</div>
+                </div>
+                <div class="group-18-1 smart-layers-pointers hidden">
+                  <div class="log-in-7 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="overlap-group35">
+          <div class="text-67 opensans-semi-bold-white-40px">Additional Platforms and eTexts</div>
+          <div class="flex-row-6">
+            <div class="overlap-group4">
+              <img class="cengage-sam-stackedrgb" src="../img/cengage-sam-stacked-rgb-1@1x.png" />
+              <a href="https://www.cengage.com/coursepages/SAM_Office" target="_blank">
+                <div class="group-20">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="access-resources-10 opensans-semi-bold-black-20px">Access Resources</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers">
+                      <div class="access-resources-11 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                    </div>
+                  </div>
+                </div></a
+              ><a href=" http://sam.cengage.com/" target="_blank">
+                <div class="group-2-5">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="log-in-8 opensans-semi-bold-black-20px">Log In</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers hidden">
+                      <div class="log-in-9 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="overlap-group4-1">
+              <img class="cengagec-now-v2-stackedrgb" src="../img/cengage-cnowv2-stacked-rgb-1@1x.png" />
+              <a href="https://www.cengage.com/coursepages/CNOWv2_CengageNOWv2" target="_blank">
+                <div class="group-20">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="access-resources-12 opensans-semi-bold-black-20px">Access Resources</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers">
+                      <div class="access-resources-13 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                    </div>
+                  </div>
+                </div></a
+              ><a href="https://nglsync.cengage.com/portal/Account/LogOn?ReturnUrl=%2fportal" target="_blank">
+                <div class="group-2-5">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="log-in-10 opensans-semi-bold-black-20px">Log In</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers hidden">
+                      <div class="log-in-11 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="overlap-group4">
+              <img class="vs-logo-horrgb" src="../img/vs-logo-hor--rgb--1@1x.png" />
+              <a href="https://www.cengage.com/coursepages/NGL_VitalSource" target="_blank">
+                <div class="group-297">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="access-resources-14 opensans-semi-bold-black-20px">Access Resources</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers">
+                      <div class="access-resources-15 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                    </div>
+                  </div>
+                </div></a
+              ><a href="https://bookshelf.vitalsource.com/#/user/signin" target="_blank">
+                <div class="group-2-5">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="log-in-12 opensans-semi-bold-black-20px">Log In</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers hidden">
+                      <div class="log-in-13 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="overlap-group4-1">
+              <img class="my-elt-logo2color-black" src="../img/myelt-logo-2color-black-1@1x.png" />
+              <a href="https://www.cengage.com/coursepages/DigitalTools13" target="_blank">
+                <div class="group-210">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="access-resources-16 opensans-semi-bold-black-20px">Access Resources</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers">
+                      <div class="access-resources-17 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                    </div>
+                  </div>
+                </div></a
+              ><a href="https://myelt.heinle.com" target="_blank">
+                <div class="group-2-5">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="log-in-14 opensans-semi-bold-black-20px">Log In</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers hidden">
+                      <div class="log-in-15 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="overlap-group50">
+              <div class="cognero opensans-bold-mine-shaft-56px">Cognero</div>
+              <a href="https://www.cengage.com/coursepages/NGL_CogneroSupport" target="_blank">
+                <div class="group-293">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="access-resources-18 opensans-semi-bold-black-20px">Access Resources</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers">
+                      <div class="access-resources-19 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                    </div>
+                  </div>
+                </div></a
+              ><a href="https://nglsync.cengage.com/portal/Account/LogOn?ReturnUrl=%2fportal" target="_blank">
+                <div class="group-292">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="log-in-16 opensans-semi-bold-black-20px">Log In</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers hidden">
+                      <div class="log-in-17 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="overlap-group46">
+              <img class="online-practice-blk" src="../img/onlinepractice-blk-1@1x.png" />
+              <a href="https://www.cengage.com/coursepages/DigitalTools12" target="_blank">
+                <div class="group-299">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="access-resources-20 opensans-semi-bold-black-20px">Access Resources</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers">
+                      <div class="access-resources-21 opensans-semi-bold-sizzling-sunrise-20px">Access Resources</div>
+                    </div>
+                  </div>
+                </div></a
+              ><a href="https://learn.eltngl.com/" target="_blank">
+                <div class="group-2-5">
+                  <div class="overlap-group-1">
+                    <div class="group-18 border-1px-mountain-mist">
+                      <div class="log-in-18 opensans-semi-bold-black-20px">Log In</div>
+                    </div>
+                    <div class="group-18-1 smart-layers-pointers hidden">
+                      <div class="log-in-19 opensans-semi-bold-sizzling-sunrise-20px">Log In</div>
+                    </div>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="text-66 opensans-semi-bold-white-30px">Looking for program-specific training resources?</div>
+          <a href="https://ngl.cengage.com/assets/html/producttraining/" target="_blank">
+            <div class="group-214">
+              <div class="overlap-group12">
+                <div class="group-143 border-1px-white">
+                  <div class="text-68 opensans-semi-bold-white-18px">Visit our Product Training Library</div>
+                </div>
+                <div class="group-213 smart-layers-pointers hidden">
+                  <div class="text-69 opensans-semi-bold-bahama-blue-18px">Visit our Product Training Library</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="overlap-group42">
+          <a href="https://www.cengage.com/privacy/" target="_blank"> <div class="rectangle-56"></div></a>
+          <div class="rectangle-155"></div>
+          <div class="text-57 opensans-bold-black-24px">Virtual Training Series</div>
+          <div class="text-58 opensans-normal-black-20px">Register for one of our scheduled online training events</div>
+          <img class="start-strong" src="../img/start-strong-1@1x.png" />
+          <div class="text-65 opensans-semi-bold-white-40px">Virtual Training Events</div>
+          <a href="https://www.cengage.com/coursepages/VirtualTrainingSeries_K12" target="_blank">
+            <div class="group-217">
+              <div class="overlap-group29">
+                <div class="group-215 border-1px-mountain-mist">
+                  <div class="place opensans-semi-bold-black-20px">Register</div>
+                </div>
+                <div class="group-216 smart-layers-pointers hidden">
+                  <div class="place-1 opensans-semi-bold-sizzling-sunrise-20px">Register</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="overlap-group34">
+          <a href="https://www.cengage.com/privacy/" target="_blank">
+            <div class="rectangle-2591" id="rectangle-2591"></div
+          ></a>
+          <div class="privacy opensans-bold-black-24px">Privacy</div>
+          <div class="accessibility opensans-bold-black-24px">Accessibility</div>
+          <p class="text-83 opensans-normal-black-16px">
+            We take your privacy very seriously and work hard to protect the data you entrust <br />to us on our
+            websites. Learn how we keep your personal information safe and secure.
+          </p>
+          <p class="text-84 opensans-normal-black-16px">
+            Committed to making educational materials accessible for users of all abilities, Cengage continuously
+            improves the usability and accessibility of <br />our products and services.
+          </p>
+          <div class="text-85 opensans-semi-bold-black-40px">Resources and Support</div>
+          <img class="mask-group-100" src="../img/mask-group-100-1@1x.png" />
+          <img class="mask-group-102" src="../img/mask-group-102-1@1x.png" />
+          <a href="https://www.cengage.com/privacy/" target="_blank">
+            <div class="group-220">
+              <div class="overlap-group">
+                <div class="group-2-4 border-1px-mountain-mist">
+                  <div class="text opensans-semi-bold-black-18px">Explore Privacy Policy</div>
+                </div>
+                <div class="group-2-1 smart-layers-pointers hidden">
+                  <div class="text-2 opensans-semi-bold-sizzling-sunrise-18px">Explore Privacy Policy</div>
+                </div>
+              </div>
+            </div></a
+          ><a href="https://www.cengage.com/accessibility/" target="_blank">
+            <div class="group-222">
+              <div class="overlap-group">
+                <div class="group-223 border-1px-mountain-mist">
+                  <div class="text opensans-semi-bold-black-18px">Visit Accessibility Page</div>
+                </div>
+                <div class="group-221 smart-layers-pointers hidden">
+                  <div class="text-2 opensans-semi-bold-sizzling-sunrise-18px">Visit Accessibility Page</div>
+                </div>
+              </div>
+            </div></a
+          >
+          <div class="terms-of-use opensans-bold-black-24px">Terms of Use</div>
+          <p class="text-90 opensans-normal-black-16px">
+            Looking for more information <br />on the Terms of Use for <br />Cengage’s products, services <br />and
+            more? Head to our Terms <br />of Use for more details.
+          </p>
+          <a href="https://www.cengage.com/legal/#terms" target="_blank">
+            <div class="group-226">
+              <div class="overlap-group">
+                <div class="group-224 border-1px-mountain-mist">
+                  <div class="view-terms-of-use opensans-semi-bold-black-18px">View Terms of Use</div>
+                </div>
+                <div class="group-225 smart-layers-pointers hidden">
+                  <div class="view-terms-of-use-1 opensans-semi-bold-sizzling-sunrise-18px">View Terms of Use</div>
+                </div>
+              </div>
+            </div></a
+          ><img class="mask-group-132" src="../img/mask-group-132@1x.png" />
+        </div>
+        <div class="overlap-group38">
+          <div class="text-91 opensans-semi-bold-sizzling-sunrise-30px">Digital and Classroom Materials</div>
+          <p class="national-geographic opensans-semi-bold-white-16px">
+            National Geographic Learning, a part of Cengage Learning, is a leading educational publisher of K–12 School
+            digital and curricular classroom materials. Through our digital learning programs and classroom learning
+            resources, schools experience the excitement and joy of learning that National Geographic explorers,
+            scientists, writers and photographers experience.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-center-horizontal">
+      <div class="k12-lp-digitalsupport-1-2 screen" onclick="window.open('javascript:history.back()', '_self');">
+        <div class="mask-group-130">
+          <div class="overlap-group5">
+            <img class="mask-group-74" src="../img/mask-group-74-2@1x.png" />
+            <div class="group-124"></div>
+            <div class="digital-support opensans-semi-bold-white-20px">Digital Support</div>
+          </div>
+        </div>
+        <div class="overlap-group21 border-1px-granite-gray">
+          <img class="asset-1" src="../img/asset-1-2@1x.png" />
+          <div class="text-113 opensans-bold-black-18px">On-demand <br />Training Resources</div>
+          <p class="text-114 opensans-normal-black-14px">
+            Access&nbsp;&nbsp;how-to guides and videos <br />to make the most of your class.
+          </p>
+          <a href="#training2">
+          <div class="overlap-group-4">
+            <div class="group-227-1 border-1px-mountain-mist">
+              <div class="text-118 opensans-semi-bold-black-14px">View Platform Training Library</div>
+            </div>
+            <div class="group-228 smart-layers-pointers hidden">
+              <div class="text-119 opensans-semi-bold-sizzling-sunrise-14px">View Platform Training Library</div>
+            </div>
+          </div></a>
+          <div class="overlap-group1-1">
+            <div class="group-230 border-1px-mountain-mist">
+              <div class="text-120 opensans-semi-bold-black-14px">View LMS Integration Library</div>
+            </div>
+            <div class="group-2 smart-layers-pointers hidden">
+              <div class="text-121 opensans-semi-bold-sizzling-sunrise-14px">View LMS Integration Library</div>
+            </div>
+          </div>
+        </div>
+        <div class="overlap-group25 border-1px-granite-gray">
+          <img class="traning" src="../img/traning-2@1x.png" />
+          <div class="text-116 opensans-bold-black-18px">Virtual Training Events</div>
+          <p class="text-1 opensans-normal-black-14px">
+            Start the year off right and <br />participate in a virtual training <br />event. These sessions are focused
+            <br />on LMS Integration with Schoology <br />and Canvas.
+          </p>
+          <a href="#training3">
+            <div class="overlap-group2">
+              <div class="group-233"><div class="text-122 opensans-semi-bold-black-14px">View Training Events</div></div>
+              <div class="group-23 smart-layers-pointers hidden">
+                <div class="text-123 opensans-semi-bold-sizzling-sunrise-14px">View Training Events</div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="overlap-group22 border-1px-granite-gray">
+          <img class="mask-group-103" src="../img/mask-group-103-2@1x.png" />
+          <div class="technical-support opensans-bold-black-18px">Technical Support</div>
+          <p class="text-1 opensans-normal-black-14px">
+            Experiencing a technical glitch <br />or error message? We’re here for <br />you and your students whenever
+            <br />you need us. Please identify yourself as a K12 Instructor in the comments.
+          </p>
+          <a
+            href=" https://support.cengage.com"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+          >
+            <div class="group">
+              <div class="overlap-group3">
+                <div class="group-236">
+                  <div class="create-tech-ticket opensans-semi-bold-black-14px">Create Tech Ticket</div>
+                </div>
+                <div class="group-23 smart-layers-pointers hidden">
+                  <div class="create-tech-ticket-1 opensans-semi-bold-sizzling-sunrise-14px">Create Tech Ticket</div>
+                </div>
+              </div>
+            </div></a
+          ><a href="https://techcheck.cengage.com/" onclick="window.event.stopPropagation()" target="_blank">
+            <div class="group-241">
+              <div class="overlap-group4">
+                <div class="group-239 border-1px-mountain-mist">
+                  <div class="text-1-1 opensans-semi-bold-black-14px">Platform Status Check</div>
+                </div>
+                <div class="group-2 smart-layers-pointers hidden">
+                  <div class="text-126 opensans-semi-bold-sizzling-sunrise-14px">Platform Status Check</div>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="overlap-group19 border-1px-granite-gray">
+          <img class="access" src="../img/access-2@1x.png" />
+          <div class="digital-access opensans-bold-black-18px">Digital Access</div>
+          <p class="text-127 opensans-normal-black-14px">
+            Haven’t received your digital access? <br />Need assistance with login credentials? We are here to help.
+          </p>
+          <a
+            href="https://mysupport.cengage.com/loglessSupport?PI=*K12%20Digital%20Course%20Support"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+          >
+            <div class="group">
+              <div class="group-242 border-1px-mountain-mist">
+                <div class="request-access opensans-semi-bold-black-14px">Request Access</div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="overlap-group28 border-1px-granite-gray">
+          <img class="mask-group-107" src="../img/mask-group-107-2@1x.png" />
+          <div class="text-129 opensans-bold-black-18px">Privacy and Accessibility</div>
+          <p class="text-128 opensans-normal-black-14px">
+            Learn about our privacy policy, product accessibility, and terms <br />of use for NGL/Cengage products
+            <br />and services.
+          </p>
+          <a href="#rectangle-2592" onclick="window.event.stopPropagation()">
+            <div class="group">
+              <div class="group-239-1 border-1px-mountain-mist">
+                <div class="text-1-1 opensans-semi-bold-black-14px">Resources and Support</div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="overlap-group26">
+          <div class="text-117 opensans-semi-bold-white-20px">LMS Integration Training Library</div>
+          <a
+            href="https://www.cengage.com/coursepages/LMS_K12"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+            class="align-self-flex-center"
+          >
+            <div class="group-301">
+              <div class="access-resources opensans-semi-bold-white-14px">Access Resources</div>
+            </div></a
+          >
+        </div>
+        <div id="training2" name="training2" class="text-131">Platform-Specific Training Library</div>
+        <img class="cengage-mind-t-horizontalrgb" src="../img/cengage-mindtap-horizontal-rgb-2@1x.png" />
+        <div class="overlap-group27">
+          <img class="cengage-web-as-gn-stackedrgb" src="../img/cengage-webassign-stacked-rgb-2@1x.png" />
+          <a
+            href="https://www.cengage.com/coursepages/NGL_EWAsupport"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+          >
+            <div class="group-357 border-1px-mountain-mist">
+              <div class="access-resources-1 opensans-semi-bold-black-16px">Access Resources</div>
+            </div></a
+          >
+          <div class="overlap-group17">
+            <div class="group-514 border-1px-dove-gray">
+              <div class="select-course-area opensans-normal-boston-blue-22px">Select Course Area</div>
+              <img class="polygon-11" src="../img/polygon-11-2@1x.png" />
+            </div>
+            <div class="group-513 smart-layers-pointers hidden">
+              <div class="overlap-group16">
+                <div class="rectangle-224 border-1px-dove-gray"></div>
+                <div class="select-course-area-1 opensans-normal-boston-blue-22px">Select Course Area</div>
+                <img class="polygon-1" src="../img/polygon-11@1x.png" />
+                <img id="scroll-back-2"  class="rectangle-270" src="../img/rectangle-270-2@1x.png" 
+                onmouseover="document.getElementById('scroll-back-2').setAttribute('hidden', 'hidden'); document.getElementById('scroll-group-2').setAttribute('hidden', 'hidden');"/>
+                <img class="rectangle-294" src="../img/rectangle-294-2@1x.png" onmouseover="document.getElementById('scroll-group-2').removeAttribute('hidden'); document.getElementById('scroll-back-2').removeAttribute('hidden');"/>
+                <div class="select-course-area-2 opensans-normal-boston-blue-22px">Select Course Area</div>
+                <div id="scroll-group-2" class="scroll-group-8">
+                  <div class="grades-k-8 opensans-semi-bold-midnight-blue-20px-3">
+                    <span class="span opensans-bold-midnight-blue-20px">Grades K-8</span
+                    ><span class="span opensans-semi-bold-midnight-blue-20px-2"></span>
+                  </div>
+                  <a
+                    href="https://www.cengage.com/coursepages/NGL_MTSsupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-479">
+                      <div class="overlap-group">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="k-5-reading opensans-normal-midnight-blue-20px">K-5 Reading</div></a
+                        >
+                        <div class="group-4 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-midnight-blue-20px">K-5 Reading</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://www.cengage.com/coursepages/NGL_MTSsupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-480">
+                      <div class="overlap-group">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-normal-midnight-blue-20px">K-5 Science</div></a
+                        >
+                        <div class="group-4 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-midnight-blue-20px">K-5 Science</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                  <div class="overlap-group15">
+                    <div class="grades-9-12 opensans-bold-midnight-blue-20px">Grades 9-12</div>
+                    <a
+                      href="https://www.cengage.com/coursepages/NGL_MTSsupport"
+                      onclick="window.event.stopPropagation()"
+                      target="_blank"
+                    >
+                      <div class="group-483">
+                        <div class="overlap-group9">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="text-157 opensans-normal-midnight-blue-20px">
+                              Middle School Social Studies
+                            </div></a
+                          >
+                          <div class="group-4 smart-layers-pointers">
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="link opensans-semi-bold-midnight-blue-20px">
+                                Middle School Social Studies
+                              </div></a
+                            >
+                          </div>
+                        </div>
+                      </div></a
+                    >
+                  </div>
+                  <a
+                    href="https://www.cengage.com/coursepages/NGL_MindTapSupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-485">
+                      <div class="overlap-group">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-normal-midnight-blue-20px">Career and Technical Educat…</div></a
+                        >
+                        <div class="group-4 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-midnight-blue-20px">
+                              Career and Technical Educa…
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://www.cengage.com/coursepages/NGL_MindTapSupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-1">
+                      <div class="overlap-group">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="language-arts opensans-normal-midnight-blue-20px">Language Arts</div></a
+                        >
+                        <div class="group-4 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-midnight-blue-20px">Language Arts</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://www.cengage.com/coursepages/NGL_MTSsupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-1">
+                      <div class="overlap-group">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="link-1 opensans-normal-midnight-blue-20px">Science: National Geographic…</div></a
+                        >
+                        <div class="group-4 smart-layers-pointers">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link opensans-semi-bold-midnight-blue-20px">
+                              Science: National Geograph…
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://www.cengage.com/coursepages/NGL_MindTapSupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-1">
+                      <div class="overlap-group">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-149 opensans-normal-midnight-blue-20px">
+                            Science: All other AP, Honors…
+                          </div></a
+                        >
+                        <div class="group-4 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="text-150 opensans-semi-bold-midnight-blue-20px">
+                              Science: All other AP, Honors…
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://www.cengage.com/coursepages/NGL_MTSsupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-1">
+                      <div class="overlap-group1">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-1-2 opensans-normal-midnight-blue-20px">
+                            Social Studies: National Geo…
+                          </div></a
+                        >
+                        <div class="group-492 smart-layers-pointers hidden">
+                          <div class="overlap-group-1">
+                            <div class="rectangle-277"></div>
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="text-1-3 opensans-semi-bold-midnight-blue-20px">
+                                Social Studies: National Geo…
+                              </div></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://www.cengage.com/coursepages/NGL_MTSsupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-3">
+                      <div class="overlap-group-2">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-1-4 opensans-normal-midnight-blue-20px">
+                            Social Studies: National Geo…
+                          </div></a
+                        >
+                        <div class="group-495 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="text-1-5 opensans-semi-bold-midnight-blue-20px">
+                              Social Studies: National Geo…
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://www.cengage.com/coursepages/NGL_MTSsupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-1">
+                      <div class="overlap-group1">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-1-2 opensans-normal-midnight-blue-20px">
+                            Social Studies: National Geo…
+                          </div></a
+                        >
+                        <div class="group-492 smart-layers-pointers hidden">
+                          <div class="overlap-group-1">
+                            <div class="rectangle-277"></div>
+                            <a
+                              href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                              onclick="window.event.stopPropagation()"
+                              target="_blank"
+                              ><div class="text-1-3 opensans-semi-bold-midnight-blue-20px">
+                                Social Studies: National Geo…
+                              </div></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://www.cengage.com/coursepages/NGL_MTSsupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-3">
+                      <div class="overlap-group-2">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-1-4 opensans-normal-midnight-blue-20px">
+                            Social Studies: National Geo…
+                          </div></a
+                        >
+                        <div class="group-495 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="text-1-5 opensans-semi-bold-midnight-blue-20px">
+                              Social Studies: National Geo…
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://www.cengage.com/coursepages/NGL_MTSsupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-502">
+                      <div class="overlap-group12">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-1-6 opensans-normal-midnight-blue-20px">
+                            Social Studies: All other AP, Honors, <br />Electives Social Studies courses
+                          </div></a
+                        >
+                        <div class="group-501 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSAddSupport"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="text-1-6 opensans-semi-bold-midnight-blue-20px">
+                              Social Studies: All other AP, Honors, <br />Electives Social Studies courses
+                            </div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://www.cengage.com/coursepages/NGL_MindTapSupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-3">
+                      <div class="overlap-group-3">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="world-languages opensans-normal-midnight-blue-20px">World Languages</div></a
+                        >
+                        <div class="group-50 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link-2 opensans-bold-midnight-blue-20px">World Languages</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  ><a
+                    href="https://www.cengage.com/coursepages/NGL_MindTapSupport"
+                    onclick="window.event.stopPropagation()"
+                    target="_blank"
+                  >
+                    <div class="group-3">
+                      <div class="overlap-group-3">
+                        <a
+                          href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                          onclick="window.event.stopPropagation()"
+                          target="_blank"
+                          ><div class="text-153 opensans-normal-midnight-blue-20px">Math (Financial Algebra)</div></a
+                        >
+                        <div class="group-50 smart-layers-pointers hidden">
+                          <a
+                            href="https://www.cengage.com/coursepages/NGL_MindTapSupport2"
+                            onclick="window.event.stopPropagation()"
+                            target="_blank"
+                            ><div class="link-2 opensans-bold-midnight-blue-20px">Math (Financial Algebra)</div></a
+                          >
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                </div>
+                <img class="polygon-13" src="../img/polygon-13@1x.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="www.webassign.net" onclick="window.event.stopPropagation()" target="_blank">
+          <div class="group-361 border-1px-mountain-mist">
+            <div class="log-in opensans-semi-bold-black-16px">Log In</div>
+          </div></a
+        ><img class="cengage-owl-v2-stackedrgb" src="../img/cengage-owlv2-stacked-rgb-2@1x.png" />
+        <a
+          href="7 https://www.cengage.com/coursepages/NGL_OWLv2Support"
+          onclick="window.event.stopPropagation()"
+          target="_blank"
+        >
+          <div class="group-3-1 border-1px-mountain-mist">
+            <div class="access-resources-2 opensans-semi-bold-black-16px">Access Resources</div>
+          </div></a
+        ><a
+          href="https://nglsync.cengage.com/portal/Account/LogOn?ReturnUrl=%2fportal"
+          onclick="window.event.stopPropagation()"
+          target="_blank"
+        >
+          <div class="group-36 border-1px-mountain-mist">
+            <div class="log-in-1 opensans-semi-bold-black-16px">Log In</div>
+          </div></a
+        ><img class="my-n-gconnectlogok" src="../img/myngconnect-logo-k-2@1x.png" />
+        <a
+          href="https://www.cengage.com/coursepages/NGL_myNGconnectsupport"
+          onclick="window.event.stopPropagation()"
+          target="_blank"
+        >
+          <div class="group-3-1 border-1px-mountain-mist">
+            <div class="access-resources-3 opensans-semi-bold-black-16px">Access Resources</div>
+          </div></a
+        ><a
+          href="https://www.myngconnect.com/login/chooseMainUI.spr"
+          onclick="window.event.stopPropagation()"
+          target="_blank"
+        >
+          <div class="group-36 border-1px-mountain-mist">
+            <div class="log-in-2 opensans-semi-bold-black-16px">Log In</div>
+          </div></a
+        ><img class="stacked-full-color" src="../img/stacked-full-color-2@1x.png" />
+        <a href="https://support.bigideasmath.com/hc/en-us" onclick="window.event.stopPropagation()" target="_blank">
+          <div class="group-3-1 border-1px-mountain-mist">
+            <div class="access-resources-4 opensans-semi-bold-black-16px">Access Resources</div>
+          </div></a
+        ><a href="https://www.bigideasmath.com/BIM/login" onclick="window.event.stopPropagation()" target="_blank">
+          <div class="group-36 border-1px-mountain-mist">
+            <div class="log-in-3 opensans-semi-bold-black-16px">Log In</div>
+          </div></a
+        >
+        <div class="overlap-group18">
+          <div class="text-132 opensans-semi-bold-white-20px">Additional Platforms and eTexts</div>
+          <div class="overlap-group29">
+            <img class="cengage-sam-stackedrgb" src="../img/cengage-sam-stacked-rgb-1@1x.png" />
+            <a
+              href="https://www.cengage.com/coursepages/SAM_Office"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-3-2 border-1px-mountain-mist">
+                <div class="access-resources-5 opensans-semi-bold-black-16px">Access Resources</div>
+              </div></a
+            ><a href="http://sam.cengage.com/" onclick="window.event.stopPropagation()" target="_blank">
+              <div class="group-3-3 border-1px-mountain-mist">
+                <div class="log-in-4 opensans-semi-bold-black-16px">Log In</div>
+              </div></a
+            >
+          </div>
+          <div class="overlap-group31">
+            <img class="cengagec-now-v2-stackedrgb" src="../img/cengage-cnowv2-stacked-rgb-1@1x.png" />
+            <a
+              href="https://www.cengage.com/coursepages/CNOWv2_CengageNOWv2"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-3-2 border-1px-mountain-mist">
+                <div class="access-resources-6 opensans-semi-bold-black-16px">Access Resources</div>
+              </div></a
+            ><a
+              href="https://nglsync.cengage.com/portal/Account/LogOn?ReturnUrl=%2fportal"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-3-3 border-1px-mountain-mist">
+                <div class="log-in-5 opensans-semi-bold-black-16px">Log In</div>
+              </div></a
+            >
+          </div>
+          <div class="overlap-group30">
+            <img class="vs-logo-horrgb" src="../img/vs-logo-hor--rgb--1@1x.png" />
+            <a
+              href="https://www.cengage.com/coursepages/NGL_VitalSource"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-3-2 border-1px-mountain-mist">
+                <div class="access-resources-7 opensans-semi-bold-black-16px">Access Resources</div>
+              </div></a
+            ><a
+              href="https://bookshelf.vitalsource.com/#/user/signin"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-3-3 border-1px-mountain-mist">
+                <div class="log-in-6 opensans-semi-bold-black-16px">Log In</div>
+              </div></a
+            >
+          </div>
+          <div class="overlap-group33">
+            <img class="my-elt-logo2color-black" src="../img/myelt-logo-2color-black-1@1x.png" />
+            <a
+              href="https://www.cengage.com/coursepages/DigitalTools13"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-3-2 border-1px-mountain-mist">
+                <div class="access-resources-8 opensans-semi-bold-black-16px">Access Resources</div>
+              </div></a
+            ><a href="https://myelt.heinle.com" onclick="window.event.stopPropagation()" target="_blank">
+              <div class="group-31 border-1px-mountain-mist">
+                <div class="log-in-7 opensans-semi-bold-black-16px">Log In</div>
+              </div></a
+            >
+          </div>
+          <div class="overlap-group32">
+            <div class="cognero opensans-bold-mine-shaft-56px">Cognero</div>
+            <a
+              href="https://www.cengage.com/coursepages/NGL_CogneroSupport"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-313 border-1px-mountain-mist">
+                <div class="access-resources-9 opensans-semi-bold-black-16px">Access Resources</div>
+              </div></a
+            ><a
+              href="https://nglsync.cengage.com/portal/Account/LogOn?ReturnUrl=%2fportal"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-31 border-1px-mountain-mist">
+                <div class="log-in-8 opensans-semi-bold-black-16px">Log In</div>
+              </div></a
+            >
+          </div>
+          <div class="overlap-group34">
+            <img class="online-practice-blk" src="../img/onlinepractice-blk-1@1x.png" />
+            <a
+              href="https://www.cengage.com/coursepages/DigitalTools12"
+              onclick="window.event.stopPropagation()"
+              target="_blank"
+            >
+              <div class="group-3-2 border-1px-mountain-mist">
+                <div class="access-resources-10 opensans-semi-bold-black-16px">Access Resources</div>
+              </div></a
+            ><a href=" https://learn.eltngl.com/" onclick="window.event.stopPropagation()" target="_blank">
+              <div class="group-31 border-1px-mountain-mist">
+                <div class="log-in-9 opensans-semi-bold-black-16px">Log In</div>
+              </div></a
+            >
+          </div>
+          <div class="text-133 opensans-semi-bold-white-20px">
+            Looking for program-specific <br />training resources?
+          </div>
+          <a
+            href="https://ngl.cengage.com/assets/html/producttraining/"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+          >
+            <div class="group-214">
+              <div class="group-143 border-1px-white">
+                <p class="text-134 opensans-semi-bold-white-16px">Visit our Product Training Library</p>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="overlap-group24">
+          <a href="https://www.cengage.com/privacy/" onclick="window.event.stopPropagation()" target="_blank">
+            <div class="rectangle-56"></div
+          ></a>
+          <div class="rectangle-155"></div>
+          <img class="start-strong" src="../img/start-strong-2@1x.png" />
+          <div class="text-135 opensans-semi-bold-white-20px">Virtual Training Events</div>
+          <div class="text-136 opensans-bold-black-18px">Virtual Training Series</div>
+          <p class="text-137 opensans-normal-black-16px">Register for one of our scheduled online training events</p>
+          <a
+            href="https://www.cengage.com/coursepages/VirtualTrainingSeries_K12"
+            onclick="window.event.stopPropagation()"
+            target="_blank"
+          >
+            <div class="group-217">
+              <div class="group-215 border-1px-mountain-mist">
+                <div class="place opensans-semi-bold-black-16px">Register</div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="overlap-group20">
+          <a href="https://www.cengage.com/privacy/" onclick="window.event.stopPropagation()" target="_blank">
+            <div class="rectangle-2592" id="rectangle-2592"></div
+          ></a>
+          <div class="text-138 opensans-semi-bold-black-20px">Resources and Support</div>
+          <img class="mask-group-100" src="../img/mask-group-100-2@1x.png" />
+          <div class="privacy opensans-bold-black-18px">Privacy</div>
+          <p class="text-139 opensans-normal-black-16px">
+            We take your privacy very seriously <br />and work hard to protect the data you entrust to us on our
+            websites. Learn how we keep your personal information <br />safe and secure.
+          </p>
+          <img class="mask-group-101" src="../img/mask-group-101-1@1x.png" />
+          <a href="https://www.cengage.com/privacy/" onclick="window.event.stopPropagation()" target="_blank">
+            <div class="group-317">
+              <div class="group-227 border-1px-mountain-mist">
+                <div class="text-140 opensans-semi-bold-black-14px">Explore Privacy Policy</div>
+              </div>
+            </div></a
+          ><img class="mask-group-102" src="../img/mask-group-102-2@1x.png" />
+          <div class="accessibility opensans-bold-black-18px">Accessibility</div>
+          <p class="text-141 opensans-normal-black-16px">
+            Committed to making educational materials accessible for users of all abilities, Cengage continuously
+            improves the usability and accessibility of our products and services.
+          </p>
+          <a href="https://www.cengage.com/accessibility/" onclick="window.event.stopPropagation()" target="_blank">
+            <div class="group-318">
+              <div class="group-227 border-1px-mountain-mist">
+                <div class="text-142 opensans-semi-bold-black-14px">Visit Accessibility Page</div>
+              </div>
+            </div></a
+          >
+          <div class="terms-of-use opensans-bold-black-18px">Terms of Use</div>
+          <p class="text-143 opensans-normal-black-16px">
+            Looking for more information on the Terms of Use for Cengage’s products, services and more? Head to our
+            Terms <br />of Use for more details.
+          </p>
+          <a href="https://www.cengage.com/legal/#terms" onclick="window.event.stopPropagation()" target="_blank">
+            <div class="group-319">
+              <div class="group-227 border-1px-mountain-mist">
+                <div class="view-terms-of-use opensans-semi-bold-black-14px">View Terms of Use</div>
+              </div>
+            </div></a
+          >
+        </div>
+        <div class="overlap-group23">
+          <div class="text-144 opensans-semi-bold-sizzling-sunrise-20px">Digital and Classroom Materials</div>
+          <p class="national-geographic opensans-semi-bold-white-16px">
+            National Geographic Learning, a part of Cengage Learning, is a leading educational publisher of K–12 School
+            digital and curricular classroom materials. Through our digital learning programs and classroom learning
+            resources, schools experience the excitement and joy of learning that National Geographic explorers,
+            scientists, writers and photographers experience.
+          </p>
+        </div>
+      </div>
+      <footer id="footer_include" style="position:absolute; bottom:0;"></footer>
+      <div id="primaryHomeBody" style="display:none">
+        <div id="NGLRedesignpageContainer">
+            <div id="relativeSectionContainerPrimaryhomepage">
+                <!-- Primary Home -->
+                <section id="primaryHome">
+                    <div class="mainPageContainer">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                                    <div class="topicContainer">
+                                        <div class="contentContainer">
+                                            <div class="logoImgContainer eltLogoImgContainer">
+                                                <a href="https://eltngl.com" class="ELTPageLink">
+                                                    <img src="../primaryhomeimage/ng_learning_whiteyellow.png"
+                                                        class="img-responsive" alt="National Geographic Learning">
+                                                </a>
+                                            </div>
+                                            <div class="mainPageLink CountryCode ">
+                                                International
+                                            </div>
+                                            <div class="pageTitle">
+                                                <a href="//eltngl.com" class="ELTPageLink">
+                                                    English Language Teaching
+                                                </a>
+                                            </div>
+  
+                                            <div class="schoolListContainer">
+                                                <p class="schoolListDescription">For English as Foreign
+                                                    Language,</p>
+                                                <p class="schoolListDescription">Including young
+                                                    learners,</p>
+                                                <p class="schoolListDescription">Teens, General English,
+                                                </p>
+                                                <p class="schoolListDescription">and Higher Education
+                                                </p>
+                                            </div>
+  
+                                            <a href="https://eltngl.com" class="mainPageLink ELTPageLink">ELTNGL.COM</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center mobileTopSpace">
+                                    <div class="topicContainer">
+                                        <div class="contentContainer">
+                                            <div class="logoImgContainer">
+                                                <a href="javascript:void(0)" class="NGLPageLink">
+                                                    <img src="../primaryhomeimage/NGL_Cengage_YW.png"
+                                                        class="img-responsive" width="304px">
+                                                </a>
+                                            </div>
+                                            <div class="mainPageLink CountryCode">
+                                                United States
+                                            </div>
+                                            <div class="pageTitle">
+                                                <a href="javascript:void(0)" class="NGLPageLink">
+                                                    Grades PreK-12
+                                                </a>
+                                            </div>
+  
+                                            <div class="schoolListContainer">
+                                                <p class="schoolListDescription">Mathematics <span
+                                                        class="dotPos">.</span> Science </p>
+                                                <p class="schoolListDescription">Social Studies <span
+                                                        class="dotPos">.</span> World Languages</p>
+                                                <p class="schoolListDescription">Reading/Language Arts
+                                                </p>
+                                                <p class="schoolListDescription">Advanced, Honors, and
+                                                    Electives</p>
+                                                <p class="schoolListDescription">Career and Technical
+                                                    Education</p>
+                                            </div>
+  
+                                            <a href="javascript:void(0)"
+                                                class="mainPageLink NGLPageLink">NGL.Cengage.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.cengage.com/js/yepnope/yepnope.1.5.4-min.js"></script>
+    <script src="/jscript/imports/nglCommon.js"></script>
+    <script src="/jscript/imports/RedesignNGLTwoColumnResultsPage.js"></script>
+    <script src="https://ngl.cengage.com/nglredesign/school/home/js/home.js"></script>
+    <script>
+      $(window).resize(() => {
+        window.location.reload()
+      })
+      </script>
+      <!-- Start Google tag manager -->
+    <script>
+      var seriesSearchResultRange = "0";
+      var seriesSearchResultSorting = sessionStorage.getItem("seriesSearchResultSorting") != null ? sessionStorage.getItem("seriesSearchResultSorting") : "";
+      var seriesSearchResultsPerPage = sessionStorage.getItem("seriesSearchResultsPerPage");
+  
+      if ("" > 0) {
+          if ("" == 1) {
+              seriesSearchResultRange = "1";
+          } else {
+              seriesSearchResultRange = "1 - " + "";
+          }
+      }
+  
+      var productSearchResultRange = "0";
+      var productSearchResultSorting = sessionStorage.getItem("productSearchResultSorting") != null ? sessionStorage.getItem("productSearchResultSorting") : "";
+      var productSearchResultsPerPage = sessionStorage.getItem("productSearchResultsPerPage");
+  
+      if ("" > 0) {
+          if ("" == 1) {
+              productSearchResultRange = "1";
+          } else {
+              productSearchResultRange = "1 - " + "";
+          }
+      }
+  
+  
+      if (("" == "") && (seriesSearchResultRange !== "0")) {
+          currentSeriesPage = "1";
+      } else {
+          currentSeriesPage = "";
+      }
+  
+      if (("" == "") && (productSearchResultRange !== "0")) {
+          currentProductPage = "1";
+      } else {
+          currentProductPage = "";
+      }
+      window.dataLayer
+          .push({
+              'returnedSearchResultsSeries': seriesSearchResultRange,
+              'returnedSearchResultsProducts': productSearchResultRange,
+              'combinedSearchVariables': "",
+              'combinedSearchVariablesValues': "",
+              'searchCategory': "",
+              'searchBoxInput': "",
+              'searchFilterLevel': "",
+              'searchFilterRecommended': "",
+              'searchFilterGrade': "",
+              'searchFilterLanguage': "",
+              'searchFilterMediaType': "",
+              'searchFilterSuplementType': "",
+              'searchFilterAuthor': "",
+              'searchFilterCourseArea': "",
+              'searchFilterSubject': "",
+              'searchFilterLexile': "",
+              'searchFilterGuidedReading': "",
+              'searchFilterDRARange': "",
+              'searchFilterSortyBySeries': seriesSearchResultSorting,
+              'searchFilterSortyByProducts': productSearchResultSorting,
+              'searchFilterResultsPerPageSeries': seriesSearchResultsPerPage,
+              'searchFilterResultsPerPageProducts': productSearchResultsPerPage,
+              'searchFilterResultsPageNumberSeries': currentSeriesPage,
+              'searchFilterResultsPageNumberProducts': currentProductPage,
+              'event': "searchValues"
+          });
+  </script>
+  <!-- End Google tag manager -->
+  </body>
+</html>

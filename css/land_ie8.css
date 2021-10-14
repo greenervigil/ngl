@@ -1,0 +1,12 @@
+/* ie8 css style sheet */
+.ngsp_eltLink{
+  color: #FFFFFF;
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.5em;
+  list-style-type: none;
+  margin: 66px 0 0 4px;
+  padding: 0 0 0 4px;
+  width: 21%;
+}

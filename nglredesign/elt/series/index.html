@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Series Detail</title>
+		<meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, initial-scale=1">
+
+		<link href="/css/imports/RedesignNGLRecordDetailPage.css" rel="stylesheet" type="text/css" />
+		<script src="/jscript/yepnope.1.5.4-min.js"></script>
+		<script src="/jscript/imports/RedesignNGLRecordDetailPage.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="./css/series.css">
+		<link rel="stylesheet" type="text/css" href="./css/seriesTablet.css">
+		<link rel="stylesheet" type="text/css" href="./css/seriesMobile.css">
+		
+		<script src="./js/series.js"></script>
+		<!-- Pulled from http://code.google.com/p/html5shiv/ -->
+		<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	</head>
+	<body class="schoolBody">
+		<header id="header_include" class="elt"></header>
+		<div id="NGLRedesignpageContainer">
+			<section id="programInfoSection" class="programInfonav">
+				<div class="mainPageContainer">
+					<div class="container">
+						<nav class="navbar" role="navigation">
+							<div class="navbar-header" id="programInfoButtonContainer">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#programInfoMenucontainer">
+									<img src="images/icon_program-info.png"> Program Information
+								</button>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</section>
+			<section id="programInfoMenuMainContainer" class="programInfonav">
+				<div class="mainPageContainer">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+								<ul class="collapse navbar-collapse nav navbar-nav" id="programInfoMenucontainer">
+									<li>
+										<a href="#" >
+											<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+											<span class="menuLinksText">Custom (optional)</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" >
+											<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+											<span class="menuLinksText">Overview</span>
+										</a>
+									</li>
+									<li>
+										<a href="#" >
+											<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+											<span class="menuLinksText">Features</span>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);" class="subMenuparent collapsed" data-toggle="collapse" data-target="#programInfoSubmenu1">
+											<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+											<span class="menuLinksText">Supplements</span>
+										</a>
+									</li>
+									<ul class="collapse navbar-collapse nav navbar-nav programInfoSubmenu" id="programInfoSubmenu1">
+										<li>
+											<a href="#" >
+												<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+												<span class="menuLinksText">Student supplements</span>
+											</a>
+										</li>
+										<li>
+											<a href="#" >
+												<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+												<span class="menuLinksText">Teacher supplements</span>
+											</a>
+										</li>
+									</ul>
+									<li>
+										<a href="javascript:void(0);" class="subMenuparent collapsed" data-toggle="collapse" data-target="#programInfoSubmenu2">
+											<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+											<span class="menuLinksText">Best Buy Packages</span>
+										</a>
+									</li>
+									<ul class="collapse navbar-collapse nav navbar-nav programInfoSubmenu" id="programInfoSubmenu2">
+										<li>
+											<a href="#" >
+												<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+												<span class="menuLinksText">Student supplements</span>
+											</a>
+										</li>
+										<li>
+											<a href="#" >
+												<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+												<span class="menuLinksText">Teacher supplements</span>
+											</a>
+										</li>
+									</ul>
+									<li class="companionSiteMenu">
+										<a href="#" >
+											<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+											<span class="menuLinksText">Companion Site</span>
+										</a>
+									</li>	
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>	
+			<div id="relativeSectionContainer">
+				<!-- Series banner section -->
+				<section id="seriesBanner" style="background-image: url(http://d-ngl.cengage.com/covers/imageServlet?epi=10146259965966702329517769751686500408&image_type=OVTAB);">
+					<img src="../series/images/super.jpg" class="img-responsive superheroImg">
+					<div class="row">
+				      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 heroOverlay text-left">
+				        <div class="heroOverlayText seriesContainer">Reading Explorer series</div>
+				      </div>
+				    </div>
+				</section>
+				
+				<!-- Reasons To Choose section -->
+				<section id="reasonsToChoose">
+					<div class="row">
+						<div class="mainPageContainer">
+							<div class="seriesContainer">
+					      		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+					      			<!-- <div class="reasonsToChooseHeading">The Top Reasons to choose Reach for Reading:</div>
+							        <ul class="reasonsToChooseList">
+							        	<li>Integrated ELD</li>
+							        	<li>Integrated ELD</li>
+							        	<li>Integrated ELD</li>
+							        	<li>Integrated ELD</li>
+							        	<li>Integrated ELD</li>
+							        	<li>Integrated ELD</li>
+							        	<li>Integrated ELD</li>
+							        	<li>Integrated ELD</li>
+							        </ul> -->
+							        <div class="levelsTitles">Level(s):</div>
+							        <p class="levels">Low-beginning, Beginning, Low-intermediate (US), Intermediate</p>
+							        <div class="seriesTitles">Learn More</div>
+							        <p class="reasonsToChooseParagraph">The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera </p>
+							        <div class="seriesTitles">New to this editor</div>
+							        <p class="reasonsToChooseParagraph">The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera </p>
+							        <p class="reasonsToChooseParagraph">The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera The Top Reasons to choose Reach for Reading Authentic Litera </p>
+					        	</div>
+				        	</div>
+				      	</div>
+				    </div>
+				</section>
+
+				<!-- see level section -->
+				<section id="seeLevel">
+					<div class="row">
+						<div class="mainPageContainer seriesContainer">
+				      		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+				      			<div class="seeLevelTitle">
+				      				See Levels
+				      			</div>
+				        	</div>
+				        </div>	
+				    </div> 
+				    <div class="row mainPageContainer">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center subseriesGroupPadding">								
+							<div id="seeLevelContainer" class="owl-carousel owl-theme">								    
+					            <div class="item">
+					            	<div>
+						            	<a href="#">
+							            	<img src="images/scrollImages/carouselImg-1.png" class="img-responsive">
+							            	<h2>National Geographic Environmental Science</h2>
+							            	<p class="levels">Level(s): Advanced, High-intermediate</p>
+											<p class="seeLevelCarouselDescription">The next generation of language, vocabulary, reading, writing, and content for K–5 ESL students is within Reach!</p>
+											<p class="published">©2014, Published</p>
+										</a>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<div>
+						            	<a href="#">
+							            	<img src="images/scrollImages/carouselImg-2.png" class="img-responsive">
+							            	<h2>National Geographic World History</h2>
+											<p class="seeLevelCarouselDescription">The next generation of language, vocabulary, reading, writing, and content for K–5 ESL students is within Reach!The next generation of language, vocabulary, reading, writing, and content for K–5 ESL students is within Reach!</p>
+											<p class="published">©2014, Published</p>
+										</a>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<div>
+						            	<a href="#">
+							            	<img src="images/scrollImages/carouselImg-3.png" class="img-responsive">
+							            	<h2>Calculus</h2>
+											<p class="seeLevelCarouselDescription">The next generation of language, vocabulary, reading, writing, and content</p>
+											<p class="published">©2014, Published</p>
+										</a>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<div>
+						            	<a href="#">
+							            	<img src="images/scrollImages/carouselImg-1.png" class="img-responsive">
+							            	<h2>National Geographic Environmental Science</h2>
+											<p class="seeLevelCarouselDescription">Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit</p>
+											<p class="published">©2014, Published</p>
+										</a>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<div>
+						            	<a href="#">
+							            	<img src="images/scrollImages/carouselImg-2.png" class="img-responsive">
+							            	<h2>National Geographic Environmental Science</h2>
+											<p class="seeLevelCarouselDescription">Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit</p>
+											<p class="published">©2014, Published</p>
+										</a>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<div>
+						            	<a href="">
+							            	<img src="images/scrollImages/carouselImg-3.png" class="img-responsive">
+							            	<h2>National Geographic Environmental Science</h2>
+											<p class="seeLevelCarouselDescription">Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit</p>
+											<p class="published">©2014, Published</p>
+										</a>
+									</div>
+					            </div>
+							</div>
+						</div>
+					</div>  	
+				    <div class="row">
+						<div class="mainPageContainer seriesContainer">    	
+				        	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+				        		<a href="#" class="seeAllSeriesTitlesBtn">See all series titles</a>	
+				        	</div>
+				        	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+				        		<a href="#" class="requestSampleBtn">Request a sample</a>	
+				        	</div>
+				      	</div>
+				    </div>
+				</section>
+
+				<!-- Subseries group -->
+				<section id="subSeriesGroup" class="programInfonav">
+					<div class="row">
+						<div class="mainPageContainer">
+							<div class="seriesContainer">
+					      		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+					      			<div class="subSeriesGroupTitle">
+					      				Series Groups
+					      			</div>
+					        	</div>
+					        </div>	
+				        </div>	
+				    </div> 
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+			      			<ul class="collapse navbar-collapse nav navbar-nav in" id="subSeriesGroupContainer">
+								<li>
+									<a href="javascript:void(0);" class="subMenuparent collapsed mainPageContainer subseriesGroupPadding" data-toggle="collapse" data-target="#subSeriesGroupSubmenu1">
+										<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+										<span class="menuLinksText">Grade 1</span>
+									</a>
+								</li>
+								<ul class="collapse navbar-collapse nav navbar-nav subSeriesGroupSubmenu" id="subSeriesGroupSubmenu1">
+									<li>
+										<div class="mainPageContainer subseriesGroupPadding">
+											<div class="subseriesGroupDetailContainer">
+												<img src="images/subSeriesGroupImg.png" class="subSeriesGroupImg">
+												<!-- <p class="subSeriesGroupImgCaption">from Reach Student Book, Grade 1, pp 124-125</p> -->
+												<!-- <div class="subSeriesGroupTitle">Foundational Skills</div> -->
+												<p class="subseriesGroupDetailDescription">Foundational Skills Comprehensive, targeted teaching materials ensure that children develop the necessary decoding and encoding skills to become fluent readers and writers.</p>
+												<p class="subseriesGroupDetailDescription">Lorem ipsum dolor sit amet, aconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+												<div class="col-xs-12 col-sm-12 col-md-12 col-lg12 text-center">
+													<a href="#" class="subSeriesGroupBtn">Learn More</a>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<li>
+									<a href="javascript:void(0);" class="subMenuparent collapsed mainPageContainer subseriesGroupPadding" data-toggle="collapse" data-target="#subSeriesGroupSubmenu2">
+										<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+										<span class="menuLinksText">Grade 2</span>
+									</a>
+								</li>
+								<ul class="collapse navbar-collapse nav navbar-nav subSeriesGroupSubmenu" id="subSeriesGroupSubmenu2">
+									<li>
+										<div class="mainPageContainer subseriesGroupPadding">
+											<div class="subseriesGroupDetailContainer">
+												<img src="images/subSeriesGroupImg.png" class="subSeriesGroupImg">
+												<!-- <p class="subSeriesGroupImgCaption">from Reach Student Book, Grade 1, pp 124-125</p> -->
+												<!-- <div class="subSeriesGroupTitle">Foundational Skills</div> -->
+												<p class="subseriesGroupDetailDescription">Foundational Skills Comprehensive, targeted teaching materials ensure that children develop the necessary decoding and encoding skills to become fluent readers and writers.</p>
+												<p class="subseriesGroupDetailDescription">Lorem ipsum dolor sit amet, aconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+												<div class="col-xs-12 col-sm-12 col-md-12 col-lg12 text-center">
+													<a href="#" class="subSeriesGroupBtn">Learn More</a>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</ul>							
+			      		</div>
+				   	</div>  		
+				</section>
+
+				<!-- More section-->
+
+				<section id="EltmoreDetails" class="programInfonav">
+					<div class="mainPageContainer">
+						<div class="seriesContainer">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="titleMore">More Details</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<ul class="collapse navbar-collapse nav navbar-nav in" id="seriesDetailsMorecontainer">
+										<li>
+											<a href="javascript:void(0);" class="subMenuparent collapsed" data-toggle="collapse" data-target="#seriesDetailsMoreSubmenu1">
+												<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+												<span class="menuLinksText">Take a Tour</span>
+											</a>
+										</li>
+										<ul class="collapse navbar-collapse nav navbar-nav seriesDetailsMoreSubmenu" id="seriesDetailsMoreSubmenu1">
+											<li>
+												<a href="#" >
+													<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+													<span class="menuLinksText">Tech Tour</span>
+												</a>
+											</li>
+											<li>
+												<a href="#" >
+													<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+													<span class="menuLinksText">Guided Tour</span>
+												</a>
+											</li>	
+											<li>
+												<a href="#" >
+													<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+													<span class="menuLinksText">Interactive Demo</span>
+												</a>
+											</li>
+										</ul>
+										<li>
+											<a href="javascript:void(0);" class="subMenuparent collapsed" data-toggle="collapse" data-target="#seriesDetailsMoreSubmenu3">
+												<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+												<span class="menuLinksText">Downloads</span>
+											</a>
+										</li>
+										<ul class="collapse navbar-collapse nav navbar-nav seriesDetailsMoreSubmenu" id="seriesDetailsMoreSubmenu3">
+											<li>
+												<a href="#" >
+													<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+													<span class="menuLinksText">Table of Contents</span>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);" class="subMenuparent collapsed" data-toggle="collapse" data-target="#seriesDetailsMoreSubmenuChild1">
+													<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+													<span class="menuLinksText">Look Inside</span>
+												</a>
+											</li>
+											<ul class="collapse navbar-collapse nav navbar-nav seriesDetailsMoreSubmenuChild" id="seriesDetailsMoreSubmenuChild1">
+												<li>
+													<a href="#" >
+														<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+														<span class="menuLinksText">Scope and Sequence</span>
+													</a>
+												</li>
+												<li>
+													<a href="#" >
+														<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+														<span class="menuLinksText">Sample Chapter</span>
+													</a>
+												</li>
+											</ul>
+											<li>
+												<a href="#" >
+													<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+													<span class="menuLinksText">Brochure</span>
+												</a>
+											</li>
+											<li>
+												<a href="#" >
+													<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+													<span class="menuLinksText">Author Monograph</span>
+												</a>
+											</li>
+											<li>
+												<a href="#" >
+													<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+													<span class="menuLinksText">Marketing Assets</span>
+												</a>
+											</li>
+											<li>
+												<a href="#" >
+													<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+													<span class="menuLinksText">General Downloads (PDF)</span>
+												</a>
+											</li>
+										</ul>	
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</section>
+
+				<!-- Authors Section -->
+				<section id="authors">
+					<div class="mainPageContainer">
+						<div class="seriesContainer">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+									<div class="authorsHeading">
+										Authors
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+									<div class="authorContainer">
+										<div class="authorImgContainer">
+											<img src="images/author.png" class="img-responsive">
+										</div>
+
+										<div class="authorDescriptionContainer">
+											<div class="authorTitle">
+												Nancy Douglas
+											</div>
+											<div class="authorDescription">
+												Tiosto te endae quatur, am eos ent que acipitem enem. Nam ventistius soloreri dolupta commo con por sim faccullor ates nosa voluptum faceprem cusanih icilic tentus doluptatium fuga.nosa voluptum faceprem cusanih icilic tentus doluptatium fuga. Ut que volupturiam, nis quiatur?
+												<div class="authorMoreBtn closed">More...</div>
+											</div>
+											
+										</div>
+									</div>
+									<div class="authorContainer">
+										<div class="authorImgContainer">
+											<img src="images/author.png" class="img-responsive">
+										</div>
+
+										<div class="authorDescriptionContainer">
+											<div class="authorTitle">
+												Nancy Douglas
+											</div>
+											<div class="authorDescription">
+												Tiosto te endae quatur, am eos ent que acipitem enem. Nam ventistius soloreri dolupta commo con por sim faccullor ates nosa voluptum faceprem cusanih icilic tentus doluptatium fuga.nosa voluptum faceprem cusanih icilic tentus doluptatium fuga. Ut que volupturiam, nis quiatur?
+												<div class="authorMoreBtn closed">More...</div>
+											</div>
+											
+										</div>
+									</div>
+									<div class="authorContainer">
+										<div class="authorImgContainer">
+											<img src="images/author.png" class="img-responsive">
+										</div>
+
+										<div class="authorDescriptionContainer">
+											<div class="authorTitle">
+												Nancy Douglas
+											</div>
+											<div class="authorDescription">
+												Tiosto te endae quatur, am eos ent que acipitem enem. Nam ventistius soloreri dolupta commo con por sim faccullor ates nosa voluptum faceprem cusanih icilic tentus doluptatium fuga.nosa voluptum faceprem cusanih icilic tentus doluptatium fuga. Ut que volupturiam, nis quiatur?
+												<div class="authorMoreBtn closed">More...</div>
+											</div>
+											
+										</div>
+									</div>
+								</div>	
+							</div>		
+						</div>
+					</div>		
+				</section>
+
+				<!-- Technology Section -->
+				<section id="technology">
+					<div class="mainPageContainer">
+						<div class="seriesContainer">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+									<div class="technologyHeading">
+										Technology
+									</div>
+								</div>
+							</div>	
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+									<img src="images/subSeriesGroupImg.png" class="technologyImg">
+									<div class="srs_pullquotesmall">Guide instruction and prepare students for success</div>
+									<p class="srs_body">Foundational Skills Comprehensive, targeted teaching materials ensure that children develop the necessary decoding and encoding skills to become fluent readers and writers.</p>
+									<p class="srs_body">Lorem ipsum dolor sit amet, aconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</section>
+
+				<!-- Assessment Section -->
+				<section id="assessment">
+					<div class="mainPageContainer">
+						<div class="seriesContainer">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+									<div class="assessmentHeading">
+										Assessment
+									</div>
+								</div>
+							</div>	
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+									<img src="images/subSeriesGroupImg.png" class="assessmentImg">
+									<div class="srs_pullquotesmall">Guide instruction and prepare students for success</div>
+									<p class="srs_body">Foundational Skills Comprehensive, targeted teaching materials ensure that children develop the necessary decoding and encoding skills to become fluent readers and writers.</p>
+									<p class="srs_body">Lorem ipsum dolor sit amet, aconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</section>
+
+				<!-- Related Programs section -->
+
+				<section id="relatedPrograms">
+					<div class="row mainPageContainer">
+						<div class="subseriesGroupPadding">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+								<div class="relatedProgramsHeading">Related Programs</div>
+							</div>
+						</div>	
+					</div>
+					<div class="row mainPageContainer">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center subseriesGroupPadding">								
+							<div id="relatedProgramsContainer" class="owl-carousel owl-theme">								    
+					            <div class="item">
+					            	<div>
+						            	<a href="#">
+							            	<img src="images/scrollImages/carouselImg-1.png" class="img-responsive">
+							            	<h2>National Geographic Environmental Science</h2>
+											<p class="relatedProgramsCarouselDescription">The next generation of language, vocabulary, reading, writing, and content for K–5 ESL students is within Reach!</p>
+											<p class="published">©2014, Published</p>
+										</a>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<div>
+						            	<a href="#">
+							            	<img src="images/scrollImages/carouselImg-2.png" class="img-responsive">
+							            	<h2>National Geographic World History</h2>
+											<p class="relatedProgramsCarouselDescription">The next generation of language, vocabulary, reading, writing, and content for K–5 ESL students is within Reach!The next generation of language, vocabulary, reading, writing, and content for K–5 ESL students is within Reach!</p>
+											<p class="published">©2014, Published</p>
+										</a>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<div>
+						            	<a href="#">
+							            	<img src="images/scrollImages/carouselImg-3.png" class="img-responsive">
+							            	<h2>Calculus</h2>
+											<p class="relatedProgramsCarouselDescription">The next generation of language, vocabulary, reading, writing, and content</p>
+											<p class="published">©2014, Published</p>
+										</a>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<div>
+						            	<a href="#">
+							            	<img src="images/scrollImages/carouselImg-1.png" class="img-responsive">
+							            	<h2>National Geographic Environmental Science</h2>
+											<p class="relatedProgramsCarouselDescription">Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit</p>
+											<p class="published">©2014, Published</p>
+										</a>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<div>
+						            	<a href="#">
+							            	<img src="images/scrollImages/carouselImg-2.png" class="img-responsive">
+							            	<h2>National Geographic Environmental Science</h2>
+											<p class="relatedProgramsCarouselDescription">Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit</p>
+											<p class="published">©2014, Published</p>
+										</a>
+									</div>
+					            </div>
+					            <div class="item">
+					            	<div>
+						            	<a href="#">
+							            	<img src="images/scrollImages/carouselImg-3.png" class="img-responsive">
+							            	<h2>National Geographic Environmental Science</h2>
+											<p class="relatedProgramsCarouselDescription">Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit</p>
+											<p class="published">©2014, Published</p>
+										</a>
+									</div>
+					            </div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Custom tab -->
+
+				<section class = "seriesCustomTab">
+					<div class="row mainPageContainer">
+						<div class="seriesContainer">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
+								<div class="seriesCustomTabHeading">Custom Tab</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+								<div class="video-container vidyard-video" id="vid" player="vidyard1" style="clear:both;"></div>
+								<!-- <div id="vidyard1-video" class="video-container vidyard-video" data-xml="/assets/xml/vidyard/elt/ourworldreadersame.xml" title='Video'></div>  -->
+								<script type="text/javascript">
+									setTimeout(function(){
+										$("#vid").vidyard({
+										    xml: "/assets/xml/vidyard/elt/ourworldreadersame.xml"
+										});
+									},1000);
+								</script>
+							</div>
+						</div>
+					</div>
+				</section>	
+
+				<!-- Series Custom Tab 2 Section -->
+
+				<section class="seriesCustomTab2">
+					<div class="row mainPageContainer">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left subseriesGroupPadding">
+							<div class="seriesCustomTab2Heading">Specially-priced Packages</div>
+						</div>
+					</div>	
+					<div class="row mainPageContainer">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left subseriesGroupPadding">
+							<img src="images/specialPakage.png" class="seriesCustomTab2 img-responsive">
+						</div>
+					</div>	
+				</section>
+
+				<!-- Companion site -->
+				<section id="companionSite" class="programInfonav">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<ul class="collapse navbar-collapse nav navbar-nav in" id="companionSitecontainer">
+								<li>
+									<div class="mainPageContainer">
+										<div class="seriesContainer">
+											<a href="javascript:void(0);" class="subMenuparent collapsed" data-toggle="collapse" data-target="#companionSiteSubmenu1">
+												<i class="fa fa-caret-up menuLinksIcon" aria-hidden="true"></i>
+												<span class="menuLinksText">Companion site</span>
+											</a>
+										</div>
+									</div>
+								</li>
+								<ul class="collapse navbar-collapse nav navbar-nav companionSiteSubmenu mainPageContainer" id="companionSiteSubmenu1">
+									<div class="seriesContainer">
+										<li>
+											<a href="#" >
+												<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+												<span class="menuLinksText">Student companion site</span>
+											</a>
+										</li>
+										<li>
+											<a href="#" >
+												<i class="fa fa-caret-up menuLinksIcon visibilityHidden" aria-hidden="true"></i>
+												<span class="menuLinksText">Student companion site</span>
+											</a>
+										</li>
+									</div>
+								</ul>
+							</ul>		
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>	
+		<div id="footer_include"></div>
+	</body>
+</html>

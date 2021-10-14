@@ -1,0 +1,88 @@
+a.topNav:active {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style:normal; font-weight:bold; color: #000000; white-space:nowrap; text-decoration:none;}
+a.topNav:visited {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style:normal; font-weight:bold; color: #000000; white-space:nowrap; text-decoration:none;}
+a.topNav:link {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style:normal; font-weight:bold; color: #000000; white-space:nowrap; text-decoration:none;}
+a.topNav:hover {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style:normal; font-weight:bold; color: #006699; white-space:nowrap; text-decoration:none;}
+
+a.topNavD:active {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style:normal; font-weight:bold; color: #FFFFFF; white-space:nowrap; text-decoration:none;}
+a.topNavD:visited {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style:normal; font-weight:bold; color: #FFFFFF; white-space:nowrap; text-decoration:none;}
+a.topNavD:link {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style:normal; font-weight:bold; color: #FFFFFF; white-space: nowrap;text-decoration:none;}
+a.topNavD:hover {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style:normal; font-weight:bold; color: #566DB4; white-space: nowrap;text-decoration:none;}
+
+a.leftNav:active {font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #660000; text-decoration: none}
+a.leftNav:visited {font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #082580; text-decoration: none}
+a.leftNav:link {font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #082580; text-decoration: none}
+a.leftNav:hover {font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #660000; text-decoration: none}
+
+a.rightNav:active {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #082580; text-decoration: none}
+a.rightNav:visited { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #082580; text-decoration: none }
+a.rightNav:link { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #082580; text-decoration: none }
+a.rightNav:hover {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #660000; text-decoration: none}
+
+a.whiteNav:active { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; color: #FFFFFF; text-decoration: none}
+a.whiteNav:visited { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; color: #FFFFFF; text-decoration: none }
+a.whiteNav:link {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; color: #FFFFFF; text-decoration: none}
+a.whiteNav:hover {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; color: #CCCCFF; text-decoration: none}
+
+a.menuNav:active { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; color: #660000; text-decoration: none; padding-top: 3px}
+a.menuNav:visited { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; color: #082580; text-decoration: none; padding-top: 3px }
+a.menuNav:link {font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; color: #082580; text-decoration: none; padding-top: 3px}
+a.menuNav:hover {font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; color: #660000; text-decoration: none; padding-top: 3px}
+
+a.discName:active {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none}
+a.discName:visited { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none }
+a.discName:link { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none }
+a.discName:hover {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #CCCCFF; text-decoration: none}
+
+a.searchNav:active { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; color: #FFFFFF; text-decoration: none; padding-top: 3px}
+a.searchNav:visited { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; color: #FFFFFF; text-decoration: none; padding-top: 3px }
+a.searchNav:link {font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; color: #FFFFFF; text-decoration: none; padding-top: 3px}
+a.searchNav:hover {font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; color: #CCCCFF; text-decoration: none; padding-top: 3px}
+
+.rightNavHead {  padding-top: 5px;font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #082580; text-decoration: none}
+.fivePX {  padding-bottom: 3px; padding-top: 3px; font-size: 11px}
+
+.header {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: bold; color: #000000}
+.redheader {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #990000}
+.header12 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000}
+.blueheader14 {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #333399}
+.blueheader12 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #333399}
+p {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal}
+.body12 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal}
+.bold12 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000}
+.body10 {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal}
+.times10 {  font-family: "Times New Roman", Times, serif; font-size: 10pt; font-weight: normal}
+.body9 {  font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-weight: normal}
+.bold10 {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold}
+.booktitle {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #660033}
+.bold11yellow { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #CC9900}
+.blueheader10 { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #333399 }
+.times9 { font-family: "Times New Roman", Times, serif; font-size: 9pt; font-weight: normal }
+.body10red { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal ; color: #CC0000}
+.bluepath10 { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal ; font-style: normal; color: #333366}
+.bold14 { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #000000 }
+.times9Copy { font-family: "Times New Roman", Times, serif; font-size: 9pt; font-weight: normal }
+.step12 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: bold; color: #006666}
+.gray12bold {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; color: #999999}
+.gray10bold {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #999999}
+.green10bold {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bolder; color: #006633}
+.green12bold {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bolder; color: #006633}
+.date {font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #082580; text-transform: none}
+.lnavlink {font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: #082580; text-decoration: none}
+.pathtext {  font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; font-weight: normal; color: #333366}
+
+.breadcrumb {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal; color: #333366}
+/* .breadcrumbCell { background-image: url(/images/topnav/wad_banner_3.gif); background-color: #FFFFFF; background-repeat: no-repeat } */
+.navSpacer {  padding-right: 15px; padding-left: 15px}
+
+.search {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF}
+.txField {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: 000033}
+
+.dicipHEAD {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; font-variant: normal; color: #FFFFFF; line-height: 18px}
+
+ OLD styles 
+.pathtext {  font-family: Arial, Helvetica, sans-serif; font-size: 9px; font-style: normal; font-weight: normal; color: #333366}
+.bluenav { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal ; font-style: normal; color: #333366 ; text-decoration: none}
+A.bluenav { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal ; font-style: normal; color: #333366 ; text-decoration: none}
+A:hover.bluenav { font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal ; font-style: normal; color: #ffffff ; text-decoration: none}
+.booktitle10 { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: bold; color: #660033 }
+

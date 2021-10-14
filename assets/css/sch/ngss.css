@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@media (min-width: 1200px) {
+    .container{
+	max-width:975px;
+    }
+}
+
+body {
+    padding-bottom: 250px;
+}
+
+p {
+	font-size: 15px;
+	line-height: 1.4;
+}
+
+.ovr {font-size: 15px;
+	line-height: 1.6;
+	
+}
+.grytxt a {
+	color: #666666
+}
+
+.marg {
+	margin-bottom: 24px;
+}
+
+
+
+.captionHeader {
+	font-size: .75em;
+	color: #666666;
+	text-align: center;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	display: inline-block;
+	vertical-align: text-top;
+	height: auto;
+	width: auto;
+	padding-bottom: 12px;
+	padding-left: 32px;
+}
+
+.headerSub2 {
+	font-size: 1.15em;
+	font-weight: bold;
+	color: #333333;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	margin-left: 228px;
+	width: 550px;
+	float: right;
+	padding-top: 24px;
+}
+
+.titles {
+	font-size : 1.15em;
+	text-align : left;
+	color : #666666;
+	font-weight: 500;
+	line-height: normal;
+}
+
+@media (min-width: 1200px) {
+	.note {
+		font-size: .65em;
+  }
+
+}
+@media (max-width: 768px) {
+	.note {
+		font-size: .65em;
+  }
+
+}
+

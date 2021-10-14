@@ -1,0 +1,103 @@
+﻿body{border:0px}
+
+.frame{background:#013658 url(../images/gradient.jpg) repeat-x top ;
+	   height:100%;
+	   margin:0px;
+
+	   }
+	   
+.content{margin-left:225px;
+		 margin-right:225px;
+		 min-height:900px;
+		 }
+		 
+.title_header{position:relative;
+			  width:100%;
+			  font:bold 12pt Arial, Helvetica, sans-serif;
+			  height:60px;
+			  background:#ffffff url(../images/tab_mid.gif) repeat-x;
+			  color:#FFFFFF}
+			  
+.latest_titles{z-index:1;
+			   position:absolute;
+			   left:5px;
+			   top:5px;}
+			   
+.rightnav{width:200px;
+		 position:absolute;
+		 right:0px;
+		 top:0px;
+		 /*border:1px solid #000000;*/
+		 border-right:1px solid #B7DDEA;
+		 border-left:1px solid #B7DDEA;
+		 height:100%;
+		 background:#ffffff;
+		 }
+		 
+.rightnav h1{font:bold 12pt Arial, Helvetica, sans-serif;
+			 background:#eeaf00;
+			 margin:0px -1px 0px -1px;
+			 text-align:center;
+			 padding:4px;
+			 }
+			 
+#technology_promo{/*clear:left;*/
+				  background:#ffffff;}
+				  
+.tech_header{font:bold 12pt Arial, Helvetica, sans-serif;
+			 background:#B7DDEA;
+			 text-align:center;
+			 padding:3px 3px;
+			 height:20px;
+			
+			 }
+			 
+.l_button a:link{height:70px;
+		  		 width:29px;
+				 display:block;
+				 background:#ffffff url(../images/left_tri.gif) no-repeat 0px 0px;
+				 }
+				 
+.l_button a:visited{height:70px;
+		  		 width:29px;
+				 display:block;
+				 background:#ffffff url(../images/left_tri.gif) no-repeat 0px 0px;
+				 }
+				 
+.l_button a:hover{height:70px;
+		  		 width:29px;
+				 display:block;
+				 background:#ffffff url(../images/left_tri.gif) no-repeat 0px -71px;
+				 }	 
+				 
+.l_button a:active{height:70px;
+		  		 width:29px;
+				 display:block;
+				 background:#ffffff url(../images/left_tri.gif) no-repeat 0px -71px;
+				 }	 
+		  
+		  
+.r_button a:link{background:#ffffff url(../images/right_tri.gif) no-repeat 0px 0px;
+		  height:70px;
+		  width:29px;
+		  display:block;
+		  }
+		  
+.r_button a:visited{background:#ffffff url(../images/right_tri.gif) no-repeat 0px 0px;
+		  height:70px;
+		  width:29px;
+		  display:block;
+		  }
+		  
+.r_button a:hover{background:#ffffff url(../images/right_tri.gif) no-repeat 0px -71px;
+		  height:70px;
+		  width:29px;
+		  display:block;
+		  }
+		  
+.r_button a:active{background:#ffffff url(../images/right_tri.gif) no-repeat 0px -71px;
+		  height:70px;
+		  width:29px;
+		  display:block;
+		  }
+		  

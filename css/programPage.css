@@ -1,0 +1,441 @@
+
+
+/****** Right Nav *****/
+
+#prod_linksRight{
+padding:0px 0px 0px 0px;
+margin:0px 0px 8px 0px;
+width:230px;
+float:right;
+clear:both;
+}
+
+.prod_linksRight a:link{
+font-weight:bold;
+}
+
+.prod_linksRight a:visited{
+font-weight:bold;
+}
+
+#review_options_ins{
+float:left;
+padding:0px 4px 0px 0px;
+margin:0px 0px 5px 0px;
+width:100%;	
+}
+
+#review_options_ins span{
+padding:0px 4px 0px 0px;
+margin:5px 0px 5px 0px;
+font-size:1.50em;
+}
+
+#review_options_ins a:link{
+display:block;
+padding:5px 5px 5px 0px;
+margin:0px;
+}
+
+#review_options_ins a:hover{
+font-weight:bold;
+text-decoration:none;
+}
+
+#review_options_ins ul {
+float:left;
+padding:0px 0px 0px 0px;
+margin:0px;
+width:100%;
+}
+
+#review_options_ins ul li{
+color:#666667;
+float:left;
+width:100%;
+border-bottom:1px solid #ffCC00;
+}
+
+#review_options_ins ul li:nth-child(1){
+border-top:1px solid #ffCC00;
+}
+
+
+/***** Book Specs *****/
+
+
+#prod_bookSpecs{
+padding:0px 0px 0px 0px;
+margin:0px 30px 0px 0px;
+width:715px;
+float:left;
+}
+
+#Book_title{
+margin:0px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+}
+
+#Book_title ul li{
+margin:4px 0px 4px 0px;
+padding:0px 0px 0px 0px;
+}
+
+#Book_title ul li:first-child{
+margin:4px 0px 4px 0px;
+padding:5px 0px 15px 0px;
+}
+
+#Book_title span{
+font-weight:bold;	
+color:#222;
+font-size:1em;
+}
+
+.title{
+font-weight:900;
+font-size:140%;
+color:#cc6600;
+margin:0px 0px 0px 0px;
+padding:0px 0px 10px 0px;
+}
+
+#Share{
+float:left;
+border-top:1px solid #ccc;
+border-bottom:1px solid #ccc;
+margin: 0px 0 0px 0px;
+padding:5px 0px 5px 0px;
+width: 500px;
+}
+
+#Share ul{
+float:left;
+Width:100%;
+}
+
+#Share ul li:nth-child(1){
+float:left;
+width:33px;
+padding:5px 0px 0px 0px;
+margin:0px 5px 0px 0px;
+}
+
+#Share ul li:nth-child(6){
+float:left;
+width:100px;
+background-image: url("/images/catalog/printpageico.png");
+background-position: right 4px;
+background-repeat: no-repeat;
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+border-left:1px solid #ccc;
+}
+
+#Share ul li:nth-child(6) a{
+display:block; 
+padding:5px 10px 5px 5px;
+margin:0px 0px 0px 10px;
+}
+
+#Share ul li:nth-child(6) a:visited{}
+#Share ul li:nth-child(6) a:hover{
+text-decoration:none;
+}
+
+#Share ul li{
+float:left;
+width:25px;
+padding:4px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+}
+
+
+/***** Tabs *****/
+
+#MainTabs{
+float:left;
+width:100%;
+padding:0px 0px 0px 0px;
+margin:10px 0px 20px 0px;
+}
+
+#SubTab1 {
+float: left;
+width: 722px;
+}
+
+#SubTab2 {
+float: left;
+width: 722px;
+}
+
+#SubTab3 {
+float: left;
+width: 722px;
+}
+
+#SubTab4 {
+float: left;
+width: 722px;
+}
+
+#SubTab5 {
+float: left;
+width: 722px;
+}
+
+.offLeft{
+position:absolute;
+left:-10000px;
+}
+
+.authorImg{
+padding:0px 0px 0px 0px;
+margin:0px 20px 0px 0px;
+float:left;
+width:120px;
+}
+
+.doublewideImg {
+padding:0px 0px 0px 0px;
+margin:0px 20px 0px 0px;
+float:left;
+width:200px;
+}
+
+.bookSmImg {
+padding:0px 0px 0px 0px;
+margin:0px 20px 0px 0px;
+float:left;
+width:100px;
+}
+
+.tab_header {
+font-size: 115%;
+font-weight: bold;
+color: #c60;
+padding-bottom: 4px;
+}
+
+
+/***** Wide Tabs (no ads) *****/
+
+#WideWrap{
+float:left;
+width:100%;
+border: 1px solid #FFCD07;
+margin-bottom: 5px;
+}
+
+#WideWrap iframe{
+width: 100%;
+height: 600px;
+float: left;
+margin-bottom: 20px;
+}
+
+#WideWrap .tab{	
+float:left;
+margin:0px 0px 20px 5px;
+padding:0px 0px 0px 0px;
+width:100%;
+line-height: 20px;
+}
+
+#WideWrap .tab p{
+width:760px;
+margin:10px 0px 10px 0px
+}
+
+#WideWrap .tab ul li{
+margin-left: 18px;
+float: none;
+line-height: 22px;
+}
+
+#WideWrap .tab_wrap {
+float:left;
+margin-top: 15px;
+padding: 5px 20px 5px 20px;
+width: 922px;
+}
+
+#WideWrap .tab_wrap ul li{
+list-style-type: disc;
+float: none;
+}
+
+#WideWrap .program {
+float: left;
+width: 760px;
+}
+
+#WideWrap .largeImg{
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+float:left;
+width:922px;
+}
+
+#WideWrap .mainTabWrap{
+padding: 0px 0px 10px 0px;
+margin: 0px 0px 20px 0px;
+float:left;
+width: 760px;
+border-bottom:1px solid #ccc;
+}
+
+#WideWrap .mainTabWrap span{
+font-weight: bold;
+}
+
+#WideWrap .mainTabWrap ul li:before{
+content:"-";
+position:relative;
+left:-5px;
+}
+
+#WideWrap .mainTabWrap ul li{
+text-indent:-5px;
+list-style-type: none;
+}
+
+#WideWrap .AtAWrap{
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: 760px;
+}
+
+#WideWrap .AtAWrap span{
+font-weight: bold;
+color: #222;
+font-size: 1em;
+margin: 0px;
+padding: 0px;
+}
+
+#WideWrap .RPWrap {
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: 100%;
+}
+
+#WideWrap .RProdWrap {
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: 100%;
+}
+
+
+/***** Narrow Tabs (with ads) *****/
+
+#NarrowWrap{
+float:left;
+width:977px;
+border: 1px solid #FFCD07;
+margin-bottom: 5px;
+}
+
+#NarrowWrap iframe{
+width: 100%;
+height: 600px;
+float: left;
+margin-bottom: 20px;
+}
+
+#NarrowWrap .tab{	
+float:left;
+margin:0px 0px 20px 5px;
+padding:0px 0px 0px 0px;
+width:100%;
+line-height: 20px;
+}
+
+#NarrowWrap .tab p{
+margin: 10px 0px 10px 0px;
+}
+
+#NarrowWrap .tab ul li{
+margin-left:18px;
+float: none;
+}
+
+#NarrowWrap .tab_wrap {
+float:left;
+margin-top: 15px;
+padding: 5px 20px 5px 20px;
+width:680px;
+display: none;
+}
+
+#NarrowWrap .tab_wrap ul li{
+list-style-type: disc;
+float: none;
+}
+
+#NarrowWrap .largeImg{
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+float:left;
+width:670px;
+}
+
+#NarrowWrap .mainTabWrap{
+padding: 0px 0px 10px 0px;
+margin: 0px 0px 20px 0px;
+float:left;
+width: 100%;
+border-bottom:1px solid #ccc;
+}
+
+#NarrowWrap .mainTabWrap span{
+font-weight: bold;
+}
+
+#NarrowWrap .mainTabWrap ul li:before{
+content:"-";
+position:relative;
+left:-5px;
+}
+
+#NarrowWrap .mainTabWrap ul li{
+text-indent:-5px;
+list-style-type: none;
+}
+
+#NarrowWrap .AtAWrap{
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: 100%;
+}
+
+#NarrowWrap .AtAWrap span{
+font-weight: bold;
+color: #222;
+font-size: 1em;
+margin: 0px;
+padding: 0px;
+}
+
+#NarrowWrap .RPWrap {
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: 100%;
+}
+
+#NarrowWrap .RProdWrap {
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+width: 100%;
+}
+
+#tab_right_container {
+width: 230px;
+float: right;
+margin: 20px 25px 0px 0px;
+}
+
+.tab_right {
+margin-bottom: 20px;
+}

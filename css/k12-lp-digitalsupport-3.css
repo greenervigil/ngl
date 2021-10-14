@@ -1,0 +1,2152 @@
+/* screen - k12-lp-digitalsupport-3 */
+
+.k12-lp-digitalsupport-3 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 8922px;
+  width: 428px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group9 {
+  height: 199px;
+  position: relative;
+  width: 428px;
+}
+
+.k12-lp-digitalsupport-3 .mask-group-74 {
+  height: 198px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.k12-lp-digitalsupport-3 .group-124 {
+  height: 49px;
+  left: 0;
+  position: absolute;
+  top: 150px;
+  width: 428px;
+}
+
+.k12-lp-digitalsupport-3 .digital-support {
+  left: 32px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 159px;
+  width: 239px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group5 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  min-height: 446px;
+  padding: 19px 0;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-3 .asset-1 {
+  height: 160px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .text-496 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-top: 12px;
+  min-height: 48px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-3 .text-497 {
+  height: 54px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-top: 12px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-3 .group-229 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 2.0px;
+  margin-top: 14px;
+  min-width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group1 {
+  height: 44px;
+  position: relative;
+  width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .group-227-1 {
+  align-items: flex-start;
+  border-radius: 30px;
+  display: flex;
+  height: 44px;
+  left: 0;
+  min-width: 160px;
+  padding: 2.0px 15px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-3 .text-501 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 37px;
+  text-align: center;
+  width: 130px;
+}
+
+.k12-lp-digitalsupport-3 .group-228 {
+  background-image: url(../img/path-39-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 44px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .group-228:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .text-502 {
+  left: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 3px;
+  width: 130px;
+}
+
+.k12-lp-digitalsupport-3 .group-232 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 2.0px;
+  margin-top: 7px;
+  min-width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .group-230 {
+  align-items: flex-end;
+  border-radius: 30px;
+  display: flex;
+  height: 44px;
+  left: 0;
+  min-width: 160px;
+  padding: 0 15px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-3 .text-503 {
+  height: 43px;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-align: center;
+  width: 130px;
+}
+
+.k12-lp-digitalsupport-3 .group-2 {
+  background-image: url(../img/path-40-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 44px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .group-2:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .text-504 {
+  height: 43px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  width: 132px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group2-1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  min-height: 428px;
+  padding: 19px 0;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-3 .traning {
+  height: 160px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .text-499 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -2px;
+  margin-top: 9px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-3 .text {
+  height: 114px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-top: 15px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-3 .group-235 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 2.0px;
+  margin-top: 18px;
+  min-width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group12 {
+  height: 36px;
+  position: relative;
+  width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .group-233 {
+  align-items: flex-start;
+  background-image: url(../img/path-41-4@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 36px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 160px;
+  padding: 6px 8px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-3 .text-505 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 21px;
+  text-align: center;
+  width: 142px;
+}
+
+.k12-lp-digitalsupport-3 .group-23 {
+  background-image: url(../img/path-41-5@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .group-23:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .text-506 {
+  left: 8px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  width: 146px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group7 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  min-height: 480px;
+  padding: 19px 0;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-3 .mask-group-103 {
+  height: 160px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .technical-support {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -2px;
+  margin-top: 9px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-3 .group {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-right: 2.0px;
+  margin-top: 18px;
+  min-width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .group-236 {
+  align-items: flex-start;
+  background-image: url(../img/path-44-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 36px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 160px;
+  padding: 1px 16px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-3 .create-tech-ticket {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+  width: 126px;
+}
+
+.k12-lp-digitalsupport-3 .create-tech-ticket-1 {
+  left: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  white-space: nowrap;
+  width: 126px;
+}
+
+.k12-lp-digitalsupport-3 .group-241 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-right: 2.0px;
+  margin-top: 8px;
+  min-width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .group-239 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 29px;
+  display: flex;
+  height: 44px;
+  left: 0;
+  min-width: 160px;
+  padding: 3px 20px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-3 .text-5 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 37px;
+  text-align: center;
+  width: 120px;
+}
+
+.k12-lp-digitalsupport-3 .text-509 {
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 120px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group11 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  min-height: 383px;
+  padding: 19px 0;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-3 .access {
+  height: 160px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .digital-access {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -2px;
+  margin-top: 9px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-3 .text-510 {
+  height: 69px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-top: 15px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-3 .group-242 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 36px;
+  min-width: 160px;
+  padding: 0 3px;
+}
+
+.k12-lp-digitalsupport-3 .request-access {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  min-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+  width: 154px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group4 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  min-height: 424px;
+  padding: 29px 0;
+  width: 280px;
+}
+
+.k12-lp-digitalsupport-3 .mask-group-107 {
+  height: 160px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 160px;
+}
+
+.k12-lp-digitalsupport-3 .text-512 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -2px;
+  margin-top: 9px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-3 .text-511 {
+  height: 92px;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-top: 15px;
+  text-align: center;
+  width: 252px;
+}
+
+.k12-lp-digitalsupport-3 .group-239-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 29px;
+  display: flex;
+  height: 44px;
+  min-width: 160px;
+  padding: 3px 20px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group8 {
+  align-items: flex-end;
+  background-color: var(--elephant);
+  display: flex;
+  flex-direction: column;
+  margin-top: 58px;
+  min-height: 149px;
+  padding: 21px 14px;
+  width: 428px;
+}
+
+.k12-lp-digitalsupport-3 .text-500 {
+  letter-spacing: 0;
+  line-height: 34px;
+  margin-bottom: -5px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 398px;
+}
+
+.k12-lp-digitalsupport-3 .group-301 {
+  align-items: flex-start;
+  align-self: center;
+  background-image: url(../img/path-8-4@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  justify-content: flex-end;
+  margin-top: 25px;
+  min-width: 160px;
+  padding: 1.2px 3px;
+}
+
+.k12-lp-digitalsupport-3 .access-resources {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+  width: 152px;
+}
+
+.k12-lp-digitalsupport-3 .text-514 {
+  color: var(--fiord);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 2.0px;
+  margin-top: 47px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 338px;
+}
+
+.k12-lp-digitalsupport-3 .cengage-mind-t-horizontalrgb {
+  height: 31px;
+  margin-left: 1.0px;
+  margin-top: 15px;
+  object-fit: cover;
+  width: 253px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group3 {
+  height: 437px;
+  margin-top: 60px;
+  position: relative;
+  width: 336px;
+}
+
+.k12-lp-digitalsupport-3 .cengage-web-as-gn-stackedrgb {
+  height: 141px;
+  left: 87px;
+  object-fit: cover;
+  position: absolute;
+  top: 147px;
+  width: 163px;
+}
+
+.k12-lp-digitalsupport-3 .group-357 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  cursor: pointer;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 29px;
+  min-width: 278px;
+  padding: 5px 30px;
+  position: absolute;
+  top: 325px;
+}
+
+.k12-lp-digitalsupport-3 .access-resources-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .group-361 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  cursor: pointer;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  left: 29px;
+  min-width: 278px;
+  padding: 5px 30px;
+  position: absolute;
+  top: 388px;
+}
+
+.k12-lp-digitalsupport-3 .log-in {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .group-431 {
+  align-items: flex-start;
+  display: flex;
+  height: 417px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group12-1 {
+  height: 417px;
+  position: relative;
+  width: 336px;
+}
+
+.k12-lp-digitalsupport-3 .group-427 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  height: 46px;
+  left: 0;
+  min-width: 336px;
+  padding: 4px 13px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-3 .select-course-area {
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  white-space: nowrap;
+  width: 194px;
+}
+
+.k12-lp-digitalsupport-3 .polygon-12 {
+  align-self: center;
+  height: 8px;
+  margin-bottom: 2.0px;
+  margin-left: 99px;
+  object-fit: cover;
+  width: 15px;
+}
+
+.k12-lp-digitalsupport-3 .group-426 {
+  height: 417px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 336px;
+}
+
+.k12-lp-digitalsupport-3 .group-426:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group13 {
+  height: 417px;
+  position: relative;
+}
+
+.k12-lp-digitalsupport-3 .rectangle-270 {
+  height: 372px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 45px;
+  width: 336px;
+}
+
+.k12-lp-digitalsupport-3 .rectangle-294 {
+  height: 46px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 336px;
+}
+
+.k12-lp-digitalsupport-3 .scroll-group-6::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.k12-lp-digitalsupport-3 .scroll-group-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 8px;
+  overflow-y: scroll;
+  position: absolute;
+  top: 52px;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .grades-k-8 {
+  cursor: pointer;
+  height: 35px;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-bottom: -7px;
+  margin-left: 6.0px;
+  margin-top: -11px;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .span {
+  text-decoration: underline;
+}
+
+.k12-lp-digitalsupport-3 .group-383 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 37px;
+  margin-top: 14px;
+  min-width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group {
+  height: 44px;
+  margin-top: -7px;
+  position: relative;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .link {
+  cursor: pointer;
+  height: 35px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .group-38 {
+  height: 37px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-38:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group1-1 {
+  height: 43px;
+  position: relative;
+  top: -7px;
+}
+
+.k12-lp-digitalsupport-3 .rectangle-27 {
+  background-color: var(--gallery);
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-3 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 37px;
+  margin-left: 0;
+  margin-top: 5px;
+  min-width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .link-1 {
+  cursor: pointer;
+  height: 35px;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group14 {
+  height: 70px;
+  margin-left: 0;
+  margin-top: 5px;
+  position: relative;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .link-2 {
+  cursor: pointer;
+  height: 35px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  text-decoration: underline;
+  top: 35px;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .group-388 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 37px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-3 .group-390 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 37px;
+  margin-left: 0;
+  margin-top: 14px;
+  min-width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group-1 {
+  height: 43px;
+  margin-top: -7px;
+  position: relative;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-3-1 {
+  background-color: var(--gallery);
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-3-1:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .text-5-1 {
+  cursor: pointer;
+  height: 30px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -7px;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .text-531 {
+  cursor: pointer;
+  height: 32px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -7px;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .group-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  margin-left: 0;
+  margin-top: 5px;
+  min-width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .text-532 {
+  cursor: pointer;
+  height: 30px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group20 {
+  height: 42px;
+  margin-top: -6px;
+  position: relative;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .link-3 {
+  cursor: pointer;
+  height: 32px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .group-395 {
+  background-color: var(--gallery);
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 6px;
+  transition: all 0.2s ease;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-395:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .text-535 {
+  cursor: pointer;
+  height: 32px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -6px;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group17 {
+  height: 41px;
+  margin-top: -5px;
+  position: relative;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-397 {
+  background-color: var(--gallery);
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 5px;
+  transition: all 0.2s ease;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-397:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .text-529 {
+  cursor: pointer;
+  height: 32px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -5px;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .group-400 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  margin-left: 0;
+  margin-top: 9px;
+  min-width: 309px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group21 {
+  height: 44px;
+  margin-top: -8px;
+  position: relative;
+  width: 309px;
+}
+
+.k12-lp-digitalsupport-3 .text-53 {
+  cursor: pointer;
+  height: 34px;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .group-399 {
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 8px;
+  transition: all 0.2s ease;
+  width: 309px;
+}
+
+.k12-lp-digitalsupport-3 .group-399:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group17-1 {
+  height: 44px;
+  position: relative;
+  top: -8px;
+}
+
+.k12-lp-digitalsupport-3 .rectangle-278 {
+  background-color: var(--gallery);
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-402 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  margin-left: 0;
+  margin-top: 5px;
+  min-width: 309px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group22 {
+  height: 43px;
+  margin-top: -7px;
+  position: relative;
+  width: 309px;
+}
+
+.k12-lp-digitalsupport-3 .text-53-1 {
+  cursor: pointer;
+  height: 32px;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .group-401 {
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 7px;
+  transition: all 0.2s ease;
+  width: 309px;
+}
+
+.k12-lp-digitalsupport-3 .group-401:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group-2 {
+  height: 44px;
+  margin-top: -8px;
+  position: relative;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-414 {
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 8px;
+  transition: all 0.2s ease;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-414:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .group-413 {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  display: flex;
+  height: 36px;
+  justify-content: flex-end;
+  min-width: 307px;
+  padding: 0 20px;
+}
+
+.k12-lp-digitalsupport-3 .text-541 {
+  cursor: pointer;
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-top: -8px;
+  white-space: nowrap;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group16 {
+  height: 70px;
+  margin-left: 0;
+  margin-top: 7px;
+  position: relative;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-41 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.k12-lp-digitalsupport-3 .group-4 {
+  background-color: var(--gallery);
+  height: 36px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 8px;
+  transition: all 0.2s ease;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-4:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .link-4 {
+  cursor: pointer;
+  height: 35px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -8px;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .group-417 {
+  align-items: flex-start;
+  display: flex;
+  height: 36px;
+  margin-left: 0;
+  margin-top: 14px;
+  min-width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group15 {
+  height: 70px;
+  margin-left: 0;
+  margin-top: 6px;
+  position: relative;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-419 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  margin-left: 0;
+  margin-top: 13px;
+  min-width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group2 {
+  height: 69px;
+  margin-top: -3px;
+  position: relative;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .text-546 {
+  cursor: pointer;
+  height: 62px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 0;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .group-40 {
+  background-color: var(--gallery);
+  height: 66px;
+  left: 0;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 3px;
+  transition: all 0.2s ease;
+  width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .group-40:hover {
+  opacity: 1;
+}
+
+.k12-lp-digitalsupport-3 .text-547 {
+  cursor: pointer;
+  height: 62px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: -3px;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .group-420 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 66px;
+  margin-left: 0;
+  margin-top: 6px;
+  min-width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .text-548 {
+  cursor: pointer;
+  height: 62px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 0;
+  width: 277px;
+}
+
+.k12-lp-digitalsupport-3 .text-549 {
+  cursor: pointer;
+  height: 62px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: -3px;
+  width: 277px;
+}
+
+.k12-lp-digitalsupport-3 .group-421 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  margin-left: 0;
+  margin-top: 6px;
+  min-width: 307px;
+}
+
+.k12-lp-digitalsupport-3 .text-55 {
+  cursor: pointer;
+  height: 32px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .text-55-1 {
+  cursor: pointer;
+  height: 32px;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -8px;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .link-5 {
+  cursor: pointer;
+  height: 32px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  text-decoration: underline;
+  top: 0;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .link-6 {
+  cursor: pointer;
+  height: 32px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: -8px;
+  white-space: nowrap;
+  width: 265px;
+}
+
+.k12-lp-digitalsupport-3 .polygon-11 {
+  height: 8px;
+  left: 307px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 15px;
+}
+
+.k12-lp-digitalsupport-3 .select-course-area-1 {
+  height: 32px;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: 194px;
+}
+
+.k12-lp-digitalsupport-3 .cengage-owl-v2-stackedrgb {
+  height: 149px;
+  margin-left: 0.16px;
+  margin-top: 37px;
+  object-fit: cover;
+  width: 140px;
+}
+
+.k12-lp-digitalsupport-3 .group-3-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  cursor: pointer;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  margin-top: 37px;
+  min-width: 278px;
+  padding: 5px 30px;
+}
+
+.k12-lp-digitalsupport-3 .access-resources-2 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .group-36 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  cursor: pointer;
+  display: flex;
+  height: 49px;
+  justify-content: flex-end;
+  margin-top: 14px;
+  min-width: 278px;
+  padding: 5px 30px;
+}
+
+.k12-lp-digitalsupport-3 .log-in-1 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .my-n-gconnectlogok {
+  height: 72px;
+  margin-top: 37px;
+  object-fit: cover;
+  width: 202px;
+}
+
+.k12-lp-digitalsupport-3 .access-resources-3 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .log-in-2 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .stacked-full-color {
+  height: 103px;
+  margin-top: 37px;
+  object-fit: cover;
+  width: 182px;
+}
+
+.k12-lp-digitalsupport-3 .access-resources-4 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .log-in-3 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group-3 {
+  align-items: center;
+  background-color: var(--bahama-blue);
+  display: flex;
+  flex-direction: column;
+  margin-top: 59px;
+  min-height: 2129px;
+  padding: 46px 22px;
+  width: 428px;
+}
+
+.k12-lp-digitalsupport-3 .text-515 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  width: 382px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group15-1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 43px;
+  min-height: 334px;
+  padding: 22px 0;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-3 .cengage-sam-stackedrgb {
+  height: 151px;
+  object-fit: cover;
+  width: 142px;
+}
+
+.k12-lp-digitalsupport-3 .group-3-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-top: 20px;
+  min-width: 278px;
+  padding: 5.4px 30px;
+}
+
+.k12-lp-digitalsupport-3 .access-resources-5 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .group-3-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-top: 13px;
+  min-width: 278px;
+  padding: 5.4px 30px;
+}
+
+.k12-lp-digitalsupport-3 .log-in-4 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group17-2 {
+  align-items: center;
+  background-image: url(../img/path-1-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 334px;
+  padding: 22px 0;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-3 .cengagec-now-v2-stackedrgb {
+  height: 151px;
+  margin-left: 0.04px;
+  object-fit: cover;
+  width: 142px;
+}
+
+.k12-lp-digitalsupport-3 .access-resources-6 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .log-in-5 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group18 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 226px;
+  padding: 22px 0;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-3 .vs-logo-horrgb {
+  height: 43px;
+  object-fit: cover;
+  width: 236px;
+}
+
+.k12-lp-digitalsupport-3 .access-resources-7 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .log-in-6 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group19 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 246px;
+  padding: 22px 0;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-3 .my-elt-logo2color-black {
+  height: 64px;
+  margin-left: 1.0px;
+  object-fit: cover;
+  width: 185px;
+}
+
+.k12-lp-digitalsupport-3 .access-resources-8 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .group-31 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-top: 12px;
+  min-width: 278px;
+  padding: 5.4px 30px;
+}
+
+.k12-lp-digitalsupport-3 .log-in-7 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group16-1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 246px;
+  padding: 21px 0;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-3 .cognero {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 2.0px;
+  min-height: 78px;
+  text-align: center;
+  width: 264px;
+}
+
+.k12-lp-digitalsupport-3 .group-313 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  margin-top: 7px;
+  min-width: 278px;
+  padding: 5.4px 30px;
+}
+
+.k12-lp-digitalsupport-3 .access-resources-9 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .log-in-8 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group14-1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 265px;
+  padding: 22px 0;
+  width: 320px;
+}
+
+.k12-lp-digitalsupport-3 .online-practice-blk {
+  height: 83px;
+  margin-left: 1.0px;
+  object-fit: cover;
+  width: 209px;
+}
+
+.k12-lp-digitalsupport-3 .access-resources-10 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .log-in-9 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 216px;
+}
+
+.k12-lp-digitalsupport-3 .text-516 {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 2.0px;
+  margin-top: 57px;
+  min-height: 57px;
+  text-align: center;
+  width: 306px;
+}
+
+.k12-lp-digitalsupport-3 .group-214 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 1.0px;
+  margin-top: 28px;
+  min-width: 333px;
+}
+
+.k12-lp-digitalsupport-3 .group-143 {
+  align-items: flex-start;
+  border-radius: 53px;
+  display: flex;
+  height: 58px;
+  min-width: 333px;
+  padding: 8px 1px;
+}
+
+.k12-lp-digitalsupport-3 .text-517 {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 330px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group6 {
+  height: 633px;
+  position: relative;
+  width: 428px;
+}
+
+.k12-lp-digitalsupport-3 .rectangle-56 {
+  background: linear-gradient(179.82deg, #1e6f7e 0.11%, #309caf 99.9%);
+  cursor: pointer;
+  height: 633px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.k12-lp-digitalsupport-3 .rectangle-155 {
+  background-color: var(--white);
+  height: 442px;
+  left: 48px;
+  position: absolute;
+  top: 112px;
+  width: 333px;
+}
+
+.k12-lp-digitalsupport-3 .start-strong {
+  height: 199px;
+  left: 114px;
+  object-fit: cover;
+  position: absolute;
+  top: 151px;
+  width: 200px;
+}
+
+.k12-lp-digitalsupport-3 .text-518 {
+  height: 39px;
+  left: 56px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  width: 319px;
+}
+
+.k12-lp-digitalsupport-3 .text-519 {
+  left: 77px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 366px;
+  white-space: nowrap;
+  width: 277px;
+}
+
+.k12-lp-digitalsupport-3 .text-520 {
+  height: 68px;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 409px;
+  width: 269px;
+}
+
+.k12-lp-digitalsupport-3 .group-217 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  left: 134px;
+  position: absolute;
+  top: 490px;
+}
+
+.k12-lp-digitalsupport-3 .group-215 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 36px;
+  min-width: 160px;
+  padding: 0 6px;
+}
+
+.k12-lp-digitalsupport-3 .place {
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -2px;
+  text-align: center;
+  white-space: nowrap;
+  width: 148px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group1-2 {
+  height: 1559px;
+  position: relative;
+  width: 428px;
+}
+
+.k12-lp-digitalsupport-3 .rectangle-259 {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 1559px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 428px;
+}
+
+.k12-lp-digitalsupport-3 .text-521 {
+  height: 44px;
+  left: 49px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 36px;
+  width: 332px;
+}
+
+.k12-lp-digitalsupport-3 .mask-group-100 {
+  height: 200px;
+  left: 114px;
+  object-fit: cover;
+  position: absolute;
+  top: 107px;
+  width: 200px;
+}
+
+.k12-lp-digitalsupport-3 .privacy {
+  left: 104px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 322px;
+  white-space: nowrap;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-3 .text-522 {
+  height: 125px;
+  left: 51px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 361px;
+  width: 329px;
+}
+
+.k12-lp-digitalsupport-3 .mask-group-101 {
+  height: 200px;
+  left: 114px;
+  object-fit: cover;
+  position: absolute;
+  top: 1083px;
+  width: 200px;
+}
+
+.k12-lp-digitalsupport-3 .group-317 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 44px;
+  left: 122px;
+  position: absolute;
+  top: 502px;
+}
+
+.k12-lp-digitalsupport-3 .group-227 {
+  align-items: flex-start;
+  border-radius: 30px;
+  display: flex;
+  height: 44px;
+  min-width: 184px;
+  padding: 9.0px 15px;
+}
+
+.k12-lp-digitalsupport-3 .text-523 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 21px;
+  text-align: center;
+  width: 154px;
+}
+
+.k12-lp-digitalsupport-3 .mask-group-102 {
+  height: 200px;
+  left: 114px;
+  object-fit: cover;
+  position: absolute;
+  top: 606px;
+  width: 200px;
+}
+
+.k12-lp-digitalsupport-3 .accessibility {
+  left: 105px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 821px;
+  white-space: nowrap;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-3 .text-524 {
+  height: 103px;
+  left: 48px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 860px;
+  width: 335px;
+}
+
+.k12-lp-digitalsupport-3 .group-318 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 44px;
+  left: 122px;
+  position: absolute;
+  top: 979px;
+}
+
+.k12-lp-digitalsupport-3 .text-525 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 21px;
+  text-align: center;
+  width: 154px;
+}
+
+.k12-lp-digitalsupport-3 .terms-of-use {
+  left: 104px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 1298px;
+  white-space: nowrap;
+  width: 222px;
+}
+
+.k12-lp-digitalsupport-3 .text-526 {
+  height: 102px;
+  left: 70px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 1337px;
+  width: 291px;
+}
+
+.k12-lp-digitalsupport-3 .group-319 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 44px;
+  left: 122px;
+  position: absolute;
+  top: 1455px;
+}
+
+.k12-lp-digitalsupport-3 .view-terms-of-use {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 21px;
+  text-align: center;
+  width: 154px;
+}
+
+.k12-lp-digitalsupport-3 .overlap-group10 {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  min-height: 365px;
+  padding: 44.9px 25.6px;
+  width: 428px;
+}
+
+.k12-lp-digitalsupport-3 .text-527 {
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 29px;
+  text-align: center;
+  width: 374px;
+}
+
+.k12-lp-digitalsupport-3 .national-geographic {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 2.0px;
+  margin-top: 11px;
+  min-height: 200px;
+  text-align: center;
+  width: 362px;
+}

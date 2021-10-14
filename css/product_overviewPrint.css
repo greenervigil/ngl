@@ -1,0 +1,273 @@
+/* CSS Document */
+/* this is the print CSS document */ 
+
+
+/*****General Styles*****/
+html {
+    font-size:10px;
+    color:#3c3c3c;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height:1.90em;
+}
+
+a img {
+    border:0;
+}
+
+a:link {
+    color:#000;
+    text-decoration:none;
+    border:none;
+}
+
+a:visited {
+    color:#000;
+    text-decoration:none;
+    border:none;
+}
+
+a:hover {
+    color:#000;
+    text-decoration:none;
+    border:none;
+}
+
+ul, li, p, h4, h5 {
+    padding:0px;
+    margin:0px;
+}
+
+li {
+    list-style-type:none;
+    padding:4px 0px 4px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+div#global {
+    padding:0px 0px 0px 0px;
+    margin:0px auto;
+    width:800px;
+}
+
+div#content_wrap, div#content{
+    float:left;
+    width:100%;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+}
+/*****End General Styles*****/
+
+/*****Header Section*****/
+div#suportLinks ul li:nth-child(2) {
+	display:none;
+}
+
+div#headerContentWrap {
+	display:table;
+	width:100%;
+	border:1px solid #CCC;
+}
+
+div#logos {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+div#headerRight {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+div#suportLinks ul {
+	list-style-type:none;
+	padding-right:10px;
+	text-align:right;
+}
+
+div#suportLinks ul li {
+	font-size:10px;
+	padding:3px 0px 3px 0px;
+}
+
+div#suportLinks ul li:nth-child(1), 
+div#suportLinks ul li:nth-child(2) {
+	font-size:13px;
+}
+/*****End Header Section*****/
+
+/*****Biblio Section*****/
+div#Share {
+	display:none;
+}
+
+div#c1_ins {
+	margin: 0px 0px 0px 0px;
+	padding:11px 0px 16px 0px;
+	width:100%;
+	display: table;
+}
+
+div#CoverImage {
+	width: 20%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div#CoverImage div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div#prod_bookSpecs {
+	display: table-cell;
+	vertical-align: middle;
+	width:80%;
+	background-color:#FFFFFF;
+	font-size:13px;
+}
+
+.title {
+	font-size:18px;
+	margin:0px;
+	padding:3px 0px 3px 0px;
+	font-weight:900;
+}
+
+div#Book_title {
+	margin:0px;
+	padding:10px 0px 10px 0px;
+	width:100%
+}
+
+div#Book_title ul {
+    float:right;
+    width: 100%;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+}
+
+div#Book_title ul li span {
+	font-weight:bold;
+}
+/*****End Biblio Section*****/
+
+/*****Product Details Section*****/
+/*div#ProductsIncluded {
+	display:none;
+}*/
+
+div#NarrowWrap {
+	float:left;
+	width:100%;
+	background-color:#FFFFFF;
+	font-size:13px;
+}
+
+div#custom1, div#overview, div#assessment, 
+div#technology, div#components, div#tableofcontents, 
+div#bestbuypackages, div#relatedproducts, 
+div#relatedprograms, div#downloads, div#custom2 {
+    float:left;
+    width:100%; 
+}
+
+div#custom1 h2, div#overview h2, div#assessment h2, 
+div#technology h2, div#components h2, 
+div#tableofcontents h2, div#bestbuypackages h2, 
+div#relatedproducts h2, div#relatedprograms h2, 
+div#downloads h2, div#custom2 h2 {
+    font-size:15px;
+    margin: 5px 0px;
+}
+
+div#AboutTheProduct h2, div#AboutTheProgram h2, div#Features h2, div#AboutTheAuthor h2 {
+    font-style:italic;
+    font-size:13px;
+	font-weight:bold;
+    margin: 0px 0px;
+}
+
+div#AboutTheProgram h2 {
+    margin-bottom: 0px;
+}
+
+div#subtab1 > div, div#subtab2 > div { 
+    padding-bottom: 6px;
+    width: 100%;
+}
+
+div.largeImg, iframe { 
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+div.largeImg > img {
+    width:100%;
+}
+
+div.program ul {
+	padding-left: 40px;
+}
+
+div.atawrap, div.maintabwrap {
+    padding: 3px 0px 3px 0px;
+}
+
+div.atawrap > span, div.maintabwrap > span
+{
+    font-size:13px;
+    font-weight:bold;
+}
+
+div.atawrap > p, div.maintabwrap > p
+{
+    margin-bottom:5px;
+}
+div#RelatedProducts > div > div.maintabwrap {
+    height:90px;
+    width: 100%;
+    padding: 10px 0px 5px 0px;
+}
+
+div#relatedprograms > div > div.maintabwrap {
+    height: 135px;
+    width: 100%;
+    padding: 10px 0px 5px 0px;
+}
+
+div.bookSmImg {
+    width:10%;
+    float:left;
+}
+
+div.doubleWideImg {
+    width: 26%;
+    float:left;
+}
+
+div.rprodwrap {
+    float: left;
+    width: 90%;
+}
+
+div.rpwrap {
+    float: left;
+    width: 74%;
+}
+
+.pricing {
+    font-style:italic;
+    font-weight:normal;
+}
+
+div#relatedlinks div.tab_header + a:link:after {
+    content: " (" attr(href) ") ";
+    font-size: 90%;
+    font-style:italic;
+}
+
+div#downloads div ul li a:link::after {
+    content: " (" attr(href) ") ";
+    font-size: 90%;
+    font-style:italic;
+}

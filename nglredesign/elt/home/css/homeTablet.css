@@ -1,0 +1,113 @@
+@media(max-width: 991px){
+	/*#eltSuperHero{
+		background: url(../images/schoolhomebanner-t.png) no-repeat;
+		height: 326px;
+		background-size: cover;
+		background-position: top;
+	}*/	
+
+	#NGLRedesignpageContainer .container{
+		padding: 0px 43px;
+	}
+
+	#superHeroContainer .item .thumbnailContainer .superheroThumbnailImg{
+		padding: 0px;
+		height: 61px;
+		width: 179px;
+		top: 34%;
+		margin-left: 7%;
+	}
+
+	#eltSuperHero .heroOverlay{
+	    padding: 3px 0px;
+	}
+
+	#superHeroContainer .item img{
+	    /*height: auto;*/
+	    /*height: 326px;*/
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.owl-controls {
+		top: 50px;
+	}
+
+	#superHeroContainer .owl-controls i{
+		height: 30px;
+		width: 30px;
+		font-size: 30px;
+	}
+
+	#superHeroContainer .left, #superHeroContainer .right {
+		width: 7%;
+	}
+	
+	.heroOverlay h1{
+		/*padding: 0 43px;*/
+		font-size: 46px;
+		/*-moz-transform: matrix( 0.41990748740185,0,0,0.41990748740185,0,0);
+		-webkit-transform: matrix( 0.41990748740185,0,0,0.41990748740185,0,0);
+		-ms-transform: matrix( 0.41990748740185,0,0,0.41990748740185,0,0);*/
+		/*custom*/
+		-moz-transform: matrix( 0.890748740185,0,0,0.91990748740185,0,0);
+		-webkit-transform: matrix( 0.890748740185,0,0,0.91990748740185,0,0);
+		-ms-transform: matrix( 0.890748740185,0,0,0.91990748740185,0,0);
+		line-height: 1.158;
+	}
+
+	/*---- story block section ---*/
+	
+	#storyBlockContainer{
+		padding: 0 15px;
+	}
+
+	.story-block .block {
+		max-width: 350px;
+	}
+
+	/*-- New title section --*/
+
+	#newTitleSection{
+		height: 198px;
+		padding-top: 32px;
+	}
+
+	.newTitleContent{
+		font-size: 43px;
+		line-height: 1.158;
+		text-align: left;
+		/*-moz-transform: matrix( 0.82023377670294,0,0,0.8200903534414,0,0);
+		-webkit-transform: matrix( 0.82023377670294,0,0,0.8200903534414,0,0);
+		-ms-transform: matrix( 0.82023377670294,0,0,0.8200903534414,0,0);*/
+	}
+
+	/*-- NGl Mission section --*/
+
+	#nglMissionSection{
+		height: 380px;
+	}
+
+	.nglMissionHeading{
+		font-size: 43px;
+		line-height: 1.158;
+		text-align: left;
+		/*-moz-transform: matrix( 0.82023377670294,0,0,0.8200903534414,0,0);
+		-webkit-transform: matrix( 0.82023377670294,0,0,0.8200903534414,0,0);
+		-ms-transform: matrix( 0.82023377670294,0,0,0.8200903534414,0,0);*/
+	}
+
+	.nglMissionContent{
+		font-size: 20px;
+		line-height: 1.554;
+		text-align: left;
+		/*-moz-transform: matrix( 0.82023377670294,0,0,0.8200903534414,0,0);
+		-webkit-transform: matrix( 0.82023377670294,0,0,0.8200903534414,0,0);
+		-ms-transform: matrix( 0.82023377670294,0,0,0.8200903534414,0,0);*/
+	}
+
+	.nglMissionOverlay{
+		max-width: 100%;
+		padding-top: 20px;
+	}
+}

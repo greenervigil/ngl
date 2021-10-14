@@ -1,0 +1,777 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ /* ========= banner overlay ========= */
+
+        .k12banneroverlayText {
+            text-align: center;
+            margin: 0 auto;
+            background-color: black;
+        }
+
+        .k12banneroverlayText p {
+            color: #fecb00;
+            font: 18px/20px 'Open Sans', Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            line-height: 1.5em;
+            padding: 20px 10px;
+        }
+
+        .k12banneroverlayText a:link {
+            color: #fecb00;
+            text-decoration-line: underline;
+        }
+
+        .k12banneroverlayText a:visited {
+            color: #fecb00;
+            text-decoration-line: underline;
+        }
+
+        .k12banneroverlayText a:hover {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 400;
+        }
+
+        .k12banneroverlayText a:active {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 400;
+        }
+
+        /* storyBlockContainer */
+        .sbkcontainer {
+            max-width: 1056px;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
+        /* story-block */
+        .sbk {
+            margin-top: 24px;
+            text-align: center;
+        }
+
+        .bk:first-of-type {
+            margin-left: 0;
+        }
+
+        /* block */
+        .bk {
+            border: 0 solid #9d9d9d;
+            padding: 0;
+            max-width: 336px;
+            height: 402px;
+            background: none;
+            border-radius: 4px;
+            display: inline-block;
+            margin: 0 .2% 20px;
+            text-align: center;
+            vertical-align: top;
+            box-sizing: border-box;
+        }
+
+        .bk2 {
+            border: 0 solid #9d9d9d;
+            padding: 0;
+            max-width: 425px;
+            height: 402px;
+            background: none;
+            border-radius: 4px;
+            display: inline-block;
+            margin: 0 1% 20px;
+            text-align: center;
+            vertical-align: top;
+            box-sizing: border-box;
+        }
+
+
+        /* ======== hm-explore ========= */
+
+        #hm-explore {
+            text-align: center;
+            background-color: #ffffff;
+            text-align: center;
+            margin: 10px auto 10px auto;
+            padding-top: 10px;
+            width: 100%;
+        }
+
+
+        #hm-explore,
+        #hm-order,
+        #hm-implement,
+        #hm-connected .titleline {
+            margin: 15px auto 20px auto;
+        }
+
+        #hm-explore p.head {
+            font-size: 48px;
+            line-height: 1.25em;
+            font-weight: 300;
+            color: #000000;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+
+        #hm-explore .button {
+            width: 300px;
+            height: 75px;
+            border-radius: 40px;
+            padding: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 15px;
+            cursor: pointer;
+            line-height: 1.2em;
+            vertical-align: middle;
+        }
+
+        #hm-explore .button-1 {
+            width: 300px;
+            height: 75px;
+            border-radius: 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 15px;
+            cursor: pointer;
+            line-height: 70px;
+            vertical-align: middle;
+        }
+
+        /* hm-explore pseudo classes  */
+        /* unvisited link */
+        #hm-explore .hlink1 a:link {
+            border: 1px solid #666666;
+            color: #333333;
+            font-weight: 400;
+        }
+
+        /* visited link */
+        #hm-explore .hlink1 a:visited {
+            border: 1px solid #666666;
+            color: #333333;
+            font-weight: 400;
+        }
+
+        /* mouse over link */
+        #hm-explore .hlink1 a:hover {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 300;
+            background-color: rgb(6, 96, 152);
+        }
+
+        /* selected link */
+        #hm-explore .hlink1 a:active {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 300;
+            background-color: rgb(6, 96, 152);
+        }
+
+
+        /* ======== hm-order ========= */
+
+        #hm-order {
+            text-align: center;
+            background-color: #2A2695;
+            text-align: center;
+            margin: 10px auto 0px auto;
+            padding-top: 10px;
+            width: 100%;
+            animation-duration: 8s;
+            animation-name: ordermove;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+
+        #hm-order p.head {
+            font-size: 48px;
+            line-height: 1.25em;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: center;
+            margin: 20px auto 10px auto;
+        }
+
+        #hm-order p {
+            font-size: 20px;
+            line-height: 1.25em;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 2px;
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+
+        #hm-order .button-1 {
+            width: 300px;
+            height: 75px;
+            border: 1px solid #ffffff;
+            border-radius: 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px auto 30px auto;
+            cursor: pointer;
+            line-height: 70px;
+            font-size: 24px;
+            vertical-align: middle;
+        }
+
+        /* hm-order pseudo classes  */
+        /* unvisited link */
+        #hm-order .hlink3 a:link {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 400;
+        }
+
+        /* visited link */
+        #hm-order .hlink3 a:visited {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 400;
+        }
+
+        /* mouse over link */
+        #hm-order .hlink3 a:hover {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 300;
+            background-color: #B50758;
+        }
+
+        /* selected link */
+        #hm-order .hlink3 a:active {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 300;
+            background-color: #B50758;
+        }
+
+
+        /* ======= hm-implement ======== */
+
+        #hm-implement {
+            text-align: center;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#066098+0,066098+100&1+0,0.7+100 */
+            background: -moz-linear-gradient(top, rgba(6, 96, 152, 1) 0%, rgba(6, 96, 152, 0.7) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(6, 96, 152, 1) 0%, rgba(6, 96, 152, 0.7) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(6, 96, 152, 1) 0%, rgba(6, 96, 152, 0.7) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#066098', endColorstr='#b3066098', GradientType=0);
+            /* IE6-9 */
+
+            text-align: center;
+            margin: 2px auto 0px auto;
+            padding-top: 30px;
+            width: 100%;
+        }
+
+        #hm-implement p.head {
+            font-size: 48px;
+            line-height: 1.25em;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+
+        #hm-implement .button {
+            width: 300px;
+            height: 75px;
+            border-radius: 40px;
+            padding: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 15px;
+            cursor: pointer;
+            line-height: 1.2em;
+            vertical-align: middle;
+        }
+
+        #hm-implement .button-1 {
+            width: 300px;
+            height: 75px;
+            border-radius: 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 15px;
+            cursor: pointer;
+            line-height: 70px;
+            vertical-align: middle;
+        }
+
+        /* hm-implement pseudo classes  */
+        /* unvisited link */
+        #hm-implement .hlink1 a:link {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 400;
+        }
+
+        /* visited link */
+        #hm-implement .hlink1 a:visited {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 400;
+        }
+
+        /* mouse over link */
+        #hm-implement .hlink1 a:hover {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 300;
+            background-color: rgb(8, 68, 108);
+        }
+
+        /* selected link */
+        #hm-implement .hlink1 a:active {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 300;
+            background-color: rgb(8, 68, 108);
+        }
+
+        /* ======== hm-connected ========= */
+
+        #hm-connected {
+            text-align: center;
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#20696e+1,20696e+70&1+0,0.7+100 */
+            background: -moz-linear-gradient(top, rgba(32, 105, 110, 1) 0%, rgba(32, 105, 110, 1) 1%, rgba(32, 105, 110, 0.79) 70%, rgba(32, 105, 110, 0.7) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(32, 105, 110, 1) 0%, rgba(32, 105, 110, 1) 1%, rgba(32, 105, 110, 0.79) 70%, rgba(32, 105, 110, 0.7) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(32, 105, 110, 1) 0%, rgba(32, 105, 110, 1) 1%, rgba(32, 105, 110, 0.79) 70%, rgba(32, 105, 110, 0.7) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#20696e', endColorstr='#b320696e', GradientType=0);
+            /* IE6-9 */
+
+            text-align: center;
+            margin: 2px auto 2px auto;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            width: 100%;
+        }
+
+
+
+        #hm-connected p.head {
+            font-size: 48px;
+            line-height: 1.25em;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: center;
+            margin: 5px auto 10px auto;
+        }
+
+        #hm-connected img {
+            background: none;
+            max-width: 425px;
+            max-height: 400px;
+            text-align: center;
+            margin: 10px auto 10px auto;
+        }
+
+        #hm-connected p {
+            font-size: 20px;
+            line-height: 1.25em;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: center;
+            margin: 2px auto 20px auto;
+            text-decoration: none;
+        }
+
+        #hm-connected p {
+            font-size: 20px;
+            line-height: 1.25em;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 2px;
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+
+        #hm-connected .button {
+            width: 300px;
+            height: 75px;
+            border-radius: 40px;
+            padding: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 15px;
+            cursor: pointer;
+            line-height: 1.2em;
+            vertical-align: middle;
+        }
+
+        #hm-connected .button-1 {
+            width: 300px;
+            height: 75px;
+            border-radius: 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 15px;
+            cursor: pointer;
+            line-height: 70px;
+            vertical-align: middle;
+        }
+
+        /* hm-connected pseudo classes  */
+        /* unvisited link */
+        #hm-connected .hlink3 a:link {
+            border: 1px solid #fff;
+            color: #fff;
+            font-weight: 400;
+        }
+
+        /* visited link */
+        #hm-connected .hlink3 a:visited {
+            border: 1px solid #fff;
+            color: #fff;
+            font-weight: 400;
+        }
+
+        /* mouse over link */
+        #hm-connected .hlink3 a:hover {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 300;
+            background-color: rgb(8, 101, 91);
+        }
+
+        /* selected link */
+        #hm-connected .hlink3 a:active {
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            font-weight: 300;
+            background-color: rgb(8, 101, 91);
+        }
+
+        /*  ============ imagine ===========*/
+
+        #imagine {
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#edbd21+0,f1d66b+100&1+0,0.65+100 */
+            background: -moz-linear-gradient(top, rgba(237, 189, 33, 1) 0%, rgba(241, 214, 107, 0.65) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(237, 189, 33, 1) 0%, rgba(241, 214, 107, 0.65) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(237, 189, 33, 1) 0%, rgba(241, 214, 107, 0.65) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edbd21', endColorstr='#a6f1d66b', GradientType=0);
+            /* IE6-9 */
+
+            padding: 20px 0;
+        }
+
+
+        #imagine a.button {
+    border-radius: 40px;
+            padding: 15px 25px 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px auto;
+            cursor: pointer;
+            line-height: 1.5em;
+            font-size: 24px;
+        }
+
+        #imagine h3 {
+            font-size: 48px;
+            line-height: 1.25em;
+            color: #000000;
+            text-align: center;
+            font-weight: 400;
+            margin: 10px auto 20px;
+            max-width: 800px;
+            text-decoration: none;
+        }
+
+        #imagine .hlink3 a:link, a:visited, h3:hover, a:active {
+            text-decoration: none;
+        }
+
+
+        /* hm-implement pseudo classes  */
+        /* unvisited link */
+        #imagine .hlink3 a.button:link {
+            border: 1px solid #000;
+            color: #000;
+            font-weight: 400;
+            background-color: none;
+        }
+
+        /* visited link */
+        #imagine .hlink3 a.button:visited {
+            border: 1px solid #000;
+            color: #000;
+            font-weight: 400;
+              background-color: none;
+        }
+
+        /* mouse over link */
+        #imagine .hlink3 a.button:hover {
+            border: 1px solid #fff;
+            color: #fecb00;
+            font-weight: 300;
+            background-color: #000000;
+        }
+
+        /* selected link */
+        #imagine .hlink3 a.button:active {
+            border: 1px solid #fff;
+            color: #fecb00;
+            font-weight: 300;
+            background-color: #000000
+            ;
+        }
+
+        /* ======== about K12 ========= */
+
+        #about-K12 {
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a4291+0,05374d+100&1+20,0.6+100 */
+            background: -moz-linear-gradient(top, rgba(10, 66, 145, 1) 0%, rgba(9, 64, 131, 1) 20%, rgba(5, 55, 77, 0.6) 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba(10, 66, 145, 1) 0%, rgba(9, 64, 131, 1) 20%, rgba(5, 55, 77, 0.6) 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(10, 66, 145, 1) 0%, rgba(9, 64, 131, 1) 20%, rgba(5, 55, 77, 0.6) 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a4291', endColorstr='#9905374d', GradientType=0);
+            /* IE6-9 */
+
+
+        }
+
+        #about-K12 h2.head {
+            font-size: 48px;
+            line-height: 1.25em;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: center;
+            margin: 30px auto 15px auto;
+        }
+
+        #about-K12 p.description {
+            font-size: 22px;
+            line-height: 1.55em;
+            font-weight: 100;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 40px;
+            max-width: 975px;
+            margin: 0px auto 30px auto;
+        }
+
+
+        /* =============  ANIMATIONS  ================ */
+
+        /* ========== carousel =========== */
+
+        .carousel-inner>.item>img,
+        .carousel-inner>.item>a>img {
+            width: 100%;
+            margin: auto;
+            height: auto;
+        }
+
+
+        /* =============  BOUNCE  ========== */
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .bounce img {
+            animation-name: bounce;
+            animation-delay: 1s;
+            animation-duration: 4s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 3;
+        }
+
+        .bounce2 img {
+            animation-name: bounce;
+            animation-delay: 2s;
+            animation-duration: 4s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 3;
+        }
+
+
+        .bounce3 img {
+            animation-name: bounce;
+            animation-delay: 3s;
+            animation-duration: 4s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 3;
+        }
+
+        /* =============  TRANSITION COLOR  ========== */
+
+        @keyframes ordermove {
+            0% {
+                background-color: #2A2695;
+            }
+
+           50% {
+                background-color: #a00f9d;
+            }
+            
+            0% {
+                background-color: #2A2695;
+            }
+
+        }
+
+        /* =============  ROTATE  ========== */
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+
+            50% {
+                transform: rotate(180deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        .rotate img {
+            animation-name: rotate;
+            animation-delay: 4s;
+            animation-duration: 8s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 2;
+        }
+
+        .rotate2 img {
+            animation-name: rotate;
+            animation-delay: 6s;
+            animation-duration: 8s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 2;
+        }
+
+        .rotate3 img {
+            animation-name: rotate;
+            animation-delay: 8s;
+            animation-duration: 8s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 2;
+        }
+
+        #catalogSection {
+            background-color: #08649a;
+        }
+
+        /* =============== media queries ==================*/
+
+        @media (max-width: 991px) {
+            .NGLSchoolHomePage #storyBlockContainer {
+                padding: 0 15px;
+            }
+        }
+
+        @media (max-width: 441px) {
+            .bk2 {
+                border: 0 solid #9d9d9d;
+                padding: 0;
+                max-width: 360px;
+                height: 402px;
+                background: none;
+                border-radius: 4px;
+                display: inline-block;
+                margin: 0 5% 20px;
+                text-align: center;
+                vertical-align: top;
+                box-sizing: border-box;
+            }
+       
+        #hm-connected img { 
+            max-width: 325px;     
+        }
+
+        
+        
+        
+        
+        }
+
+        @media (min-width: 1028px) {
+            .carousel-caption h2 {
+                font-size: 60px;
+                font-weight: 100px;
+                line-height: 1.2em;
+            }
+
+            .carousel-caption p {
+                font-size: 16px;
+                font-weight: 200;
+            }
+        }
+
+        @media (max-width: 1028px) {
+            .carousel-caption h2 {
+                font-size: 42px;
+            }
+
+            .carousel-caption p {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .carousel-caption h2 {
+                font-size: 30px;
+            }
+
+            .carousel-caption p {
+                font-size: 0px;
+            }
+        }
+
+        @media (max-width: 375px) {
+            #myCarousel .carousel-caption h2 {
+                font-size: 24px;
+                line-height: 24px;
+            }
+
+            .carousel-caption p {
+                font-size: 0px;
+            }
+        }

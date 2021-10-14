@@ -1,0 +1,394 @@
+/* screen - k12-ordering-website-3 */
+
+.k12-ordering-website-3 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 2002px;
+  overflow: hidden;
+  width: 428px;
+}
+
+.k12-ordering-website-3 .overlap-group8 {
+  align-items: flex-end;
+  background-image: url(../img/mask-group-116@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 149px;
+  min-width: 428px;
+  padding: 14px 34px;
+}
+
+.k12-ordering-website-3 .ordering {
+  letter-spacing: 0;
+  line-height: 25px;
+  min-height: 36px;
+  width: 263px;
+}
+
+.k12-ordering-website-3 .text-562 {
+  color: var(--fiord);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: -2px;
+  margin-left: 2.0px;
+  margin-top: 19px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 648px;
+}
+
+.k12-ordering-website-3 .text-563 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 2.0px;
+  margin-top: 16px;
+  min-height: 81px;
+  text-align: center;
+  width: 362px;
+}
+
+.k12-ordering-website-3 .overlap-group9 {
+  height: 58px;
+  margin-left: 2.0px;
+  margin-top: 29px;
+  position: relative;
+  width: 648px;
+}
+
+.k12-ordering-website-3 .path-57 {
+  height: 58px;
+  left: 75px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 490px;
+}
+
+.k12-ordering-website-3 .text-566 {
+  height: 27px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: 648px;
+}
+
+.k12-ordering-website-3 .text-565 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 2.0px;
+  margin-top: 16px;
+  min-height: 41px;
+  text-align: center;
+  width: 362px;
+}
+
+.k12-ordering-website-3 .overlap-group14 {
+  height: 263px;
+  margin-left: 0;
+  margin-top: 29px;
+  position: relative;
+  width: 360px;
+}
+
+.k12-ordering-website-3 .overlap-group3 {
+  align-items: flex-start;
+  background-image: url(../img/path-56@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 360px;
+  padding: 13.0px 20.0px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-ordering-website-3 .text-5 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 48px;
+  text-align: center;
+  width: 318px;
+}
+
+.k12-ordering-website-3 .overlap-group {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 183px;
+  left: 0;
+  min-width: 360px;
+  padding: 9px 19px;
+  position: absolute;
+  top: 80px;
+}
+
+.k12-ordering-website-3 .click-the-submit-cus {
+  cursor: pointer;
+  height: 155px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+  width: 318px;
+}
+
+.k12-ordering-website-3 .span-1 {
+  text-decoration: underline;
+}
+
+.k12-ordering-website-3 .overlap-group5 {
+  background-image: url(../img/path-56@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 80px;
+  margin-top: 16px;
+  position: relative;
+  width: 360px;
+}
+
+.k12-ordering-website-3 .text-5-1 {
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 318px;
+}
+
+.k12-ordering-website-3 .path-63 {
+  height: 80px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 360px;
+}
+
+.k12-ordering-website-3 .overlap-group6 {
+  background-color: var(--white);
+  height: 71px;
+  position: relative;
+  width: 360px;
+}
+
+.k12-ordering-website-3 .text-567 {
+  height: 43px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: 300px;
+}
+
+.k12-ordering-website-3 .rectangle-249 {
+  background-color: var(--white);
+  height: 71px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 360px;
+}
+
+.k12-ordering-website-3 .text-569 {
+  cursor: pointer;
+  height: 43px;
+  left: 30px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: 300px;
+}
+
+.k12-ordering-website-3 .overlap-group15 {
+  height: 150px;
+  margin-top: 16px;
+  position: relative;
+  width: 360px;
+}
+
+.k12-ordering-website-3 .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 70px;
+  left: 0;
+  min-width: 360px;
+  padding: 9px 30px;
+  position: absolute;
+  top: 80px;
+}
+
+.k12-ordering-website-3 .text-571 {
+  cursor: pointer;
+  height: 43px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+  width: 300px;
+}
+
+.k12-ordering-website-3 .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(../img/path-56@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 360px;
+  padding: 13.0px 20px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-ordering-website-3 .overlap-group16 {
+  height: 153px;
+  margin-top: 17px;
+  position: relative;
+  width: 360px;
+}
+
+.k12-ordering-website-3 .overlap-group1-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 73px;
+  left: 0;
+  min-width: 360px;
+  padding: 9px 30px;
+  position: absolute;
+  top: 80px;
+}
+
+.k12-ordering-website-3 .text-573 {
+  cursor: pointer;
+  height: 45px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+  width: 300px;
+}
+
+.k12-ordering-website-3 .text-575 {
+  height: 104px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 2.0px;
+  margin-top: 20px;
+  text-align: center;
+  width: 362px;
+}
+
+.k12-ordering-website-3 .overlap-group11 {
+  align-items: flex-start;
+  background-image: url(../img/path-61@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 56px;
+  justify-content: flex-end;
+  margin-right: 0;
+  margin-top: 28px;
+  min-width: 428px;
+  padding: 11.0px 44.0px;
+}
+
+.k12-ordering-website-3 .individual-purchase {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  width: 338px;
+}
+
+.k12-ordering-website-3 .overlap-group17 {
+  height: 148px;
+  margin-top: 15px;
+  position: relative;
+  width: 360px;
+}
+
+.k12-ordering-website-3 .overlap-group4 {
+  align-items: flex-start;
+  background-image: url(../img/path-62@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 70px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 360px;
+  padding: 8.0px 20px;
+  position: absolute;
+  top: 0;
+}
+
+.k12-ordering-website-3 .overlap-group10 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 78px;
+  left: 0;
+  min-width: 360px;
+  padding: 13px 21px;
+  position: absolute;
+  top: 70px;
+}
+
+.k12-ordering-website-3 .text-577 {
+  height: 44px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+  width: 318px;
+}
+
+.k12-ordering-website-3 .overlap-group7 {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  min-height: 365px;
+  padding: 44.9px 25.6px;
+  width: 428px;
+}
+
+.k12-ordering-website-3 .text-578 {
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 29px;
+  text-align: center;
+  width: 374px;
+}
+
+.k12-ordering-website-3 .national-geographic {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 2.0px;
+  margin-top: 11px;
+  min-height: 200px;
+  text-align: center;
+  width: 362px;
+}

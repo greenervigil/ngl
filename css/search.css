@@ -1,0 +1,60 @@
+
+.searchpage {
+	margin-left:20px;
+}
+
+.advsearchbox {
+	border-top: 1px solid #A7ACB1;
+	border-bottom: 1px solid #A7ACB1;
+	border-right: 1px solid #A7ACB1;
+	border-left: 1px solid #A7ACB1;
+}
+
+.menuhead {
+        BACKGROUND: #c1ced7; FONT: bold 12px verdana, arial, sans-serif; COLOR: #036
+}
+/*
+.searchfield {
+        background-color: #fff;
+        color: #888;
+        font: normal 10px verdana,arial,sans-serif;
+        border: #666 solid 1px;
+        width: 166px;
+        padding: 2px;
+}*/
+.hdots2 {
+        BACKGROUND-POSITION: left 50%; 
+	BACKGROUND-IMAGE: url(/images/dots_horiz2.gif); 
+	BACKGROUND-REPEAT: repeat-x;
+	height: 1px;
+}  
+.vdots {
+        BACKGROUND: url(/images/dots_vert.gif) #fff repeat-y left top
+}
+
+.searchhead {
+        DISPLAY: block; FONT: bold 10px verdana, arial, sans-serif; COLOR: #6a717d
+}
+
+.searchSm {
+        DISPLAY: block; FONT: 10px verdana, arial, sans-serif; COLOR: #6a717d
+}
+
+.coarselevel {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #9C312E;
+        line-height: 20px;
+}
+.search2dots { background: #FFF;  background-image: url(/images/search_t/search_2dot.gif); background-repeat: repeat-x; background-position: left;}
+
+.searchDisc { font: bold 12px verdana, arial, sans-serif; color: #375CAD; background: #fff; }
+
+.searchOblt { font: normal 10px verdana,arial,sans-serif; color: #c93; }
+
+a.searchTitle { font: bold 10px verdana,arial,sans-serif; color: #366; text-decoration: none; }
+a.searchTitle:hover { color: #933; }
+
+.searchDetails { font: normal 10px verdana,arial,sans-serif; color: #666; }
+

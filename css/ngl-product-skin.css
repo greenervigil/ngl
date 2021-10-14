@@ -1,0 +1,73 @@
+/*--- Content Region Styles ----------------------*/
+
+html body { font-family: Arial, Helvetica, sans-serif; }
+
+body header + .container:first-of-type {
+	margin: 0 auto;
+	opacity: .999;
+	width: 975px;
+	min-height: 100%;
+}
+
+h1, h2, h3 { font-weight: bold; }
+
+.container { opacity: 1; }
+
+.border { border: 1px solid #FC0; }
+
+.share { border-color: #FFCD07; }
+
+.program-overview .share { width: 721px; }
+
+.purchasePanel.cengage-brain-panel { margin: -59px 1px 20px 0; }
+
+.bookSpecs .contributor {
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+aside.right ul.links li { border-top: 1px solid #FC0; }
+
+ul.links a[title="Request Copy"] { font-weight: bold; }
+
+/* ------------ Companion Links ------------ */
+
+ul.links a.companion-link {
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,204,0,0)), color-stop(100%,rgba(255,204,0,0.3))); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,204,0,0.3) 100%); /* Chrome10+,Safari5.1+ */
+     background-image: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,204,0,0.3) 100%); /* FF3.6+ */
+      background-image: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,204,0,0.3) 100%); /* IE10+ */
+      background-image: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,204,0,0.3) 100%); /* W3C */
+       background-image: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,204,0,0.3) 100%); /* Opera 11.10+ */
+  background-repeat: repeat-x;
+  font-weight: bold;
+   -webkit-transition: all .2s linear;
+      -moz-transition: all .2s linear;
+       -ms-transition: all .2s linear;
+        -o-transition: all .2s linear;
+           transition: all .2s linear;
+}
+
+.ie8 ul.links a.companion-link { filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffcc00', endColorstr='#80ffcc00',GradientType=1 ); /* IE6-8 */  font-weight: bold; }
+
+ul.links a.companion-link:hover { background-color: rgba(255,204,0,0.2); }
+
+.ngl-store-link { 
+  color: #FFCD07;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.ngl-store-link .ngl { color: #AF5700; }
+
+.ngl-store-link .store { 
+  color: #E7A100;
+  font-size: 18px;
+  font-weight: lighter; 
+}
+
+/* ------------ NGL Store Purchase Panel ------------ */
+
+.purchasePanel.ngl-store { border-color: #FFCD07; }

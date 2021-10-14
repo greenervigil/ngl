@@ -1,0 +1,129 @@
+@media(max-width: 767px){
+
+	.NGLELTSeriesPage .seriesContainer, .NGLELTSeriesPage .productDetailsPadding{
+        padding: 0px 12px;
+	}
+
+	#subSeriesGroupContainer .subseriesGroupPadding, #seeLevel .subseriesGroupPadding, #barSeriesMenuContainer .subseriesGroupPadding, #relatedPrograms .subseriesGroupPadding,
+	#customTab .subseriesGroupPadding, .seriesCustomTab2 .subseriesGroupPadding, #companionSiteMenu .subseriesGroupPadding{
+	    padding:10px 12px;
+	}
+
+	.programInfonav ul{
+		margin: 0px;
+	}
+
+	.programInfonav .container{
+		padding: 0px;
+	}
+
+	/* Series banner section */
+
+	.NGLELTSeriesPage #seriesBanner{
+	    height: 144px;
+	    /*background-image: url(http://d-ngl.cengage.com/covers/imageServlet?epi=10146259965966702329517769751686500408&image_type=OVTAB);*/
+	    background-repeat: no-repeat;
+  		background-size: cover;
+  		background-position: center;
+	}
+
+	.NGLELTSeriesPage #seriesBanner .superheroImg{
+	    height: 100%;
+	    display: none;
+		
+	}
+
+	.NGLELTSeriesPage .heroOverlayText{
+	    font-size: 22px;
+	    margin: 5px auto;
+	}
+
+	/*-- see level section --*/
+
+	#seeLevelContainer .left, #seeLevelContainer .right {
+	    width: 6%;
+	}
+
+	.NGLELTSeriesPage .requestSampleBtn{
+		width: 100%;
+	}
+
+	.seeAllSeriesTitlesBtn{
+		width: 100%;
+	}
+
+	/*-- Subseries group --*/
+
+	#subSeriesGroup .subSeriesGroupBtn{
+	    width: 90%;
+	}
+
+	/*--More details section--*/
+	.NGLELTSeriesPage #EltmoreDetails .seriesContainer{
+        padding: 0px;
+	}
+	.NGLELTSeriesPage .titleMore{
+		padding: 0px 12px;
+	}
+
+	#seriesDetailsMorecontainer>li>a{
+    	padding: 10px 12px;
+	}
+
+	/*--Authors Section--*/
+	.authorImgContainer{
+		width: 30%;
+	    margin-right: 5%;
+	}
+
+	.authorDescriptionContainer{
+		width: 65%;
+	}
+
+	/*-- Technology Section --*/
+	#technology{
+	    padding-bottom:33px;
+	}
+
+	/*-- Assessment Section --*/
+	#assessment{
+	    padding-bottom:33px;
+	}
+
+	/*-- Related Programs section --*/
+	#relatedPrograms{
+	    padding: 20px 0px;
+	}
+
+	/*-- Related Programs Scroll section --*/
+	#relatedProgramsContainer .left, #relatedProgramsContainer .right {
+		width: 6%;
+	}
+
+	/*-- Series Custom Tab 2 Section --*/
+	.NGLELTSeriesPage .seriesCustomTab2{
+	    padding: 32px 0px;
+	}
+
+	.NGLELTSeriesPage .seriesCustomTab2Heading{
+		font-size: 28px;
+		color: rgb(255, 255, 255);
+		line-height: 0.964;
+		text-align: center;
+	}
+
+	/*---- story block section ---*/
+	.NGLELTSeriesPage .storyBlockContainer{
+		padding: 0 12px;
+	}
+	
+	.NGLELTSeriesPage #relativeSectionContainer{
+		margin-top: 45px;
+	}
+	#programInfoMenuMainContainer{
+		margin-top: 45px;
+	}
+	#programInfoSection{
+		top: 72px;
+	}
+}

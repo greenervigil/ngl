@@ -1,0 +1,223 @@
+/* CSS Document */
+/* this is the print CSS document */ 
+
+
+/*****General Styles*****/
+html {
+    font-size:10px;
+    color:#3c3c3c;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height:1.90em;
+}
+
+a img {
+    border:0;
+}
+
+a:link {
+    color:#000;
+    text-decoration:none;
+    border:none;
+}
+
+a:visited {
+    color:#000;
+    text-decoration:none;
+    border:none;
+}
+
+a:hover {
+    color:#000;
+    text-decoration:none;
+    border:none;
+}
+
+li {
+    list-style-type:none;
+}
+
+ul, li, p, h4, h5 {
+    padding:0px;
+    margin:0px;
+}
+
+div#global {
+    padding:0px 0px 0px 0px;
+    margin:0px auto;
+    width:800px;
+}
+/*****End General Styles*****/
+
+/*****Header Section*****/
+div#suportLinks ul li:nth-child(2) {
+	display:none;
+}
+
+div#headerContentWrap {
+	display:table;
+	width:100%;
+	border:1px solid #CCC;
+}
+
+div#logos {
+	display:table-cell;
+	vertical-align:middle;
+	border:1px solid #CCC;
+    border-right:none;
+}
+
+div#headerRight {
+	display:table-cell;
+	vertical-align:middle;
+	border:1px solid #CCC;
+    border-left:none;
+}
+
+div#suportLinks ul {
+	list-style-type:none;
+	padding-right:10px;
+	text-align:right;
+}
+
+div#suportLinks ul li {
+	font-size:10px;
+	padding:3px 0px 3px 0px;
+}
+
+div#suportLinks ul li:nth-child(1), 
+div#suportLinks ul li:nth-child(2) {
+	font-size:13px;
+}
+/*****End Header Section*****/
+
+/*****Breadcrumbs Section*****/
+div#Breadcrumbs {
+    float:left;
+    width:100%;
+    background-color: #FFFFFF;
+}
+
+.bread_nav {
+    float:left;
+    font-size:88%;
+    font-weight:400;
+    padding:14px 0px 8px 0px;
+    margin:0px 0px 0px 0px;
+    width:700px;
+    font-size:13px;
+}
+
+.bread_nav ul {
+    float:left;
+    width:100%;
+}
+
+
+.bread_nav ul li {
+    float:left;
+    padding:0 3px;
+    width:auto;
+}
+/*****End Breadcrumbs Section*****/
+
+/*****Title Header Section*****/
+.h1_header {
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    font-weight:bold;
+    float:left;
+    width:100%; 
+}
+
+.h1_header h1 {
+    padding:0px 0px 8px 0px;
+    margin:0px 0px 0px 0px;
+    font-size:18px;
+}
+
+#SRtitle_head .sub_h1 {
+    float:left;
+    width:50%;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 5px 0px;
+    font-size:1.25em;
+    font-weight:bold;
+}
+
+.BrowsebyField {
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 10px 0px;
+    float:left;
+    width:220px;
+}
+/*****End Title Header Section*****/
+
+/*****Search Results Section*****/
+dl.bcon_right {
+	display:none;
+}
+
+div#c1 {
+	float:left;
+	width:100%;
+	background-color:#FFFFFF;
+}
+
+.catalog_c1_1, .catalog_c1_1last {
+	display:table;
+	width:100%;
+	border-bottom:1px dotted #CCC;
+	font-size:13px;
+	padding: 10px 0px;
+	margin:0px;
+}
+
+dl.cat_infoLeft, dl.cat_infoLeftProgram {
+	display:table-cell;
+	vertical-align:middle;
+	width:150px;
+}
+
+dd.cat_image {
+	text-align:center;
+	margin:0px;
+}
+
+dl.cat_infoRight, dl.cat_infoRightProgram {
+	display:table-cell;
+	vertical-align:middle;
+	width:650px;
+}
+
+dt.cat_new, dt.cat_BookTitleNew {
+	font-weight:bold;
+	color: #0089C5;
+}
+
+dd.cat_subtitle {
+	padding-top:2px;
+	font-size:10px;
+}
+
+dd.cat_author {
+	font-style:italic;
+}
+
+dd.cat_author, dd.cat_isbn, 
+dd.cat_about, dd.cat_edition { 
+	padding-top:3px;
+	color:#000000;
+	margin: 0px 0px 0px 0px;
+}
+
+dl.bcon_left {
+	float:left;
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+
+dd.cat_about, dd.cat_edition { 
+	display: inline;
+}
+/*****End Search Results Section*****/

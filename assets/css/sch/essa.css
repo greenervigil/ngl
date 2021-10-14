@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.mainPageContainer{
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+
+.contentContainer{
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+
+
+p {
+	font-size: 15px;
+	line-height: 1.4em;
+}
+
+body {
+    padding-bottom: 250px;
+}
+
+
+.list-group-item a{
+	color : #666666;
+}
+
+.apnote {
+	font-size: 10px;
+	line-height: normal;
+	color: #666;
+}
+
+
+.ctr {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.imgCover{
+  max-height: 148px;
+}
+
+.info {
+	max-width: 210px;
+	text-align: left;
+}
+

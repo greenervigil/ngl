@@ -1,0 +1,66 @@
+@media(max-width: 991px){
+
+	.NGLSchoolSeriesPage .seriesContainer{
+    	padding: 0px 43px;
+	}
+
+	#subSeriesGroupContainer .subseriesGroupPadding, #seeLevel .subseriesGroupPadding, #barSeriesMenuContainer .subseriesGroupPadding, #relatedPrograms .subseriesGroupPadding,
+	.seriesCustomTab .productDetailsPadding, .seriesCustomTab2 .productDetailsPadding, #companionSiteMenu .subseriesGroupPadding{
+	    padding:10px 43px;
+	}
+
+	#programInfoSection .container{
+		padding: 0px 8px;
+	}
+
+	#programInfoMenuMainContainer .container{
+		padding: 0px;
+	}
+
+	/* Series banner section */
+
+	.NGLSchoolSeriesPage #seriesBanner{
+	   /* height: 290px;*/
+	}
+	
+		/*--Authors Section--*/
+	.authorDescriptionContainer.fullWidth {
+	    height: auto;
+	}
+
+	.authorDescriptionContainer{
+		height: auto;
+	}
+
+	.authorContainer{
+		width: 100%;
+	}
+
+	.authorImgContainer{
+		margin-right: 2%;
+	}
+
+	.NGLSchoolSeriesPage .authorMoreBtn{
+		display: block;
+	}
+
+	/*---- story block section ---*/
+	
+	.NGLSchoolSeriesPage .storyBlockContainer{
+		padding: 0 15px;
+	}
+
+	.NGLSchoolSeriesPage .story-block .block {
+		max-width: 350px;
+	}
+	
+	/*-- Companion site --*/
+	.NGLSchoolSeriesPage #companionSitecontainer>li a{
+		padding: 10px 0px;
+	}
+
+	.NGLSchoolSeriesPage .companionSiteSubmenu li a{
+		padding: 10px 0px;	
+	}
+
+}

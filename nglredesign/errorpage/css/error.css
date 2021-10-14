@@ -1,0 +1,67 @@
+#errorBody{
+	height: auto;
+}
+
+section {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+/*-- Error Section--*/
+#errorSection{
+
+}
+
+.errorContainer{
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 3px;
+	background-color: rgb(230, 230, 230);
+	padding: 8px;
+}
+
+.errorTitle{
+	font-size: 18px;
+	color: rgb(153, 38, 19);
+	line-height: 1.2;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.errorMessage{
+	padding-left: 7%;
+}
+
+.errorDescription{
+	font-size: 14px;
+	color: rgb(149, 23, 0);
+	line-height: 1.286;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.errorList ul{
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	line-height: 2;
+	text-align: left;
+	list-style-type: decimal;
+	padding-left: 15px;
+	margin-bottom: 10px;
+}
+
+.appreciate{
+	font-size: 14px;
+	color: rgb(0, 114, 163);
+	font-style: italic;
+	line-height: 1.286;
+	text-align: left;
+}
+
+.red{
+	color: #951700;
+}
+
+.red:hover{
+	color: #951700;
+	text-decoration: none;
+}

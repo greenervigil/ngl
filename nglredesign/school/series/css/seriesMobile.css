@@ -1,0 +1,118 @@
+@media(max-width: 767px){
+
+	.NGLSchoolSeriesPage .seriesContainer{
+        padding: 0px 12px;
+	}
+
+	#subSeriesGroupContainer .subseriesGroupPadding, #barSeriesMenuContainer .subseriesGroupPadding, #relatedPrograms .subseriesGroupPadding,
+	.seriesCustomTab .productDetailsPadding, .seriesCustomTab2 .productDetailsPadding, #companionSiteMenu .subseriesGroupPadding{
+	    padding:10px 12px;
+	}
+
+	.programInfonav ul{
+		margin: 0px;
+	}
+
+	.programInfonav .container{
+		padding: 0px;
+	}
+
+	/* Series banner section */
+
+	.NGLSchoolSeriesPage #seriesBanner{
+	    height: 144px;
+	    /*background-image: url(http://d-ngl.cengage.com/covers/imageServlet?epi=10146259965966702329517769751686500408&image_type=OVTAB);*/
+	    background-repeat: no-repeat;
+  		background-size: cover;
+  		background-position: center;
+	}
+
+	.NGLSchoolSeriesPage #seriesBanner .superheroImg{
+	    height: 100%;
+	    display: none;
+		
+	}
+
+	.NGLSchoolSeriesPage .heroOverlayText{
+	    font-size: 22px;
+	    margin: 5px auto;
+	}
+	
+	/*-- Grades K-6 section --*/
+
+	.NGLSchoolSeriesPage .requestSampleBtn{
+		width: 100%;
+	}
+
+
+	/*-- Subseries group --*/
+
+	#subSeriesGroup .subSeriesGroupBtn{
+	    width: 90%;
+	}
+
+	/*-- Assessment Section --*/
+	#assessment{
+	    padding-bottom:33px;
+	}
+
+	/*-- Technology Section --*/
+	#technology{
+	    padding-bottom:33px;
+	}
+
+	/*-- Related Programs section --*/
+	#relatedPrograms{
+	    padding: 20px 0px;
+	}
+
+	/*-- Related Programs Scroll section --*/
+	#relatedProgramsContainer .left, #relatedProgramsContainer .right {
+		width: 6%;
+	}
+
+	/*-- Series Custom Tab 2 Section --*/
+	.NGLSchoolSeriesPage .seriesCustomTab2{
+	    padding: 32px 0px;
+	}
+
+	.NGLSchoolSeriesPage .seriesCustomTab2Heading{
+		font-size: 28px;
+		color: rgb(255, 255, 255);
+		line-height: 0.964;
+		text-align: center;
+	}
+	
+	/*-- see level section --*/
+
+	#seeLevelContainer .left, #seeLevelContainer .right {
+	    width: 6%;
+	}
+
+	.NGLSchoolSeriesPage .requestSampleBtn{
+		width: 100%;
+	}
+
+	.seeAllSeriesTitlesBtn{
+		width: 100%;
+	}
+	.seriesViewESampleBtn{
+		width: 100%;
+	}
+
+	/*--Authors Section--*/
+	.authorImgContainer{
+		width: 30%;
+	    margin-right: 5%;
+	}
+
+	.authorDescriptionContainer{
+		width: 65%;
+	}
+
+	/*---- story block section ---*/
+	.NGLSchoolSeriesPage .storyBlockContainer{
+		padding: 0 12px;
+	}
+
+}

@@ -1,0 +1,98 @@
+.suggestionsWrapper
+{
+    position:relative;
+    background-color:White;
+    color:Black;
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+    z-index:1100;
+    float:left;
+    display:none;
+}
+
+.viewAll
+{
+    position:relative;
+    float:left;
+    color:#0071A2;
+    background-color:White;
+    font-weight:bold;
+    padding:5px 0px 5px 10px
+}
+
+.close
+{
+    position:relative;
+    float:right;
+    color:#0071A2;
+    background-color:White;
+    font-weight:bold;
+    padding:5px 10px 5px 0px;
+}
+
+.close:hover
+{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.viewAll:hover
+{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.suggestion
+{	padding:0px 10px 0px 10px;
+	border-bottom:1px solid #CCCCCC ;
+} 
+
+#searchParam
+{
+	color:#666;
+}
+
+#refineSearchTXT
+{
+	color:#666;
+}
+
+#searchAgainParam
+{
+	color:#666;
+}
+
+
+/*when hovering over a suggestion with the mouse*/
+.suggestion:hover
+{
+	background-color:#e6e6e6;
+	cursor:pointer;
+}
+
+.ASIsbn 
+{
+	padding:2px 0 2px 0;
+	color:#333333;
+}
+
+.ASTitle
+{
+	padding:2px 0 2px 0;
+	color:#0071A2 ;
+	font-weight:bold;
+} 
+
+.ASAuthors
+{
+    padding:2px 0 2px 0;
+    color:#333333;
+    font-style:italic;
+}
+
+/*when using the arrow keys to highlight from the dropdown*/
+.hoverSuggestion
+{
+	background-color:#e6e6e6;
+}

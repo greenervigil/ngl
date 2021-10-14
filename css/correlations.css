@@ -1,0 +1,464 @@
+.ui-jqgrid-title { width: 100%; }
+
+body {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#titleText { text-align: center; }
+#titleMiddle { font-size: 14px; }
+#docWrapper { height: 125px; }
+#standardWrapper { height: 100px; }
+#typeText { width: 184px; }
+#search {
+  float: right;
+  width: 225px;
+}
+#add { float: left; }
+.names { height: 30px; }
+.texts {
+  width: 150px;
+  float: left;
+}
+.otherInputs {
+  width: 200px;
+  float: left;
+}
+.subtext {
+  font-size: 10px;
+  color: Gray;
+}
+#footerRow {
+  margin-top: -2px;
+  display: none;
+}
+#productsBox {
+  position: absolute;
+  margin-left: 1px;
+  width: 174px;
+  z-index: 2000000;
+  background-color: White;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+#standardsBox {
+  position: absolute;
+  margin-left: 1px;
+  z-index: 2000000;
+  width: 174px;
+  background-color: White;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+/*user display*/
+a:link {  color: #0071A2; }/* unvisited link */
+a:visited { color: #0071A2; }/* visited link */
+a:hover { color: #0071A2; }/* mouse over link */
+a:active { color: Red; }/* selected link */
+#correlations {
+  width: 100%;
+  margin-bottom: 30px;
+}
+#inputs {
+  position: relative;
+  float: left;
+  width: 170px;
+}
+#labels {
+  position: relative;
+  float: left;
+  width: 200px;
+}
+.dInputs {
+  position: absolute;
+  left: 150px;
+  width: 170px;
+}
+.dLabels {
+  position: relative;
+  width: 130px;
+}
+.inputs {
+  position: relative;
+  width: 180px;
+}
+.labels {
+  position: relative;
+  width: 200px;
+}
+#showAll {
+  float: left;
+}
+#match {
+  float: left;
+  margin-left: 10px;
+}
+.labelText { margin: 40px 0 20px 0; }
+#standardSuggestions {
+  position: absolute;
+  background-color: White;
+  z-index: 10000;
+  width: 200px;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+#programSuggestions {
+  position: absolute;
+  background-color: White;
+  z-index: 10000;
+  width: 200px;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+.suggestion {
+  border-bottom: 1px solid #CCC;
+  padding: 1px 5px 1px 5px;
+}
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+.inputText { width: 200px; }
+.corInputs {
+  float: left;
+  width: 200px;
+}
+.corText {
+  float: left;
+  width: 180px;
+}
+.corNames { height: 30px; }
+
+.showAll {
+  float: left;
+  width: 50px;
+  margin-left: 10px;
+}
+.noMatch { float: left;}
+#submitInfo {
+  margin-top: 5px;
+  margin-left: 273px;
+}
+#helpMe { margin-right: 10px; }
+#submit {
+  color: White;
+  padding: 5px 8px 5px 8px;
+  background-color: Gray;
+}
+#submit:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+#submit:active { background-color: Silver; }
+#allPrograms {
+  position: absolute;
+  background-color: White;
+  color: Black;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+#allStandards {
+  position: absolute;
+  background-color: White;
+  color: Black;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+.clickStandards { padding: 2px 5px 2px 15px; }
+.clickPrograms { padding: 2px 5px 2px 15px; }
+.suggestion:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+.hoverSuggestion { background-color: #e6e6e6; }
+.standardPopUp {
+  position: relative;
+  float: left;
+  width: 150px;
+}
+.aTitle {
+  font-weight: bold;
+  padding: 2px 2px 2px 2px;
+}
+.noMatch {
+  display: none;
+  color: Red;
+  margin-left: 10px;
+}
+#resultsLabel {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#results {
+  margin: 10px 0 30px 0;
+  width: 100%;
+  float: left;
+  display: none;
+}
+.result {
+  width: 100%;
+  float: left;
+  margin-bottom: 5px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 6px;
+}
+.resultName {
+  float: left;
+  width: 500px;
+}
+.resultSize {
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  text-align: center;
+}
+.resultDownload {
+  float: right;
+  text-decoration: underline;
+  color: Blue;
+}
+.resultDownload:hover { cursor: pointer; }
+div#downloadAdobe { margin-bottom: 30px; }
+div#title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+div#wrapper ul li {
+  list-style-type: disc;
+  margin-bottom: 1px;
+}
+div#wrapper ul { margin: 0 0 15px 15px; }
+div#wrapper ul li span { font-weight: bold; }
+div#instructions { margin-bottom: 35px; }
+div#corTitle {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+/******************** Login.jsp **********************/
+#loginWrapper {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#login {
+  width: 100%;
+  margin-bottom: 30px;
+  float: left;
+}
+.loginInputs {
+  float: left;
+  width: 200px;
+}
+.loginText {
+  float: left;
+  width: 75px;
+}
+.loginName {
+  height: 30px;
+  width: 100%;
+  float: left;
+}
+#submitSection {
+  float: left;
+  margin-left: 227px;
+  margin-top: 5px;
+}
+#forgotUNPass { margin-right: 10px; }
+#loginSubmit {
+  color: White;
+  padding: 5px 8px 5px 8px;
+  background-color: Gray;
+}
+#loginSubmit:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+#loginSubmit:active { background-color: Silver; }
+.jqifade {
+  position: absolute;
+  background-color: #aaaaaa;
+}
+div.jqi {
+  width: 400px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  position: absolute;
+  background-color: #ffffff;
+  font-size: 11px;
+  text-align: left;
+  border: solid 1px #eeeeee;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 7px;
+}
+div.jqi .jqicontainer { font-weight: bold; }
+div.jqi .jqiclose {
+  position: absolute;
+  top: 4px;
+  right: -2px;
+  width: 18px;
+  cursor: default;
+  color: #bbbbbb;
+  font-weight: bold;
+}
+div.jqi .jqimessage {
+  padding: 10px;
+  line-height: 20px;
+  color: #444444;
+}
+div.jqi .jqibuttons {
+  text-align: right;
+  padding: 5px 0 5px 0;
+  border: solid 1px #eeeeee;
+  background-color: #f4f4f4;
+}
+div.jqi button {
+  padding: 3px 10px;
+  margin: 0 10px;
+  background-color: #2F6073;
+  border: solid 1px #f4f4f4;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+div.jqi button:hover { background-color: #728A8C; }
+div.jqi button.jqidefaultbutton { background-color: #BF5E26; }
+.jqiwarning .jqi .jqibuttons { background-color: #BF5E26; }
+.jqi .jqiarrow{ position: absolute; height: 0; width:0; line-height: 0; font-size: 0; border: solid 10px transparent;}
+
+.jqi .jqiarrowtl{ left: 10px; top: -20px; border-bottom-color: #ffffff; }
+.jqi .jqiarrowtc{ left: 50%; top: -20px; border-bottom-color: #ffffff; margin-left: -10px; }
+.jqi .jqiarrowtr{ right: 10px; top: -20px; border-bottom-color: #ffffff; }
+
+.jqi .jqiarrowbl{ left: 10px; bottom: -20px; border-top-color: #ffffff; }
+.jqi .jqiarrowbc{ left: 50%; bottom: -20px; border-top-color: #ffffff; margin-left: -10px; }
+.jqi .jqiarrowbr{ right: 10px; bottom: -20px; border-top-color: #ffffff; }
+
+.jqi .jqiarrowlt{ left: -20px; top: 10px; border-right-color: #ffffff; }
+.jqi .jqiarrowlm{ left: -20px; top: 50%; border-right-color: #ffffff; margin-top: -10px; }
+.jqi .jqiarrowlb{ left: -20px; bottom: 10px; border-right-color: #ffffff; }
+
+.jqi .jqiarrowrt{ right: -20px; top: 10px; border-left-color: #ffffff; }
+.jqi .jqiarrowrm{ right: -20px; top: 50%; border-left-color: #ffffff; margin-top: -10px; }
+.jqi .jqiarrowrb{ right: -20px; bottom: 10px; border-left-color: #ffffff; }
+
+/************ Progress bar **************/
+@-webkit-keyframes progress-bar-stripes {
+  from { background-position: 40px 0; }
+  to { background-position: 0 0; }
+}
+@-moz-keyframes progress-bar-stripes {
+  from { background-position: 40px 0; }
+  to { background-position: 0 0; }
+}
+@-ms-keyframes progress-bar-stripes {
+  from { background-position: 40px 0; }
+  to { background-position: 0 0; }
+}
+@-o-keyframes progress-bar-stripes {
+  from { background-position: 0 0; }
+  to { background-position: 40px 0; }
+}
+@keyframes progress-bar-stripes {
+  from { background-position: 40px 0; }
+  to { background-position: 0 0; }
+}
+.progress {
+  height: 20px;
+  overflow: hidden;
+  background-color: #f7f7f7;
+  background-image: -moz-linear-gradient(top, #f5f5f5, #f9f9f9);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f9f9f9));
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f9f9f9);
+  background-image: -o-linear-gradient(top, #f5f5f5, #f9f9f9);
+  background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
+  background-repeat: repeat-x;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#fff9f9f9', GradientType=0);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.progress .bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #0e90d2;
+  background-image: -moz-linear-gradient(top, #149bdf, #0480be);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#149bdf), to(#0480be));
+  background-image: -webkit-linear-gradient(top, #149bdf, #0480be);
+  background-image: -o-linear-gradient(top, #149bdf, #0480be);
+  background-image: linear-gradient(to bottom, #149bdf, #0480be);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff0480be', GradientType=0);
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+     -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: width 0.6s ease;
+     -moz-transition: width 0.6s ease;
+       -o-transition: width 0.6s ease;
+          transition: width 0.6s ease;
+}
+.progress .bar + .bar {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+     -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+.progress-striped .bar {
+  background-color: #149bdf;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+     -moz-background-size: 40px 40px;
+       -o-background-size: 40px 40px;
+          background-size: 40px 40px;
+}
+.progress.active .bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+     -moz-animation: progress-bar-stripes 2s linear infinite;
+      -ms-animation: progress-bar-stripes 2s linear infinite;
+       -o-animation: progress-bar-stripes 2s linear infinite;
+          animation: progress-bar-stripes 2s linear infinite;
+}
+.progress-info .bar,
+.progress .bar-info {
+  background-color: #4bb1cf;
+  background-image: -moz-linear-gradient(top, #5bc0de, #339bb9);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#339bb9));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #339bb9);
+  background-image: -o-linear-gradient(top, #5bc0de, #339bb9);
+  background-image: linear-gradient(to bottom, #5bc0de, #339bb9);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff339bb9', GradientType=0);
+}
+.progress-info.progress-striped .bar,
+.progress-striped .bar-info {
+  background-color: #5bc0de;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}

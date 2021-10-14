@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+
+/*-----Cengage Header-n-Footer----------*/
+#header_include { 
+  background: #000;
+  clear: both;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  height: 90px;
+  margin: 0;
+  opacity: 1;
+  width: 100%;
+  z-index:1000;
+}
+#header_include2 {
+	background: #000;
+	clear: both;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 90px;
+	margin: 0;
+	opacity: 1;
+	width: 100%;
+	z-index:1000;
+}
+#header_include .container {
+	opacity:1;
+	position: relative;
+	width: 975px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#header_include2 .container {
+	margin: 0 auto;
+	opacity:1;
+	position: relative;
+	width: 975px;
+}
+#header_include h1.title a {
+  float: left;
+  font-size: 0;
+  height: 52px;
+  position: relative;
+  margin-top: 15px;
+  width: 331px;
+}
+#header_include2 h1.title a {
+	float: left;
+	font-size: 0;
+	height: 52px;
+	position: relative;
+	margin-top: 15px;
+	width: 900px;
+}
+#header_include h1 span {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	background-image:url(http://d-nglreview.cengage.com/content/images/NGL-Cengage-Logo.png);
+	background-repeat: no-repeat;
+}
+#header_include2 h1 span {
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	background-image:url(http://d-nglreview.cengage.com/content/images/la.png);
+	background-repeat: no-repeat;
+}
+#header_include .navigation {
+	background-color: #FC0;
+	float: left;
+	margin-top: 22px;
+	width: 100%;
+	display: block;
+	height: 24px;
+}
+#header_include2 .navigation {
+	background-color: #FC0;
+	float: left;
+	margin-top: 22px;
+	width: 100%;
+	display: block;
+	height: 24px;
+}
+
+#footer_include  {
+  background: #FFF;
+  bottom: 0;
+  font: 12px Arial, Helvetica, sans-serif; 
+  margin:0;
+  position: fixed;  
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#footer_include a, 
+#footer_include a:visited { 
+  color: #0071A2;
+  text-decoration:none; 
+}
+
+#footer_include a:hover { 
+  text-decoration: underline;
+}
+
+#footer_include .bottom {
+  background: #000;
+  color: #FFF;
+}
+#footer_include .bottom a,
+#footer_include .bottom a:visited { 
+  color: #FFF;
+}
+#footer_include .container {
+	position: relative;
+	width: 975px;
+	text-align: right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 6px;
+}
+
+#footer_include .bottom {
+	background: #000;
+	color: #FFF;
+	height: 28px;
+}
+
+
+#fooDiv {
+	display: none;
+}
+body, form, fieldset, legend, {
+	margin: 0;
+	padding: 0;
+}
+.required {
+	color: #F33;
+}
+
+
+p  {
+	color: #666;
+}
+
+h1 {
+	color: #666;
+}
+
+
+.btn {
+    margin-top:24px;
+    margin-left:2%;
+    background-color:#F85F5F;
+    padding:0 15px;
+    line-height:36px;
+    float:left;
+    color:#FFF;
+    font-weight:600;
+    cursor:pointer;
+}
+.row41, .row42, .row43 {
+    display:none;
+    clear:both;
+    width:100%;
+}
+
+.grbtn {
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: uppercase;
+	background-color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.grbtn:hover {
+	cursor: pointer;
+	background-color: #FFCC00;
+	color: #000;
+	font-weight: bold;
+}

@@ -1,0 +1,334 @@
+/* modal wrapper */
+#modal-outer{
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	background: gray;
+	background: rgba(0, 0, 0, .5);
+	/* [disabled]filter: alpha(opacity=50); */
+	/* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";*/
+	color: #666;
+}
+#modal-outer:target {
+	display: block;
+}
+/* modal inner */
+#modal{
+	width: 700px;
+	height: auto;
+	visibility: visible;
+	display: block;
+	/**/
+	z-index: 6000;
+	padding: 20px;
+	position: relative;
+	margin: 90px auto 40px;
+	overflow: visible;
+	background-color: white;
+	border: 1px solid #CCC	9;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, .4),inset 0 1px 0 rgba(255, 255, 255, .5);
+	-moz-box-shadow: 0 4px 12px rgba(0, 0, 0, .4),inset 0 1px 0 rgba(255, 255, 255, .5);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, .4),inset 0 1px 0 rgba(255, 255, 255, .5);
+	color: #666;
+}
+/* modal close button */
+#modal a[href="#close"] {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	color: transparent;
+	font-size: 16px;
+}
+#modal a[href="#close"]:focus {
+	outline: none;
+}
+#modal a[href="#close"]:after {
+	content: 'X';
+	position: absolute;
+	right: 14px;
+	top: 14px;
+	width: 20px;
+	height: 16px;
+	text-decoration: none;
+	text-shadow: none;
+	text-align: left;
+	background: black;
+	color: white;
+	border: 2px solid white;
+	-moz-border-radius: 10px;
+	border-radius: 20px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 6px;
+	padding-right: 6px;
+	padding-bottom: 18px;
+	padding-left: 3px;
+}
+#modal a[href="#close"]:focus:after {
+	outline: 1px solid #000;
+}
+#modal-outer #modal div img {
+	display: block;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+/* modal2 wrapper */
+#modal2-outer{
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	background: gray;
+	background: rgba(0, 0, 0, .5);
+	/* [disabled]filter: alpha(opacity=50); */
+	/* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; */
+	color: #666;
+}
+#modal2-outer:target {
+	display: block;
+}
+/* modal inner */
+#modal2{
+	width: 640px;
+	height: auto;
+	visibility: visible;
+	display: block;
+	/**/
+	z-index: 6000;
+	padding: 20px;
+	position: relative;
+	overflow: visible;
+	background-color: white;
+	border: 1px solid #CCC	9;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, .4),inset 0 1px 0 rgba(255, 255, 255, .5);
+	-moz-box-shadow: 0 4px 12px rgba(0, 0, 0, .4),inset 0 1px 0 rgba(255, 255, 255, .5);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, .4),inset 0 1px 0 rgba(255, 255, 255, .5);
+	color: #666;
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	font-size: 0.85em;
+	text-align: left;
+	font-weight: bold;
+	line-height: 1.75em;
+	margin-top: 90px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+}
+/* modal close button */
+#modal2 a[href="#close"] {
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: transparent;
+	font-size: 0px;
+}
+#modal2 a[href="#close"]:focus {
+	outline: none;
+}
+#modal2 a[href="#close"]:after {
+	content: 'X';
+	display: block;
+	position: absolute;
+	right: -16px;
+	top: -16px;
+	width: 20px;
+	height: 15px;
+	text-decoration: none;
+	text-shadow: none;
+	text-align: center;
+	background: black;
+	color: white;
+	border: 3px solid white;
+	-moz-border-radius: 20px;
+	border-radius: 40px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 9px;
+	padding-right: 6px;
+	padding-bottom: 8px;
+	padding-left: 6px;
+}
+#modal2 a[href="#close"]:focus:after {
+	outline: 1px solid #000;
+}
+#modal2-outer #modal2 div img {
+	display: block;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+/* modal3 wrapper */
+#modal3-outer{
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	background: gray;
+	background: rgba(0, 0, 0, .5);
+	/* [disabled]filter: alpha(opacity=50); */
+	/* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; */
+	color: #666;
+}
+#modal3-outer:target {
+	display: block;
+}
+/* modal inner */
+#modal3{
+	width: 640px;
+	height: auto;
+	visibility: visible;
+	display: block;
+	/**/
+	z-index: 6000;
+	padding: 20px;
+	position: relative;
+	overflow: visible;
+	background-color: white;
+	border: 1px solid #CCC	9;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, .4),inset 0 1px 0 rgba(255, 255, 255, .5);
+	-moz-box-shadow: 0 4px 12px rgba(0, 0, 0, .4),inset 0 1px 0 rgba(255, 255, 255, .5);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, .4),inset 0 1px 0 rgba(255, 255, 255, .5);
+	color: #666;
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	font-size: 0.85em;
+	text-align: left;
+	font-weight: bold;
+	line-height: 1.75em;
+	margin-top: 90px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+}
+/* modal close button */
+#modal3 a[href="#close"] {
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: transparent;
+	font-size: 0px;
+}
+#modal3 a[href="#close"]:focus {
+	outline: none;
+}
+#modal3 a[href="#close"]:after {
+	content: 'X';
+	display: block;
+	position: absolute;
+	right: -16px;
+	top: -16px;
+	width: 20px;
+	height: 15px;
+	padding: 11px 7px 8px 7px;
+	text-decoration: none;
+	text-shadow: none;
+	text-align: center;
+	background: black;
+	color: white;
+	border: 2px solid white;
+	-moz-border-radius: 20px;
+	border-radius: 40px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	font-size: 12px;
+	font-weight: bold;
+}
+#modal3 a[href="#close"]:focus:after {
+	outline: 1px solid #000;
+}
+#modal3-outer #modal3 div img {
+	display: block;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+
+
+
+
+#modal ol {
+		font-family: "Myriad Pro", "Myriad Web Pro";
+		font-size: 0.9em;
+		color: #333;
+}
+#modal ul {
+		font-family: "Myriad Pro", "Myriad Web Pro";
+		font-size: 0.9em;
+		color: #333;
+		display: list-item;
+		list-style-type: none;
+	}
+#modal li {
+		margin-bottom: 3px;
+	}
+
+.button_example{
+border:1px solid #b7b7b7; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family: "Myriad Pro", "Myriad Web Pro"; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block; color: #FFFFFF;
+ background-color: #d3d3d3; background-image: -webkit-gradient(linear, left top, left bottom, from(#d3d3d3), to(#707070));
+ background-image: -webkit-linear-gradient(top, #d3d3d3, #707070);
+ background-image: -moz-linear-gradient(top, #d3d3d3, #707070);
+ background-image: -ms-linear-gradient(top, #d3d3d3, #707070);
+ background-image: -o-linear-gradient(top, #d3d3d3, #707070);
+ background-image: linear-gradient(to bottom, #d3d3d3, #707070);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d3d3d3, endColorstr=#707070);
+}
+
+.button_example:hover{
+ border:1px solid #a0a0a0;
+ background-color: #bababa; background-image: -webkit-gradient(linear, left top, left bottom, from(#bababa), to(#575757));
+ background-image: -webkit-linear-gradient(top, #bababa, #575757);
+ background-image: -moz-linear-gradient(top, #bababa, #575757);
+ background-image: -ms-linear-gradient(top, #bababa, #575757);
+ background-image: -o-linear-gradient(top, #bababa, #575757);
+ background-image: linear-gradient(to bottom, #bababa, #575757);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#bababa, endColorstr=#575757);
+}
+#btn {
+	margin:0 auto;
+	display: block;
+	text-align: center;
+}

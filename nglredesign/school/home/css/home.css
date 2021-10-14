@@ -1,0 +1,246 @@
+/*---- Home section ---*/
+.homeBanner{
+    background-size: cover;
+    background-position: top;
+    height: 550px;
+    position: relative;
+}
+
+#super-hero .heroOverlay{
+	background-color: rgba(0, 0, 0,0.349);
+	position: absolute;
+	bottom: 0;
+	padding: 24px 0px;
+	width: 100%;
+}
+
+#super-hero .heroOverlay a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.heroOverlay h1{
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	max-width: 1056px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+.heroOverlay h1:hover{
+	color: #D3D3D3;
+}
+
+/*---- story block section ---*/
+
+#storyBlockContainer{
+	max-width: 1056px;
+	margin: 0 auto;
+}
+
+.story-block {
+    margin-top: 24px;
+    /*margin-bottom: 24px;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+.story-block .block:first-of-type {
+    margin-left: 0;
+}
+
+.story-block .block {
+    background: #FFF;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 4px;
+    display: inline-block;
+    min-height: 260px;
+    padding: 20px 0px;
+    margin: 0 .2% 20px;
+    text-align: center;
+    vertical-align: top;
+    max-width: 345px;
+    width: 100%;
+}
+
+.story-block .block a{
+	display: block;
+}
+
+.story-block .block a.blockImgContainer{
+	min-height: 92px;
+}
+
+.story-block .block a.blockImgContainer img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#storyBlockContainer .story-block .block:nth-child(1) h2{
+	font-size: 24px;
+	color: rgb(102, 102, 102);
+	font-weight: bold;
+	line-height: 1.25;
+	text-align: center;
+	margin: 10px 0px 0px;
+}
+
+#storyBlockContainer .story-block .block:nth-child(1) p{
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+	line-height: 1.5;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  -webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  -ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+#storyBlockContainer .story-block .block:nth-child(2) p{
+	font-size: 27px;
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+#storyBlockContainer .story-block .block:nth-child(3) p{
+	font-size: 24px;
+	color: rgb(104, 104, 104);
+	line-height: 1.875;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	font-weight: bold;
+}
+
+#storyBlockContainer .story-block .storyBlockLink{
+	font-size: 36px;
+	font-family: "summerFont";
+	color: rgb(0, 114, 163);
+	line-height: 0.528;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* -- catalog section -- */
+#catalogSection{
+	padding: 30px 0px;
+	background-color: rgb(0, 114, 163);
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#catalogSection img{
+	display: inline;
+}
+
+#catalogSection a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.catalogText{
+	font-size: 40.501px;
+	font-family: "summerFont";
+	color: rgb(255, 255, 255);
+	padding-top: 10px;
+}
+
+/* product scroll section */
+#productScrollSection{
+	padding: 42px 0px;
+	background-color: rgb(242, 239, 223);
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.productScrollHeading{
+	font-size: 36px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+
+#productScrollContainer .item img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.owl-controls{
+	position: absolute;
+	width: 100%;
+	top: 92px;
+}
+
+.owl-prev{
+	text-align: left;
+}
+
+.owl-next{
+	text-align: right;
+}
+
+#productScrollContainer .left, #productScrollContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 3%;
+    padding-top: 5%;
+    opacity: 1;
+    color: #000000;
+}
+
+#productScrollContainer .item a{
+	display: inline-block;
+    width: 201px;
+    text-decoration: none;
+}
+#productScrollContainer .item p{
+	color: #000000;
+}
+
+#productScrollContainer .item h2{
+	display: inline-block;
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+/* -- About Section --*/
+#about{
+	/*background: url(../images/aboutBackgroundImg-d.png) no-repeat;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    height: 568px;
+    position: relative;
+    background-color: rgb(5, 55, 77);
+    padding: 12px 0px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#aboutHeading{
+	font-size: 72px;
+	font-family: "summerFont";
+	color: rgb(255, 255, 255);
+	line-height: 1;
+	margin-top: 26px;
+}
+
+#aboutDescription{
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	line-height: 1.556;
+	max-width: 920px;
+	padding-left: 160px;
+}
+
+.wavyLineYellow{
+    margin: 15px auto;
+}

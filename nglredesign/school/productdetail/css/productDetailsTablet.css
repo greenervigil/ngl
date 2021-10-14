@@ -1,0 +1,141 @@
+@media(max-width: 991px){
+	.NGLSchoolProductPage .container {
+	    padding: 0px 15px;
+	}
+
+	.NGLSchoolProductPage .productDetailsPadding {
+	    padding: 0px 42px;
+	}
+
+	.EltProductDetailInnerPadding{
+		padding: 0px;
+	}
+
+	#productDetailsSection .container{
+		padding: 0px 8px;
+	}
+
+	#productDetailsMenuMainContainer .container{
+		padding: 0px;
+	}
+	
+	/*-- Overview Section k12 --*/
+	#EltProductDetailOverview .requestSampleBtn{
+		margin-top: 30px;
+	}
+
+	#EltProductDetailOverview .overviewBuyBtn{
+		margin-top: 25px;
+	}
+	/* product Overview section */
+
+	.productImgContainer {
+		/*width: 26%;*/
+	}
+
+    .productHeadingContainer{
+    	/*width: 71%;*/
+    	width: 65%;
+    }
+
+    .productTitle{
+		font-size: 15px;
+		color: rgb(0, 0, 0);
+		font-weight: bold;
+		line-height: 1.2;
+		text-align: left;
+    }
+
+    .productISBN{
+    	float: left;
+    }
+
+    .productBtnContainer{
+    	text-align: center;
+    }
+
+    .productBtnBuy{
+    	float: none;
+    	padding: .3% 29%;
+    }
+
+    .productHeadingContainer #requestSampleDropDowncontainer{	    
+	    float: none;
+	}
+
+	/*-- More Section --*/
+
+	.moreAuthorImgContainer{
+	    width: 22%;
+	}
+
+	.moreAuthorDescriptionContainer{
+	    width: 78%;
+	}
+
+	/* Teacher Components section */
+    #teacherComponents .teacherComponentsBox{
+    	padding-right: 1.5%;
+    }
+
+    #teacherComponents .productBtnBuy{
+    	padding: .3% 21%;
+    }
+
+	/* Student Components section */
+    #studentComponents .studentComponentsBox{
+    	padding-right: 1.5%;
+    }
+
+    #studentComponents .productBtnBuy{
+    	padding: .3% 21%;
+    }
+
+	/*-- Alternate Formats --*/
+	#alternateFormats{
+	    padding-bottom: 10px;
+	}
+
+	#alternateFormats .alternateFormatsComponentsBox{
+	    padding-right: 1.5%;
+	}
+
+	/*.alternateFormatsDetailContainer{
+		padding: 10px;
+	}*/
+
+	/*-- Best Buy --*/
+
+	#bestBuy{
+	    padding-bottom: 10px;
+	}
+
+	#bestBuy .bestBuyComponentsBox{
+	    padding-right: 1.5%;
+	}
+
+	/*.bestBuyDetailContainer{
+		padding: 10px;
+	}*/
+
+	/*---- story block section ---*/
+	
+	.NGLSchoolProductPage .storyBlockContainer{
+		padding: 0 15px;
+	}
+
+	.NGLSchoolProductPage .story-block .block {
+		max-width: 350px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	.swap-right{
+		left: 50%;
+	}
+
+	.swap-left{
+		right: 50%;
+	}
+}

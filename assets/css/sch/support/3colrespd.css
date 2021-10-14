@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+/* STRUCTURE */
+
+#pagewrap {
+	padding: 5px;
+	width: 975px;
+	margin: 0 auto;
+}
+/*header {
+	height: 100px;
+	padding: 0 15px;
+}*/
+#content {
+	width: 322px;
+	float: left;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+#middle {
+	width: 312px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 10px;
+	margin: 0px 5px 5px 5px;
+	text-align: center;
+}
+
+#sidebar {
+	width: 250px;
+	float: right;
+	padding: 5px 10px;
+	text-align: right;
+}
+footer {
+	clear: both;
+	padding: 0 15px;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+	width: 41%;
+	padding-top: 1%;
+	padding-right: 4%;
+	padding-bottom: 1%;
+	padding-left: 4%;
+	}
+	#middle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+	
+	#sidebar {
+	clear: both;
+	padding: 1% 4%;
+	width: auto;
+	float: none;
+	}
+
+	header, footer {
+		padding: 1% 4%;
+	}
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+	#content {
+	width: auto;
+	float: left;
+	margin-left: 0px;
+	}
+	
+	#middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+	
+	#sidebar {
+	width: auto;
+	float: none;
+	}
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	#sidebar {
+		display: none;
+	}
+
+}
+
+
+#content {
+	background-color: #FFFFFF;
+}
+#sidebar {
+	background-color: #FFFFFF;
+}
+header, #content, #middle, #sidebar {
+	margin-bottom: 5px;
+}
+#content      {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #ccc;
+	border-right-color: #ccc;
+	border-bottom-color: #ccc;
+	border-left-color: #ccc;
+}
+

@@ -1,0 +1,1142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*body{
+    background-color: #FFF;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    font: 400 12px/1 'Open Sans', Arial, Helvetica, sans-serif;
+}*/
+
+#relativeSectionContainer{
+    margin-top: 44px;
+    position: relative;
+    float: left;
+}
+
+section{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.productDetailsPadding{
+    padding: 0px 70px;
+}
+
+.row {
+    margin: 0px;
+    width: 100% !important;
+    height: 100%;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+    padding: 0px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.moreBtn{
+    font-size: 15px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: left;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.modal-body button.close {
+    color: #000;
+    background-color: transparent;
+    height: 15px;
+    position: absolute;
+    right: 1px;
+    margin: -8px 6px 4px 0px;
+}
+
+.modal-content button[data-dismiss="modal"]:before {
+    content: "\f00d";
+    font-size: 18px;
+    font-family: FontAwesome;
+    font-style: normal;
+}
+
+.overViewMoreBtn {
+    font-size: 15px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: left;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.overviewModalContent{
+    float: none;
+    margin-top: 20px;
+    padding: 0px;
+    overflow-y: auto;
+    height: 400px;
+}
+
+/* -- productDetails section --*/
+
+.productDetailsnav .navbar{
+    margin: 0px;
+}
+
+.productDetailsnav .navbar-header {
+    float: none;
+}
+.productDetailsnav .navbar-toggle {
+    display: block;
+}
+.productDetailsnav .navbar-collapse.collapse {
+    display: none!important;
+}
+.productDetailsnav .navbar-collapse.collapse.in {
+    display: block!important;
+}
+.productDetailsnav .navbar-nav {
+    float: none!important;
+}
+.productDetailsnav .navbar-nav>li {
+    float: none;
+    z-index: 1;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color: transparent;
+}
+
+
+#productDetailsSection{
+    border-radius: 3px;
+    background-color: rgb(255, 204, 0);
+    height: 44px;
+    position: fixed;
+    z-index: 9;
+    top: 72px;
+}
+
+#productDetailsButtonContainer{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 2.4;
+    text-align: left;
+    float: left;
+}
+
+#productDetailsButtonContainer .navbar-toggle{
+    padding: 0px;
+    margin: 0px;
+}
+
+#productDetailsMenuMainContainer{
+    position: fixed;
+    z-index: 99;
+    top: 71px;   
+}
+#productDetailsMenucontainer{
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 45px;
+}
+
+#productDetailsMenucontainer>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(224, 221, 206);
+    height: 42px;
+    margin-top: 2px;
+}
+
+#productDetailsMenucontainer>li:hover, #productDetailsMenucontainer>li:focus, 
+#productDetailsMenucontainer>li a:hover, #productDetailsMenucontainer>li a:focus{
+	border-radius: 3px;
+	background-color: rgb(128, 125, 117);
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+}
+
+#productDetailsMenucontainer li a{
+    padding: 8px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#productDetailsMenucontainer .companionSiteMenu{
+background-color: rgb(184, 119, 15);
+}
+
+#productDetailsMenucontainer .companionSiteMenu a{
+	color: rgb(255, 255, 255);
+}
+#productDetailsMenucontainer .companionSiteMenu:hover, #productDetailsMenucontainer .companionSiteMenu:focus,
+#productDetailsMenucontainer .companionSiteMenu a:hover, #productDetailsMenucontainer .companionSiteMenu a:hover{
+	background-color: rgb(128, 83, 10);
+}
+/*#productDetailsMenucontainer .menuLinksText{
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#productDetailsMenucontainer .menuLinksText:hover{
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+}*/
+
+.productDetailsSubmenu{
+    padding: 0px;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenu>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    height: 42px;
+    margin-top: 2px;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenu>li a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#productDetailsMenucontainer .menuLinksIcon{
+    border: 1px solid #666666;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenuChild>li{
+    border-radius: 3px;
+    background-color: rgb(176, 168, 139);
+    margin-top: 2px;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenuChild>li>a {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    padding: 8px;
+}
+
+#productDetailsMenucontainer .productDetailsSubmenu>li:hover, #productDetailsMenucontainer .productDetailsSubmenu>li:focus, 
+#productDetailsMenucontainer .productDetailsSubmenu>li a:hover, #productDetailsMenucontainer .productDetailsSubmenu>li a:focus{
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+	background-color: rgb(137, 137, 137);
+}
+
+/*-- Overview Section --*/
+
+.EltProductDetailInnerPadding{
+    padding: 0px 21px;
+}
+
+#EltProductDetailOverview{
+    padding: 25px 0px 25px;
+}
+
+
+#productOverview{
+    padding: 30px 0px;
+}
+
+.productOverviewContainer {
+    max-width: 786px;
+}
+
+.productImgContainer {
+    width: 11.55%;
+    margin-right: 3%;
+    position: relative;
+    float: left;
+}
+
+.productHeadingContainer{
+    position: relative;
+    float: left;
+    width: 81%;
+}
+
+img.productImg {
+    float: left;
+    width: 100%;
+}
+
+.float-right{
+    float: right;
+}
+
+.productTitle {
+    font-size: 24px;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.productISBN, .productPrice {
+    font-size: 12px;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.productPrice {
+    margin-left: 16%;
+}
+
+.productBtnContainer {
+    position: relative;
+    float: right;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+.productBtnBuy{
+    border: 1px solid rgb(0, 114, 163);
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    border-radius: 15px;
+    padding: .3% 17%;
+}
+
+.productBtnBuy:hover{
+    border: 1px solid rgb(0, 114, 163);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 114, 163);
+}
+
+.overviewDescriptionContainer .OverviewTitle{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.overviewDescriptionContainer .overviewDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+
+/*--More details section--*/
+#EltmoreDetails{
+    padding: 28px 0px;
+    border: 1px solid rgb(157, 157, 157);
+    background-color: rgb(102, 102, 102);
+}
+
+.titleMore{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#productDetailsMorecontainer{
+    padding:0px;
+}
+
+#productDetailsMorecontainer li {
+    margin-top: 2px;
+}
+
+#productDetailsMorecontainer>li{
+    border-radius: 3px;
+    background-color: rgb(224, 221, 206);
+    width: 100%;
+    margin-top: 2px;
+}
+
+#productDetailsMorecontainer>li>a{
+    padding: 10px 21px;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.productDetailsMoreSubmenu{
+    padding: 0px;
+}
+
+.productDetailsMoreSubmenu>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    padding:0px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.productDetailsMoreSubmenu>li>a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.98283261802575,0,0,1,0,0);
+    -webkit-transform: matrix( 0.98283261802575,0,0,1,0,0);
+    -ms-transform: matrix( 0.98283261802575,0,0,1,0,0);
+    padding: 11px;
+}
+
+#productDetailsMorecontainer .menuLinksIcon{
+    border: 1px solid #666666;
+    line-height: 17px;
+}
+
+.productDetailsMoreSubmenuChild>li{
+    border-radius: 3px;
+    background-color: rgb(176, 168, 139);
+}
+
+.productDetailsMoreSubmenuChild>li>a{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+     padding: 6px;
+}
+
+.moreAuthorContainer{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: rgb(230, 230, 227);
+    padding: 12px 21px 38px;
+}
+
+.moreAuthorImgContainer{
+    position: relative;
+    float: left;
+    width: 18%;
+}
+
+.moreAuthorImgContainer img{
+    max-width: 121px;
+    max-height: 149px;
+}
+
+.moreAuthorDescriptionContainer{
+    position: relative;
+    float: right;
+    width: 82%;
+}
+
+.moreAuthorTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.moreAuthorDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 2px;
+}
+
+.authorMoreBtn{
+    font-size: 15px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: left;
+    display: none;
+    margin-top: 7px;
+}
+
+/*-- productDetails carousel --*/
+#productDetailsCarousel {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.productDetailsCarouselTitle{
+    font-size: 18px;
+    color: #4498bc;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.viewAllSeriesBtn{
+    background-color: rgb(0, 114, 163);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    width: 100%;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.viewAllSeriesBtn a{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    display: inline-block;
+    text-align: center;
+}
+
+.viewAllSeriesBtn a:hover{
+    color: rgb(255, 255, 255);
+}
+
+/*.viewAllSeriesBtn{
+    background-color: rgb(0, 114, 163);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    width: 100%;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.viewAllSeriesBtn:hover{
+    color: rgb(255, 255, 255);
+}*/
+
+#productScrollSection{
+    padding: 42px 0px;
+    background-color: rgb(242, 239, 223);
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.productScrollHeading{
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+#productScrollContainer {
+    margin-top: 25px;
+}
+
+#productScrollContainer .item img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 201px;
+}
+
+.owl-controls{
+    position: absolute;
+    width: 100%;
+    top: 92px;
+}
+
+.owl-prev{
+    text-align: left;
+}
+
+.owl-next{
+    text-align: right;
+}
+
+#productScrollContainer .left, #productScrollContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 3%;
+    padding-top: 5%;
+    opacity: 1;
+    color: #000000;
+}
+
+#productScrollContainer .item {
+    width: 280px;
+    display: inline-block;
+}
+
+#productScrollContainer .item a{
+    display: inline-block;
+   /* width: 201px;*/
+    text-decoration: none;
+}
+#productScrollContainer .item .scrollDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#productScrollContainer .item .scrollCopyRight{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.333;
+    text-align: left;
+}
+
+#productScrollContainer .item .scrollHeading{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+/* Teacher Components section */
+#teacherComponents{
+    background-color: rgb(242, 242, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.teacherComponentsBold{
+    font-weight: 600;
+}
+
+.teacherComponentsDetailContainer {
+    display: block;
+    position: relative;
+    float: left;
+    height: 350px;
+    overflow: hidden;
+}
+
+.teacherComponentsTitle{
+    font-size: 24px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#teacherComponents .teacherComponentsBox{
+    margin-bottom:30px;
+    padding-right:1.9%;
+}
+
+.teacherComponentsBookTitle{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#teacherComponents .teacherComponentsDescription{
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.teacherComponentsISBNPriceContainer {
+    position: absolute;
+    bottom: 37px;
+    width: 100%;
+}
+
+.teacherComponentsProductISBN, .teacherComponentsProductPrice {
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+}
+
+#teacherComponents .productBtnContainer{
+    text-align: center;
+    position: absolute;
+    bottom: 3px;
+}
+
+
+/* student Components section */
+#studentComponents{
+    background-color: rgb(242, 242, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.studentComponentsDetailContainer {
+    display: block;
+    position: relative;
+    float: left;
+    height: 350px;
+    overflow: hidden;
+}
+
+.studentComponentsBold{
+    font-weight: 600;
+}
+
+.studentComponentsTitle{
+    font-size: 24px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#studentComponents .studentComponentsBox{
+    margin-bottom:30px;
+    padding-right:1.9%;
+}
+
+
+.studentComponentsBookTitle{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#studentComponents .studentComponentsDescription{
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.studentComponentsISBNPriceContainer {
+    position: absolute;
+    bottom: 37px;
+    width: 100%;
+}
+
+.studentComponentsProductISBN, .studentComponentsProductPrice {
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+}
+
+#studentComponents .productBtnContainer{
+    text-align: center;
+    position: absolute;
+    bottom: 3px;
+}
+
+/*-- Alternate Formats --*/
+#alternateFormats{
+    margin-top: 20px;
+    background-color: rgb(242, 242, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+#alternateFormats .alternateFormatsComponentsBox{
+    margin-bottom:30px;
+    padding-right:1.9%;
+}
+
+.alternateFormatsBold{
+    font-weight: 600;
+}
+
+.alternateFormatsHeading{
+    font-size: 24px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.alternateFormatsSubHeading{
+    font-size: 14px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 6px;
+    max-width: 718px;
+    margin-bottom: 20px;
+}
+
+.alternateFormatsDetailContainer{
+    width: 100%;
+    /*padding: 20px;*/
+    text-align: left;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    height: 170px;
+    overflow: hidden;
+}
+
+.alternateFormatsDetailHeading{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.alternateFormatsDetailISBN{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.alternateFormatsDetailPrice{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+/*-- Best Buy --*/
+#bestBuy{
+    margin-top: 20px;
+    background-color: rgb(242, 242, 240);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.bestBuyBold{
+    font-weight: 600;
+}
+
+#bestBuy .bestBuyComponentsBox{
+    margin-bottom:30px;
+    padding-right:1.9%;
+}
+
+.bestBuyLine{
+    color: rgb(0, 114, 163);
+    width: 100%;
+    border: 1px solid;
+}
+
+.bestBuyDotedLine{
+    color: rgb(102, 102, 102);
+    width: 100%;
+    border: 1px dotted;
+}
+
+.bestBuyHeading{
+    font-size: 24px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bestBuySubHeading{
+    font-size: 14px;
+    color: rgb(0, 114, 163);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0px auto;
+    max-width: 718px;
+    margin-bottom: 20px;
+}
+
+.bestBuyDetailContainer{
+    width: 100%;
+    /*padding: 20px;*/
+    text-align: left;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    height : 275px;
+    overflow: hidden;
+}
+
+.bestBuyDetailHeading{
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bestBuyDetailISBN{
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.bestBuyDetail{
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.bestBuyDetailPrice{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.bundleIncludes{
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.bestBuyProductBtnContainer{
+    position: absolute;
+    bottom: 4px;
+}
+
+/*-- Related Program --*/
+#relatedProgramCarousel {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.relatedProgramCarouselTitle{
+    font-size: 20px;  
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+}
+
+#relatedProgramCarouselContainer {
+    margin-top: 25px;
+}
+
+#relatedProgramCarouselContainer .owl-stage{
+    margin: 0px auto;
+}
+
+#relatedProgramCarouselContainer .item img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 201px;
+}
+
+.owl-controls{
+    position: absolute;
+    width: 100%;
+    top: 92px;
+}
+
+.owl-prev{
+    text-align: left;
+}
+
+.owl-next{
+    text-align: right;
+}
+
+#relatedProgramCarouselContainer .left, #relatedProgramCarouselContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 3%;
+    padding-top: 5%;
+    opacity: 1;
+    color: #000000;
+}
+
+#relatedProgramCarouselContainer .item {
+    width: 280px;
+    display: inline-block;
+}
+
+#relatedProgramCarouselContainer .item a{
+    display: inline-block;
+   /* width: 201px;*/
+    text-decoration: none;
+}
+#relatedProgramCarouselContainer .item .scrollDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#relatedProgramCarouselContainer .item .scrollCopyRight{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.333;
+    text-align: left;
+}
+
+#relatedProgramCarouselContainer .item .scrollHeading{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+/*-- Series Custom Tab --*/
+
+.seriesCustomTab{
+    background-color: rgb(21, 87, 117);
+    padding: 24px 0px;
+}
+
+.seriesCustomTabHeading{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 20px 
+}
+
+.seriesCustomTab .vidyard-video h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.seriesCustomTab .vidyard-video p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+/*-- Companion site --*/
+
+#companionSite{
+    margin-top: 2px;
+}
+
+#companionSitecontainer{
+    padding: 0px;
+}
+
+#companionSitecontainer>li{
+    border-radius: 3px;
+    background-color: rgb(184, 119, 15);
+    margin-top: 2px;
+}
+
+#companionSitecontainer>li a{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    padding: 10px 21px;
+    display: inline-block;
+    width: 100%;
+}
+
+#companionSitecontainer>li a:hover, #companionSitecontainer>li a:focus{
+    text-decoration: none;
+}
+
+.companionSiteSubmenu{
+    padding: 0px;
+}
+
+.companionSiteSubmenu .productDetailsPadding{
+     padding-bottom: 14px;
+}
+
+.companionSiteSubmenu li{
+    margin-top: 2px;
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+}
+
+.companionSiteSubmenu li a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+    padding: 10px 21px;
+    display: inline-block;
+    width: 100%;
+}
+
+.companionSiteSubmenu li a:hover, .companionSiteSubmenu li a:focus{
+    text-decoration: none;
+}
+
+/*-- Series Custom Tab 2 --*/
+.seriesCustomTab2{
+    background-color: rgb(0, 57, 133);
+    padding: 60px 0px;
+    margin-top: 2px
+}
+
+.seriesCustomTab2Heading{
+    font-size: 36px;  
+    color: rgb(255, 255, 255);
+    line-height: 0.75;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.seriesCustomTab2Img{
+    margin: 0 auto;
+}
+
+@media (min-width: 992px){
+
+    /*-- ProductDetails Carousel --*/
+    .productDetailsCarouselNoPadding>.productDetailsPadding{
+        padding: 0px;
+    }
+
+    /*-- zero padding sections --*/
+    #studentComponents .productDetailsPadding,#teacherComponents .productDetailsPadding,#alternateFormats .productDetailsPadding,
+    #bestBuy .productDetailsPadding{
+        padding: 0px;
+    }
+}

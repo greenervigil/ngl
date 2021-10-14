@@ -1,0 +1,862 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.pageContainer{
+    display: initial;
+}
+
+.seriesContainer{
+    padding: 0px 44px;
+}
+
+#relativeSectionContainer{
+    margin-top: 44px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+#subSeriesGroupContainer .subseriesGroupPadding, #barSeriesMenuContainer .subseriesGroupPadding,
+#customTab .subseriesGroupPadding, .seriesCustomTab2 .subseriesGroupPadding, #companionSiteMenu .subseriesGroupPadding{
+    padding:10px 65px;
+}
+
+/* -- program info section --*/
+
+.programInfonav .navbar{
+    margin: 0px;
+}
+
+.programInfonav .navbar-header {
+    float: none;
+}
+.programInfonav .navbar-toggle {
+    display: block;
+}
+.programInfonav .navbar-collapse.collapse {
+    display: none!important;
+}
+.programInfonav .navbar-collapse.collapse.in {
+    display: block!important;
+}
+.programInfonav .navbar-nav {
+    float: none!important;
+}
+.programInfonav .navbar-nav>li {
+    float: none;
+    z-index: 1;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color: transparent;
+}
+
+
+#programInfoSection{
+    border-radius: 3px;
+    background-color: rgb(204, 0, 51);
+    height: 44px;
+    position: fixed;
+    z-index: 9;
+    top: 71px;
+}
+
+#programInfoMenuMainContainer {
+    position: fixed;
+    margin-top: 44px;
+    z-index: 9;
+}
+
+#programInfoButtonContainer{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 2.4;
+    text-align: left;
+    float: left;
+}
+
+#programInfoButtonContainer .navbar-toggle{
+    padding: 0px;
+    margin: 0px;
+}
+
+#programInfoMenucontainer{
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    max-height: 500px;
+    overflow-y: auto !important;
+}
+
+#programInfoMenucontainer>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(224, 221, 206);
+    /*height: 42px;*/
+    margin-top: 2px;
+}
+
+#programInfoMenucontainer>li:hover, #programInfoMenucontainer>li:focus, 
+#programInfoMenucontainer>li a:hover, #programInfoMenucontainer>li a:focus{
+    border-radius: 3px;
+    background-color: rgb(128, 125, 117);
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+#programInfoMenucontainer li a{
+    padding: 8px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#programInfoMenucontainer .companionSiteMenu{
+background-color: rgb(184, 119, 15);
+}
+
+#programInfoMenucontainer .companionSiteMenu a{
+    color: rgb(255, 255, 255);
+}
+#programInfoMenucontainer .companionSiteMenu:hover, #programInfoMenucontainer .companionSiteMenu:focus,
+#programInfoMenucontainer .companionSiteMenu a:hover, #programInfoMenucontainer .companionSiteMenu a:hover{
+    background-color: rgb(128, 83, 10);
+}
+
+
+
+
+
+/*#programInfoMenucontainer .menuLinksText{
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}*/
+
+
+.programInfoSubmenu{
+    padding: 0px;
+}
+
+#programInfoMenucontainer .programInfoSubmenu>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    /*height: 42px;*/
+    margin-top: 2px;
+}
+
+#programInfoMenucontainer .programInfoSubmenu a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#programInfoMenucontainer .programInfoSubmenu>li:hover, #programInfoMenucontainer .programInfoSubmenu>li:focus, 
+#programInfoMenucontainer .programInfoSubmenu>li a:hover, #programInfoMenucontainer .programInfoSubmenu>li a:focus{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: rgb(137, 137, 137);
+}
+
+
+/* Series banner section */
+
+#seriesBanner{
+    /*background: url(../images/seriesBanner.png) no-repeat;
+    background-size: cover;
+    background-position: top;*/
+    
+}
+
+#seriesBanner2{
+    /*background: url(../images/seriesBanner.png) no-repeat;
+    background-size: cover;
+    background-position: top;*/
+}
+
+
+
+.heroOverlay{
+    background-color: rgba(0, 0, 0,0.349);
+	margin: 0 auto;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.heroOverlayText {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    line-height: 1.071;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 1056px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+
+
+
+
+/*-- Reasons To Choose section --*/
+
+#Overview{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 18px;
+    line-height: 1.3;
+
+}
+
+.OverviewHeading{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#Overview ul {
+	font-size: 14px;
+	font-weight: normal;
+	color: rgb(102, 102, 102);
+	text-align: left;
+	padding-left: 20px;
+}
+
+#Overview p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(102, 102, 102);
+    line-height: 1.3;
+    text-align: left;
+}
+
+#Overview .apnote {
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #666;
+	
+}
+
+
+
+/*-- Grades K-6 section --*/
+#gradesK6 {
+    padding-bottom: 30px;
+}
+
+.gradesImgContainer{
+	width: 100%;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+}
+.gradesK6Title{
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.gradesK6Img{
+	width: 18%;
+	display: inline-block;
+	margin: 10px;
+}
+
+.gradesK6Img img{
+	width: 100%;
+}
+
+.requestSampleBtn{
+	font-size: 15px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: center;
+	background-color: rgba(255, 204, 0, 0.502);
+	width: 47%;
+	display: inline-block;
+	border-radius: 20px;
+	padding: 7px 0px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.requestSampleBtn:hover, .requestSampleBtn:focus{
+	font-size: 15px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: center;
+}
+
+/*-- Subseries group --*/
+#subSeriesGroup {
+    padding-top: 20px;
+}
+
+#subSeriesGroupContainer{
+    padding: 0px;
+}
+
+.subseriesGroupDetailContainer{
+    display: inline-block;
+    width: 100%;
+}
+
+.subSeriesGroupContainer{
+	border-radius: 3px;
+	background-color: rgb(204, 0, 51);
+	padding: 10px 65px;
+	font-size: 18px;
+	color: rgba(248,248,248,1.00);
+}
+
+
+
+#subSeriesGroupContainer li {
+    border-radius: 3px;
+    background-color: rgb(204, 0, 51);
+}
+
+#subSeriesGroupContainer > li {
+    margin-top: 2px;
+	
+}
+#subSeriesGroupContainer > li a {
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+
+
+
+#subSeriesGroupContainer>li a:hover, #subSeriesGroupContainer>li a:focus{
+	background-color: rgba(255,251,251,1.00);
+}
+
+
+#subSeriesGroupContainer .subSeriesGroupSubmenu{
+    padding: 0px;
+}
+
+#subSeriesGroupContainer .subSeriesGroupSubmenu>li{
+    background-color: rgb(255, 255, 255, 0.8);
+    display: inline-block;
+    width: 100%;
+}
+
+.subSeriesGroupImg{
+    width: 100%;
+}
+
+.subSeriesGroupImgCaption{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    font-style: italic;
+    line-height: 1.875;
+    text-align: right;
+}
+
+.subSeriesGroupTitle{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subseriesGroupDetailDescription{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+.subSeriesGroupBtn{
+    border: 1px solid rgb(0, 114, 163);
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    display: inline-block;
+    border-radius: 14px;
+    margin: 40px 0px;
+}
+
+
+
+
+#subSeriesGroup .subSeriesGroupBtn{
+    border: 1px solid rgb(0, 114, 163);
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    display: inline-block;
+    border-radius: 14px;
+    margin: 40px 0px;
+}
+
+#subSeriesGroup .subSeriesGroupBtn:hover. #subSeriesGroup .subSeriesGroupBtn:focus{
+    color: rgb(0, 0, 0);
+}
+
+/*-- Sections --*/
+
+
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six{
+	background-color:rgba(224,220,205,1.00);
+}
+	
+#last {
+	background-color:rgba(255,255,255,1.00);
+	font-size: 18px;
+	line-height: 1.3;
+}
+
+.oneHeading{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 25px;
+    font-weight: bold;
+
+}
+
+.oneImg{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#one .srs_pullquotesmall, #one .srs_pullquotelarge{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 600;
+    /*padding-top: 30px;*/
+    /*padding-bottom: 12px;*/
+}
+
+#one .srs_headC{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: 900;
+    /*padding-top: 30px;*/
+   /* padding-bottom: 12px;*/
+}
+#one p {
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+#one .srs_body{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#one ul.srs_bulletbody{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+    line-height: 1.7;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+/*-- barSeriesMenu Section --*/
+#barSeriesMenuContainer{
+    padding: 0px;
+}
+
+#barSeriesMenuContainer>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(153, 151, 141);
+    margin-top: 2px;
+}
+
+#barSeriesMenuContainer>li a{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.barSeriesMenuSubmenu{
+    padding: 0px;
+}
+
+.barSeriesMenuSubmenu>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin-top: 2px;
+}
+
+.barSeriesMenuSubmenu>li a{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: left;
+}
+
+/*-- Related Programs section --*/
+
+#relatedPrograms{
+    padding: 24px 0px;
+}
+
+.relatedProgramsHeading{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    font-weight: bold;
+}
+
+/*-- Related Programs Scroll section --*/
+
+#relatedProgramsContainer {
+    margin-top: 20px;
+}
+#relatedProgramsContainer .item img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 201px;
+}
+
+#relatedProgramsContainer .owl-stage{
+    margin: 0 auto;
+}
+
+.owl-controls{
+    position: absolute;
+    width: 100%;
+    top: 46px;
+}
+
+.owl-prev{
+    text-align: left;
+}
+
+.owl-next{
+    text-align: right;
+}
+
+#relatedProgramsContainer .left, #relatedProgramsContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 3%;
+    padding-top: 0%;
+    opacity: 1;
+    color: #000000;
+}
+
+#relatedProgramsContainer .item a{
+    display: inline-block;
+    width: 280px;
+    text-decoration: none;
+}
+#relatedProgramsContainer .item p{
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    line-height: 1.2;
+    text-align: left;
+}
+
+#relatedProgramsContainer .item h2{
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/*-- Custom tab --*/
+.seriesCustomTab{
+    padding: 24px 0px;
+    background-color: rgb(102, 60, 81);
+}
+
+.seriesCustomTabHeading{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.seriesCustomTab .vidyard-video h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.seriesCustomTab .vidyard-video p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+/*-- Series Custom Tab 2 Section --*/
+
+.seriesCustomTab2{
+    padding: 60px 0px;
+    background-color: rgb(0, 98, 140);
+    margin-top: 2px;
+}
+
+.seriesCustomTab2Heading{
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+    line-height: 0.643;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.seriesCustomTab2Img {
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+/*-- companion site menu --*/
+#companionSiteMenuContainer{
+    padding: 0px;
+}
+
+#companionSiteMenuContainer>li{
+    border: 1px solid rgb(148, 151, 153);
+    border-radius: 3px;
+    background-color: rgb(224, 221, 206);
+    margin-top: 2px;
+}
+
+#companionSiteMenuContainer>li:hover{
+    background-color: rgb(184, 119, 15);
+}
+
+#companionSiteMenuContainer>li a{
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+#companionSiteMenuContainer>li a:hover{
+  color: rgb(255, 255, 255);
+}
+
+
+/*--BigIdeas--*/
+
+
+.jumbotron {
+	background-color: rgba(0, 0, 0,0);
+	color: rgb(255, 255, 255);
+	max-width: 1056px;
+	margin: 0 auto;
+    position: absolute;
+   	bottom: 0px;
+}
+
+.jumbotron a{
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+}
+
+@media all and (max-width: 500px) { /* screen size until 500px */
+    .jumbotron {
+        font-size: 0.8em; /* 0.8x default size */
+		
+        }
+}
+
+
+
+
+.ctr {
+    display: block;
+    margin: 0 auto;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+	align-content: center;
+}
+.container {
+    max-width: 975px;
+    margin: 0 auto;
+}
+.title {
+	font-size: 14px;
+    line-height: 1.3;
+	font-weight: bold;
+	color:rgba(51,51,51,1.00);
+	width:170px;
+	margin: 0 auto;
+}
+
+.title2 {
+	font-size: 14px;
+    line-height: 1.3;
+	font-weight: bold;
+	color:rgba(51,51,51,1.00);
+	margin-left: 24px; 
+}
+
+.lvls {
+	font-size: 12px;
+	font-weight: bold;
+	color:rgba(102,102,102,1.00)
+}
+
+.responsibility {
+	font-weight: bold;
+	color:rgb(204, 0, 51);
+}
+
+.togglelink2 {
+	font-weight: bold;
+}
+
+.togglelink2 a {
+	color: #666;
+}
+
+counties {
+	font-weight: bold;
+}
+
+.padTop {
+	padding-top: 12px;
+}
+
+.padBot {
+	padding-bottom: 17px;
+}
+
+
+
+#footer_include {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left:0;
+	
+}
+.salesreps {
+	overflow:auto;
+	padding-bottom:250px;
+}
+	
+.flhead {
+	font-size: 36px;
+	color:rgba(102,102,102,1.00);
+	font-weight: bold;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.fltxt {
+	font-size: 28px;
+	color:rgba(102,102,102,1.00);
+	font-weight: lighter;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+@media(max-width: 767px){
+
+	.seriesContainer{
+        padding: 0px 12px;
+	}
+
+	#subSeriesGroupContainer .subseriesGroupPadding, #barSeriesMenuContainer .subseriesGroupPadding, #relatedPrograms .subseriesGroupPadding,
+	.seriesCustomTab .productDetailsPadding, .seriesCustomTab2 .productDetailsPadding, #companionSiteMenu .subseriesGroupPadding{
+	    padding:10px 12px;
+	}
+
+	.programInfonav ul{
+		margin: 0px;
+	}
+
+	.programInfonav .container{
+		padding: 0px;
+	}
+	
+
+	#seriesBanner{
+	    height: 144px;
+	    background-repeat: no-repeat;
+  		background-size: cover;
+  		background-position: center;
+	}
+
+	#seriesBanner .superheroImg{
+	    height: 100%;
+	    display: none;
+		
+	}
+
+	.heroOverlayText{
+	    font-size: 22px;
+	    margin: 5px auto;
+	}
+
+}
+
+
+
+

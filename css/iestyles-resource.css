@@ -1,0 +1,29 @@
+	
+.leftnav ul{list-style-type:none;
+			margin-left:0px;
+			margin-top:10px;
+			margin-bottom:10px;
+			}
+		
+ul.submenu {margin-left:0px;
+			margin-top:0px;
+			margin-bottom:0px}
+
+		 
+body{
+	border:none;
+	background: #ffffff;
+	 }
+
+
+.frame{position:relative;
+	   margin:0px;}	   
+#countryform{margin-top:20px}
+
+.header #search_form{position:absolute;
+					  right:24px;
+					  top:2px;
+					  font-size:10px;}
+					  
+.header #search_form input{display:block;float:left;
+							  } 

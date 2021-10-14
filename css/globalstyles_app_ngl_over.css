@@ -1,0 +1,65 @@
+#search_text {
+	display: none;
+}
+#submit_button_header {
+	display: none;
+}
+#ngl-header-search {
+	display: none;
+}
+
+#submit_button_header {
+	display: none;
+}
+
+#supportLinks ul li:last-child {
+	font-size: 1em;
+	font-weight:normal;
+}
+
+.cp_productinfo_section {
+	padding-left: 0px;
+}
+.cp_productinfo_section ul {
+	list-style-type: none;
+	padding: 0px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+.cpframe_productinfo_section ul {
+	list-style-type: none;
+	padding: 0px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+.title {
+	font-weight:600;
+	font-size: 18px;
+	color: #AF5700;
+}
+.author, .pages, .copyright {
+	font-size:80%;
+}
+.isbn {
+	font-size:80%;
+	color: #000000;
+}
+.booksiteOverviewTitle {
+	font-size:90%;
+}
+.custom a:link {
+	font-size:80%;
+}
+
+#header_include .navigation {
+	margin-top: 5px;
+}
+.frame #header_include .navigation {
+	margin-top: 10px;
+}
+
+.frame #header_include {
+	height: 100px;
+}

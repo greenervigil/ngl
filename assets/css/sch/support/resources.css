@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@media (min-width:992px) {
+ 
+ .container{
+	max-width: 975px;
+    }
+    
+
+
+#content {
+	width: 975px;
+	height: auto;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+h3 {
+	color: #999;
+}
+.headers {
+	font-family: "Myriad Pro", "Myriad Web Pro";
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #666666;
+}
+#content #accordion div ul li {
+	list-style-type: none;
+	font-size: 0.875em;
+	line-height: 1.8em;
+	font-weight: 500;
+	color: #999;
+	text-decoration: none;
+}
+#content #accordion div ul li a {
+	list-style-type: none;
+	color: #333;
+	text-decoration: none;
+}
+#content #accordion div ul li a:hover{
+	list-style-type: none;
+	color: #000;
+	text-decoration: underline;
+}
+.listbox {
+	height: auto;
+	width: 975px;
+}
+

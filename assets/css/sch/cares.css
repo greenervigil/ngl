@@ -1,0 +1,223 @@
+ @charset "UTF-8";
+/* CSS Document */
+ 
+ 
+ /* INTRO SECTION */
+
+      #cares-intro {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        #cares-intro div.intro {
+            max-width: 914px;
+            margin: 15px auto 0px auto;
+        }
+
+        #cares-intro p.intro {
+            font-size: 28px;
+            line-height: 1.5em;
+            color: #666666;
+            font-weight: 100;
+            text-align: center;
+            margin: 0px auto 10px auto;
+        }
+
+        #cares-intro h4.introbld {
+            font-size: 36px;
+            line-height: 1.5em;
+            color: #333333;
+            font-weight: 800;
+            text-align: center;
+            margin: 0px auto 0px auto;
+        }
+
+
+
+/* SUMMMARY SECTION */
+
+    #cares-summary {
+            text-align: center;
+            background-color: #5671AD;
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            width: 100%;
+        }
+
+        #cares-summary div.summary {
+             max-width: 914px;
+            margin: 10px auto 10px auto;
+        }
+
+        #cares-summary p.head {
+            font-size: 40px;
+            line-height: 1.25em;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+
+        #cares-summary p.subhead {
+            font-size: 36px;
+            line-height: 1.25em;
+            font-weight: 700;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #cares-summary p.dollars {
+            font-size: 38px;
+            line-height: 1.25em;
+            font-weight: 300;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        #cares-summary p.description {
+            font-size: 24px;
+            line-height: 1.25em;
+            font-weight: 300;
+            color:#ffffff;
+            text-align: center;
+        }
+
+        #cares-summary p.learn {
+            font-size: 24px;
+            line-height: 1.25em;
+            font-weight: 700;
+            color:#ffffff;
+            text-align: center;
+        }
+
+          #cares-summary a {
+            color:#ffffff;
+            text-decoration-line: underline;
+        }
+
+  /* PROGRAMS SECTION */
+
+
+        #cares-programs {
+            text-align: center;
+            background-color: #ffffff;
+            text-align: center;
+            margin: 10px auto;
+            padding: 20px;
+            width: 100%;
+        }
+
+        #cares-programs div.program {
+             max-width: 914px;
+            margin: 15px auto 0px auto;
+        }
+
+        #cares-programs div.area {
+            text-align: center;
+            width: 300px;
+            margin: 20px auto;
+        }
+
+        #cares-programs p.head {
+            font-size: 38px;
+            line-height: 1.5em;
+            color: #4C618F;
+            font-weight: 800;
+            text-align: center;
+            margin: 0px auto 10px auto;
+        }
+
+
+        #cares-programs p.introtext {
+            font-size: 28px;
+            line-height: 1.5em;
+            font-weight: 200;
+            color: #000000;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #cares-programs p.subhead {
+            font-size: 32px;
+            line-height: 1.5em;
+            font-weight: 800;
+            color: #4C618F;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #cares-programs p.description {
+            font-size: 24px;
+            line-height: 1.3em;
+            font-weight: 300;
+            color: #000000;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #cares-programs img.programs {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+
+        /* SALES SECTION */
+        
+        #cares-sales {
+            text-align: center;
+            background-color: #000000;
+            margin: 1px auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 100%;
+        }
+
+        #cares-sales p.head {
+            font-size: 32px;
+            line-height: 1.25em;
+            font-weight: 700;
+            color: #ffffff;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #cares-sales p.description {
+            font-size: 36px;
+            line-height: 1.75em;
+            font-weight: 200;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        #cares-sales .button {
+            border: 1px solid #ffffff;
+            border-radius: 20px;
+            background: rgb(254, 203, 0);
+            color: rgb(0, 0, 0);
+            font-weight: 400;
+            padding: 10px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            margin: 20px auto 10px;
+            cursor: pointer;
+            line-height: 1.5em;
+        }
+
+        #cares-sales div.sales {
+            text-align: center;
+            max-width: 914px;
+            margin: 20px auto;
+        }
+
+        .hidden-anchor {
+            position: absolute;
+            top: -100px;
+        }
+    

@@ -1,0 +1,481 @@
+/*----- Basic layout styles ----------------------*/
+html {	width: 100%;}
+body { 
+  margin: 0 auto;
+  width: 975px;
+}
+article {
+  float: right;
+  width: 725px;
+}
+aside {
+	float: left;
+	width: 230px; 
+}
+.narrow {
+  width: 483px;
+  float: left;
+}		
+/*--- Content Region Styles ----------------------*/
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+h1 {  font-size: 18px; }
+h2 { color: #AF5700; }
+p { line-height: 20px; }
+a, a:visited { 
+  color: #0071A2;
+  text-decoration:none;
+}
+a:hover { text-decoration: underline; }
+blockquote, q { 
+  border-bottom: 1px solid #ccc;
+  line-height: 20px;
+  margin: 0 0 20px 20px;
+  padding-bottom: 20px;
+}
+blockquote:last-of-type, q:last-of-type { 
+  border-bottom: 0; 
+  padding-bottom: 0;
+}	  
+/*----------  Aside Top  -------------------------*/
+aside.breadCrumbs {
+  font-size: 11px;
+  margin-top: 0px;
+  padding: 13px 0 8px 0;
+  width: 100%;
+}
+.breadCrumbs h1 { 
+  font-size: 24px;
+  margin: 0 0 0 248px;
+}
+.breadCrumbs h1 span { font-size: 16px; }
+.breadCrumbs ul { margin-bottom: 4px;}
+.breadCrumbs li {
+	display: inline-block;
+	padding: 3px 3px;
+	line-height: normal;
+}
+.breadCrumbs ul li:last-child:after { content: " ";}	
+/*---------- Aside Left --------------------------*/
+aside.main section, aside nav, article aside section {
+  float: left;
+  padding: 15px 14px 10px 14px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+aside.main section, aside nav { border: 1px solid #CCC; }
+aside h2 {
+  border-top: 1px solid #CCC;
+  font-size: 15px;
+  padding: 8px 0 10px 0;
+  margin-top: 20px;
+}
+aside h2 a { font-size:14px; }
+aside li { line-height: 24px; }
+aside.form { padding: 0 0 0 12px; }
+
+/*--------- Article ------------------------------*/
+article { margin-bottom: 65px;}
+article > h1:first-of-type {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+article h1:first-of-type span { font-size: 16px;}	
+h2 { padding: 5px 0 15px 0; }
+article section {
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+}
+article li { display: inline-block;}	
+/*------------- Article Aside --------------------*/
+article aside { 
+  float: right; 
+  margin-top: 0px;
+  width: 230px;
+}
+article aside li { display: block; }
+article aside section { width: 200px; }
+article aside form input[type="text"] { width: 170px; }	
+/*-------- Refine Suggestions --------------------*/
+section.refineSuggestions {
+  border: 1px solid #ccc;
+  background: white;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  display:none;
+  float:left;
+  line-height: 20px;
+  z-index: 1100;
+}
+aside.main section.refineSuggestions { padding:0; }
+section.refineSuggestions a ul {  color: #333; }
+section.refineSuggestions a:hover { text-decoration: none; }
+section.refineSuggestions ul {
+  border-bottom: 1px solid #ccc;
+  padding: 2px 10px;
+}
+section.refineSuggestions li { display: block; }
+section.refineSuggestions .hoverSuggestion,
+section.refineSuggestions ul:hover { background-color:#e6e6e6; }
+section.refineSuggestions li:first-child {
+  color: #0071A2;
+  font-weight: bold;
+}
+section.refineSuggestions .control {
+  font-weight: bold;
+  width: 100%;
+}
+section.refineSuggestions .control a { 
+  float: left; 
+  padding: 4px 10px;
+}
+section.refineSuggestions .control a + a { 
+  float: right;
+  padding: 4px 10px; 
+}
+section.refineSuggestions a span { font-size: 18px; }
+/*--------------- Classes ------------------------*/
+.bullet, .double-arrow-right { font-size: 18px; }
+/* -------------- Cartidges ---------------------- */
+aside form { margin: 5px 0 15px 0px; }
+form input[type=checkBox] {
+  vertical-align: text-top;
+  margin-right: 3px;
+}	
+form input[type=text] {
+  border: 1px solid #000;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  color: #777;
+  float: left;
+  height: 24px;
+  padding-left: 3px;
+  width: 177px;
+}
+form input:focus {
+  -moz-box-shadow: 0 0 5px #AF5700;
+  -webkit-box-shadow: 0 0 5px #AF5700;
+  -ms-box-shadow: 0 0 5px #AF5700;
+  -o-box-shadow: 0 0 5px #AF5700;
+  box-shadow: 0 0 5px #AF5700;
+}				
+form input[type=button]{
+  background: #FFF url(//s-www.cengage.com/images/headerFooter/searchIcon.jpg) 2px 0px no-repeat ;  
+  border: 1px solid #000;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  display: block;
+  height: 24px;
+  text-align: center;
+  width: 23px;
+}
+.searchBoxCartidge img { float: right; }
+.searchBoxCartidge form {
+  border: 2px solid #AF5700;   
+  float: left;  
+  height: 90px;  
+  margin: 0;  
+  padding: 14px 0 0 14px;
+  width: 487px;	
+}	
+.searchBoxCartidge h1 { color: #AF5700; }
+.searchBoxCartidge form input {
+  margin-top: 5px; 
+  border-color: #CCC;  
+}
+.searchBoxCartidge form input[type=text] {	width: 410px; }
+.htmlCartridge img {
+  display: block;
+  padding: 10px 0 10px 0;
+  margin: 0 auto;
+}
+.rotatingBanner ul {
+  height: 224px;
+  overflow: hidden;
+}
+.rotatingBanner .sliderNav, .rotatingImage .sliderNav {
+  background: rgba(0, 0, 0, 0.2);  
+  font-size: 36px;
+  height: 24px;
+  line-height: 24px;
+  margin: 0 0 -24px 1px;
+  position: relative;
+  text-align: center;
+  top: -24px;  
+  width: 722px;
+  z-index: 10;
+}		
+.rotatingBanner a:hover, .rotatingImage a:hover, .sliderNav a.activeSlide { 
+ color: #ffd904;
+ text-decoration: none; 
+}
+.nonRecord { border-bottom: 1px solid #ccc; }
+.nonRecord p { 
+  overflow: hidden; 
+  margin-bottom: 10px;
+}
+.nonRecord img { width:234px; }
+.nonRecord.left img { float: right;}
+.nonRecord.right img { float: left;}
+.narrow .nonRecord img { width:134px;}
+
+.border {
+  border: 1px solid #CCC;
+  padding: 10px;
+  width: 703px;
+}
+.narrow .border { width: 461px; } 
+.rssFeed h3 { line-height: 20px; }
+.quickLinks, .rssFeed, .titleText { 
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc; 
+}
+.quickLinks h1, .rssFeed h1, .titleText h1, .quickLinks li, .rssFeed li { padding-bottom: 10px; }
+.quickLinks h2, .rssFeed h2, .titleText h2 { padding-top: 0px; }
+.quickLinks h3, .rssFeed h3, .titleText h3 { padding: 5px 0; }
+.quickLinks li, .rssFeed li { display: block; }
+.rssFeed h3:last-child,
+.quickLinks li:last-of-type,
+.rssFeed li:last-of-type { padding-bottom:0; }
+.recordScrollBanner img { 
+  margin: 15px 0 10px 60px;  
+  /* remove outline if no problems with border */
+  /*outline: 2px solid #AAA;
+  outline-offset: -1px;*/
+  border: 1px solid #ccc;
+  width: 70px;  
+}
+.recordScrollBanner h2 {  
+  line-height: 16px;
+  padding: 0px; 
+}
+.recordScrollBanner ul.mycarousel {  margin-right: 10px; }
+.recordScrollBanner ul.mycarousel li { 
+  padding: 0 10px;
+  width: 217px;
+}
+.recordScrollBanner ul.mycarousel li:last-of-type { }
+.recordScrollBanner button.next, .recordScrollBanner button.prev { visibility: hidden;}
+.recordScrollBanner .nav { 
+  background: #777;
+  border-top: 1px solid #CCC;
+  bottom: -10px;
+  color: #fff;
+  font-weight: bold;
+  float: left;
+  margin: 0 0 0 -10px;
+  padding: 0 10px;
+  position: relative;
+  width: 100%;
+}
+.recordScrollBanner .nav ul {
+  height: 24px; 
+  float: right;
+  margin-right: 20px;
+}
+.recordScrollBanner .nav ul li {   
+  float: left;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 4px; 
+}	
+.recordScrollBanner	li button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 22px;
+  padding:0;
+  margin: 0;
+  line-height: 20px;
+}
+@-moz-document url-prefix() { 
+  .recordScrollBanner li button {
+     line-height: 17px;
+  }
+}
+.resultsListHeader {	
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  position: relative;
+}
+.resultsListHeader h1 {
+  border-bottom: 1px solid #ccc;
+  color: #AF5700;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.resultsListHeader ul {
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.resultsListHeader ul:first-of-type li { 
+  border-right: 1px solid #333;
+  padding: 3px 27px 3px 2px;
+  margin-left:3px;
+}
+.resultsListHeader ul:first-of-type li:first-child {
+  background: url("/images/cen_images/excellIco.png") 153px 2px no-repeat;
+  padding: 5px 25px 3px 2px;
+  margin-left:3px;
+}
+.resultsListHeader ul:first-of-type li+li { 
+  background: url("/images/cen_images/printpageico.png") 61px 0px no-repeat; 
+  margin-left:0;
+}
+.resultsListHeader ul:first-of-type li:last-child {  
+  background: url("/images/cen_images/help.png") 31px 0px no-repeat; 
+  padding-right: 20px;
+}
+.resultsListHeader ul:first-of-type li:last-of-type { border-right: 0; }		
+.resultsListHeader ul li img{ 
+  padding: 0 3px;
+  vertical-align:text-top; 	
+}		
+.resultsList p {overflow:hidden;}
+.resultsList p:first-line { font-style: italic; }
+.resultsList img {	
+  border: 1px #ccc solid;
+  float: left;	
+  height: 84px;
+  margin: 0 15px 6px 0;
+}	
+.resultsList h1 {
+  color: #ce3c23;;
+  font-size: 12px;
+}
+.resultsList h1 a { line-height: 18px }
+.resultsList li {
+  border-bottom: 2px dotted #CCC;
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  width: 100%;
+}	
+.resultsList li:last-child {	
+  border-bottom: 0px dotted #CCC;
+  margin-bottom:0px;
+}	
+.resultsList li ul {
+  float: right;	
+  margin: 5px 0 0 10px;
+  width: 32%;
+}	
+.resultsList li ul li {
+  border-bottom: 1px solid #CCC;
+  font-weight: bold;
+  margin-bottom: 7px;  
+  padding-bottom: 7px;
+}
+/*-- Result List Header and Result List Nav --*/	
+.resultsList ul.nav {
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #ccc;	
+  font-weight: bold;
+  height: 26px;
+  padding: 10px 0px;
+  text-align: right;
+  width: 100%;
+}
+.resultsListHeader ul.nav {
+  float: right;
+  font-weight: bold;	
+  position:inherit;	
+}
+.resultsListHeader ul.nav .button,
+.resultsList ul.nav .button { 
+  border: 1px solid #ccc;
+  color: #ccc; 
+  font-weight: normal;
+  padding: 6px 4px;
+}
+ul.nav .button a {  color: #ccc; }
+ul.nav .go.button { border: 1px solid #333; }
+ul.nav .go.button a { color: #333; padding: 0; }
+.resultsListHeader .nav .button,  
+.resultsList .nav .button {
+  background: #fff;
+  border-radius: 0; 
+  border: 1px solid #333;
+  padding: 3px 2px; 
+} 
+.resultsListHeader .nav li,	
+.resultsList .nav li {
+  border: 0;
+  padding: 0; 
+  width: auto;
+  color: #CE3C23;
+}
+.nav li.search_link a { border-right: 1px solid #333; }
+.nav li.search_curent { 
+  border-right: 1px solid #333; 
+  padding: 2px 5px 1px 3px;
+}
+.resultsListHeader .nav a,
+.resultsList .nav a {
+  padding: 0 5px 0 3px;
+  width:auto;
+}
+.resultsListHeader .nav  ul:last-child li a ,
+.resultsList .nav ul:last-child  li a { border-right: 0px solid #333; }
+.htmlCartridge { text-align: center; }
+.htmlCartridge h2 {
+  border: 0;
+  margin-top: 0;
+}		
+.htmlCartridge p { text-align: left; }
+article aside .singleImage {
+  border: 0;
+  padding: 0;
+}
+article aside .singleImage img {
+  float: left;
+  padding: 0;
+}	
+/*-- Video Carridge --*/
+section#video { 
+  border-bottom: 1px #ccc solid;
+  padding-bottom: 20px;
+}
+section#video.videoHero {
+  float: left;
+  height:224px;
+  margin-bottom: 20px;
+  padding: 0px; 
+  width: 724px;
+}	
+section#video.videoHero #jwp6Hero {	margin: 20px 0px 0px 384px;}	
+section#video h1 { padding: 24px 0 10px 0; }
+section#video h2 {
+  font-size: 14px;
+  padding: 20px 0 6px 0;
+}
+#jwp6 { margin-top: 20px; }
+/* ------------ Relevance-Ranking ---------------- */
+.relevance-ranking {
+  border: 1px solid #AF5700;
+  box-shadow: 0 0 10px 0 rgba(9, 9, 9, .4);
+  margin-top: 20px;
+  padding: 0 20px 10px 20px;
+  line-height: 24px;
+}
+.relevance-ranking h1 { 
+  font-size: 14px; 
+  padding-top: 15px;  
+}
+.relevance-ranking h2 { padding-bottom: 0px}
+.relevance-ranking h3 { 
+  padding: 10px 0 5px 10px;
+  border-top: 1px #ccc dotted;
+  margin-top: 10px;
+}
+.relevance-ranking h3 ~ b { padding-left: 20px}

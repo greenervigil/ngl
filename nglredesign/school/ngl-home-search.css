@@ -1,0 +1,1462 @@
+/*--Home desktop--*/
+
+/*---- Home section ---*/
+.homeBanner{
+    background-size: cover;
+    background-position: top;
+    height: 550px;
+    position: relative;
+}
+
+#super-hero .heroOverlay{
+	background-color: rgba(0, 0, 0,0.349);
+	position: absolute;
+	bottom: 0;
+	padding: 24px 0px;
+	width: 100%;
+}
+
+#super-hero .heroOverlay a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.NGLSchoolHomePage .heroOverlay .homeHeroOverlayText{
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	max-width: 1056px;
+	margin: 0 auto;
+	font-weight: bold;
+	line-height: 1.1;
+}
+
+.NGLSchoolHomePage .heroOverlay .homeHeroOverlayText:hover{
+	color: #D3D3D3;
+}
+
+/*---- story block section ---*/
+
+.NGLSchoolHomePage #storyBlockContainer{
+	max-width: 1056px;
+	margin: 0 auto;
+}
+
+.NGLSchoolHomePage .story-block {
+    margin-top: 24px;
+    /*margin-bottom: 24px;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+.NGLSchoolHomePage .story-block .block:first-of-type {
+    margin-left: 0;
+}
+
+.NGLSchoolHomePage .story-block .block {
+    background: #FFF;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 4px;
+    display: inline-block;
+    min-height: 260px;
+    padding: 20px 0px;
+    margin: 0 .2% 20px;
+    text-align: center;
+    vertical-align: top;
+    max-width: 345px;
+    width: 100%;
+}
+
+.NGLSchoolHomePage .story-block .block a{
+	display: block;
+}
+
+.NGLSchoolHomePage .story-block .block a.blockImgContainer{
+	min-height: 92px;
+}
+
+.NGLSchoolHomePage .story-block .block a.blockImgContainer img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.NGLSchoolHomePage #storyBlockContainer .story-block .block .storyBlockDescription{
+	font-size : 27px;
+	color: rgb(102, 102, 102);
+	line-height: 1.5;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  	margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.NGLSchoolHomePage #storyBlockContainer .story-block .block:nth-child(2) .storyBlockDescription{
+	margin-bottom: 20px
+}
+
+.NGLSchoolHomePage #storyBlockContainer .story-block .block:nth-child(3) .storyBlockDescription{
+	margin-bottom: 35px
+}
+
+/*#storyBlockContainer .story-block .block:nth-child(1) p{
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+	line-height: 1.5;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  -webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  -ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+#storyBlockContainer .story-block .block:nth-child(2) p{
+	font-size: 27px;
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+}
+
+#storyBlockContainer .story-block .block:nth-child(3) p{
+	font-size: 24px;
+	color: rgb(104, 104, 104);
+	line-height: 1.875;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+	font-weight: bold;
+}*/
+
+.NGLSchoolHomePage #storyBlockContainer .story-block .storyBlockActionLink{
+	margin: 0px;
+}
+
+.NGLSchoolHomePage #storyBlockContainer .story-block .storyBlockLink{
+	font-size: 36px;
+	font-family: "summerFont";
+	color: rgb(0, 114, 163);
+	line-height: 0.528;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px;
+    font-weight: 400;
+}
+
+/* -- catalog section -- */
+#catalogSection{
+	padding: 30px 0px;
+	background-color: rgb(0, 114, 163);
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#catalogSection img{
+	display: inline;
+}
+
+#catalogSection a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.catalogText{
+	font-size: 40.501px;
+	font-family: "summerFont";
+	color: rgb(255, 255, 255);
+	padding-top: 10px;
+}
+
+/* product scroll section */
+.NGLSchoolHomePage #productScrollSection{
+	padding: 42px 0px;
+	background-color: rgb(242, 239, 223);
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.NGLSchoolHomePage .productScrollHeading{
+	font-size: 36px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	padding-bottom: 40px;
+}
+
+.NGLSchoolHomePage #productScrollContainer .item img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NGLSchoolHomePage .owl-controls{
+	position: absolute;
+	width: 100%;
+	top: 92px;
+}
+
+.NGLSchoolHomePage .owl-prev{
+	text-align: left;
+}
+
+.NGLSchoolHomePage .owl-next{
+	text-align: right;
+}
+
+.NGLSchoolHomePage #productScrollContainer .left, .NGLSchoolHomePage #productScrollContainer .right {
+    background-image: none;
+    font-size: 60px;
+    width: 3%;
+    padding-top: 5%;
+    opacity: 1;
+    color: #000000;
+}
+
+.NGLSchoolHomePage #productScrollContainer .item a{
+	display: inline-block;
+    width: 201px;
+    text-decoration: none;
+}
+.NGLSchoolHomePage #productScrollContainer .item p{
+	color: #000000;
+}
+
+.NGLSchoolHomePage #productScrollContainer .item h3{
+	display: inline-block;
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+/* -- About Section --*/
+#about{
+	/*background: url(../images/aboutBackgroundImg-d.png) no-repeat;*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    height: 568px;
+    position: relative;
+    background-color: rgb(5, 55, 77);
+    padding: 12px 0px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#aboutHeading{
+	font-size: 72px;
+	font-family: "summerFont";
+	color: rgb(255, 255, 255);
+	line-height: 1;
+	margin-top: 26px;
+}
+
+#aboutDescription{
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	line-height: 1.556;
+	max-width: 920px;
+	padding-left: 160px;
+}
+
+#aboutDescription h1{
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	line-height: 1.556;
+	max-width: 920px;
+    margin: 0px;
+    display: inline;
+    font-weight: 400;
+}
+
+.wavyLineYellow{
+    margin: 15px auto;
+}
+/*--Home tablet--*/
+
+@media(max-width: 991px){
+	.homeBanner{
+		background: url(../images/schoolhomebanner-t.png) no-repeat;
+		height: 326px;
+		background-size: cover;
+		background-position: top;
+	}
+
+	#super-hero .heroOverlay{
+	    padding: 3px 0px;
+	}
+
+	.NGLSchoolHomePage .heroOverlay .homeHeroOverlayText{
+		padding: 0 43px;
+		font-size: 42px;
+		width: 550px;
+		margin-left: 0;
+	}	
+
+	/*---- story block section ---*/
+	
+	.NGLSchoolHomePage #storyBlockContainer{
+		padding: 0 15px;
+	}
+
+	.NGLSchoolHomePage .story-block .block {
+		max-width: 350px;
+	}
+
+/* -- catalog section -- */
+	#catalogSection .row>div:not(:first-child) {
+	    margin-top: 35px;
+	}
+
+	/* product scroll section */
+
+	.NGLSchoolHomePage #productScrollSection .container{
+		padding: 0 43px;
+	}
+
+	/* -- About Section --*/
+
+	#about .container{
+		padding: 0 43px;
+	}
+	
+	#about{
+		background: url(../images/aboutBackgroundImg-t.png) no-repeat;
+	    background-size: 100%;
+	    background-position: top;
+	    height: 566px;
+	    position: relative;
+    	background-color: rgb(5, 55, 77);
+	}
+	.wavyLineYellow{
+		visibility: visible;
+	}
+
+	#aboutDescription{
+		max-width: 100%;
+		padding-left: 0;
+	}
+}
+/*--Home mobile--*/
+@media(max-width: 767px){
+	.homeBanner{
+		background: url(../images/schoolhomebanner-t.png) no-repeat;
+		height: 216px;
+		background-size: cover;
+		background-position: top;
+	}
+
+	#super-hero .heroOverlay{
+	    padding: 7px 0px;
+	}
+
+	.NGLSchoolHomePage .heroOverlay .homeHeroOverlayText {
+	    padding: 0 12px;
+		font-size: 24px;
+		width: 300px;
+	}
+
+	/*---- story block section ---*/
+	.NGLSchoolHomePage #storyBlockContainer{
+		padding: 0 12px;
+	}
+
+	/* product scroll section */
+	.NGLSchoolHomePage #productScrollSection .container{
+		padding: 0 12px;
+	}
+
+	.NGLSchoolHomePage #productScrollContainer .left, .NGLSchoolHomePage #productScrollContainer .right{
+		width: 7%;
+	}
+
+	/* -- About Section --*/
+	#about .container{
+		padding: 0 12px;
+	}
+	
+	#about{
+		background: url(../images/aboutBackgroundImg-m.png) no-repeat;
+	    background-size: 100%;
+	    background-position: top;
+	    height: 858px;
+	    position: relative;
+    	background-color: rgb(5, 55, 77);
+	}
+}
+
+@media(max-width: 424px){
+	#schoolHome{
+		background: url(../images/schoolhomebanner-m.png) no-repeat;
+		height: 216px;
+		background-size: cover;
+		background-position: top;
+	}
+
+	/*---- story block section ---*/
+	.NGLSchoolHomePage .story-block .block{
+		margin-left: 0px;
+	}
+
+	.NGLSchoolHomePage #storyBlockContainer .story-block .storyBlockLink{
+		line-height: 1;
+	}
+}
+/*--Search result desktop--*/
+section{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.NGLSchoolSearchResultPage #relativeSectionContainer{
+   margin-top: 44px;
+   position: relative;
+    float: left;
+    width: 100%;
+}
+
+/*---- story block section ---*/
+
+.NGLSchoolSearchResultPage #storyBlockContainer{
+	max-width: 1056px;
+	margin: 0 auto;
+}
+
+.NGLSchoolSearchResultPage .story-block {
+    margin-top: 24px;
+    /*margin-bottom: 24px;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+.NGLSchoolSearchResultPage .story-block .block:first-of-type {
+    margin-left: 0;
+}
+
+.NGLSchoolSearchResultPage .story-block .block {
+    background: #FFF;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 4px;
+    display: inline-block;
+    min-height: 260px;
+    padding: 20px 0px;
+    margin: 0 .2% 20px;
+    text-align: center;
+    vertical-align: top;
+    max-width: 345px;
+    width: 100%;
+}
+
+.NGLSchoolSearchResultPage .story-block .block a{
+	display: block;
+}
+
+.NGLSchoolSearchResultPage .story-block .block a.blockImgContainer{
+	min-height: 92px;
+}
+
+.NGLSchoolSearchResultPage .story-block .block a.blockImgContainer img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.NGLSchoolSearchResultPage #storyBlockContainer .story-block .block .storyBlockDescription{
+	font-size : 27px;
+	color: rgb(102, 102, 102);
+	line-height: 1.5;
+	text-align: center;
+	-moz-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  	-webkit-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  	-ms-transform: matrix( 0.74295774647887,0,0,0.7425,0,0);
+  	margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.NGLSchoolSearchResultPage #storyBlockContainer .story-block .block:nth-child(2) .storyBlockDescription{
+	margin-bottom: 20px
+}
+
+.NGLSchoolSearchResultPage #storyBlockContainer .story-block .block:nth-child(3) .storyBlockDescription{
+	margin-bottom: 35px
+}
+
+.NGLSchoolSearchResultPage #storyBlockContainer .story-block .storyBlockActionLink{
+	margin: 0px;
+}
+
+.NGLSchoolSearchResultPage #storyBlockContainer .story-block .storyBlockLink{
+	font-size: 36px;
+	font-family: "summerFont";
+	color: rgb(0, 114, 163);
+	line-height: 0.528;
+	text-align: center;
+	text-decoration: none;
+	margin: 0px;
+    font-weight: 400;
+}
+
+/* -- Filter section --*/
+
+.filternav .navbar{
+    margin: 0px;
+}
+
+.filternav .navbar-header {
+    float: none;
+}
+.filternav .navbar-toggle {
+    display: block;
+}
+.filternav .navbar-collapse.collapse {
+    display: none!important;
+}
+.filternav .navbar-collapse.collapse.in {
+    display: block!important;
+}
+.filternav .navbar-nav {
+    float: none!important;
+}
+.filternav .navbar-nav>li {
+    float: none;
+    z-index: 1;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+	background-color: transparent;
+}
+
+#filterSection{
+	border-radius: 3px;
+	background-color: rgb(0, 114, 163);
+	height: 44px;
+	position: fixed;
+    z-index: 9;
+    top: 71px;
+}
+
+#filterButtonContainer{
+	float: left;
+	font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 2.7;
+    text-align: left;
+}
+
+#filterButtonContainer .navbar-toggle{
+	padding: 0px;
+	margin: 0px;
+}
+
+#filterMenuMainContainer {
+    position: fixed;
+    z-index: 99;
+    top: 71px;
+}
+
+#filterMenucontainer{
+	padding: 0px;
+	position: absolute;
+	width: 100%;
+	z-index: 9;
+	top: 45px;
+	max-height: 500px;
+    overflow-y: auto !important;
+}
+
+#filterMenucontainer>li{
+	border-radius: 3px;
+	background-color: rgb(190, 219, 232);
+    border: 1px solid rgb(190, 219, 232);
+	margin-top: 1px;
+}
+
+#filterMenucontainer>li:not(:first-child){
+	/*height: 44px;*/
+}
+
+#filterMenuMainContainer .searchFilterSubmenu li{
+	border: 1px solid rgb(190, 219, 232);
+	border-radius: 3px;
+	background-color: rgb(255, 255, 255);
+	margin-top: 1px;
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+	text-align: left;
+	/*height: 44px;*/
+}
+
+#filterMenuMainContainer .searchFilterSubmenu li .searchFilterCheckboxContainer{
+	padding: 12px 8px;
+}
+
+#filterMenuMainContainer .searchFilterSubmenu li .searchFilterCheckbox{
+	outline: 1px solid rgb(102, 102, 102);
+    -webkit-appearance: none;
+    padding: 6px;
+    margin-left: 6px;
+    margin-right: 11px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#filterMenuMainContainer .searchFilterSubmenu li .searchFilterCheckbox:checked{
+	outline: 1px solid rgb(102, 102, 102);
+	background-color: rgb(0, 114, 163);
+}
+#filterMenuMainContainer .searchFilterSubmenu li .searchFilterCheckbox:focus{
+	outline: 1px solid rgb(102, 102, 102);
+	outline-offset: inherit;
+}
+
+#filterMenuMainContainer .searchFilterSubmenu li .searchFilterCheckboxContainer label{
+	margin-bottom: 0px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#filterMenuMainContainer .searchFilterSubmenu{
+	padding: 0px;
+}
+
+#filterMenucontainer li a {
+    /*line-height: 24px;
+    display: flex;
+    cursor: pointer;*/
+    cursor: pointer;
+    padding: 8px;
+}
+
+#filterMenucontainer .menuLinksText{
+	font-size: 16px;
+	color: rgb(51, 51, 51);
+	text-align: left;
+}
+
+#filterMenucontainer .filterSelectionText{
+	font-size: 16px;
+	color: rgb(0, 114, 163);
+	text-align: left;
+    padding-bottom: 7px;
+}
+
+#filterMenucontainer .selectedFilterContainer{
+	padding: 15px;
+	background-color: #ffffff;
+}
+
+#filterMenucontainer .filterSelectedList{
+	margin: 0px;
+    line-height: 1;
+    font-size: 12px;
+}
+
+#filterMenucontainer .filterSelectedList .filterSelectedListText{
+	border-radius: 7px;
+	background-color: rgb(0, 114, 163);
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	text-align: left;
+	padding: 5px;
+	display: inline-block;
+    margin: 0px;
+    margin-bottom: 3px;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+.filterSelectedListText .fa-times {
+    float: right;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+/*-- search result series banner --*/
+.NGLSchoolSearchResultPage #seriesBanner{
+    background-image: none;
+}
+
+.NGLSchoolSearchResultPage #seriesBanner .superheroImg{
+    /*height: 100%;*/
+    margin: 0 auto;
+    display: block;
+}
+
+.NGLSchoolSearchResultPage #seriesBanner .heroOverlay{
+    background-color: rgba(102, 102, 102,0.8);
+    position: absolute;
+    bottom: 0px;
+}
+
+.NGLSchoolSearchResultPage #seriesBanner .heroOverlayText{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    line-height: 1.071;
+    max-width: 1056px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+/* search result title */
+#searchresultstitleContainer, #searchresultsSingleItemtitleContainer{
+	border-radius: 3px;
+  	background-color: rgb(0, 114, 163);
+  	height: 22px;
+  	margin-top: 7px;
+}
+
+.searchresultstitle{
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.searchresultstitleImg{
+	display: inline;
+    margin-right: 4px;
+}
+
+/* Search results Series */
+#searchresultsSeries{
+	background-color: rgb(94, 173, 204);
+	padding-bottom: 20px;
+}
+
+.subResultsInfocontainer{
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 3px;
+	background-color: rgb(230, 230, 230);
+	height: auto;
+	margin-top: 10px;
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.searchResultsListSeriesResponsiveContainer{
+	width: 330px;
+	float: left;
+	position: relative;
+	margin:40px 1.99% 20px 0px;
+	height: 480px;
+	padding: 27px 26px;
+    background-color: #ffffff;
+}
+
+.subResultsInfocontainer ul{
+	/*height: 100%;*/
+}
+
+.subResultsInfocontainer ul li{
+	display: inline-block;
+	height: inherit;
+	position: relative;
+	float: left;
+	line-height: 28px;
+}
+
+.subResultsInfocontainer .searchResultsPageCount{
+	font-size: 16px;
+	color: rgb(0, 114, 163);
+	position: relative;
+    float: left;
+    vertical-align: middle;
+    height: inherit;
+    margin-left: 10px;
+}
+
+.subResultsInfocontainer .searchResultsSorting{
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	margin-left: 15px;
+}
+
+.subResultsInfocontainer .searchResultsSorting select{
+	border: 1px solid rgb(157, 157, 157);
+	border-radius: 3px;
+	background-color: rgb(255, 255, 255);
+	width: 233px;
+	height: 22px;
+}
+
+.subResultsInfocontainer .searchResultsperPage{
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	margin-left: 10px;
+}
+
+.subResultsInfocontainer .searchResultsperPage select{
+	border: 1px solid rgb(157, 157, 157);
+	border-radius: 3px;
+	background-color: rgb(255, 255, 255);
+	width: 72px;
+	height: 22px;
+}
+
+.searchResultsPagination ul {
+    padding: 0px;
+    margin-left: 25px;
+}
+
+.searchResultsPagination ul li {
+    margin-left: 5px;
+}
+
+.subResultsInfocontainer .searchResultsPagination{
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+}
+.subResultsInfocontainer .searchResultsPagination a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+}
+.subResultsInfocontainer .searchResultsPagination .selectedPaginationNumber a:visited{
+	color: #6096b6;
+}
+
+.subResultsInfocontainer .searchResultsPagination .currentPageNumber{
+	color: #cc0000;
+}
+
+.subResultsInfocontainer ul li.searchResultsDownloadsContainer, .subResultsInfocontainer ul li.searchResultsPrintContainer{
+	float: right;
+
+}
+
+.searchResultsDownloads{
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+	margin-right: 20px;
+}
+
+.searchResultsDownloads a{
+	text-decoration: none;
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+}
+
+.searchResultsPrint{
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+	-moz-transform: matrix( 0.99868131868132,0,0,1,0,0);
+	-webkit-transform: matrix( 0.99868131868132,0,0,1,0,0);
+	-ms-transform: matrix( 0.99868131868132,0,0,1,0,0);
+	margin-right: 20px;
+}
+
+.searchResultsPrint a{
+	text-decoration: none;
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+	-moz-transform: matrix( 0.99868131868132,0,0,1,0,0);
+	-webkit-transform: matrix( 0.99868131868132,0,0,1,0,0);
+	-ms-transform: matrix( 0.99868131868132,0,0,1,0,0);
+}
+
+
+/* -- search results list --*/
+.searchResultsListMainContainer{
+	/*padding: 40px 0px;*/
+    position: relative;
+    float: left;
+    width: 100%;
+    /*text-align: center;*/
+}
+
+#searchresultsSingleItem .searchResultsListMainContainer{
+	padding: 40px 0px;
+}
+
+.seriesMainContainer{
+    margin: 40px 0px 20px;
+}
+
+.searchResultsListContainer{
+	height: inherit;
+}
+/*.searchResultsListContainer{
+	width: 330px;
+    height: 450px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 27px 26px;
+}*/
+
+.searchResultsListContainer a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+.searchResultsListContainer a:hover{
+	color: rgb(0, 0, 0);
+}
+
+.searchResultsListContainer .seriesSearchResultTitle{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.searchResultsListContainer .seriesSearchResultTitle, .searchResultsListContainer .seriesSearchResultTitle a{
+	font-size: 15px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	text-align: left;
+}
+
+.searchResultsListContainer p{
+	font-size: 15px;
+	color: rgb(0, 0, 0);
+	line-height: 1.25;
+	text-align: left;
+}
+
+.searchResultsListContainer img{
+	width: 278px;
+	height: 174px;
+}
+
+.searchResultsListContainer p.copyRight{
+	font-size: 12px;
+    color: rgb(0, 0, 0);	
+}
+
+.searchResultsListBtnContainer{
+	position: absolute;
+	float: left;
+	width: 278px;
+	bottom: 50px;
+}
+
+.searchResultsListBtn{
+	border: 1px solid rgb(255, 204, 0);
+	background-color: rgb(255, 255, 255);
+	font-size: 12px;
+	/*font-family: "Myriad Pro";*/
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: center;
+	width: 68%;
+	border-radius: 10px;
+	height: 22px;
+	line-height: 22px;
+	margin:0px auto;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	/*bottom: 28px;*/
+}
+
+/*-- Search series result single item --*/
+.searchResultsListResponsiveContainer{
+	width: 32%;
+	float: left;
+	position: relative;
+	margin:0 1.33% 40px 0px;
+	height: 250px;
+	padding: 15px 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+#searchresultsSingleItem{
+	background-color: rgb(225, 241, 247);
+}
+
+.searchresultsSingleItemList {
+    position: relative;
+    height: auto;
+}
+
+.searchSingleItemImgContainer{
+	width: 27%;
+	float: left;
+}
+
+.searchSingleItemImg {
+	float: left;
+	width: 100%;
+}
+
+.searchSingleItemDetailContainer{
+	width: 71%;
+	float: right;
+	height: 100%;
+}
+.searchSingleItemDetailContainer .newItemContainer{
+	width: 100%;
+	position: relative;
+	float: left;
+}
+.searchSingleItemDetailContainer .newItem{
+	border-radius: 5px;
+	background-color: rgb(191, 25, 25);
+	font-size: 12px;
+	/*font-family: "Myriad Pro";*/
+	color: #ffffff;
+	line-height: 1.2;
+	text-align: left;
+	padding: 1px 4px;
+    font-weight: normal;
+    margin: 0;
+    float: left;
+}
+
+.author{
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: left;
+}
+
+.lexileDRA{
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: left;
+	font-weight: 600;
+}
+
+.bookEdition{
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: left;
+	font-weight: 700;
+}
+
+.copyRight{
+	font-size: 12px;
+	/*font-family: "Myriad Pro";*/
+	color: rgb(0, 0, 0);
+	line-height: 1.2;
+	text-align: left;
+}
+
+.searchSingleItemDetailContainer p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.searchSingleItemDetailContainer .productSearchResultTitle{
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+.searchSingleItemDetailContainer .productSearchResultTitle a, .searchSingleItemDetailContainer .productSearchResultTitle,  .searchSingleItemDetailContainer span{
+	font-size: 15px;
+	color: rgb(0, 0, 0);	
+	line-height: 1.2;	
+}
+
+.searchSingleItemDetailContainer span{
+	font-size: 12px;
+}
+
+.float-left{
+	position: relative;
+	float: left;
+}
+
+.float-right{
+	position: relative;
+	float: right;
+}
+
+.searchSingleItemButtonContainer{
+	position: absolute;
+	float: left;
+	width: 100%;
+	bottom: 0px;
+	text-align: center;
+}
+
+.singleItemBtnLearn{
+    border: 1px solid rgb(255, 204, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    /* font-family: "Myriad Pro"; */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 4px 0;
+}
+
+.singleItemBtnBuy{
+	border: 1px solid rgb(0, 114, 163);
+	background-color: rgb(255, 255, 255);
+	font-size: 16px;
+	color: rgb(0, 114, 163);
+	line-height: 1.2;
+    padding: 2px 0;
+}
+
+.searchSingleItemDetailContainer a{
+	width: 45%;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.singleItemBtnLearn:hover{
+	color: rgb(0, 0, 0);
+}
+
+.singleItemBtnBuy:hover{
+	color: rgb(0, 114, 163);
+}
+
+@media(min-width: 992px){
+
+	/*.searchResultsListResponsiveContainer:nth-child(3n){
+		margin-right: 0px;
+	}*/
+
+}
+
+/* changes for JSP Page */
+
+.endeca-slot{
+	display: block;
+}
+
+/*-- search result error message--*/
+.red{
+	color: #951700;
+}
+
+.red:hover, .red:focus{
+	color: #951700;
+}
+
+.subResultsInfocontainer ul li.EmptySearchResultsMessageContainer{
+	width: 100%;
+}
+
+.EmptySearchResultsMessageContainer p{
+	font-size: 13.5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px;
+}
+
+/* hide show icon */
+.show{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+
+.seriesSearchResultShowHideIcon.collapsed > i, .productSearchResultShowHideIcon.collapsed > i {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.seriesSearchResultShowHideIcon .fa.menuLinksIcon, .productSearchResultShowHideIcon .fa.menuLinksIcon{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: rgb(102, 102, 102);
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-style: normal;
+    cursor: pointer;
+    line-height: 15px;
+    margin-top: 1px;
+}
+
+/* search menu overflow hiden */
+/*
+#filterMenucontainer .searchMenuOverflowHidden{
+	height: 470px !important;
+	overflow: hidden !important;
+}
+
+.searchMenuShowLink{
+	display: block;
+}
+
+.searchMenuHideLink{
+	display: none !important;
+}
+
+.searchResultRefinements{
+	font-weight: 600;
+}*/
+/*--Search result tablet--*/
+
+@media( max-width: 991px){
+.NGLSchoolSearchResultPage #pageContainer .container,.NGLSchoolSearchResultPage #NGLRedesignpageContainer .container{
+    padding: 0px 43px;
+}
+
+/*---- story block section ---*/
+	
+.NGLSchoolSearchResultPage #storyBlockContainer{
+	padding: 0 15px;
+}
+
+.NGLSchoolSearchResultPage .story-block .block {
+	max-width: 350px;
+}
+
+.subResultsInfocontainer ul li.searchResultsPageCountContainer{
+	width: 70%;
+}
+
+.subResultsInfocontainer .searchResultsSorting{
+	margin-left: 10px;
+}
+
+.searchResultsPagination ul{
+	margin-left: 57px;
+}
+
+.subResultsInfocontainer .searchResultsperPage{
+	margin-left: 60px;
+}
+
+.seriesResultLeft{
+	float: left;
+}
+
+.seriesResultRight{
+	float:  right;
+}
+
+.searchResultsListSeriesResponsiveContainer{
+	margin: 40px 1.6% 20px 0px;
+}
+
+.searchResultsListResponsiveContainer{
+	width: 45.4%;
+	margin: 0 4.6% 62px 0px;
+}
+
+.searchResultsListBtn{
+	font-size: 16px;
+	color: rgb(0, 0, 0);
+	line-height: 1.125;
+	text-align: center;
+	-moz-transform: matrix( 0.94013605442177,0,0,0.93866666666667,0,0);
+	-webkit-transform: matrix( 0.94013605442177,0,0,0.93866666666667,0,0);
+	-ms-transform: matrix( 0.94013605442177,0,0,0.93866666666667,0,0);
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	/*.searchResultsListResponsiveContainer:nth-child(2n) {
+	    margin-right: 0px;
+	}*/
+
+}
+/*--Search result mobile--*/
+
+@media( max-width: 767px){
+	.NGLSchoolSearchResultPage #pageContainer .container,.NGLSchoolSearchResultPage #NGLRedesignpageContainer .container{
+	    padding: 0px 12px;
+	}
+	
+	#filterMenucontainer, #filterMenuMainContainer .searchFilterSubmenu{
+		margin: 0px;
+	}
+
+	#filterMenuMainContainer .container{
+		padding: 0px;
+	}
+
+	/* Series banner section */
+
+	.NGLSchoolSearchResultPage #seriesBanner{
+	    height: 144px;
+	    /*background-image: url(http://d-ngl.cengage.com/covers/imageServlet?epi=10146259965966702329517769751686500408&image_type=OVTAB);*/
+	    background-repeat: no-repeat;
+  		background-size: cover;
+  		background-position: bottom;
+	}
+
+	.NGLSchoolSearchResultPage #seriesBanner .superheroImg{
+	    height: 100%;
+	    display: none;
+		
+	}
+
+	.NGLSchoolSearchResultPage #seriesBanner  .heroOverlayText{
+	    font-size: 22px;
+	    margin: 5px auto;
+	}
+	
+	/*---- story block section ---*/
+	.NGLSchoolSearchResultPage #storyBlockContainer{
+		padding: 0 12px;
+	}
+
+	/* search list container */
+	.subResultsInfocontainer ul li.searchResultsPageCountContainer{
+		width: 71%;
+	}
+
+	.searchResultsListContainer{
+		width: 100%;
+	}
+
+	.searchSingleItemDetailContainer{
+		width: 68%;
+	}
+
+	.searchResultsPrint a,.searchResultsDownloads a{
+	    font-size: 0;
+	    line-height: 0;
+	    color: transparent;
+	}
+
+	.searchResultsDownloads{
+		margin-right: 15px;
+	}
+
+	.searchResultsPrint{
+		margin-right: 10px;
+	}
+	
+	.subResultsInfocontainer .searchResultsSorting{
+		margin-top: 10px;
+	}
+
+	.subResultsInfocontainer .searchResultsperPage{
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.searchResultsPagination ul{
+		margin-top: 10px;
+		margin-left: 22px;
+	}
+
+	.searchResultsListMainContainer .seriesMainContainer:not(:first-child){
+		margin-top: 30px;
+	}
+
+	.searchResultsListSeriesResponsiveContainer{
+		width: 100%;
+		margin: 30px 0px 20px 0px;
+	}
+
+	.searchResultsListResponsiveContainer{
+		width: 100%;
+		margin: 0px 0px 62px 0px;
+	}
+
+	.searchSingleItemDetailContainer span.float-right{
+		margin-right: 9px;
+	}
+
+	.searchSingleItemDetailContainer a{
+		width: 42%;
+	}
+
+	.singleItemBtnBuy{
+		margin-right: 9px;
+	}
+
+	.searchResultsListBtn{
+		font-size: 16px;
+		color: rgb(0, 0, 0);
+		line-height: 1.125;
+		text-align: center;
+		-moz-transform: matrix( 0.997113997114,0,0,0.99733333333333,0,0);
+		-webkit-transform: matrix( 0.997113997114,0,0,0.99733333333333,0,0);
+		-ms-transform: matrix( 0.997113997114,0,0,0.99733333333333,0,0);
+	}
+}
+
+@media(max-width: 424px){
+		/*---- story block section ---*/
+	.NGLSchoolSearchResultPage .story-block .block{
+		margin-left: 0px;
+	}
+}	
+
+
+
+/*DCSRUN-3078 Modify/move NGL.Cengage.com/School to NGL.Cengage.com with Gateway*/
+
+.homeBanner {
+	max-width: 1920px;
+    height: 625px;
+	margin: 0px auto;
+}
+#super-hero .heroOverlay {
+	background-color: transparent;
+}
+.eltBannerOverlay {
+    top: 0px;
+    height: 69px;
+    background: #000;
+    width: 100%;
+	margin: 0px auto;
+}
+.eltBannerOverlayText {    
+    text-align: center;
+    transform: translateY(100%);
+	margin: 0px auto;
+	max-width: 1024px;
+}
+.eltBannerOverlayText a { 
+	color: #fecb00;
+    font: 18px/20px 'Open Sans',Arial,Helvetica,sans-serif;
+    font-weight: 600;
+	line-height:1.25em;
+}
+.NGLSchoolHomePage .heroOverlay .homeHeroOverlayText {
+	font: 50px/72px 'Open Sans',Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+.NGLSchoolHomePage .heroOverlay .homeHeroOverlayText:hover {
+    color: #fff;
+}
+.NGLSchoolHomePage .heroOverlay .homeHeroOverlayText {
+	width: 100%;
+	max-width: 1024px;
+    text-align: center;
+	line-height: 1.25em;
+}
+.NGLSchoolHomePage .story-block .block {
+	border: 0px solid #9d9d9d;
+	padding: 0;	
+	width: 336px;
+	max-width: 336px;
+	height: 297px;
+	max-height:297px;
+}
+ 
+body.NGLSchoolHomePage.nobodyscroll {
+	overflow : hidden;
+}
+
+
+@media screen and (max-width:577px){
+	.eltBannerOverlayText {    
+		transform: translateY(35%);
+	}
+}
+
+a:focus, a:active, a:hover {
+	outline:none !important;
+}
+/*DCSRUN-3078 Modify/move NGL.Cengage.com/School to NGL.Cengage.com with Gateway*/

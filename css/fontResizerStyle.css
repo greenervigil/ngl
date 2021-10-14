@@ -1,0 +1,26 @@
+/* font resizer styles */
+.fontresize { margin: 0 0.5em 0 0; }
+.decreaseFont { font-size: 0.80em; }
+.normalizeFont { font-size: 1.0em; }
+.increaseFont { font-size: 1.5em; }
+#fontResizer {
+  margin: 0 0 1em 0;
+  font-size: 1.1em;
+  font-weight: bold;	
+}
+#fontResizer a:link {
+	text-decoration: none;
+	color: #000000;
+}
+#fontResizer a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+#fontResizer a:hover {
+	text-decoration: none;
+	color: #000000;
+}	
+#fontResize, .block-fontResizer {
+  float: right;
+  margin: 0;
+}
