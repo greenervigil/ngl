@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   height: 4643px;
-  width: 100%;
+  min-width: 100%;
 }
 
 .k12-hm-2021-1 .overlap-group15 {
@@ -150,7 +150,6 @@
   letter-spacing: 0;
   line-height: 48px;
   margin-left: 5.0px;
-  margin-top: 98px;
   min-height: 67px;
   text-align: center;
   width: 779px;
@@ -901,7 +900,7 @@
   height: 420px;
   margin-left: 1.0px;
   margin-top: 83px;
-  width: 60%;
+  width: 1500px;
 }
 
 .k12-hm-2021-1 .path-65 {
@@ -1068,7 +1067,6 @@
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 2558px;
   width: 100%;
 }
 
