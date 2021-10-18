@@ -7,7 +7,7 @@
   flex-direction: column;
   height: 2472px;
   overflow: hidden;
-  width: 100%;
+  min-width: 1920px;
 }
 
 .k12-lp-customer-support-1 .overlap-group9 {
