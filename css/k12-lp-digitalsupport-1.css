@@ -5,7 +5,6 @@
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 5761px;
   overflow: hidden;
   width: 100%;
 }
@@ -608,7 +607,6 @@
 }
 
 .k12-lp-digitalsupport-1 .text-44 {
-  cursor: pointer;
   letter-spacing: 0;
   line-height: 28px;
   margin-left: 2.0px;
@@ -760,7 +758,6 @@
 }
 
 .k12-lp-digitalsupport-1 .overlap-group46 {
-  height: 101px;
   position: relative;
   width: 639px;
 }
@@ -787,7 +784,7 @@
 
 .k12-lp-digitalsupport-1 .overlap-group44 {
   height: 63px;
-  margin-top: 28px;
+  margin-top: 40px;
   position: relative;
   width: 639px;
 }
@@ -860,7 +857,6 @@
   display: flex;
   flex-direction: column;
   margin-top: 18px;
-  min-height: 3424px;
   width: 100%;
 }
 
@@ -962,7 +958,6 @@
   display: flex;
   flex-direction: column;
   margin-top: 32px;
-  min-height: 3041px;
   width: 100%;
 }
 
