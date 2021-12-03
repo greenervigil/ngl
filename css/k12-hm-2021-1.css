@@ -10,8 +10,7 @@
 }
 
 .k12-hm-2021-1 .overlap-group15 {
-  height: 877px;
-  width: 100%;
+  margin-top: 70px;
 }
 
 .k12-hm-2021-1 .rectangle-182 {
@@ -24,9 +23,6 @@
 }
 
 .k12-hm-2021-1 .mask-group-122 {
-  display: flex;
-  justify-content: center;
-  height: 794px;
   left: 0;
   overflow: hidden;
   width: 100%;
@@ -149,6 +145,7 @@
   letter-spacing: 0;
   line-height: 48px;
   margin-left: 5.0px;
+  margin-top: 50px;
   min-height: 67px;
   text-align: center;
   width: 779px;
@@ -1134,15 +1131,6 @@
 
 .k12-hm-2021-1-1 .text-170:hover {
   opacity: 1;
-}
-
-.k12-hm-2021-1-1 .group-465 {
-  align-items: flex-end;
-  background-image: url(../img/mask-group-97@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .k12-hm-2021-1-1 .group-465 video {
