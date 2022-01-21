@@ -12,7 +12,7 @@ else if(window.location.hostname.toUpperCase().indexOf("D-") != -1 || window.loc
 else
   env = "";
 
-//env = "d-";
+env = "d-";
 /*document.write("<script src='http://cdn.cengage.com/js/jquery/jquery-2.1.4.min.js'></script>");*/
 (function () {
     function async_load() {

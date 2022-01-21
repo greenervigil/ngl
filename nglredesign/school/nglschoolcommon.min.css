@@ -10782,7 +10782,6 @@ html {
 #header_include .navbar-nav>li {
   float: none;
   z-index: 1;
-  margin-top: 2px
 }
 
 #header_include .headerLeftMenuSubmenu.navbar-collapse {
@@ -10792,23 +10791,20 @@ html {
 #headerLeftMenuLinks,
 .eltBody ul#headerLeftSearchLinks,
 ul#headerLeftSearchLinks {
-  max-height: 440px;
+  max-height: 300px;
+  max-width: 300px;
   overflow-y: auto !important
 }
 
 #headerLeftMenuLinks>li {
-  border-width: 1px;
-  border-color: #fff;
-  border-style: solid;
-  border-radius: 3px;
-  background-color: #666;
   height: 42px;
+  background-color: #fff;
   cursor: pointer
 }
 
 #headerLeftMenuLinks>li a {
-  font-size: 16px;
-  color: #fff;
+  font-size: 14px;
+  color: #000;
   line-height: 1.4;
   text-align: left;
   padding: 8px;
@@ -10822,27 +10818,20 @@ ul#headerLeftSearchLinks {
   text-align: center
 }
 
-#headerLeftMenuLinks>li:first-child,
-#headerLeftMenuLinks>li:first-child a:focus,
-#headerLeftMenuLinks>li:first-child a:hover,
-#headerLeftMenuLinks>li:first-child:focus,
-#headerLeftMenuLinks>li:first-child:hover {
-  background-color: #941600
-}
-
 #headerLeftMenuLinks>li:focus,
 #headerLeftMenuLinks>li:hover,
 #headerLeftMenuLinks>li>a:focus,
 #headerLeftMenuLinks>li>a:hover {
-  background-color: #666
+  background-color: #bdbdbd
 }
 
 ul#headerLeftMenuLinks {
   padding: 0;
-  margin: 12px 0 0;
+  margin: 0;
   width: 100%;
   position: absolute;
-  z-index: 9
+  z-index: 9;
+  border-top: 12px solid #269abc;
 }
 
 #headerLeftMenu .navbar-header {
@@ -10872,10 +10861,6 @@ ul#headerLeftMenuLinks {
 .eltBody #header_include .navbar-toggle,
 .eltBody .dropdown-toggle .fa.menuLinksIcon {
   display: none
-}
-
-.menuLinksText {
-  margin-left: 6px
 }
 
 .visibilityHidden {
@@ -10908,7 +10893,7 @@ ul.headerLeftMenuSubmenu>li>a {
 
 ul.headerLeftMenuSubmenu>li>a:focus,
 ul.headerLeftMenuSubmenu>li>a:hover {
-  background-color: transparent
+  background-color: #bdbdbd;
 }
 
 #headerSearchContainer {
@@ -10917,14 +10902,15 @@ ul.headerLeftMenuSubmenu>li>a:hover {
 
 ul#headerLeftSearchLinks {
   padding: 0;
-  margin: 12px 0 0;
+  margin: 0;
   position: absolute;
   width: 100%;
-  z-index: 9
+  z-index: 9;
+  border-top: 12px solid #269abc;
 }
 
 #header-search {
-  border: 1px solid #0072a3;
+  border: 1px solid #269abc;
   border-radius: 3px;
   background-color: #fff;
   height: 42px;
@@ -10949,24 +10935,22 @@ button#header-submit {
 }
 
 #headerLeftSearchLinks>li:not(:first-child) {
-  border: 1px solid #fff;
-  border-radius: 3px;
-  background-color: #0072a3;
+  background-color: #fff;
   height: 42px
 }
 
 #headerLeftSearchLinks>li>a {
-  font-size: 16px;
-  color: #fff;
+  font-size: 14px;
+  color: #000;
   line-height: 1.5;
   text-align: left;
-  padding: 8px 8px 8px 38px;
+  padding: 8px;
   height: 100%
 }
 
 ul#headerLeftSearchLinks>li>a:focus,
 ul#headerLeftSearchLinks>li>a:hover {
-  background-color: transparent
+  background-color: #bdbdbd;
 }
 
 #header_include.school .title a {
