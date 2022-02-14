@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<script src="http://ngl.cengage.com/jscript/imports/googleTagManager.js"></script>
+	
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P4VQ8L9');</script>
+<!-- End Google Tag Manager -->
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<title>eSample Request</title>
+
+	<link rel="icon" type="image/x-icon" href="http://images.nationalgeographic.com/wpf/sites/common/i/icons/favicon-cb1274471343.ico">
+	
+	
+	<script> 
+	var today = new Date(); 
+	var cssVersion = today.getFullYear()+''+(today.getMonth()+1)+''+today.getDate()+''+today.getHours(); 
+	var link = document.createElement("link"); 
+	link.href="/../../../nglredesign/school/nglschoolcommon.min.css?v="+cssVersion; 
+	link.type = "text/css"; 
+	link.rel = "stylesheet"; 
+	document.getElementsByTagName("head")[0].appendChild(link); 
+	</script>
+	
+	
+	<link href="../../css/sch/k12.css" rel="stylesheet" type="text/css" >
+	<link rel="stylesheet" type="text/css" href="../../css/SCH/nglnav/staticseries.css">
+	
+	
+	<link href="../../css/sch/digital.css" rel="stylesheet" type="text/css">
+	</head>
+<body>
+
+
+ <!--Form validation scripts-->
+
+<script src="../../js/bootstrap/js/validator.js" ></script>
+<script src="../../js/bootstrap/js/validator.min.js" ></script>
+
+		
+		<script >
+			$(document).ready(function() {
+				$("form").validator({
+					bootstrap: true
+				});
+			});
+		</script>
+
+
+
+      
+
+<script ><!--//
+var timerId = null, timeout = 5;
+//--></script>
+<script ><!--//
+function WaitUntilCustomerGUIDIsRetrieved() {
+if (!!(timerId)) {
+    if (timeout == 0) {
+return;
+}
+if (typeof this.GetElqCustomerGUID === 'function') {
+        document.forms["NGLFormSubmissions-eSample"].elements["elqCustomerGUID"].value = GetElqCustomerGUID();
+return;
+}
+timeout -= 1;
+}
+timerId = setTimeout("WaitUntilCustomerGUIDIsRetrieved()", 500);
+return;
+}
+window.onload = WaitUntilCustomerGUIDIsRetrieved;
+_elqQ.push(['elqGetCustomerGUID']);
+//--></script>
+
+
+<script>
+$.get("http://ipinfo.io", function(response) {
+    $("#ip").val(response.country);
+}, "jsonp");
+</script>
+
+
+<script>
+            function gup( name ){name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");var regexS = "[\\?&]"+name+"=([^&#]*)";var 	regex = new RegExp( regexS );var results = regex.exec( window.location.href );if( results == null ) return "";else return results[1];}
+                    //captures URL values and writes them to the form
+                    window.onload=function(){
+                        document.getElementById('bookisbn').value = gup('isbn');
+                    }
+            </script>
+
+
+
+<form method="post" name="NGLFormSubmissions-eSampleRequest" action="https://s2138.t.eloqua.com/e/f2" id="esamples" >
+		<input type="hidden" name="elqFormName" value="NGLFormSubmissions-eSample">
+		<input type="hidden" name="elqSiteID" value="2138">
+		<input type="hidden" name="elqCustomerGUID" value="">
+		<input type="hidden" name="elqCookieWrite" value="0">	
+		<input type="hidden" name="source_code" value="eSampleRequest">	
+		<input type="hidden" name="ip" id="ip" value=" ">
+  		<input type="hidden" name="bookisbn" id="bookisbn" value=" ">
+  		
+  
+      	<div class="form-group"> 
+				<label for="first_name">First Name:</label>
+		  		<input type="text"  class="form-control" id="first_name" name="first_name">
+				</div>
+			 
+			 	<div class="form-group">
+				<label for="last_name">Last Name:</label> 
+				<input type="text" class="form-control" id="last_name" name="last_name">
+				</div>
+				
+				<div class="form-group">
+				<label for="zip">Zip/Postal Code:</label>
+		   		<input type="text" class="form-control" id="zip" name="zip" data-error="This is a required field" required>
+				<div class="help-block with-errors"></div>
+				</div>	
+				
+				<div class="form-group">
+				<label for="email" class="control-label"> Email:</label> 
+		 		 <input type="email" class="form-control" id="email" name="email"  data-error="A valid email address is required" required>
+				 <div class="help-block with-errors"></div>
+		   		</div>
+	
+				<div class="form-group">
+				  <h4>Your Privacy Options </h4>
+					<input type="checkbox" name="optout" id="optout" value="optout"/>
+				 	<label for="optout">Opt-out of future communications</label>
+			
+				<p>We are collecting this information in order to fulfil your request. We may also use the information you have provided to send you news and information about products we feel may be relevant to you. If you do not wish to receive these additional communications, please tick the opt-out box above. You will also be provided with the opportunity to amend your communication preferences and unsubscribe on every marketing email you receive. For more information about how your data will be handled please read our <a href="https://www.cengage.com/privacy" target="_blank">Privacy Policy.</a></p>  
+		  </div>
+			
+			
+	        
+		  		<div class="form-group">
+			  	<h4>Age Check</h4>
+	 			<input type="checkbox" name="age" id="age" value="Over18" data-error="This is a required field" required> 
+						<label for="age">Please check this box to confirm you are over the age of 18.<span class="asteriskRed">* </span></label> 
+						<div class="help-block with-errors"></div>
+				</div>
+		   		
+		   		<div class="form-group"> 
+				<button  class="btn-lg" type="Submit" name="Submit" style="float:right" value="Submit">Submit</button>
+  				</div>
+  				
+ <!--Spam/robots prevention using honeypot--> 				
+  				<div class="form-group" id="fooDiv">
+				<label for="foo"></label>
+				<input type="text" name="foo" id="foo" autocomplete="off" >
+				</div>
+  
+	
+   
+   		
+ </form>
+
+
+
+<script src="//cdn.cengage.com/js/yepnope/yepnope.1.5.4-min.js"></script>
+<script src="/jscript/imports/nglCommon.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"
+  integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw="
+  crossorigin="anonymous"></script>
+<script src="/jscript/imports/RedesignNGLTwoColumnResultsPage.js"></script>
+
+</body>
+	
+	
+</html>

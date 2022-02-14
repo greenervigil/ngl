@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+<script>
+    var dataLayer = window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+     'channel': 'School',
+     'siteSection': 'Static', 
+     'countryCode': 'US',
+     'pageType': 'Form',
+    'pageName': 'School: Form: Preference Center'
+    });
+</script>
+	
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P4VQ8L9');</script>
+<!-- End Google Tag Manager -->
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Email Preference Center">
+	<meta name="keywords" content="email preference center, email, preference center, preferences">
+
+	<title>eMail Preference Center</title>	
+     
+    	<link rel="icon" type="image/x-icon" href="https://ngl.cengage.com/favicon.ico">
+	
+	<script> 
+	var today = new Date(); 
+	var cssVersion = today.getFullYear()+''+(today.getMonth()+1)+''+today.getDate()+''+today.getHours(); 
+	var link = document.createElement("link"); 
+	link.href="/../../../nglredesign/school/nglschoolcommon.min.css?v="+cssVersion; 
+	link.type = "text/css"; 
+	link.rel = "stylesheet"; 
+	document.getElementsByTagName("head")[0].appendChild(link); 
+	</script>
+	
+	<link rel="stylesheet" type="text/css" href="../../css/sch/nglnav/staticseries.css">	
+	<link href="../../css/sch/k12.css" rel="stylesheet" type="text/css" >
+
+	
+
+
+
+	
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4VQ8L9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	
+<header id="header_include" class="school"></header >
+
+	
+	
+
+<div id="relativeSectionContainer">
+
+<div class="container">
+
+	
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Update your preferences </h2>
+		</div>
+	</div>
+	
+
+
+
+<div class="container">
+
+
+
+	<form method="post" name="NGLFormSubmissions-pref" action="https://s2138.t.eloqua.com/e/f2" >
+	<input type="hidden" name="elqFormName" value="NGLFormSubmissions-pref">
+	<input type="hidden" name="elqSiteID" value="2138">
+	<input type="hidden" name="elqCustomerGUID" value="">
+	<input type="hidden" name="elqCookieWrite" value="0">	
+	<input type="hidden" name="source_code" value="pref">	
+     <input type="hidden" name="ip" id="ip" value=" ">
+     
+		 
+          <div class="form-group">
+               <label for="email" class="control-label"><span class="asteriskRed">* </span>Email:</label> 
+               <input type="email" class="form-control" id="email" name="email"  data-error="A valid email address is required" required>
+               <div class="help-block with-errors"></div>
+          </div>
+
+          
+          
+          <p>Select which list(s) you'd like to receive email communications from: </p>
+          
+          <div class="form-group lists">
+               <input type="checkbox" name="optIns_pi" value="Product Info">
+               <label>Product Information</label><br>
+           
+               <input type="checkbox" name="optIns_lec" value="Live Events/Conferences">
+               <label>Live Events/Conferences</label><br>
+                          
+               <input type="checkbox" name="optIns_web" value="Webinars">
+               <label>Webinars</label><br>
+          
+               <input type="checkbox" name="optIns_mrs" value="Market Research/Surveys">
+               <label>Market Research/Surveys</label><br>
+                       
+               <input type="checkbox" name="optIns_blg" value="Blog">
+               <label>Blog</label><br>
+                          
+               <input type="checkbox" name="optIns_amn" value="Alerts/Maintenance Notifications">
+               <label>Alerts/Maintenance Notifications</label><br><br>
+          </div>
+
+          
+          <div class="form-group">
+               <input type="checkbox" name="optOut" id="optOut" value="optOut"> 
+               <label>I would like to Opt-Out of all National Geographic Learning emails.</label> 
+          </div>
+          
+
+          <div class="form-group"> 	
+            <button class="btn btn-primary btn-lg" name="update" value="update">Update</button>
+          </div>
+ 	
+		          
+		
+	  </form>
+ 	</div>	
+
+ </div>
+
+	</div>
+
+
+
+
+<footer id="footer_include" class="school"></footer>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+<script src="//cdn.cengage.com/js/yepnope/yepnope.1.5.4-min.js"></script>
+<script src="/jscript/imports/nglCommon.js"></script>
+
+<script src="/jscript/imports/RedesignNGLTwoColumnResultsPage.js"></script>
+
+
+
+<script src="../../js/bootstrap/js/validator.js" ></script>
+<script src="../../js/bootstrap/js/validator.min.js" ></script>
+
+
+<script>
+	$(document).ready(function() {
+		$("form").validator({
+			bootstrap: true
+		});
+	});
+</script>
+
+
+<script>
+$('#optOut').click(function(){
+    $('input[type=checkbox]').not(this).prop('checked','');
+});
+
+$('input[type=checkbox]').not($('#optOut')).click(function(){
+    $('#optOut').prop('checked','');
+});
+</script>
+     
+     
+
+<script>
+$.get("https://ipinfo.io", function(response) {
+    $("#ip").val(response.country);
+}, "jsonp");
+</script>	
+	
+
+    
+<script ><!--//
+var timerId = null, timeout = 5;
+//--></script>
+<script ><!--//
+function WaitUntilCustomerGUIDIsRetrieved() {
+if (!!(timerId)) {
+    if (timeout == 0) {
+return;
+}
+if (typeof this.GetElqCustomerGUID === 'function') {
+        document.forms["NGLFormSubmissions-pref"].elements["elqCustomerGUID"].value = GetElqCustomerGUID();
+return;
+}
+timeout -= 1;
+}
+timerId = setTimeout("WaitUntilCustomerGUIDIsRetrieved()", 500);
+return;
+}
+window.onload = WaitUntilCustomerGUIDIsRetrieved;
+_elqQ.push(['elqGetCustomerGUID']);
+//--></script>
+
+    
+<script >
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2138']);
+    _elqQ.push(['elqTrackPageView']);
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load);
+    })();
+</script>
+
+    
+    
+</body>
+
+	
+
+
+	
+	
+</html>

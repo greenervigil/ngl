@@ -1,0 +1,728 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+  <style>
+    .lightweight {
+      font-weight: normal;
+    }
+
+    .review_box {
+      background: lightgrey;
+
+      border-top: solid 3px darkgrey;
+      border-bottom: solid 3px darkgrey;
+      border-radius: 10px;
+
+      font: 400 12px/1 'Open Sans', Arial, Helvetica, sans-serif;
+
+      margin: 25px 0px;
+
+      padding-bottom: 10px;
+      padding-left: 25px;
+
+    }
+
+
+    .question_field {
+      color: #666666;
+    }
+
+    .selected {}
+
+    .question_set {
+      margin-bottom: 25px;
+    }
+
+    .subjects_box {
+      margin-left: 25px;
+      display: none;
+    }
+
+    input[type=radio] {
+      margin: 5px 0px !important;
+    }
+  </style>
+
+  <script>
+    var dataLayer = window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      'channel': 'School',
+      'siteSection': 'Static',
+      'countryCode': 'US',
+      'pageType': 'Form',
+      'pageName': 'School: Form: Digital Review Request'
+    });
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P4VQ8L9');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Digital Review Request">
+  <meta name="keywords" content="Digital Review Request">
+
+  <title>Adoption Review Form</title>
+
+  <link rel="icon" type="image/x-icon"
+    href="https://images.nationalgeographic.com/wpf/sites/common/i/icons/favicon-cb1274471343.ico">
+
+
+  <script>
+    var today = new Date();
+    var cssVersion = today.getFullYear() + '' + (today.getMonth() + 1) + '' + today.getDate() + '' + today.getHours();
+    var link = document.createElement("link");
+    link.href = "/../../../nglredesign/school/nglschoolcommon.min.css?v=" + cssVersion;
+    link.type = "text/css";
+    link.rel = "stylesheet";
+    document.getElementsByTagName("head")[0].appendChild(link);
+  </script>
+
+
+
+  <link rel="stylesheet" type="text/css" href="../../css/sch/nglnav/staticseries.css">
+  <link rel="stylesheet" type="text/css" href="../../css/sch/k12.css">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4VQ8L9" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <header id="header_include" class="school"></header>
+
+
+  <section id="seriesBanner"
+    style="background-image: url(https://ngl.cengage.com/assets/html/forms/images/apsi_2020.jpg);">
+
+
+    <img class="img-responsive superheroImg" src="images/apsi_2020.jpg" alt="Adoption Survey">
+
+  </section>
+
+
+
+  <div id="relativeSectionContainer">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <p>Please let us know how we can better support you by completing this short survey about your upcoming
+            curriculum adoption plans.<br>
+            <small class="red">* Required Fields</small></p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      <div class="container">
+
+
+
+        <form method="post" name="NGLFormSubmissions-arf" action="https://s2138.t.eloqua.com/e/f2" class="well">
+          <input type="hidden" name="elqFormName" value="NGLFormSubmissions-arf">
+          <input type="hidden" name="elqSiteID" value="2138">
+          <input type="hidden" name="elqCustomerGUID" value="">
+          <input type="hidden" name="elqCookieWrite" value="0">
+          <input type="hidden" name="source_code" value="arf">
+          <input type="hidden" name="reasonForContact1" value="Adoption Review Information">
+          <input type="hidden" name="marketingCampaignActionLT1" value="Form Submit">
+          <input type="hidden" name="marketingCampaignDetailsLT1" value="Adoption Review Form">
+          <input type="hidden" name="channeldesignation" value="School">
+          <input type="hidden" name="ip" id="ip" value=" ">
+          <input type="hidden" id="K8Rep" name="K8Rep" value="prek8 -1">
+          <input type="hidden" id="912Rep" name="912Rep" value="912 -1">
+
+
+
+          <fieldset class="question_set">
+            <legend>Your Information</legend>
+
+            <div class="form-group">
+              <label for="firstname"><span class="asteriskRed">* </span>First Name:</label>
+              <input type="text" class="form-control" id="firstname" name="firstname"
+                data-error="This is a required field" required>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="lastname"><span class="asteriskRed">* </span>Last Name:</label>
+              <input class="form-control" type="text" id="lastname" name="lastname"
+                data-error="This is a required field" required>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="district_or_school"><span class="asteriskRed">* </span>District or School:</label>
+              <input type="text" class="form-control" id="institution_or_school" name="institution_or_school"
+                data-error="This is a required field" required>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="city"><span class="asteriskRed">* </span>City:</label>
+              <input type="text" class="form-control" id="city" name="city" data-error="This is a required field"
+                required>
+              <div class="help-block with-errors"></div>
+            </div>
+
+
+            <div class="form-group">
+              <label for="state"><span class="asteriskRed">* </span>State </label>
+              <select class="form-control" id="state" name="state" data-error="This is a required field" required>
+                <option value="">Select State</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+              </select>
+              <div class="help-block with-errors"></div>
+            </div>
+
+
+            <div class="form-group">
+              <label for="zip"><span class="asteriskRed">* </span>Zip/Postal Code:</label>
+              <input type="text" class="form-control" id="zip" name="zip" maxlength="6"
+                data-error="This is a required field" required>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="control-label"><span class="asteriskRed">* </span>Email:</label>
+              <input type="email" class="form-control" id="email" name="email"
+                data-error="A valid email address is required" required>
+              <div class="help-block with-errors"></div>
+            </div>
+          </fieldset>
+
+
+
+          <fieldset class="question_set">
+            <legend>Which subject areas are you evaluating?</legend>
+
+            <h4><span> <input type="checkbox" id="el_open" /> </span>Elementary School - Grades K&ndash;5</h4>
+
+            <div class="subjects_box" id="elementary_subjects">
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_elementary" id="el_math"
+                  name="el_subjects" value="K5Math" />
+                <label for="el_math">Mathematics</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_elementary" id="el_science"
+                  name="el_subjects" value="K5Sci" />
+                <label for="el_science">Science</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_elementary" id="el_rla"
+                  name="el_subjects" value="K5LangArts" />
+                <label for="el_rlah">Reading/Language Arts</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_elementary" id="el_wl"
+                  name="el_subjects" value="K5WorldLang" />
+                <label for="el_wl">World Languages</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_elementary" id="el_ss"
+                  name="el_subjects" value="K5SocStudies" />
+                <label for="el_ss">Social Studies</label>
+              </div>
+
+              <div class="review_box" id="review_box_elementary">
+                <h5 class="question_field"><strong>When is your district (or school) planning to review/adopt new
+                    materials?</strong></h5>
+
+                <input class="review_box_radio_button" type="radio" name="el_review" value="Spring 2021">Spring 2021<br>
+                <input class="review_box_radio_button" type="radio" name="el_review" value="Fall 2021">Fall 2021<br>
+                <input class="review_box_radio_button" type="radio" name="el_review" value="Unknown ">I don't know.
+                Contact: <input type="text" name="el_review" />​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+                <input class="review_box_radio_button" type="radio" name="el_review" value="Other ">Other: <input
+                  type="text" name="el_review" />​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+              </div>
+            </div>
+
+            <h4><span> <input type="checkbox" id="md_open" /> </span>Middle School - Grades 6&ndash;8</h4>
+            <div class="subjects_box" id="middle_school_subjects">
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_middle_school" id="md_math"
+                  name="md_subjects" value="68Math" />
+                <label for="md_math">Mathematics</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_middle_school" id="md_science"
+                  name="md_subjects" value="68Sci" />
+                <label for="md_science">Science</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_middle_school" id="md_rla"
+                  name="md_subjects" value="68LangArts" />
+                <label for="md_rlah">Reading/Language Arts</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_middle_school" id="md_wl"
+                  name="md_subjects" value="68WorldLang" />
+                <label for="md_wl">World Languages</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_middle_school" id="md_ss"
+                  name="md_subjects" value="68SocStudies" />
+                <label for="md_ss">Social Studies</label>
+              </div>
+
+              <div class="review_box" id="review_box_middle_school">
+                <h5 class="question_field"><strong>When is your district (or school) planning to review/adopt new
+                    materials?</strong></h5>
+                <input class="review_box_radio_button" type="radio" name="md_review" value="Spring 2021">Spring 2021<br>
+                <input class="review_box_radio_button" type="radio" name="md_review" value="Fall 2021">Fall 2021<br>
+                <input class="review_box_radio_button" type="radio" name="md_review" value="">I don't know. Contact:
+                <input type="text" name="md_review" />​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+                <input class="review_box_radio_button" type="radio" name="md_review" value="Other">Other: <input
+                  type="text" name="md_review" />​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+              </div>
+            </div>
+
+
+
+            <h4><span> <input type="checkbox" id="hs_open" /> </span>High School - Grades 9&ndash;12</h4>
+            <div class="subjects_box" id="high_school_subjects">
+
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_high_school" id="hs_math"
+                  name="hs_subjects" value="912Math" />
+                <label for="hs_math">Mathematics</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_high_school" id="hs_science"
+                  name="hs_subjects" value="912Sci" />
+                <label for="hs_science">Science</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_high_school" id="hs_rla"
+                  name="hs_subjects" value="912LangArts" />
+                <label for="hs_rlah">Reading/Language Arts</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_high_school" id="hs_wl"
+                  name="hs_subjects" value="912WorldLang" />
+                <label for="hs_wl">World Languages</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_high_school" id="hs_ss"
+                  name="hs_subjects" value="912SocStudies" />
+                <label for="hs_ss">Social Studies</label>
+              </div>
+
+              <div class="review_box" id="review_box_high_school">
+                <h5 class="question_field"><strong>When is your district (or school) planning to review/adopt new
+                    materials?</strong></h5>
+                <input class="review_box_radio_button" type="radio" name="hs_review" value="Spring 2021">Spring 2021<br>
+                <input class="review_box_radio_button" type="radio" name="hs_review" value="Fall 2021">Fall 2021<br>
+                <input class="review_box_radio_button" type="radio" name="hs_review" value="">I don't know. Contact:
+                <input type="text" name="hs_review" />​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+                <input class="review_box_radio_button" type="radio" name="hs_review" value="Other">Other: <input
+                  type="text" name="hs_review" />​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+              </div>
+            </div>
+
+
+
+            <h4><span> <input type="checkbox" id="ap_open" /> </span>High School - AP&reg;</h4>
+            <div class="subjects_box" id="advanced_placement_subjects">
+
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_ap" id="ap_math" name="ap_subjects"
+                  value="APMath" />
+                <label for="ap_math">Mathematics</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_ap" id="ap_science" name="ap_subjects"
+                  value="APSci" />
+                <label for="ap_science">Science</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_ap" id="ap_rla" name="ap_subjects"
+                  value="APLangArts" />
+                <label for="ap_rlah">Reading/Language Arts</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_ap" id="ap_wl" name="ap_subjects"
+                  value="APWorldLang" />
+                <label for="ap_wl">World Languages</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_ap" id="ap_ss" name="ap_subjects"
+                  value="APSocStudies" />
+                <label for="ap_ss">Social Studies</label>
+              </div>
+              <div class="review_box" id="review_box_ap">
+                <h5 class="question_field"><strong>When is your district (or school) planning to review/adopt new
+                    materials?</strong></h5>
+                <input class="review_box_radio_button" type="radio" name="ap_review" value="Spring 2021">Spring 2021<br>
+                <input class="review_box_radio_button" type="radio" name="ap_review" value="Fall 2021">Fall 2021<br>
+                <input class="review_box_radio_button" type="radio" name="ap_review" value="">I don't know. Contact:
+                <input type="text" name="ap_review" />​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+                <input class="review_box_radio_button" type="radio" name="ap_review" value="Other">Other: <input
+                  type="text" name="ap_review" />​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+              </div>
+            </div>
+
+            <h4><span> <input type="checkbox" id="cte_open" /> </span>High School - Career & Technical Education</h4>
+            <div class="subjects_box" id="cte_subjects">
+
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_cte" id="cte_agriscience"
+                  name="cte_subjects" value="AGSci" />
+                <label for="cte_agriscience">Agriscience</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_cte" id="cte_business"
+                  name="cte_subjects" value="Business" />
+                <label for="cte_business">Business</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_cte" id="cte_comp" name="cte_subjects"
+                  value="CompAccounting" />
+                <label for="cte_comp">Computing & Accounting</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_cte" id="cte_hs" name="cte_subjects"
+                  value="HealthSci" />
+                <label for="cte_hs">Health Science</label>
+              </div>
+              <div>
+                <input type="checkbox" class="subject_checkbox subject_checkbox_cte" id="cte_tt" name="cte_subjects"
+                  value="TechTrades" />
+                <label for="cte_tt">Technical Trades</label>
+              </div>
+              <div class="review_box" id="review_box_cte">
+                <h5 class="question_field"><strong>When is your district (or school) planning to review/adopt new
+                    materials?</strong></h5>
+                <input class="review_box_radio_button" type="radio" name="cte_review" value="Spring 2021">Spring
+                2021<br>
+                <input class="review_box_radio_button" type="radio" name="cte_review" value="Fall 2021">Fall 2021<br>
+                <input class="review_box_radio_button" type="radio" name="cte_review" value="">I don't know. Contact:
+                <input type="text" name="cte_review" />​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+                <input class="review_box_radio_button" type="radio" name="cte_review" value="Other">Other: <input
+                  type="text" name="cte_review" />​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​<br>
+              </div>
+            </div>
+
+          </fieldset>
+
+          <fieldset class="question_set">
+            <legend>How can we support you? Feel free to select more than one.</legend>
+
+            <div class="" id="support">
+              <div>
+                <input type="checkbox" class="support_checkbox" id="support_checkbox_review" name="support_options"
+                  value="ReviewCopies" />
+                <label for="support_checkbox_review"><strong>Review Copies</strong><span class="lightweight"> (free
+                    print or digital copies to examine)</span></label>
+              </div>
+              <div>
+                <input type="checkbox" class="support_checkbox" id="support_checkbox_l&l" name="support_options"
+                  value="Virtual Meeting" />
+                <label for="support_checkbox_l&l"><strong>Schedule a Virtual Meeting</strong><span class="lightweight">
+                    (we are eager to answer your questions and talk about our programs)</span></label>
+              </div>
+              <div>
+                <input type="checkbox" class="support_checkbox" id="support_checkbox_appointment" name="support_options"
+                  value="Appointment" />
+                <label for="support_checkbox_appointment"><strong>Schedule an Appointment</strong><span
+                    class="lightweight"> (we are happy to drop in and discuss how we can support you in reaching your
+                    achievement goals)</span></label>
+              </div>
+              <div>
+                <input type="checkbox" class="support_checkbox" id="support_checkbox_demo" name="support_options"
+                  value="TechnologyDemo" />
+                <label for="support_checkbox_demo"><strong>Demo of the Technology</strong><span class="lightweight">
+                    (in-person or virtual demo of our digital platform)</span></label>
+              </div>
+              <div>
+                <input type="checkbox" class="support_checkbox" id="support_checkbox_pd" name="support_options"
+                  value="ProfDev/Training" />
+                <label for="support_checkbox_pd"><strong>Professional Development (PD) or Training</strong><span
+                    class="lightweight"> (do you have district PD days we can help with? Let us know and we can discuss
+                    options!)</span></label>
+              </div>
+
+            </div>
+
+
+          </fieldset>
+
+
+
+
+
+
+
+          <div class="form-group">
+            <button class="btn btn-primary btn-lg" name="submit" value="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <footer id="footer_include" class="school"></footer>
+
+
+  <script src="//cdn.cengage.com/js/yepnope/yepnope.1.5.4-min.js"></script>
+  <script src="/jscript/imports/nglCommon.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/jscript/imports/RedesignNGLTwoColumnResultsPage.js"></script>
+
+  <script>
+    $.get("https://ipinfo.io", function (response) {
+      $("#ip").val(response.country);
+    }, "jsonp");
+  </script>
+
+  <script>
+    $('form').submit(function () {
+      $('#K8Rep').val("prek8" + ' ' + $("#zip").val());
+
+    });
+
+    $('form').submit(function () {
+
+      $('#912Rep').val("912" + ' ' + $("#zip").val());
+
+    });
+  </script>
+
+  <script src="../../js/bootstrap/js/validator.js"></script>
+  <script src="../../js/bootstrap/js/validator.min.js"></script>
+
+  <script>
+    function check_for_checks(cbox, rbox) {
+      var show_dd = false;
+      cbox.each(function () {
+        if (this.checked) {
+          show_dd = true;
+        } else { }
+      });
+      if (show_dd) {
+        rbox.stop(true, false);
+        rbox.slideDown();
+      } else {
+        rbox.stop(true, false);
+        rbox.slideUp();
+      }
+    };
+    // $('.subject_checkbox_elementary').off("change").on("change", function() {
+    //   check_for_checks($('.subject_checkbox_elementary'), $('#review_box_elementary'));
+    // });
+    // $('.subject_checkbox_middle_school').off("change").on("change", function() {
+    //   check_for_checks($('.subject_checkbox_middle_school'), $('#review_box_middle_school'));
+    // });
+    // $('.subject_checkbox_high_school').off("change").on("change", function() {
+    //   check_for_checks($('.subject_checkbox_high_school'), $('#review_box_high_school'));
+    // });
+    // $('.subject_checkbox_ap').off("change").on("change", function() {
+    //   check_for_checks($('.subject_checkbox_ap'), $('#review_box_ap'));
+    // });
+    // $('.subject_checkbox_cte').off("change").on("change", function() {
+    //   check_for_checks($('.subject_checkbox_cte'), $('#review_box_cte'));
+    // });
+
+    $('#el_open').off("change").on("change", function () {
+      $("#elementary_subjects").stop(true, false)
+      if ($('#el_open').is(":checked")) {
+        $("#elementary_subjects").slideDown();
+      }
+      else {
+        $("#elementary_subjects").slideUp();
+      }
+    });
+    $('#md_open').off("change").on("change", function () {
+      $("#middle_school_subjects").stop(true, false)
+      if ($('#md_open').is(":checked")) {
+        $("#middle_school_subjects").slideDown();
+      }
+      else {
+        $("#middle_school_subjects").slideUp();
+      }
+    });
+    $('#hs_open').off("change").on("change", function () {
+      $("#high_school_subjects").stop(true, false)
+      if ($('#hs_open').is(":checked")) {
+        $("#high_school_subjects").slideDown();
+      }
+      else {
+        $("#high_school_subjects").slideUp();
+      }
+    });
+    $('#ap_open').off("change").on("change", function () {
+      $("#advanced_placement_subjects").stop(true, false)
+      if ($('#ap_open').is(":checked")) {
+        $("#advanced_placement_subjects").slideDown();
+      }
+      else {
+        $("#advanced_placement_subjects").slideUp();
+      }
+    });
+    $('#cte_open').off("change").on("change", function () {
+      $("#cte_subjects").stop(true, false)
+      if ($('#cte_open').is(":checked")) {
+        $("#cte_subjects").slideDown();
+      }
+      else {
+        $("#cte_subjects").slideUp();
+      }
+    });
+  </script>
+
+  <!--validation script-->
+  <script>
+    $(document).ready(function () {
+      $("form").validator({
+        bootstrap: true
+      });
+    });
+  </script>
+
+
+
+
+  <script>
+    < !--//
+    var timerId = null,
+      timeout = 5;
+    //-->
+  </script>
+  <script>
+    < !--//
+      function WaitUntilCustomerGUIDIsRetrieved() {
+        if (!!(timerId)) {
+          if (timeout == 0) {
+            return;
+          }
+          if (typeof this.GetElqCustomerGUID === 'function') {
+            document.forms["NGLFormSubmissions-arf"].elements["elqCustomerGUID"].value = GetElqCustomerGUID();
+            return;
+          }
+          timeout -= 1;
+        }
+        timerId = setTimeout("WaitUntilCustomerGUIDIsRetrieved()", 500);
+        return;
+      }
+    window.onload = WaitUntilCustomerGUIDIsRetrieved;
+    _elqQ.push(['elqGetCustomerGUID']);
+    //-->
+  </script>
+
+
+
+
+
+  <script>
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2138']);
+    _elqQ.push(['elqTrackPageView']);
+
+    (function () {
+      function async_load() {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = '//img.en25.com/i/elqCfg.min.js';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      }
+      if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+      else if (window.attachEvent) window.attachEvent('onload', async_load);
+    })();
+  </script>
+
+
+</body>
+
+
+</html>
