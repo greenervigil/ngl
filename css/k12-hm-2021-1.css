@@ -1,3 +1,29 @@
+.browse:hover {
+  background-color: black;
+  color: #fbda05 !important;
+}
+
+.orders {
+  border: 1px solid var(--white) !important;
+  color: var(--white) !important;
+  min-width: 175px;
+}
+
+.orders:hover {
+  background-color: var(--white);
+  color: var(--jacksons-purple) !important;
+}
+
+.connect {
+  border: 1px solid var(--white) !important;
+  color: var(--white) !important;
+  min-width: 200px;
+}
+
+.connect:hover {
+  background-color: var(--white);
+  color: var(--paradiso) !important;
+}
 /* screen - k12-hm-2021-1 */
 
 .k12-hm-2021-1 {
@@ -44,7 +70,7 @@
 
 .k12-hm-2021-1 .text-144 {
   color: var(--white);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: 59px;
   letter-spacing: 0;
   line-height: 59px;
@@ -104,7 +130,7 @@
 
 .k12-hm-2021-1 .text-145 {
   color: var(--sizzling-sunrise);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: var(--font-size-m);
   font-weight: 600;
   left: 0;
@@ -122,7 +148,7 @@
 
 .k12-hm-2021-1 .text-146 {
   color: var(--white);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: var(--font-size-m);
   font-weight: 600;
   left: 0;
@@ -353,7 +379,7 @@
 .k12-hm-2021-1 .ready-to-order {
   align-self: center;
   color: var(--white);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: 48px;
   height: 68px;
   letter-spacing: 0;
@@ -424,7 +450,7 @@
 
 .k12-hm-2021-1 .place-an-order-1 {
   color: var(--jacksons-purple);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: var(--font-size-m);
   font-weight: 600;
   height: 32px;
@@ -512,7 +538,7 @@
 
 .k12-hm-2021-1 .track-my-order-1 {
   color: var(--jacksons-purple);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: var(--font-size-m);
   font-weight: 600;
   height: 32px;
@@ -653,7 +679,7 @@
 
 .k12-hm-2021-1 .stay-connected {
   color: var(--white);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: 48px;
   font-weight: 600;
   letter-spacing: 0;
@@ -737,7 +763,7 @@
   color: var(--white);
   cursor: pointer;
   flex: 1;
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: var(--font-size-m);
   font-weight: 600;
   letter-spacing: 0;
@@ -773,7 +799,7 @@
   color: var(--paradiso);
   cursor: pointer;
   flex: 1;
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: var(--font-size-m);
   font-weight: 600;
   letter-spacing: 0;
@@ -1114,7 +1140,7 @@
 
 .k12-hm-2021-1-1 .text-170 {
   color: var(--white);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: var(--font-size-xxs);
   font-weight: 600;
   left: 0;
@@ -1140,7 +1166,7 @@
 
 .k12-hm-2021-1-1 .text-153 {
   color: var(--white);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: var(--font-size-xl);
   font-weight: 700;
   letter-spacing: 0;
@@ -1339,7 +1365,7 @@
 
 .k12-hm-2021-1-1 .ready-to-order-1 {
   color: var(--white);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: var(--font-size-xl);
   height: 47px;
   letter-spacing: 0;
@@ -2041,7 +2067,7 @@
 
 .k12-hm-2021-1-2 .text-189 {
   color: var(--white);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: 13px;
   font-weight: 600;
   left: 12px;
@@ -2078,7 +2104,7 @@
 
 .k12-hm-2021-1-2 .text-177 {
   color: var(--white);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: var(--font-size-m);
   font-weight: 700;
   letter-spacing: 0;
@@ -2190,7 +2216,7 @@
 .k12-hm-2021-1-2 .ready-to-order-2 {
   align-self: flex-end;
   color: var(--white);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: var(--font-size-m);
   height: 47px;
   letter-spacing: 0;
@@ -2564,7 +2590,7 @@
 
 .k12-hm-2021-1-2 .name-4 {
   color: var(--black);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0;
