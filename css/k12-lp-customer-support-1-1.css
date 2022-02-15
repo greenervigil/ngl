@@ -68,7 +68,7 @@
 
 .k12-lp-customer-support-1 .text-269 {
   color: var(--mine-shaft);
-  font-family: var(--font-family-open_sans);
+  font-family: var(--font-family-work_sans);
   font-size: var(--font-size-xl);
   font-weight: 600;
   letter-spacing: 0;
@@ -265,7 +265,7 @@
   line-height: 28px;
   position: absolute;
   text-align: center;
-  top: 62px;
+  top: 35px;
   white-space: nowrap;
   width: 252px;
 }
