@@ -25,10 +25,11 @@
     <script>
         (function () {
             var env = "", countryCode, overlayDisplay;
+            console.log(window.location.hostname === '127.0.0.1')
             var environmentSpecific = function () {
                 if (window.location.hostname.toUpperCase().indexOf("S-") != -1) {
                     env = "s-";
-                } else if (window.location.hostname.toUpperCase().indexOf("D-") != -1) {
+                } else if (window.location.hostname.toUpperCase().indexOf("D-") != -1 ) {
                     env = "d-";
                 } else {
                     env = "";
@@ -178,25 +179,25 @@
         </div>
         <div class="row justify-content-between">
           <div class="col-md-6 col-lg-3 col-xl-2 text-center">
-            <img class="img-fluid mx-auto" src="img/lp-home-catalog.png" alt="scuba diver"/>
+            <img class="img-fluid mx-auto" src="img/explore-catalog-icon.png" alt="browse catalog icon"/>
             <div style="padding: 20px;">
               <a href="/assets/html/catalogs/" target="_blank" role="button" class="btn rounded-pill browse" style="padding: 15px 25px; border: 1px solid var(--black);">Browse our catalog</a>
             </div>
           </div>
           <div class="col-md-6 col-lg-3 col-xl-2 text-center"> 
-            <img class="img-fluid mx-auto" src="img/hm-btn-exp-smp-1@1x.png" alt="Explore sample now"/>
+            <img class="img-fluid mx-auto" src="img/hm-btn-exp-smp-1@1x.png" alt="Explore sample now icon"/>
             <div style="padding: 20px;">
               <a href="/assets/html/SampleNow/index.html" target="_blank" role="button" class="btn rounded-pill browse" style="padding: 5px 25px; border: 1px solid var(--black);">Explore a sample or</br>request trail access</a>
             </div>
           </div>
           <div class="col-md-6 col-lg-3 col-xl-2 text-center">
-            <img class="img-fluid mx-auto" src="img/hm-btn-exp-sol-1@1x.png" alt="solar panels"/>
+            <img class="img-fluid mx-auto" src="img/hm-btn-exp-sol-1@1x.png" alt="digital solutions icon"/>
             <div style="padding: 20px;">
               <a href="/assets/html/SampleNow/index.html" target="_blank" role="button" class="btn rounded-pill browse" style="padding: 5px 25px; border: 1px solid var(--black);">Learn more about </br>our digital solutions</a>
             </div>
           </div>
           <div class="col-md-6 col-lg-3 col-xl-2 text-center">
-            <img class="img-fluid mx-auto" src="img/lp-home-digital-services.png" alt="person working on a laptop"/>
+            <img class="img-fluid mx-auto" src="img/explore-digital-access-icon.png" alt="explore digital access icon"/>
             <div style="padding: 20px;">
               <a href="/digitalAccessServices" target="_blank" role="button" class="btn rounded-pill browse" style=" padding: 5px 25px; border: 1px solid var(--black);">Explore digital access</br> options and services</a>
             </div>
@@ -255,7 +256,7 @@
             </div>
             <div class="row justify-content-between">
               <div class="col-lg-3 text-center">
-                <img class="img-fluid mx-auto" src="img/k12-hm-img-exploreinside-2020-1@1x.png"  alt="explore inside home page" style=""/>
+                <img class="img-fluid mx-auto" src="img/explore-inside-new.jpg"  alt="explore inside home page" style=""/>
                 <div style="padding: 20px;">
                   <a href="https://exploreinside.ngl.cengage.com/?_ga=2.108803910.539796715.1628528484-607289728.1627930776" target="_blank" role="button" class="btn rounded-pill connect" style="padding: 21px 25px; ">Visit Explore Inside</a>
                 </div>
