@@ -1,3 +1,8 @@
+.browse {
+  border: 1px solid var(--black) !important;
+  min-width: 180px;
+}
+
 .browse:hover {
   background-color: black;
   color: #fbda05 !important;
@@ -6,7 +11,8 @@
 .orders {
   border: 1px solid var(--white) !important;
   color: var(--white) !important;
-  min-width: 175px;
+  min-width: 180px;
+  margin: 0 25px;
 }
 
 .orders:hover {
@@ -17,12 +23,49 @@
 .connect {
   border: 1px solid var(--white) !important;
   color: var(--white) !important;
-  min-width: 200px;
+  min-width: 180px;
 }
 
 .connect:hover {
   background-color: var(--white);
   color: var(--paradiso) !important;
+}
+
+.group-468-1 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.2px;
+  min-height: 233px;
+}
+
+.text-172 {
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 0;
+  margin-top: 8px;
+  min-height: 47px;
+  text-align: center;
+  width: 124px;
+}
+
+.name-2 {
+  letter-spacing: 0;
+  line-height: 12px;
+  margin-right: 0;
+  margin-top: 4px;
+  min-height: 28px;
+  min-width: 110px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.image-servlet-1 {
+  height: 149px;
+  margin-right: 1.0px;
+  object-fit: cover;
+  width: 119px;
 }
 /* screen - k12-hm-2021-1 */
 
@@ -1862,16 +1905,7 @@
   width: 24px;
 }
 
-.k12-hm-2021-1-1 .group-468-1 {
-  align-items: center;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  margin-left: 45px;
-  margin-top: 0.2px;
-  min-height: 233px;
-  width: 127px;
-}
+.k12-hm-2021-1-1 
 
 .k12-hm-2021-1-1 .image-servlet-4-1 {
   height: 149px;
@@ -1889,16 +1923,7 @@
   width: 127px;
 }
 
-.k12-hm-2021-1-1 .name-2 {
-  letter-spacing: 0;
-  line-height: 12px;
-  margin-right: 0;
-  margin-top: 4px;
-  min-height: 28px;
-  min-width: 110px;
-  text-align: center;
-  white-space: nowrap;
-}
+.k12-hm-2021-1-1 
 
 .k12-hm-2021-1-1 .group-472 {
   align-items: center;
@@ -1911,22 +1936,9 @@
   width: 146px;
 }
 
-.k12-hm-2021-1-1 .image-servlet-1 {
-  height: 149px;
-  margin-right: 1.0px;
-  object-fit: cover;
-  width: 119px;
-}
+.k12-hm-2021-1-1 
 
-.k12-hm-2021-1-1 .text-172 {
-  letter-spacing: 0;
-  line-height: 14px;
-  margin-left: 0;
-  margin-top: 8px;
-  min-height: 47px;
-  text-align: center;
-  width: 124px;
-}
+.k12-hm-2021-1-1 
 
 .k12-hm-2021-1-1 .text-173 {
   letter-spacing: 0;
@@ -2013,654 +2025,4 @@
   min-height: 112px;
   text-align: center;
   width: 641px;
-}
-/* screen - k12-hm-2021-1-2 */
-
-.k12-hm-2021-1-2 {
-  align-items: center;
-  background-color: var(--white);
-  display: flex;
-  flex-direction: column;
-  height: 3903px;
-  overflow: hidden;
-  width: 100%;
-}
-
-.k12-hm-2021-1-2 .overlap-group4-2 {
-  align-items: flex-end;
-  background-color: var(--black);
-  display: flex;
-  height: 121px;
-  justify-content: flex-end;
-  min-width: 428px;
-  padding: 26px 46px;
-}
-
-.k12-hm-2021-1-2 .group-369-2 {
-  align-items: flex-start;
-  cursor: pointer;
-  display: flex;
-  height: 63px;
-  min-width: 334px;
-}
-
-.k12-hm-2021-1-2 .overlap-group2 {
-  height: 65px;
-  margin-top: -1.5px;
-  position: relative;
-  width: 334px;
-}
-
-.k12-hm-2021-1-2 .text-188 {
-  left: 0;
-  letter-spacing: 0;
-  line-height: 22px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  white-space: nowrap;
-}
-
-.k12-hm-2021-1-2 .span1-2 {
-  text-decoration: underline;
-}
-
-.k12-hm-2021-1-2 .text-189 {
-  color: var(--white);
-  font-family: var(--font-family-work_sans);
-  font-size: 13px;
-  font-weight: 600;
-  left: 12px;
-  letter-spacing: 0;
-  line-height: 21px;
-  opacity: 0;
-  pointer-events: auto;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  transition: all 0.2s ease;
-  white-space: nowrap;
-}
-
-.k12-hm-2021-1-2 .span0-2 {
-  color: var(--sizzling-sunrise);
-}
-
-.k12-hm-2021-1-2 .text-189:hover {
-  opacity: 1;
-}
-
-.k12-hm-2021-1-2 .overlap-group8 {
-  align-items: flex-end;
-  background-image: url(../img/mask-group-97-1@1x.png);
-  background-size: cover;
-  display: flex;
-  height: 306px;
-  justify-content: center;
-  width: 100%;
-  padding: 11.5px 24px;
-  margin-top: 50px;
-}
-
-.k12-hm-2021-1-2 .text-177 {
-  color: var(--white);
-  font-family: var(--font-family-work_sans);
-  font-size: var(--font-size-m);
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 20px;
-  min-height: 29px;
-  min-width: 378px;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.k12-hm-2021-1-2 .ready-to-explore-2 {
-  letter-spacing: 0;
-  line-height: 20px;
-  margin-left: 2.0px;
-  margin-top: 30px;
-  min-height: 29px;
-  text-align: center;
-  width: 414px;
-}
-
-.k12-hm-2021-1-2 .hmbtn-2 {
-  height: 158px;
-  margin-top: 24px;
-  object-fit: cover;
-  width: 158px;
-}
-
-.k12-hm-2021-1-2 .group-171 {
-  background-image: url(../img/path-34-10@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  cursor: pointer;
-  display: flex;
-  height: 50px;
-  margin-top: 14px;
-  width: 192px;
-}
-
-.k12-hm-2021-1-2 .group-160-6 {
-  display: flex;
-  flex: 1;
-  height: 22px;
-  margin-left: 21px;
-  margin-right: 21px;
-  margin-top: 14px;
-}
-
-.k12-hm-2021-1-2 .browse-our-catalog-4 {
-  flex: 1;
-  letter-spacing: 0;
-  line-height: 28px;
-  margin-bottom: 5px;
-  margin-right: -2px;
-  margin-top: -7px;
-  text-align: center;
-  white-space: nowrap;
-  width: 152px;
-}
-
-.k12-hm-2021-1-2 .hmbtn-3 {
-  height: 158px;
-  margin-top: 30px;
-  object-fit: cover;
-  width: 158px;
-}
-
-.k12-hm-2021-1-2 .group-17 {
-  align-items: flex-start;
-  background-image: url(../img/path-34-10@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  cursor: pointer;
-  display: flex;
-  height: 50px;
-  justify-content: flex-end;
-  margin-top: 14px;
-  min-width: 192px;
-  padding: 4px 19px;
-}
-
-.k12-hm-2021-1-2 .text-1-4 {
-  letter-spacing: 0;
-  line-height: 18px;
-  min-height: 39px;
-  text-align: center;
-  width: 152px;
-}
-
-.k12-hm-2021-1-2 .hmbtnexp-sol {
-  height: 158px;
-  margin-right: 0;
-  margin-top: 30px;
-  object-fit: cover;
-  width: 158px;
-}
-
-.k12-hm-2021-1-2 .overlap-group6 {
-  align-items: center;
-  background-color: var(--jacksons-purple);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 44px;
-  min-height: 239px;
-  padding: 31px 98px;
-  width: 100%;
-}
-
-.k12-hm-2021-1-2 .ready-to-order-2 {
-  align-self: flex-end;
-  color: var(--white);
-  font-family: var(--font-family-work_sans);
-  font-size: var(--font-size-m);
-  height: 47px;
-  letter-spacing: 0;
-  line-height: 20px;
-  text-align: center;
-  width: 100%;
-}
-
-.k12-hm-2021-1-2 .group-173 {
-  align-items: flex-start;
-  border-radius: 48px;
-  cursor: pointer;
-  display: flex;
-  height: 40px;
-  justify-content: flex-end;
-  margin-top: 18px;
-  min-width: 192px;
-  padding: 1.3px 42.7px;
-}
-
-.k12-hm-2021-1-2 .place-an-order-4 {
-  height: 22px;
-  letter-spacing: 0;
-  line-height: 28px;
-  text-align: center;
-  white-space: nowrap;
-  width: 106px;
-}
-
-.k12-hm-2021-1-2 .group-174 {
-  align-items: flex-start;
-  cursor: pointer;
-  display: flex;
-  margin-top: 20px;
-  min-width: 192px;
-}
-
-.k12-hm-2021-1-2 .overlap-group-7 {
-  border-radius: 48px;
-  height: 40px;
-  position: relative;
-  width: 192px;
-}
-
-.k12-hm-2021-1-2 .track-my-order-3 {
-  height: 25px;
-  left: 42px;
-  letter-spacing: 0;
-  line-height: 28px;
-  position: absolute;
-  text-align: center;
-  top: 2px;
-  white-space: nowrap;
-  width: 111px;
-}
-
-.k12-hm-2021-1-2 .rectangle-204-2 {
-  border-radius: 48px;
-  height: 40px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 192px;
-}
-
-.k12-hm-2021-1-2 .ready-to-implement-2 {
-  letter-spacing: 0;
-  line-height: 20px;
-  margin-left: 2.0px;
-  margin-top: 38px;
-  min-height: 29px;
-  text-align: center;
-  width: 320px;
-}
-
-.k12-hm-2021-1-2 .group-17-1 {
-  background-image: url(../img/path-34-10@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  cursor: pointer;
-  display: flex;
-  height: 50px;
-  margin-top: 17px;
-  width: 192px;
-}
-
-.k12-hm-2021-1-2 .group-160-5 {
-  display: flex;
-  flex: 1;
-  margin-bottom: 7px;
-  margin-left: 21px;
-  margin-right: 21px;
-  margin-top: 6px;
-  width: 152px;
-}
-
-.k12-hm-2021-1-2 .text-1-5 {
-  flex: 1;
-  letter-spacing: 0;
-  line-height: 18px;
-  margin-right: -2px;
-  margin-top: -2px;
-  text-align: center;
-  width: 152px;
-}
-
-.k12-hm-2021-1-2 .hmbtnimo-train {
-  height: 158px;
-  margin-left: 2.0px;
-  margin-top: 30px;
-  object-fit: cover;
-  width: 158px;
-}
-
-.k12-hm-2021-1-2 .group-517 {
-  align-items: flex-start;
-  cursor: pointer;
-  display: flex;
-  margin-top: 17px;
-  min-width: 192px;
-}
-
-.k12-hm-2021-1-2 .overlap-group3 {
-  height: 50px;
-  position: relative;
-  width: 192px;
-}
-
-.k12-hm-2021-1-2 .group-166 {
-  background-image: url(../img/path-34-10@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  cursor: pointer;
-  display: flex;
-  height: 50px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 192px;
-}
-
-.k12-hm-2021-1-2 .group-334 {
-  background-image: url(../img/path-34-11@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  cursor: pointer;
-  display: flex;
-  height: 50px;
-  left: 0;
-  opacity: 0.0;
-  pointer-events: auto;
-  position: absolute;
-  top: 0;
-  transition: all 0.2s ease;
-  width: 192px;
-}
-
-.k12-hm-2021-1-2 .group-334:hover {
-  opacity: 1;
-}
-
-.k12-hm-2021-1-2 .text-191 {
-  flex: 1;
-  letter-spacing: 0;
-  line-height: 18px;
-  margin-bottom: 7px;
-  margin-left: 21px;
-  margin-right: 19px;
-  margin-top: 4px;
-  text-align: center;
-  width: 152px;
-}
-
-.k12-hm-2021-1-2 .overlap-group5-2 {
-  align-items: center;
-  background-color: var(--paradiso);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 76px;
-  min-height: 660px;
-  padding: 28px 6px;
-  width: 100%;
-}
-
-.k12-hm-2021-1-2 .stay-connected-2 {
-  align-self: flex-end;
-  letter-spacing: 0;
-  line-height: 20px;
-  min-height: 29px;
-  text-align: center;
-  width: 100%;
-}
-
-.k12-hm-2021-1-2 .mask-group-121 {
-  display: flex;
-  height: 147px;
-  margin-top: 28px;
-  overflow: hidden;
-  width: 264px;
-}
-
-.k12-hm-2021-1-2 .group-178 {
-  background-image: url(../img/For_ESSER_funding.jpg);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 199.10198974609375px;
-  margin-left: -5.3px;
-  margin-top: -3.7px;
-  width: 274.21875px;
-}
-
-.k12-hm-2021-1-2 .group-1-1 {
-  background-image: url(../img/path-34-12@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  cursor: pointer;
-  display: flex;
-  height: 50px;
-  margin-top: 19px;
-  width: 192px;
-}
-
-.k12-hm-2021-1-2 .group-160-7 {
-  display: flex;
-  flex: 1;
-  margin-bottom: 5px;
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-top: 5px;
-  width: 162px;
-}
-
-.k12-hm-2021-1-2 .text-182 {
-  flex: 1;
-  letter-spacing: 0;
-  line-height: 18px;
-  margin-right: -2px;
-  margin-top: -2px;
-  text-align: center;
-  width: 162px;
-}
-
-.k12-hm-2021-1-2 .text-181 {
-  height: 29px;
-  letter-spacing: 0;
-  line-height: 30px;
-  margin-bottom: -1px;
-  margin-left: 2.0px;
-  margin-top: 3px;
-  text-align: center;
-  white-space: nowrap;
-  width: 280px;
-}
-
-.k12-hm-2021-1-2 .mask-group-119 {
-  align-items: flex-end;
-  display: flex;
-  height: 147px;
-  margin-top: 41px;
-  overflow: hidden;
-  width: 264px;
-}
-
-.k12-hm-2021-1-2 .overlap-group1 {
-  height: 230px;
-  margin-bottom: -79.0px;
-  position: relative;
-  width: 292px;
-}
-
-.k12-hm-2021-1-2 .mask-group-118 {
-  height: 230px;
-  left: 14px;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 278px;
-}
-
-.k12-hm-2021-1-2 .k12hmimg-explore-inside2020-2 {
-  height: 199px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 4px;
-  width: 265px;
-}
-
-.k12-hm-2021-1-2 .group-160-8 {
-  display: flex;
-  flex: 1;
-  height: 18px;
-  margin-left: 21px;
-  margin-right: 21px;
-  margin-top: 16px;
-}
-
-.k12-hm-2021-1-2 .text-185 {
-  flex: 1;
-  letter-spacing: 0;
-  line-height: 18px;
-  margin-right: -2px;
-  margin-top: -2px;
-  text-align: center;
-  white-space: nowrap;
-  width: 152px;
-}
-
-.k12-hm-2021-1-2 .text-184 {
-  height: 23px;
-  letter-spacing: 0;
-  line-height: 30px;
-  margin-bottom: -7px;
-  margin-left: 2.0px;
-  margin-top: 3px;
-  text-align: center;
-  white-space: nowrap;
-  width: 226px;
-}
-
-.k12-hm-2021-1-2 .new-2 {
-  letter-spacing: 0;
-  line-height: 20px;
-  margin-left: 2.0px;
-  margin-top: 50px;
-  min-height: 29px;
-  text-align: center;
-  width: 320px;
-}
-
-.k12-hm-2021-1-2 .flex-row-19 {
-  height: 304px;
-  margin-left: 0;
-  margin-top: 28px;
-  display: flex;
-  width: 40%;
-}
-
-.k12-hm-2021-1-2 .path-65-2 {
-  height: 25px;
-  margin-bottom: 122.0px;
-  object-fit: cover;
-  width: 16px;
-}
-
-.k12-hm-2021-1-2 .group-471 {
-  align-items: center;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  min-height: 304px;
-  margin: 0 10px;
-}
-
-.k12-hm-2021-1-2 .cropped9780357419991cvrhr-2 {
-  height: 183px;
-  margin-right: 3.0px;
-  object-fit: cover;
-  width: 144px;
-}
-
-.k12-hm-2021-1-2 .text-186 {
-  letter-spacing: 0;
-  line-height: 19px;
-  margin-top: 28px;
-  min-height: 40px;
-  text-align: center;
-  width: 177px;
-}
-
-.k12-hm-2021-1-2 .name-4 {
-  color: var(--black);
-  font-family: var(--font-family-work_sans);
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0;
-  line-height: 13px;
-  margin-right: 1.0px;
-  margin-top: 12px;
-  min-height: 45px;
-  min-width: 138px;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.k12-hm-2021-1-2 .path-66 {
-  height: 25px;
-  margin-bottom: 122.0px;
-  margin-left: 27px;
-  object-fit: cover;
-  width: 16px;
-}
-
-.k12-hm-2021-1-2 .overlap-group7 {
-  align-items: flex-end;
-  background-color: var(--black);
-  display: flex;
-  flex-direction: column;
-  margin-top: 52px;
-  min-height: 365px;
-  padding: 44.9px 25.6px;
-  width: 100%;
-}
-
-.k12-hm-2021-1-2 .text-187 {
-  letter-spacing: 0;
-  line-height: 20px;
-  min-height: 29px;
-  text-align: center;
-  width: 100%;
-}
-
-.k12-hm-2021-1-2 .national-geographic-2 {
-  align-self: center;
-  letter-spacing: 0;
-  line-height: 22px;
-  margin-left: 2.0px;
-  margin-top: 11px;
-  min-height: 200px;
-  text-align: center;
-  width: 362px;
-}
-@media screen and (max-width: 1023px) {
-  .screen.k12-hm-2021-1 { 
-    display: none;
-   }
-  .screen.k12-hm-2021-1-1 { 
-    display: none;
-   }
-}
-@media screen and (min-width: 1024px) and (max-width: 1919px) {
-  .screen.k12-hm-2021-1 { 
-    display: none;
-   }
-  .screen.k12-hm-2021-1-2 { 
-    display: none;
-   }
-}
-@media screen and (min-width: 1920px) {
-  .screen.k12-hm-2021-1-1 { 
-    display: none;
-   }
-  .screen.k12-hm-2021-1-2 { 
-    display: none;
-   }
 }
