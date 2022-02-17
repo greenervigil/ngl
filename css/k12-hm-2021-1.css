@@ -1,6 +1,6 @@
 .browse {
   border: 1px solid var(--black) !important;
-  min-width: 180px;
+  min-width: 192px;
 }
 
 .browse:hover {
@@ -11,8 +11,18 @@
 .orders {
   border: 1px solid var(--white) !important;
   color: var(--white) !important;
-  min-width: 180px;
+  min-width: 192px;
   margin: 0 25px;
+  text-align: center;
+}
+
+.orders-text {
+  color: var(--white) !important;
+  min-height: 40px;
+}
+
+.orders-text:hover {
+  color: var(--jacksons-purple) !important;
 }
 
 .orders:hover {
@@ -23,7 +33,7 @@
 .connect {
   border: 1px solid var(--white) !important;
   color: var(--white) !important;
-  min-width: 180px;
+  min-width: 192px;
 }
 
 .connect:hover {
