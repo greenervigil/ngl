@@ -1,0 +1,83 @@
+@font-face {
+    font-family: MetaHeadPro;
+    src: url('../../../../fonts/MetaHeadPro.otf');
+}
+@font-face {
+    font-family: MetaHeadProBold;
+    src: url('../../../../fonts/MetaHeadPro-Bold.otf');
+}
+
+body {
+    color: #4A4A4A;
+    font-family: MetaHeadPro;
+}
+
+.imgHeader {
+    background-image: url('../images/lp-bigideas-banner-image.png');
+    background-size: 100% 10%;
+    background-repeat: no-repeat;
+    
+}
+
+.browse {
+    width: 95%;
+    min-height: 70px;
+}
+
+.browse:hover {
+    background-color: black;
+    color: #fbda05 !important;
+}
+
+.read-more-less {
+    text-decoration: none;
+    color: #313191 !important;
+}
+
+.read-more-less:hover {
+    text-decoration: none;
+    color: #313191 !important;
+}
+.read-more-less:focus {
+    text-decoration: none;
+    border: none;
+    color: #313191 !important;
+}
+
+.read-more-less-2:hover {
+    text-decoration: none;
+    color:#313191 !important;
+}
+.read-more-less-2:focus {
+    text-decoration: none;
+    border: none;
+    color: #313191 !important;
+}
+
+.read-more-less-2 {
+    text-decoration: none;
+    color: #313191 !important;
+}
+
+.morePhdText {
+    display: none;
+}
+
+#phdText.show-more .morePhdText {
+    display: inline;
+}
+
+.moreEddText {
+    display: none;
+}
+
+#eddText.show-more .moreEddText {
+    display: inline;
+}
+
+.dropdown-menu {
+    border-top: 6px solid #BDD631 !important;
+    width: 80% !important;
+    left: 10% !important;
+    top: 86% !important;
+}

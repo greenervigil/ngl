@@ -40,34 +40,7 @@
         href="https://www.nationalgeographic.com/etc/designs/platform/refresh/images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="../../../css/styleguide.css" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
-    <style>
-        @font-face {
-            font-family: MetaHeadPro;
-            src: url('../../../fonts/MetaHeadPro.otf');
-        }
-        @font-face {
-            font-family: MetaHeadProBold;
-            src: url('../../../fonts/MetaHeadPro-Bold.otf');
-        }
-        
-        .imgHeader {
-            background-image: url('images/lp-bigideas-banner-image.png');
-            font-family: MetaHeadPro;
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-            color: #4A4A4A;
-        }
-
-        .browse {
-            width: 95%;
-            min-height: 70px;
-        }
-
-        .browse:hover {
-            background-color: black;
-            color: #fbda05 !important;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- The script tag should live in the head of your page if at all possible -->
@@ -82,35 +55,38 @@
     <header id="header_include" class="school"></header>
 
     <main>
-        <div class="container-fluid">
-            <div class="container-fluid imgHeader">
+        <div class="container-fluid imgHeader">
+            <div class="container-fluid py-3">
                 <div class="row">
                     <div class="col-4">
                         <img class="img-fluid m-3" src='images/Horizontal_White.png' alt="Big Ideas Learning logo">
                     </div>
                 </div>
-                <div class="row" >
-                    <div class="col-10">
-                        <h1 style="margin-left: 3rem; margin-top: 5rem; font-family: MetaHeadProBold; color: #4A4A4A; font-weight:bolder;">Big Ideas Math&reg;: Modeling Real Life for Grades K-5 &copy;2022</h1>
-                    </div>
-                </div>
             </div>
             
-            <div class="container-fluid">
-                
+            <div class="container-fluid p-5">
+                <div class="row" >
+                    <div class="col-10">
+                        <h1 style="margin: 3rem 3rem 0 3rem; font-family: MetaHeadProBold; color: #4A4A4A; font-weight:bolder;">Big Ideas Math&reg;: Modeling Real Life for Grades K-5 &copy;2022</h1>
+                    </div>
+                </div>
                 <div class="row justify-content-between">
                     <div class="col-4">
                         <a href="https://bigideaslearning.com/programs/elementary-school?hsLang=en">
-                            <img class="img-fluid p-5" src="images/EN_K5.png" alt="Explore Now icon">
+                            <img class="img-fluid p-5" src="images/MRL_K5.png" alt="Explore Now icon">
                         </a>
                     </div>
-                    <div class="col-4">
-                        <a href="/assets/html/bigIdeas/Math_6_8.html">
-                            <img class="img-fluid p-5" src="images/view-eSamples.png" alt="view e samples dropdown icon">
+                    <div class="col-4 dropdown">
+                        <a class="" role="button" id="drop" data-toggle="dropdown">
+                            <img class="img-fluid p-5" src="images/view-eSamples.png"  alt="view e samples dropdown icon">
                         </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="drop">
+                            <li style="font-family: MetaHeadPro; text-align: center;"><a href="/assets/html/esamples/16231/53938/index.html">Kindergarten</a></li>
+                            <li style="font-family: MetaHeadPro; text-align: center;"><a href="/assets/html//esamples/16233/55751/index.html">Grade 1</a></li>
+                        </ul>
                     </div>
                     <div class="col-4">
-                        <a href="/assets/html/bigIdeas/Math_9_12.html">
+                        <a href="/assets/html/forms/rra.html">
                             <img class="img-fluid p-5" src="images/Demo_Access.png" alt="demo access icon">
                         </a>
                     </div>
@@ -118,7 +94,7 @@
 
                 <div class="row justify-content-between">
                     <div class="col-4">
-                        <a href=" https://cengageo365-my.sharepoint.com/:b:/g/personal/amy_banko_cengage_com/EaWVM1ZsebVDp4JxCW-nRhQBN0G6OwA5tuE6kRC4YLz2lg?e=u0ZRFU" target="_blank">
+                        <a href="images/Grade3_FM_Focus-Coherence-Rigor.pdf" target="_blank">
                             <img class="img-fluid p-5" src="images/program-overview.png" alt="program overview icon">
                         </a>
                     </div>
@@ -132,12 +108,12 @@
 
             <div class="container py-5">
                 <div class="row justify-content-center">
-                    <div class="col-9" style="font-family: MetaHeadPro; font-size: 20px;">
+                    <div class="col-10" style="font-family: MetaHeadPro; font-size: 20px;">
                         <p class="p-3"><strong style="font-family: MetaHeadProBold;">Big Ideas Math: Modeling Real Life</strong> by Big Ideas Learning is a comprehensive math program that empowers teachers and promotes student ownership so that all learners can succeed in math.</p>
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-9" style="font-family: MetaHeadPro; font-size: 20px;">
+                    <div class="col-10" style="font-family: MetaHeadPro; font-size: 20px;">
                         <p class="p-3">Written by renowned authors, Dr. Ron Larson and Dr. Laurie Boswell, <strong style="font-family: MetaHeadProBold;">Big Ideas Math: Modeling Real Life</strong> provides a cohesive, coherent, and rigorous mathematics curriculum for students in Kindergarten through Grade 8, successfully preparing students for Big Ideas Learning's high school math curriculum. Program resources, both digital and print, are thoughtfully designed to have the highest impact on learning for all students in any setting.</p>
                     </div>
                 </div>
@@ -179,28 +155,29 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-6">
+                <div class="col-5">
                     <img class="img-fluid p-5" src="images/K-5_graphic.png">
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid" style="background-color: #DFDFDF;">
+        <div class="container-fluid py-5" style="background-color: #DFDFDF;">
             <div class="container">
-                <div class="row" style="margin: 10px 0 0 75px;">
+                <div class="row">
                     <div class="col-1">
                         <h2 style="font-family: MetaHeadProBold;">Authors</h2>
                     </div>
                 </div>
                 <div class="row justify-content-between" style="font-family: MetaHeadPro; font-size: 16px;">
-                    <div class="col-5">
+                    <div class="col-6">
                         <h3 style="margin-top: 0 !important;">Ron Larson, Ph.D.</h3>
-                        <p id="phd" class="phd">Ron Larson, Ph.D., is well known as the lead author of a comprehensive and widely used mathematics program that ranges from elementary school through college. He holds the distinction of Professor Emeritus from Penn State Erie, The Behrend College, where he taught for nearly 40 years. He received his Ph.D. in mathematics from the University of Colorado. Dr. Larson engages in the latest research and advancements in mathematics education and consistently incorporates key pedagogical elements to ensure focus, coherence, rigor, and student self-reflection.</p>
-                        </details>
+                        <p id="phdText">Ron Larson, Ph.D., is well known as the lead author of a comprehensive and widely used mathematics program that ranges from elementary school through college. He holds the distinction of Professor Emeritus from Penn State Erie,<span class="morePhdText">The Behrend College, where he taught for nearly 40 years. He received his Ph.D. in mathematics from the University of Colorado. Dr. Larson engages in the latest research and advancements in mathematics education and consistently incorporates key pedagogical elements to ensure focus, coherence, rigor, and student self-reflection.</span><button type="button" class="btn-link read-more-less">... more</button></p>
+                        
                     </div>
-                    <div class="col-5">
+                    <div class="col-6">
                         <h3 style="margin-top: 0 !important; margin-right: 20px;">Laurie Boswell, Ed.D.</h3>
-                        <p class="edd">Laurie Boswell, Ed.D., is the former Head of School at Riverside School in Lyndonville, Vermont. In addition to authoring textbooks, she provides mathematics consulting and embedded coaching sessions. Dr. Boswell received her Ed.D. from the University of Vermont in 2010. She is a recipient of the Presidential Award for Excellence in Mathematics Teaching and later served as president of CPAM. Laurie has taught math to students at all levels, elementary through college. In addition, Laurie has served on the NCTM Board of Directors and as a Regional Director for NCSM. Along with Ron, Laurie has co-authored numerous math programs and has become a popular national speaker.</p>
+                        <p id="eddText">Laurie Boswell, Ed.D., is the former Head of School at Riverside School in Lyndonville, Vermont. In addition to authoring textbooks, she provides mathematics consulting and embedded coaching sessions. Dr. Boswell received her Ed.D. <span class="moreEddText">from the University of Vermont in 2010. She is a recipient of the Presidential Award for Excellence in Mathematics Teaching and later served as president of CPAM. Laurie has taught math to students at all levels, elementary through college. In addition, Laurie has served on the NCTM Board of Directors and as a Regional Director for NCSM. Along with Ron, Laurie has co-authored numerous math programs and has become a popular national speaker.</span><button type="button" class="btn-link read-more-less-2">... more</button></p>
+                        
                     </div>
                 </div>
             </div>
@@ -216,6 +193,21 @@
     <script src="../../../jscript/imports/RedesignNGLTwoColumnResultsPage.js"></script>
     <script src="../../../nglredesign/school/home/js/home.js"></script>
     <script>
+
+        const phdBtn = document.querySelector('.read-more-less');
+        const eddBtn = document.querySelector('.read-more-less-2');
+        const phdText = document.getElementById('phdText');
+        const eddText = document.getElementById('eddText');
+
+        phdBtn.addEventListener('click', (e) => {
+            phdText.classList.toggle('show-more');
+            phdBtn.innerText = (phdBtn.innerText === '... more') ? '... less' : '... more';
+        });
+
+        eddBtn.addEventListener('click', (e) => {
+            eddText.classList.toggle('show-more');
+            eddBtn.innerText = (eddBtn.innerText === '... more') ? '... less' : '... more';
+        });
 
         /*$(function () {
             var icons = {
