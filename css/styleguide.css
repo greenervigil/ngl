@@ -25,9 +25,9 @@
   --font-size-xxl: 40px;
   --font-size-xxs: 14px;
  
-  --font-family-open_sans: "Open Sans", Helvetica;
-  --font-family-opensans-extrabold: "OpenSans-Extrabold", Helvetica;
-  --font-family-opensans-semibold: "OpenSans-SemiBold", Helvetica;
+  --font-family-open_sans: "Work Sans", "Open Sans", Helvetica;
+  --font-family-opensans-extrabold: "Work Sans-Extrabold", "OpenSans-Extrabold", Helvetica;
+  --font-family-opensans-semibold: "Work Sans-SemiBold", "OpenSans-SemiBold", Helvetica;
 }
 .opensans-normal-black-18px {
   color: var(--black);
