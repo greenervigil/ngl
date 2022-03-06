@@ -25,7 +25,6 @@
     <script>
         (function () {
             var env = "", countryCode, overlayDisplay;
-            console.log(window.location.hostname === '127.0.0.1')
             var environmentSpecific = function () {
                 if (window.location.hostname.toUpperCase().indexOf("S-") != -1) {
                     env = "s-";
