@@ -10,13 +10,8 @@
 body {
     color: #4A4A4A;
     font-family: MetaHeadPro;
-}
-
-.imgHeader {
-    background-image: url('../images/lp-bigideas-banner-image.png');
-    background-size: 100% 10%;
-    background-repeat: no-repeat;
-    
+    background: url('../images/lp-bigideas-banner-image.png') no-repeat;
+    background-size: 100% 12%;
 }
 
 .browse {
