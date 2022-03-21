@@ -1,0 +1,33 @@
+<!-- start RefineSearch Cartdige  -->
+
+<div id="RefineSearch">
+<div id="refineSearch_wrap">
+<h2 id="RS_title">Refine Search:</h2></div>
+
+<div id="Refine_form_wrap">
+
+	<form name="refineSearchForm" method="post" action="/search/refineSearch.do" target="_parent">
+	
+	<input type="hidden" name="globalSearchTerm" value="">
+	<input type="hidden" name="appTargetDescription" value="">
+	<input type="hidden" name="searchTerm" value="">
+	<input type="hidden" name="sortQuery" value="&amp;Ns=P_CopyRight_Year|1||P_Product_Title|0||P_Title|0">
+	<input type="hidden" name="maxRecordsPerPage" value="10">
+	<input type="hidden" name="activityFlag" value="">
+	<label for="RefSearchTXT" style="position:absolute; left:-10000px;">Search within results</label>
+	<input id="RefSearchTXT" type="text" name="newSearchTerm" maxlength="20" size="16" value="Search within results" onkeydown="javascript:submitRFByType('N=+16+4294922239+4294966043+11',event);">
+	
+	<input type="buttion" name="Search" value ="" id="RefSearchBTN" src=""  
+	onclick="javascript:submitRefineSearchForm('N=+16+4294922239+4294966043+11');" 
+	class="ref_searchBtn">
+	
+	
+	</form>
+	 
+	</div>
+
+
+
+</div>
+<!-- end refine search cartidge --> 
+

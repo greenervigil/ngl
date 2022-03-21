@@ -1,0 +1,227 @@
+<!DOCTYPE html >
+<html lang="en"id ="html">
+<head>
+<title>NGL Search Results Page Prototype</title>
+
+<meta charset="utf-8">
+<meta name="description" content="National Geographic Learning, part of Cengage Learning, provides customers with a portfolio of quality materials for PreK-12, academic, and adult education. It provides instructional solutions for EFL/ESL, reading and writing, science, social studies, and assessment, spanning early childhood through adult in the U.S. and global markets. " />
+<meta name="keywords" content="Education, publication, learning solutions, K-12, global, english language teaching, ELT, english as a second language, ESL, english as a foreign language, EFL, English Language Learning, ELL, higher education, academic, adult education, learners dictionaries, assessment, examinations, English Language Development, ELD, literacy, early literacy, emergent literacy, content literacy, striving readers, struggling readers, intervention, language arts, social studies, science, world cultures and geography" />
+<meta name="verify-v1" content="GYQEUR+rlSm8iE9bkTywGPzmtmmFy2OyT00ZAGy48vY=" />
+<meta name="norton-safeweb-site-verification" content="j44sc0-8cwdb9-d97zf-3zi3qww0jms0ukkc0h77rre-zqi4o7h87go05m5a37qqbd0xjxp6dqfr1y3wxc4dj7qxyl4ysdwsd-c7xd84yrcfwv0pej7p5he44etrmgmr" />
+
+<link href="/css/fontResizerStyle.css" rel="stylesheet"  />
+<link href="/css/header_footer.css" rel="stylesheet"  />
+<link href="/css/superfish3.css" rel="stylesheet" media="screen">
+<link href="/css/skins/tango/skin.css" / rel="stylesheet">
+<link type="text/css" href="/css/themes/base/jquery.ui.all.css" rel="stylesheet" />
+<link href="/css/ngl.css" rel="stylesheet"  />	
+<link href="/css/product_overview.css" rel="stylesheet"  />
+
+<script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="/jscript/ui/jquery.ui.core.js"></script>
+<script type="text/javascript" src="/jscript/ui/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="/jscript/ui/jquery.ui.tabs.js"></script>
+
+<script  src="/jscript/jquery.zrssfeed_ngl.js"></script>
+<script  src="/jscript/jquery.cycle.all.js"></script>
+<script  src="/jscript/jquery.cookie.js"></script>
+<script  src="/jscript/jquery.fontResize.js"></script>
+<script  src="/jscript/hoverIntent.minified.js"></script>
+<script  src="/jscript/superfish.js"></script>
+<script  src="/jscript/jquery.jcarousel.a11y.js"></script>
+<script  src="/jscript/ProductResultsNgl.js"></script>
+
+
+
+
+<script type="text/javascript">
+</script>
+
+<style type="text/css">
+</style>
+
+</head>
+<body>
+ <div id="header_include"></div> 
+
+<!-- Start the Mega Menu Cartidige-->
+<!-- end Mega Menu Cartridge-->
+ 
+
+<div id="global">
+
+<div id="content_wrap">
+<div id="content_wrap_right">
+<div id="content">
+	<script language="javascript" type="text/javascript">
+	
+	function cleanupUrl(form){
+
+		var actionUrl = form.action;
+		if( actionUrl.indexOf('?') > -1){
+			 actionUrl=actionUrl.substr(0,actionUrl.indexOf('?'));
+		}  
+		form.action=actionUrl
+
+	}
+	
+	
+		function submitBreadCrumbForm(url)
+		{
+			var form= document.getElementsByName('breadCrumbForm')[0];
+			//var pageSize= form.maxRecordsPerPage.value;
+			form.action=form.action+"?"+url;
+			form.submit();
+		}
+		function submitSearchStatusForm(url,activityFlag)
+		{
+			var form= document.getElementsByName('globalSearchForm')[0];
+			//var pageSize= form.maxRecordsPerPage.value;
+			form.action=form.action+"?"+url;
+			form.submit();
+		}		
+	</script>
+
+<form name="globalSearchForm" method="post" action="/search/showresults.do">
+<input type="hidden" name="searchType" value="BreadCrumb">
+<input type="hidden" name="ntt" value="">
+<input type="hidden" name="ntk" value="all">
+<input type="hidden" name="appTargetDescription" value="">
+<input type="hidden" name="maxRecordsPerPage" value="10"></form>
+
+<!-- Start the Product Results Breadcrumb Navagation Cartridge-->
+<!-- Start the Product Results Breadcrumb Navagation Cartridge -->
+						
+			
+<!-- Start the Cengage Brain Ecommerce Cartridge -->	
+<!-- end the cengage Brain Ecommerce Cartridge -->
+
+<!-- Start the School Plus Ecommerce Cartridge  -->	
+
+<!-- end the School Plus Ecommerce Cartridge -->
+
+<!-- Start the School Plus no Buy  Ecomerice Cartridge -->	
+<!-- end the School Plus no Buy  Ecommerce Cartridge -->
+
+
+
+
+<div id="c1_ins"> <!-- ues div#c1_ins_wide for the no ecomerce section --><!-- this is the wrapper for the two middle sections --> 
+
+<script language="javascript" type="text/javascript">
+
+var popupWindow = null;
+
+function submitProductOverviewInfo(anchorObject,popupWidth, windowName){
+
+	var hrefUrl=anchorObject.href;
+	var toolbarHeight = window.outerHeight - window.innerHeight;	
+	if(isNaN(toolbarHeight)){
+		toolbarHeight =170; // for IE
+	}
+	var popupHeight = (window.innerHeight - toolbarHeight);
+	if(isNaN(popupHeight)){
+		popupHeight =554; // for IE
+	}
+	var leftPos = (screen.width - popupWidth )/2;
+	var topPos = (screen.height - popupHeight)/2;
+	var windowFeatures = 'toolbar=0,scrollbars=1,resizable=0,status=0,location=0, ';
+
+	if( hrefUrl.indexOf('?') > -1){
+				 hrefUrl=hrefUrl.substr(0,hrefUrl.indexOf('?'));
+	} 
+
+	windowFeatures += 'left='+leftPos+'px,';
+	windowFeatures += 'top='+topPos+'px,';
+	windowFeatures += 'width='+popupWidth+'px,';
+	windowFeatures += 'height='+popupHeight+'px,';
+	anchorObject.href= hrefUrl+'?N= 16 4294922384&Ntk=P_Isbn13&Ntt=9781428317352';
+	
+	popupWindow = window.open(anchorObject.href,windowName,windowFeatures);
+	if(popupWindow.focus){
+		popupWindow.focus();	
+	}	
+	return false;
+}
+
+function emailLink(title,isbn10){
+	var pageurl = window.location.href;	
+	var $j = jQuery.noConflict();
+	var emailurl = "mailto:?subject=Information about book titled "+title+"("+isbn10+")&body=Click this link to see more information for the ISBN :'"+isbn10+"'%0A%0A"+encodeURIComponent(pageurl);
+	$j("#email_print_links ul li a").eq(0).attr("href",emailurl);
+	return true;
+}
+
+</script>
+
+<script type="text/javascript">
+		var lookInsideUrlContent = "";
+    	var myDiv = "&#039;myDiv&#039;";
+
+
+	    var lookInsideUrlCount = 0;
+
+		if (lookInsideUrlCount > 1) {
+			lookInsideUrlContent = '<ul style="padding-left:5px;">'+lookInsideUrlContent+ '</ul>';
+		}
+			
+		var lookInside = '<div class="lookInsideWrapper_div" style="width:auto;"><div class="lookInsidePopUpCloseButton"><a href="#" onclick="hideDHTMLTooltip('+myDiv+')">close[x]</a>&nbsp;</div><div class="lookInsidePopUpContents">'+lookInsideUrlContent+'</div></div>';
+
+
+function showLookInsidePopup(event,anchorObject)
+{
+    if (lookInsideUrlCount == 1 )
+    {
+	anchorObject.target = '_blank';
+ 	anchorObject.href = lookInsideUrlContent;
+    	return true;
+    }
+    else
+    {
+    	showLookInside(event, lookInside, true); 
+    	return false;
+    }
+}
+</script>
+<form name="productLookInsideForm" method="post" action="/search/lookinside.do"><input type="hidden" name="productId" value="300970"><input type="hidden" name="productTitle" value="U.S. Health Care Simplified: Principles and Perspectives">
+<input type="hidden" name="edition" value="1st Edition"></form>
+
+
+<!-- Start the Coverimage Cartridge -->
+<!-- end the cover image Cartridge -->	
+
+
+<!-- End  ProductInfo Cartridge -->
+<!-- End  ProductInfo Cartridge -->
+
+
+</div>
+</div>
+	
+							
+<div id="c1">
+    <div id="SRcenter_nav">
+	<div id="centerNavWrap">
+
+<!-- Start the Tab Cartridge -->							
+<!-- ending tabHTML Cartridge -->
+   	
+	</div>
+    </div>
+</div>
+
+</div>
+</div>
+</div>
+																		
+																		
+</div> <!-- ends global div--> 
+
+<div id="footer_include"></div> 
+<div id="metrics_include"></div>
+
+ <!-- Need to add Tracking info as a an incldue. -->
+  
+</body>
+</html>

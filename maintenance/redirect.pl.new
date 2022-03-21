@@ -1,0 +1,16 @@
+#!/usr/local/bin/perl
+##
+##  Perl Handler
+##
+
+use strict;
+use CGI qw/:standard/;
+
+my $requestURI = $ENV{'REDIRECT_URL'};
+if ($requestURI !~ /.*\.(gif|jpg|jpeg|js|css|png|tmpl|tmp|zip)$/) {
+	print "Status: 301 Moved Permanently\n";
+	print "Location: http://s-www.cengage.com/urlredirect/redirect.do?domain=$ENV{'SERVER_NAME'}&uri=$ENV{'REDIRECT_URL'}\n\n";
+}
+else{
+	print "Status:404 \n\n";
+}
