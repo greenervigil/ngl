@@ -1,0 +1,17 @@
+<div class="modal-header">
+  <button class="close" ng-click="cancel()"><i class="icon-remove"></i></button>
+  <h3 class="modal-title">Standard/State/Country</h3>
+</div>
+<div class="modal-body">
+	<form>
+	  <ul>
+	    <li ng-repeat="item in items">
+	      <input type="checkbox" id="{{ item.standardName | nospace }}" name="standards" ng-checked="selection.indexOf(item.standardName) > -1" ng-click="toggleSelected(item.standardName)" />
+	      <label for="{{ item.standardName | nospace }}">{{ item.standardName }}</label>
+	    </li>
+	    <li ng-hide="items">No standards</li>
+	  </ul>
+  </form>
+</div>
+<button class="btn btn-default" ng-click="cancel()">Cancel</button>
+<button class="btn btn-default" ng-click="accept(selection)">Accept</button>

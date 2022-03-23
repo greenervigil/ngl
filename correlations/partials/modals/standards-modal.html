@@ -1,0 +1,28 @@
+<div class="modal-header">
+  <button class="close" ng-click="cancel()"><i class="icon-remove"></i></button>
+  <h3 class="modal-title">Standard/State/Country</h3>
+</div>
+<div id="standards-modal" class="modal-body">
+  <ul ng-if="state">
+    <h3>State</h3>
+    <li ng-repeat="item in items" ng-if="item.standardType == 'State'">
+      <a ng-click="selectItem(item.standardName)">{{ item.standardName }}</a>
+    </li>
+  </ul>	
+	<ul ng-if="standard">
+	  <h3>Country</h3>
+	  <li ng-repeat="item in items" ng-if="item.standardType == 'National/Non-State'">
+	    <a ng-click="selectItem(item.standardName)">{{ item.standardName }}</a>
+	  </li>
+	</ul>	
+  <ul ng-if="country">
+    <h3>Standard</h3>
+    <li ng-repeat="item in items" ng-if="item.standardType == 'International'">
+      <a ng-click="selectItem(item.standardName)">{{ item.standardName }}</a>
+    </li>
+  </ul>
+  <ul ng-if="!state && !standard && !country">
+    <li>No results</li>
+  </ul>
+</div>
+<button class="btn btn-default modal-close" ng-click="cancel()">Close</button>

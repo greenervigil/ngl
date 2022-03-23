@@ -1,0 +1,13 @@
+<header ng-include src="navigationHtml" id="top" class="navbar navbar-inverse navbar-static-top bs-docs-nav" role="banner"></header>
+
+<header ng-include src="headerHtml" id="overview" class="jumbotron"></header>
+<article id="correlations-documents" class="container">
+  <div class="gridStyle" ng-grid="gridOptions">
+    <div class="grid-header">
+      <button class="btn btn-info btn-add pull-left" add-button ng-click="addRow($event)">
+        <i class="icon-plus"></i> Add
+      </button>
+      <input placeholder="Search..." type="text" ng-model="filterText" class="form-control ng-valid ng-dirty">
+    </div>
+  </div>
+</article>

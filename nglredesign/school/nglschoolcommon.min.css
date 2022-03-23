@@ -10688,11 +10688,6 @@ html {
   z-index: 99
 }
 
-.mainPageContainer {
-  max-width: 1056px;
-  margin: 0 auto
-}
-
 .container {
   margin: 0 auto;
   padding: 0;
@@ -12329,9 +12324,6 @@ body#primaryHomeBody {
   color: grey
 }
 
-#primaryHomeBody #footer_include .mainPageContainer {
-  max-width: 858px
-}
 
 #primaryHomeBody #footer_include .EltfooterOpenContainer .footercolumnContainer {
   width: 133px
@@ -16160,7 +16152,7 @@ section {
   margin-bottom: 30px
 }
 
-#subSeriesGroup .subSeriesGroupBtn:hover. #subSeriesGroup .subSeriesGroupBtn:focus {
+#subSeriesGroup .subSeriesGroupBtn:hover #subSeriesGroup .subSeriesGroupBtn:focus {
   color: #000
 }
 
@@ -16752,10 +16744,6 @@ section {
   cursor: pointer
 }
 
-.NGLSchoolSeriesPage .mainPageContainer.seriesContainer .seriesViewESampleBtn {
-  padding: 6px 0;
-  width: 90%
-}
 
 form#eSampleForm {
   text-align: left

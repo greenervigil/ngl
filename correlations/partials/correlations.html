@@ -1,0 +1,79 @@
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4VQ8L9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header id="header_include" class="school"></header>
+<div ng-show="submitting">
+  <div class="please-wait-backdrop fade in"></div>
+  <div id="myModal" class="please-wait fade in">
+    <div class="please-wait-body">
+      <i class="icon-spinner icon-spin icon-2x"></i> &nbsp;Processing Please wait...
+    </div>
+  </div>
+</div>
+<div id="wrapper">
+  <img src="https://cdn.cengage.com/images/sites/ngl/correlations/correlations-banner.jpg" alt="correlations banner" class="banner" />
+  <article>
+    <p>{{productsResponse}}</p>
+    <h1>Product Alignments Made Simple</h1>
+    <ul class="correlations-details">
+      <li>K-12, Advanced and Electives, and Career and Technical Education correlations </li>
+      <li>WIDA PRIME correlations </li>
+      <li>Common Core and Next Generation Science Standards correlations</li>
+      <li>Product-to-Product correlations</li>
+      <li> Please contact <a href="https://ngl.cengage.com/repfinder" title="RepFinder">your sales consultant</a> for <em><strong>Big Ideas Math<sup>&#174;</sup></strong></em> and any other correlations not displayed here</li>
+      <li>Please Note: Adobe Acrobat Reader is required. <a href="https://get.adobe.com/reader/" title="Adobe Reader" target="_blank">Download here</a></li>
+    </ul>
+
+    <form id="correlations" class="correlations-form">
+      <div class="column">
+        <label for="standardText">Standard/State/Country Name:</label>
+        <input typeahead="standard for standard in getStandards($viewValue) | filter:$viewValue | limitTo:5" typeahead-loading="loadingStandards" ng-model="standardText" placeholder="All Standards" type="text" id="standardText" />
+        <button type="button" ng-click="showAllStandards()" id="sShowAll" class="showAll">Show All</button>
+        <div ng-hide="standardMatch || standardText == ''" class="noMatch" id="sNoMatch">no matches</div>
+        <i ng-show="loadingStandards" class="icon-spinner icon-spin icon-large"></i>
+      </div>
+
+      <div class="column">
+        <label for="programText">Program Name:</label>
+        <input typeahead="product for product in getProducts($viewValue) | filter:$viewValue | limitTo:5" typeahead-loading="loadingProducts" ng-model="productText" type="text" id="programText" />
+        <button type="button" ng-click="showAllProducts()" id="pShowAll" class="showAll">Show All</button>
+        <div ng-hide="productMatch || productText == ''" class="noMatch" id="pNoMatch">no matches</div>
+        <i ng-show="loadingProducts" class="icon-spinner icon-spin icon-large"></i>
+      </div>
+
+      <button type="button" ng-click="submit()" href="" id="submit">submit</button>
+    </form>
+
+    <div id="results" ng-show="submitted">
+      <h2 id="resultsLabel">Results</h2>
+      <ul>
+        <li class="no-results" ng-show="results.length == 0 && !submitting">No results</li>
+        <li ng-repeat="result in results | orderBy:'documentName' ">
+          <a target="_blank" href="/correlationsdocs/{{result.documentUri}}">
+            <span class="result-name">{{result.documentName}}</span>
+            <span class="result-download">Download</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </article>
+
+</div>
+<footer id="footer_include"></footer>
+<script>
+  loader.init({
+    headerCSS: true,
+    footerCSS: true
+  }, function() {
+    loader.header().footer();
+  });
+  var head = document.getElementsByTagName('head')[0];
+  var scriptTag = document.getElementsByTagName('script')[0];
+  var dataLayerScript = document.createElement("script");
+  dataLayerScript.innerHTML = "var dataLayer = window.dataLayer = window.dataLayer || []; dataLayer.push({'channel': 'School','siteSection': 'Static','countryCode': 'US','pageType': 'Catalog','pageName':'School: Catalog: Correlations '});";
+  var GTMScript = document.createElement("script");
+  GTMScript.innerHTML =
+    "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P4VQ8L9');";
+  head.insertBefore(dataLayerScript, head.firstChild);
+  head.insertBefore(GTMScript, scriptTag);
+</script>

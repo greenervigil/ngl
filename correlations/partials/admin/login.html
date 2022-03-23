@@ -1,0 +1,20 @@
+<header id="header_include" class="school"></header>
+<form id="login" name="login" class="correlations-form">
+	<h1>Login</h1>
+	<br />
+	<div class="column">
+    <label for="username">Username: </label>
+    <input type="text" id="username" ng-model="username" name="username" class="inputText" />
+  </div>
+  <div class="column">
+    <label for="password" class="loginText">Password: </label>
+    <input type="password" ng-model="password" name="password"/>
+  </div>
+	<button type="button" ng-click="doLogin()" class="login-btn">Login</button>
+</form>
+<footer id="footer_include"></footer>
+<script>
+  loader.init({headerCSS:true, footerCSS:true}, function(){
+    loader.header().footer();
+  });
+</script>  

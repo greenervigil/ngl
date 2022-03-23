@@ -1,0 +1,73 @@
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4VQ8L9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header id="header_include" class="school"></header>
+<div id="wrapper" class="research">
+  <img src="https://cdn.cengage.com/images/sites/ngl/correlations/Research-And-Effectiveness-Header.png" alt="correlations banner" class="banner" />
+
+  <article>
+    <h1>National Geographic Learning Research and<br>Effectiveness for Grades K-12</h1>
+    <ul class="correlations-details">
+      <li>Author monographs</li>
+      <li>Efficacy Study reports</li>
+      <li>Educator Success Stories</li>
+    </ul>
+
+    <form id="correlations" class="correlations-form">
+      <div class="column">
+        <label for="programText">Program Name:</label>
+        <input typeahead="product for product in getProducts($viewValue) | filter:$viewValue" typeahead-loading="loadingProducts" ng-model="productText" type="text" id="programText" />
+        <i ng-show="loadingProducts" class="glyphicon glyphicon-refresh"></i>
+        <button type="button" ng-click="showAllProducts()" id="pShowAll" class="showAll">Show All</button>
+        <div ng-hide="productMatch || productText == ''" class="noMatch" id="pNoMatch">no matches</div>
+      </div>
+
+      <button ng-click="submit()" id="submit">submit</button>
+    </form>
+
+    <div id="results" ng-show="submitted">
+      <h2 id="resultsLabel">Results</h2>
+      <hr />
+      <ul>
+        <li class="no-results" ng-show="results.length == 0 && !submitting">No results</li>
+        <li ng-repeat="result in results">
+          <a target="_blank" href="/correlationsdocs/{{result.documentUri}}">
+            <span class="result-name">{{result.documentName}}</span>
+            <span class="result-download">Download</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </article>
+
+  <aside>
+    <section class="gray-border arrow">
+      <b>Contact your local representative for further assistance.</b>
+      <p>Please Note: Adobe Acrobat Reader is
+        <br>required. Click on the Adobe Acrobat
+        <br>Reader image below to download
+        <br>Adobe Acrobat Reader.
+      </p>
+      <a href="https://get.adobe.com/reader/"><img src="https://ngl.cengage.com/images/common/get_adobereader.jpg" width="160" height="41"></a>
+    </section>
+  </aside>
+
+</div>
+<footer id="footer_include"></footer>
+<script>
+  loader.init({
+    headerCSS: true,
+    footerCSS: true
+  }, function() {
+    loader.header().footer();
+  });
+  var head = document.getElementsByTagName('head')[0];
+  var scriptTag = document.getElementsByTagName('script')[0];
+  var dataLayerScript = document.createElement("script");
+  dataLayerScript.innerHTML = "var dataLayer = window.dataLayer = window.dataLayer || []; dataLayer.push({'channel': 'School','siteSection': 'Static','countryCode': 'US','pageType': 'Catalog','pageName': 'School: Catalog: Research '});";
+  var GTMScript = document.createElement("script");
+  GTMScript.innerHTML =
+    "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P4VQ8L9');";
+  head.insertBefore(dataLayerScript, head.firstChild);
+  head.insertBefore(GTMScript, scriptTag);
+</script>

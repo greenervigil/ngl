@@ -1,0 +1,164 @@
+article {    
+    margin-top: 0px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.navbar { margin-bottom: 0; }
+.jumbotron {
+  position: relative;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #ddd;
+  color: #fff;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #699c03;
+  background: -moz-linear-gradient(left, #699c03 0%, #98cb32 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#699c03), color-stop(100%,#98cb32));
+  background: -webkit-linear-gradient(left, #699c03 0%,#98cb32 100%);
+  background: -o-linear-gradient(left, #699c03 0%,#98cb32 100%);
+  background: -ms-linear-gradient(left, #699c03 0%,#98cb32 100%);
+  background: linear-gradient(to right, #699c03 0%,#98cb32 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#699c03', endColorstr='#98cb32',GradientType=1 );
+  -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+  box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+  }
+.jumbotron:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(http://getbootstrap.com/2.3.2/assets/img/bs-docs-masthead-pattern.png) repeat center center;
+  opacity: .8;
+  }
+.jumbotron h1 { margin: 20px 0 10px; }
+#correlations-documents { 
+  height: 100%;
+  width:100% 
+  }
+.gridStyle {
+  border: 1px solid rgb(212,212,212);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(204,204,204,1);
+  box-shadow: 0 0 10px 0 rgba(204,204,204,1);
+  min-height: 600px;
+  width: 100%;
+  }
+.grid-header {
+  border-bottom: 1px solid #d4d4d4;
+  padding: 5px;
+  height: 36px;
+  }
+.ngGroupPanel { border-bottom: 0; }
+.ngHeaderContainer { 
+  border-bottom: 1px solid #d4d4d4; 
+  border-top: 1px solid #d4d4d4
+  }
+.btn-add {
+  height: 27px;
+  padding: 0px 6px;
+  }
+.grid-header input {
+  float: right;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  padding: 2px 0 2px 6px;
+  width: 240px;
+  height: 27px;
+  }
+form.ng-scope .ngCell.col3.colt3,
+form.ng-scope .ngCell.col4.colt4 { 
+  overflow: visible;  
+  }
+input.type-ahead { width: 100%; }
+button.change-file {
+  position: absolute;
+  right: 6px;
+  margin-top: -2px;
+  }
+.ngGrid input.type-ahead { 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  max-width: 96%;
+  margin: 2px 0 0 5px;
+  padding: 2px 0 2px 6px;
+  }
+.ngGrid input.type-ahead:focus {   
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+  }
+.ngCell.col4.colt4 { overflow: visible; } 
+.ngCell.col3.colt3 { overflow: visible; } 
+.ngGrid .dropdown-menu { 
+  /*max-width: 96%;*/ 
+  overflow: hidden;
+  }
+.ngGrid input.choose-file { display: none; }
+.ngRow:last-of-type { 
+  border-bottom: 1px solid #d4d4d4; 
+  height: 31px !important;
+  }
+.suggestions {
+  background: white;
+  z-index: 90000;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  max-height: 200px;
+  border: 1px solid #ccc;
+  width: 100%;
+  overflow: scroll;
+  white-space: nowrap;
+  }
+.suggestions .suggestion { padding-left: 2px; }
+.hover-suggestion,
+.suggestions .suggestion:hover {
+  background: #777;
+  color: #fff;
+  }
+.btn-edit, .btn-delete {
+  height: 27px;
+  width: 28px;
+  margin: 2px 0 0 2px;
+  padding: 0;
+  }
+.ngFooterPanel {
+  border: 1px solid #d4d4d4;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  margin-left:-1px;
+  min-width: 1100px;
+  }
+/* -- Progress Bar -- */
+.progress { height: 30px; }
+.progress-bar { 
+
+  background: #98cb32;
+  background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-size: 40px 40px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  height: 30px;
+  overflow: hidden;
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+  overflow: hidden;  
+ }
