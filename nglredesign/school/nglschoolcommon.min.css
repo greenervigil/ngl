@@ -4745,7 +4745,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .nav {
-  padding-left: 0;
+  padding-left: 10px;
   margin-bottom: 0;
   list-style: none
 }
@@ -10688,6 +10688,11 @@ html {
   z-index: 99
 }
 
+.mainPageContainer {
+  width: 90%;
+  margin: 0 auto
+}
+
 .container {
   margin: 0 auto;
   padding: 0;
@@ -11688,7 +11693,8 @@ ul.nav.navbar-nav .dropdown.open .dropdown-toggle {
   padding: 0;
   position: relative;
   height: 100%;
-  width: 100%
+  width: 100%;
+  display: flex;
 }
 
 .footerOpenContainer {
@@ -11743,7 +11749,9 @@ ul.nav.navbar-nav .dropdown.open .dropdown-toggle {
   position: relative;
   width: 100%;
   float: left;
-  margin-top: 10px
+  margin-top: 10px;
+  display: flex;
+  align-items: baseline;
 }
 
 .socialMediaLogo a {
@@ -11760,6 +11768,10 @@ ul.nav.navbar-nav .dropdown.open .dropdown-toggle {
 .footerRightContainer .schoolSocialMediaLogoContainer .socialMediaLogo a {
   float: left;
   margin-right: 1%
+}
+
+.schoolSocialMediaLogoContainer ul {
+  display: inline-flex;
 }
 
 #footer_include .navbar,
@@ -12324,6 +12336,9 @@ body#primaryHomeBody {
   color: grey
 }
 
+#primaryHomeBody #footer_include .mainPageContainer {
+  width: 90%
+}
 
 #primaryHomeBody #footer_include .EltfooterOpenContainer .footercolumnContainer {
   width: 133px
@@ -16744,6 +16759,10 @@ section {
   cursor: pointer
 }
 
+.NGLSchoolSeriesPage .mainPageContainer.seriesContainer .seriesViewESampleBtn {
+  padding: 6px 0;
+  width: 90%
+}
 
 form#eSampleForm {
   text-align: left
